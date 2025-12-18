@@ -1,0 +1,101 @@
+sku,name,category,stock,reorderPoint,supplier,price
+SKU001,Gaming Mouse,Electronics,0,10,TechSource,45.00
+SKU002,Mechanical Keyboard,Electronics,5,20,TechSource,89.99
+SKU003,Monitor 27-inch,Electronics,15,10,DisplayPro,250.00
+SKU004,USB Cable 3m,Electronics,100,5,ConnectCo,10.00
+SKU005,Wireless Headset,Electronics,0,15,AudioTech,120.00
+SKU006,Webcam HD,Electronics,8,25,Visionary,60.00
+SKU007,Laptop Stand,Electronics,30,10,OfficePro,40.00
+SKU008,HDMI Adapter,Electronics,200,10,ConnectCo,15.00
+SKU009,Smart Speaker,Electronics,0,8,AudioTech,85.00
+SKU010,Power Bank 10k,Electronics,12,20,PowerPlus,25.00
+SKU011,Bluetooth Earbuds,Electronics,25,10,AudioTech,50.00
+SKU012,USB Hub 4-Port,Electronics,150,20,ConnectCo,20.00
+SKU013,External SSD 1TB,Electronics,0,5,DataSave,110.00
+SKU014,Graphics Tablet,Electronics,3,10,Visionary,80.00
+SKU015,Gaming Controller,Electronics,18,10,TechSource,55.00
+SKU016,Ethernet Cable 10m,Electronics,80,10,ConnectCo,12.00
+SKU017,Action Camera 4K,Electronics,0,10,Visionary,200.00
+SKU018,Smart Watch,Electronics,4,15,TechSource,150.00
+SKU019,VR Headset,Electronics,12,10,Visionary,300.00
+SKU020,Drone Mini,Electronics,50,5,SkyHigh,400.00
+SKU021,Office Chair Mesh,Furniture,0,5,ComfortSeat,150.00
+SKU022,Standing Desk,Furniture,2,5,OfficePro,350.00
+SKU023,Filing Cabinet,Furniture,8,5,OfficePro,120.00
+SKU024,Bookshelf 3-Tier,Furniture,25,5,OfficePro,90.00
+SKU025,Desk Lamp LED,Furniture,0,10,BrightLite,30.00
+SKU026,Floor Mat,Furniture,4,10,ComfortSeat,40.00
+SKU027,Whiteboard,Furniture,15,5,WriteWell,60.00
+SKU028,Cork Board,Furniture,50,10,WriteWell,25.00
+SKU029,Coat Rack,Furniture,0,3,OfficePro,45.00
+SKU030,Umbrella Stand,Furniture,2,4,OfficePro,35.00
+SKU031,Waste Bin Metal,Furniture,12,8,CleanCo,20.00
+SKU032,Recycle Bin Set,Furniture,30,5,CleanCo,40.00
+SKU033,Footrest Ergonomic,Furniture,0,5,ComfortSeat,50.00
+SKU034,Laptop Table Portable,Furniture,3,8,OfficePro,45.00
+SKU035,Monitor Arm Dual,Furniture,10,5,DisplayPro,80.00
+SKU036,Keyboard Tray,Furniture,60,10,OfficePro,35.00
+SKU037,Cable Organizer Box,Furniture,0,10,OrganizeIt,15.00
+SKU038,Desk Divider,Furniture,5,10,OfficePro,55.00
+SKU039,Meeting Table Round,Furniture,12,2,OfficePro,200.00
+SKU040,Visitor Chair,Furniture,40,5,ComfortSeat,80.00
+SKU041,Ballpoint Pen Blue,Stationery,0,50,WriteRight,0.50
+SKU042,Gel Pen Black,Stationery,20,50,WriteRight,1.00
+SKU043,Highlighter Set,Stationery,80,30,BrightMark,5.00
+SKU044,Permanent Marker,Stationery,300,20,BrightMark,1.50
+SKU045,A4 Paper Ream,Stationery,0,20,PaperWorld,5.00
+SKU046,Notebook A5,Stationery,15,40,PaperWorld,3.00
+SKU047,Sticky Notes Yellow,Stationery,100,50,PaperWorld,2.00
+SKU048,Paper Clips Box,Stationery,400,30,OfficeEssentials,1.00
+SKU049,Stapler Standard,Stationery,0,10,OfficeEssentials,8.00
+SKU050,Staples 24/6,Stationery,5,20,OfficeEssentials,2.00
+SKU051,Scissors 8-inch,Stationery,30,15,CutFast,6.00
+SKU052,Tape Dispenser,Stationery,80,10,StickIt,7.00
+SKU053,Glue Stick,Stationery,0,20,StickIt,1.50
+SKU054,Correction Tape,Stationery,12,30,WriteRight,3.00
+SKU055,Binder Clips Medium,Stationery,60,20,OfficeEssentials,4.00
+SKU056,File Folder A4,Stationery,200,50,PaperWorld,12.00
+SKU057,Envelope DL 50pk,Stationery,0,10,PaperWorld,5.00
+SKU058,Rubber Bands Box,Stationery,8,15,OfficeEssentials,2.00
+SKU059,Ruler 30cm,Stationery,40,20,MeasureUp,1.00
+SKU060,Hole Punch 2-Hole,Stationery,50,5,OfficeEssentials,10.00
+SKU061,Coffee Beans 1kg,Pantry,0,10,BrewMaster,25.00
+SKU062,Tea Bags 100pk,Pantry,5,15,TeaTime,6.00
+SKU063,Sugar 1kg,Pantry,20,10,SweetLife,3.00
+SKU064,Milk UHT 1L,Pantry,100,20,DairyBest,1.50
+SKU065,Biscuits Assorted,Pantry,0,10,SnackTime,5.00
+SKU066,Paper Cups 50pk,Pantry,8,20,EcoWare,4.00
+SKU067,Napkins Pack,Pantry,40,15,EcoWare,3.00
+SKU068,Stirrers 1000pk,Pantry,150,30,EcoWare,6.00
+SKU069,Hand Soap 500ml,Pantry,0,10,CleanCo,4.00
+SKU070,Dish Soap 1L,Pantry,6,12,CleanCo,5.00
+SKU071,Sponges 5pk,Pantry,25,10,CleanCo,3.00
+SKU072,Bin Liners Large,Pantry,80,20,CleanCo,8.00
+SKU073,Toilet Paper 24pk,Pantry,0,10,CleanCo,18.00
+SKU074,Hand Sanitizer,Pantry,5,15,CleanCo,6.00
+SKU075,Air Freshener,Pantry,15,8,CleanCo,4.00
+SKU076,Cleaning Spray,Pantry,60,10,CleanCo,5.00
+SKU077,Water Bottle Pack,Pantry,0,20,AquaPure,12.00
+SKU078,Soda Cans 12pk,Pantry,8,15,FizzCo,10.00
+SKU079,Energy Bar Box,Pantry,20,10,SnackTime,25.00
+SKU080,Chocolate Bar Box,Pantry,50,15,SnackTime,30.00
+SKU081,Mouse Pad,Accessories,0,20,SurfaceTech,5.00
+SKU082,Screen Cleaning Kit,Accessories,10,25,CleanView,12.00
+SKU083,Laptop Sleeve 13",Accessories,35,10,ProtectIt,25.00
+SKU084,Cable Ties 100pk,Accessories,200,30,OrganizeIt,4.00
+SKU085,Wrist Rest,Accessories,0,10,ComfortSeat,15.00
+SKU086,Phone Stand,Accessories,5,15,AlloyTech,12.00
+SKU087,Tablet Stand,Accessories,20,10,AlloyTech,20.00
+SKU088,Cable Clips 6pk,Accessories,100,20,OrganizeIt,8.00
+SKU089,USB Fan Mini,Accessories,0,10,CoolAir,10.00
+SKU090,USB Light,Accessories,8,15,BrightLite,8.00
+SKU091,Keyring Torch,Accessories,25,20,BrightLite,5.00
+SKU092,Lanyard Black,Accessories,150,50,SecureCo,2.00
+SKU093,ID Card Holder,Accessories,0,50,SecureCo,1.00
+SKU094,Badge Reel,Accessories,20,40,SecureCo,3.00
+SKU095,Laptop Lock Cable,Accessories,30,10,SecureCo,25.00
+SKU096,Privacy Screen 14",Accessories,60,5,ProtectIt,30.00
+SKU097,Dust Cover Keyboard,Accessories,0,10,CleanView,8.00
+SKU098,Webcam Cover 3pk,Accessories,15,20,SecureCo,5.00
+SKU099,Microfiber Cloth,Accessories,40,15,CleanView,2.00
+SKU100,Compressed Air Can,Accessories,80,10,CleanView,8.00

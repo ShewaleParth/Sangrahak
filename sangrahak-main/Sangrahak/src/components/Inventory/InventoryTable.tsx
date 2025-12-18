@@ -6,8 +6,12 @@ import { productsAPI } from '../../services/api';
 import { Product } from '../../types';
 import AddProductModal from './AddProductModal';
 import EditProductModal from './EditProductModal';
+import Papa from 'papaparse';
+
+import { useNavigate } from 'react-router-dom';
 
 const InventoryTable: React.FC = () => {
+  const navigate = useNavigate();
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -30,6 +34,7 @@ const InventoryTable: React.FC = () => {
         search: searchTerm || undefined,
         category: filterCategory !== 'all' ? filterCategory : undefined,
         status: filterStatus !== 'all' ? filterStatus : undefined,
+        limit: 1000,
       });
       setProducts(response.products);
     } catch (err: any) {
@@ -74,7 +79,7 @@ const InventoryTable: React.FC = () => {
     return [...products].sort((a, b) => {
       const aValue = a[sortConfig.key];
       const bValue = b[sortConfig.key];
-      
+
       if (aValue < bValue) return sortConfig.direction === 'asc' ? -1 : 1;
       if (aValue > bValue) return sortConfig.direction === 'asc' ? 1 : -1;
       return 0;
@@ -103,6 +108,70 @@ const InventoryTable: React.FC = () => {
     fetchProducts();
   };
 
+  const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    Papa.parse(file, {
+      header: true,
+      skipEmptyLines: true,
+      complete: async (results) => {
+        try {
+          // Normalize data structure if needed (e.g., mapping headers)
+          const products = results.data.map((row: any) => ({
+            sku: row.sku || row.SKU,
+            name: row.name || row.Name || row.product_name || row.productName,
+            category: row.category || row.Category,
+            stock: (row.stock !== undefined) ? Number(row.stock) :
+              (row.Stock !== undefined) ? Number(row.Stock) :
+                (row.currentStock !== undefined) ? Number(row.currentStock) : 0,
+            reorderPoint: (row.reorderPoint !== undefined) ? Number(row.reorderPoint) :
+              (row.reorder_point !== undefined) ? Number(row.reorder_point) :
+                (row.reorderLevel !== undefined) ? Number(row.reorderLevel) : 10,
+            supplier: row.supplier || row.Supplier || row.supplierName,
+            price: (row.price !== undefined) ? Number(row.price) :
+              (row.Price !== undefined) ? Number(row.Price) : 0
+          })).filter((p: any) => p.sku && p.name); // Basic validation
+
+          if (products.length === 0) {
+            alert('No valid products found in CSV. Please ensure "sku" and "name" columns exist.');
+            return;
+          }
+
+          setLoading(true);
+          await productsAPI.bulkCreate(products);
+          alert(`Successfully processed ${products.length} products found in CSV.`);
+          fetchProducts();
+        } catch (err: any) {
+          console.error('Error uploading CSV:', err);
+          alert('Failed to upload products: ' + err.message);
+        } finally {
+          setLoading(false);
+          // Reset file input
+          event.target.value = '';
+        }
+      },
+      error: (error) => {
+        console.error('CSV Parsing Error:', error);
+        alert('Error parsing CSV file');
+      }
+    });
+  };
+
+  const handleExport = () => {
+    // Basic CSV export
+    const csvContent = "data:text/csv;charset=utf-8,"
+      + Object.keys(products[0] || {}).join(",") + "\n"
+      + products.map(row => Object.values(row).join(",")).join("\n");
+    const encodedUri = encodeURI(csvContent);
+    const link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", "inventory_export.csv");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   const getStatusBadge = (status: string) => {
     const statusConfig = {
       'in-stock': { bg: 'bg-green-100 dark:bg-green-900/20', text: 'text-green-700 dark:text-green-400', label: 'In Stock' },
@@ -110,7 +179,7 @@ const InventoryTable: React.FC = () => {
       'out-of-stock': { bg: 'bg-red-100 dark:bg-red-900/20', text: 'text-red-700 dark:text-red-400', label: 'Out of Stock' },
       'overstock': { bg: 'bg-blue-100 dark:bg-blue-900/20', text: 'text-blue-700 dark:text-blue-400', label: 'Overstock' }
     };
-    
+
     const config = statusConfig[status as keyof typeof statusConfig];
     return (
       <span className={`px-2 py-1 rounded-full text-xs font-medium ${config.bg} ${config.text}`}>
@@ -165,14 +234,29 @@ const InventoryTable: React.FC = () => {
               <p className="text-gray-600 dark:text-gray-400 text-sm">Manage your product inventory and stock levels</p>
             </div>
             <div className="flex items-center space-x-3">
+              <label className="flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-700 hover:to-green-700 text-white rounded-lg transition-colors cursor-pointer shadow-sm">
+                <Icons.Upload className="w-4 h-4" />
+                <span>Import CSV</span>
+                <input
+                  type="file"
+                  accept=".csv"
+                  className="hidden"
+                  onChange={handleFileUpload}
+                />
+              </label>
+
               <button
                 onClick={() => setShowAddModal(true)}
-                className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-sm"
               >
                 <Icons.Plus className="w-4 h-4" />
                 <span>Add Product</span>
               </button>
-              <button className="flex items-center space-x-2 px-4 py-2 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+
+              <button
+                onClick={handleExport}
+                className="flex items-center space-x-2 px-4 py-2 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+              >
                 <Icons.Download className="w-4 h-4" />
                 <span>Export</span>
               </button>
@@ -193,7 +277,7 @@ const InventoryTable: React.FC = () => {
                 className="w-full pl-10 pr-4 py-2.5 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-gray-900 dark:text-white"
               />
             </div>
-            
+
             <div className="flex items-center space-x-3">
               <select
                 value={filterCategory}
@@ -206,7 +290,7 @@ const InventoryTable: React.FC = () => {
                   </option>
                 ))}
               </select>
-              
+
               <select
                 value={filterStatus}
                 onChange={(e) => setFilterStatus(e.target.value)}
@@ -253,9 +337,8 @@ const InventoryTable: React.FC = () => {
                       <div className="flex items-center space-x-1">
                         <span>{column.label}</span>
                         {sortConfig.key === column.key && (
-                          <Icons.ChevronUp className={`w-4 h-4 transform transition-transform ${
-                            sortConfig.direction === 'desc' ? 'rotate-180' : ''
-                          }`} />
+                          <Icons.ChevronUp className={`w-4 h-4 transform transition-transform ${sortConfig.direction === 'desc' ? 'rotate-180' : ''
+                            }`} />
                         )}
                       </div>
                     </th>
@@ -309,7 +392,7 @@ const InventoryTable: React.FC = () => {
                         {new Date(product.lastSoldDate).toLocaleDateString()}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 dark:text-white">
-                        ${product.price.toLocaleString()}
+                        ₹{product.price.toLocaleString()}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                         <div className="flex items-center justify-end space-x-2">
@@ -321,6 +404,13 @@ const InventoryTable: React.FC = () => {
                           </button>
                           <button className="text-green-600 dark:text-green-400 hover:text-green-800 dark:hover:text-green-300 transition-colors">
                             <Icons.Package className="w-4 h-4" />
+                          </button>
+                          <button
+                            onClick={() => navigate('/forecasts', { state: { selectedSku: product.sku } })}
+                            title="Forecast"
+                            className="text-purple-600 dark:text-purple-400 hover:text-purple-800 dark:hover:text-purple-300 transition-colors"
+                          >
+                            <Icons.TrendingUp className="w-4 h-4" />
                           </button>
                           <button
                             onClick={() => handleDeleteProduct(product.id)}

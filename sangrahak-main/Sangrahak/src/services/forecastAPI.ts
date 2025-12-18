@@ -1,8 +1,8 @@
 // src/services/forecastAPI.ts
 import axios from 'axios';
 
-const EXPRESS_API_URL = 'http://localhost:5000/api';
-const ML_API_URL = 'http://localhost:5001/api/ml';
+const EXPRESS_API_URL = (import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000') + '/api';
+const ML_API_URL = (import.meta.env.VITE_ML_API_URL || 'http://localhost:5001') + '/api/ml';
 
 export interface ForecastDataPoint {
   date: string;

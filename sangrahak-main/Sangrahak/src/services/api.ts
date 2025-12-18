@@ -1,6 +1,6 @@
 // src/services/api.ts - NO AUTHENTICATION VERSION
 import axios from 'axios';
-import { Product, Depot, Alert, KPI, TopSKU, User } from '../types';
+import { Product, Depot } from '../types';
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
 
@@ -30,7 +30,7 @@ api.interceptors.response.use(
   (response) => response,
   (error) => {
     console.error('API Error:', error);
-    
+
     if (error.response) {
       // Server responded with error status
       console.error('Error response:', error.response.data);
@@ -60,15 +60,20 @@ export const productsAPI = {
     return response.data;
   },
 
-    getById: async (id: string) => {
+  getById: async (id: string) => {
     const response = await api.get(`/products/${id}`);
     return response.data;
   },
 
-  
+
 
   create: async (productData: Omit<Product, 'id' | 'lastSoldDate'>) => {
     const response = await api.post('/products', productData);
+    return response.data;
+  },
+
+  bulkCreate: async (productsData: any[]) => {
+    const response = await api.post('/products/bulk', productsData);
     return response.data;
   },
 

@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Area, AreaChart, Legend } from 'recharts';
-import { TrendingUp, Loader, AlertCircle, RefreshCw, Zap, Package, Brain, CheckCircle, AlertTriangle, BarChart3, X, ChevronDown, FileSpreadsheet } from 'lucide-react';
-import ForecastCSVUpload from './ForecastCSVUpload';
+import { Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { AlertCircle, AlertTriangle, BarChart3, Brain, CheckCircle, Loader, Package, RefreshCw, TrendingUp, X, Zap } from 'lucide-react';
 
 interface ForecastDataPoint {
   date: string;
@@ -35,12 +34,16 @@ interface Forecast {
   updatedAt?: string;
 }
 
+import { depotsAPI } from '../../services/api';
+import { useLocation } from 'react-router-dom';
+
 interface Product {
   sku: string;
   name: string;
   category?: string;
   stock?: number;
   supplier?: string;
+  location?: string;
 }
 
 interface FormData {
@@ -57,7 +60,10 @@ interface FormData {
 }
 
 const ForecastChart: React.FC = () => {
+  const location = useLocation();
   const [products, setProducts] = useState<Product[]>([]);
+  const [depots, setDepots] = useState<{ id: string; name: string }[]>([]);
+  const [selectedDepot, setSelectedDepot] = useState<string>('all');
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [forecast, setForecast] = useState<Forecast | null>(null);
   const [bulkForecasts, setBulkForecasts] = useState<Forecast[]>([]);
@@ -65,9 +71,8 @@ const ForecastChart: React.FC = () => {
   const [predicting, setPredicting] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [showInputForm, setShowInputForm] = useState(false);
-  const [showCSVUpload, setShowCSVUpload] = useState(false);
   const [activeView, setActiveView] = useState<'single' | 'bulk'>('single');
-  
+
   const [formData, setFormData] = useState<FormData>({
     currentStock: '',
     dailySales: '',
@@ -83,17 +88,44 @@ const ForecastChart: React.FC = () => {
 
   useEffect(() => {
     loadProducts();
+    loadDepots();
   }, []);
+
+  const loadDepots = async () => {
+    try {
+      const response = await depotsAPI.getAll();
+      if (response.depots) {
+        setDepots(response.depots);
+      }
+    } catch (err) {
+      console.error('Error loading depots:', err);
+    }
+  };
 
   const loadProducts = async () => {
     try {
       setLoading(true);
       const response = await fetch('http://localhost:5001/api/ml/products');
       const data = await response.json();
-      
+
       if (data.success) {
         setProducts(data.products);
         console.log('✅ Loaded products:', data.products.length);
+
+        // Check for passed state from Inventory
+        const state = location.state as { selectedSku?: string; selectedDepot?: string } | null;
+
+        if (state?.selectedDepot) {
+          setSelectedDepot(state.selectedDepot);
+        }
+
+        if (state?.selectedSku) {
+          const productToSelect = data.products.find((p: Product) => p.sku === state.selectedSku);
+          if (productToSelect) {
+            // Defer selection slightly to ensure state update cycle handles it smoothly
+            setTimeout(() => handleProductSelect(productToSelect), 100);
+          }
+        }
       }
     } catch (err) {
       console.error('❌ Error loading products:', err);
@@ -105,18 +137,26 @@ const ForecastChart: React.FC = () => {
 
   const handleProductSelect = (product: Product) => {
     setSelectedProduct(product);
-    setFormData({
-      currentStock: product.stock?.toString() || '',
-      dailySales: '',
-      weeklySales: '',
-      reorderLevel: '',
-      leadTime: '',
-      brand: '',
+
+    // Estimate sales data if not available (for demo purposes, real app would fetch sales history)
+    const estimatedDailySales = product.stock ? Math.max(1, Math.round(product.stock * 0.05)) : 5;
+
+    const newFormData = {
+      currentStock: product.stock !== undefined ? product.stock.toString() : '0',
+      dailySales: estimatedDailySales.toString(),
+      weeklySales: (estimatedDailySales * 7).toString(),
+      // Assuming 'reorderPoint' is the correct property based on earlier InventoryTable code
+      // We need to extend the Product interface if it's not matching exactly, but for now we map what we can
+      reorderLevel: (product as any).reorderPoint?.toString() || '10',
+      leadTime: '7', // Default lead time
+      brand: 'Generic',
       category: product.category || '',
-      location: '',
+      location: 'Warehouse A',
       supplierName: product.supplier || '',
       forecastDays: 30
-    });
+    };
+
+    setFormData(newFormData);
     setShowInputForm(true);
     setForecast(null);
     setActiveView('single');
@@ -135,7 +175,7 @@ const ForecastChart: React.FC = () => {
 
     const requiredFields: (keyof FormData)[] = ['currentStock', 'dailySales', 'weeklySales', 'reorderLevel', 'leadTime'];
     const missingFields = requiredFields.filter(field => !formData[field]);
-    
+
     if (missingFields.length > 0) {
       alert(`Please fill in all required fields: ${missingFields.join(', ')}`);
       return;
@@ -186,12 +226,7 @@ const ForecastChart: React.FC = () => {
     }
   };
 
-  const handleBulkForecastComplete = (forecasts: Forecast[]) => {
-    setBulkForecasts(forecasts);
-    setActiveView('bulk');
-    setShowCSVUpload(false);
-    console.log('✅ Bulk forecasts completed:', forecasts.length);
-  };
+
 
   const getSeverityColor = (priority: string) => {
     switch (priority?.toLowerCase()) {
@@ -223,15 +258,6 @@ const ForecastChart: React.FC = () => {
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Demand Forecasting</h2>
           <p className="text-gray-600 dark:text-gray-400">AI-powered demand predictions and trend analysis</p>
         </div>
-        <div className="flex items-center space-x-3">
-          <button
-            onClick={() => setShowCSVUpload(true)}
-            className="flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white rounded-lg transition-all shadow-lg"
-          >
-            <FileSpreadsheet className="w-4 h-4" />
-            <span>Bulk Forecast (CSV)</span>
-          </button>
-        </div>
       </div>
 
       {/* View Toggle */}
@@ -240,21 +266,19 @@ const ForecastChart: React.FC = () => {
           <div className="flex items-center space-x-3">
             <button
               onClick={() => setActiveView('single')}
-              className={`px-4 py-2 rounded-lg transition-all ${
-                activeView === 'single'
-                  ? 'bg-blue-600 text-white'
-                  : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
-              }`}
+              className={`px-4 py-2 rounded-lg transition-all ${activeView === 'single'
+                ? 'bg-blue-600 text-white'
+                : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                }`}
             >
               Single Product View
             </button>
             <button
               onClick={() => setActiveView('bulk')}
-              className={`px-4 py-2 rounded-lg transition-all ${
-                activeView === 'bulk'
-                  ? 'bg-blue-600 text-white'
-                  : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
-              }`}
+              className={`px-4 py-2 rounded-lg transition-all ${activeView === 'bulk'
+                ? 'bg-blue-600 text-white'
+                : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                }`}
             >
               Bulk Forecasts ({bulkForecasts.length})
             </button>
@@ -281,28 +305,53 @@ const ForecastChart: React.FC = () => {
               </button>
             </div>
 
-            {products.length > 0 ? (
+            <div className="mb-4">
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+                Filter by Warehouse (Depot)
+              </label>
+              <select
+                value={selectedDepot}
+                onChange={(e) => setSelectedDepot(e.target.value)}
+                className="w-full md:w-1/3 px-3 py-2 bg-gray-50 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 dark:text-white"
+              >
+                <option value="all">All Warehouses</option>
+                {depots.map((depot: any) => (
+                  <option key={depot._id || depot.id} value={depot.name}>
+                    {depot.name} {depot.location ? `(${depot.location})` : ''}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {products.filter(p => selectedDepot === 'all' || p.location === selectedDepot).length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                {products.map((product) => (
-                  <button
-                    key={product.sku}
-                    onClick={() => handleProductSelect(product)}
-                    className={`p-4 text-left rounded-lg border-2 transition-all ${
-                      selectedProduct?.sku === product.sku
+                {products
+                  .filter(p => selectedDepot === 'all' || p.location === selectedDepot)
+                  .map((product) => (
+                    <button
+                      key={product.sku}
+                      onClick={() => handleProductSelect(product)}
+                      className={`p-4 text-left rounded-lg border-2 transition-all ${selectedProduct?.sku === product.sku
                         ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/20'
                         : 'border-gray-200 dark:border-gray-700 hover:border-blue-300 dark:hover:border-blue-700 bg-white dark:bg-gray-800'
-                    }`}
-                  >
-                    <p className="font-semibold text-gray-900 dark:text-white">{product.name}</p>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">SKU: {product.sku}</p>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">Stock: {product.stock || 'N/A'}</p>
-                    {product.category && (
-                      <span className="inline-block mt-2 px-2 py-1 text-xs bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded">
-                        {product.category}
-                      </span>
-                    )}
-                  </button>
-                ))}
+                        }`}
+                    >
+                      <p className="font-semibold text-gray-900 dark:text-white">{product.name}</p>
+                      <p className="text-sm text-gray-500 dark:text-gray-400">SKU: {product.sku}</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">Stock: {product.stock || 'N/A'}</p>
+                      {product.category && (
+                        <span className="inline-block mt-2 px-2 py-1 text-xs bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded">
+                          {product.category}
+                        </span>
+                      )}
+                      <div className="mt-4 flex items-center justify-end">
+                        <span className="flex items-center space-x-1 text-blue-600 dark:text-blue-400 text-sm font-medium group-hover:underline">
+                          <TrendingUp className="w-4 h-4" />
+                          <span>Forecast Demand</span>
+                        </span>
+                      </div>
+                    </button>
+                  ))}
               </div>
             ) : (
               <div className="text-center py-8">
@@ -551,17 +600,17 @@ const ForecastChart: React.FC = () => {
                     <AreaChart data={forecast.forecastData}>
                       <defs>
                         <linearGradient id="colorPredicted" x1="0" y1="0" x2="0" y2="1">
-                          <stop offset="5%" stopColor="#10b981" stopOpacity={0.3}/>
-                          <stop offset="95%" stopColor="#10b981" stopOpacity={0.05}/>
+                          <stop offset="5%" stopColor="#10b981" stopOpacity={0.3} />
+                          <stop offset="95%" stopColor="#10b981" stopOpacity={0.05} />
                         </linearGradient>
                         <linearGradient id="colorConfidence" x1="0" y1="0" x2="0" y2="1">
-                          <stop offset="5%" stopColor="#a855f7" stopOpacity={0.2}/>
-                          <stop offset="95%" stopColor="#a855f7" stopOpacity={0.02}/>
+                          <stop offset="5%" stopColor="#a855f7" stopOpacity={0.2} />
+                          <stop offset="95%" stopColor="#a855f7" stopOpacity={0.02} />
                         </linearGradient>
                       </defs>
                       <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" className="dark:stroke-gray-700" />
-                      <XAxis 
-                        dataKey="date" 
+                      <XAxis
+                        dataKey="date"
                         stroke="#9ca3af"
                         fontSize={12}
                         tickFormatter={(value) => {
@@ -569,7 +618,7 @@ const ForecastChart: React.FC = () => {
                           return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
                         }}
                       />
-                      <YAxis 
+                      <YAxis
                         stroke="#9ca3af"
                         fontSize={12}
                         label={{ value: 'Units', angle: -90, position: 'insideLeft', style: { fill: '#9ca3af' } }}
@@ -584,10 +633,10 @@ const ForecastChart: React.FC = () => {
                         }}
                         labelFormatter={(value) => {
                           const date = new Date(value);
-                          return date.toLocaleDateString('en-US', { 
-                            weekday: 'short', 
-                            month: 'short', 
-                            day: 'numeric' 
+                          return date.toLocaleDateString('en-US', {
+                            weekday: 'short',
+                            month: 'short',
+                            day: 'numeric'
                           });
                         }}
                       />
@@ -761,24 +810,22 @@ const ForecastChart: React.FC = () => {
                     <td className="px-4 py-3 text-sm text-gray-900 dark:text-white">{fc.productName}</td>
                     <td className="px-4 py-3 text-sm text-gray-900 dark:text-white">{fc.currentStock}</td>
                     <td className="px-4 py-3">
-                      <span className={`px-2 py-1 text-xs rounded ${
-                        fc.stockStatusPred === 'Critical'
-                          ? 'bg-red-100 dark:bg-red-900/20 text-red-700 dark:text-red-400'
-                          : fc.stockStatusPred === 'Low'
+                      <span className={`px-2 py-1 text-xs rounded ${fc.stockStatusPred === 'Critical'
+                        ? 'bg-red-100 dark:bg-red-900/20 text-red-700 dark:text-red-400'
+                        : fc.stockStatusPred === 'Low'
                           ? 'bg-yellow-100 dark:bg-yellow-900/20 text-yellow-700 dark:text-yellow-400'
                           : 'bg-green-100 dark:bg-green-900/20 text-green-700 dark:text-green-400'
-                      }`}>
+                        }`}>
                         {fc.stockStatusPred}
                       </span>
                     </td>
                     <td className="px-4 py-3">
-                      <span className={`px-2 py-1 text-xs rounded font-medium ${
-                        fc.priorityPred === 'High' || fc.priorityPred === 'Very High'
-                          ? 'bg-red-100 dark:bg-red-900/20 text-red-700 dark:text-red-400'
-                          : fc.priorityPred === 'Medium'
+                      <span className={`px-2 py-1 text-xs rounded font-medium ${fc.priorityPred === 'High' || fc.priorityPred === 'Very High'
+                        ? 'bg-red-100 dark:bg-red-900/20 text-red-700 dark:text-red-400'
+                        : fc.priorityPred === 'Medium'
                           ? 'bg-yellow-100 dark:bg-yellow-900/20 text-yellow-700 dark:text-yellow-400'
                           : 'bg-green-100 dark:bg-green-900/20 text-green-700 dark:text-green-400'
-                      }`}>
+                        }`}>
                         {fc.priorityPred}
                       </span>
                     </td>
@@ -821,13 +868,7 @@ const ForecastChart: React.FC = () => {
         </div>
       )}
 
-      {/* CSV Upload Modal */}
-      {showCSVUpload && (
-        <ForecastCSVUpload
-          onClose={() => setShowCSVUpload(false)}
-          onForecastComplete={handleBulkForecastComplete}
-        />
-      )}
+
     </div>
   );
 };

@@ -1,0 +1,2001 @@
+item_id,product_name,brand,category,supplier_name,location,current_stock,daily_sales,weekly_sales,reorder_level,lead_time,days_to_empty,date
+1,Himalaya Soap Bar,Himalaya,Beauty,Dara-Thakur,Hazaribagh,428,7,49,38,5,53,2024-01-01
+2,LG Sneakers,LG,Apparel,"Koshy, Varkey and Shetty",Amravati,223,33,231,77,7,6,2024-01-01
+3,Godrej Wheat Flour,Godrej,Grocery,Devi-Loyal,Giridih,203,17,119,71,3,11,2024-01-01
+4,Godrej Iron Box,Godrej,Home,Pall and Sons,Bikaner,242,29,203,53,9,8,2024-01-01
+5,Amul T-Shirt,Amul,Apparel,Upadhyay Group,Rewa,441,12,84,46,4,33,2024-01-01
+6,Tata Cap,Tata,Apparel,"Bedi, Balasubramanian and Dhingra",Junagadh,104,5,35,87,3,17,2024-01-01
+7,Nike Shampoo,Nike,Beauty,"Mahajan, Nair and Behl",Siliguri,166,24,168,79,1,6,2024-01-01
+8,Himalaya Sneakers,Himalaya,Apparel,Iyengar-Sawhney,Amaravati,240,27,189,67,10,8,2024-01-01
+9,Samsung Cooking Oil,Samsung,Grocery,Salvi LLC,Meerut,217,5,35,59,10,36,2024-01-01
+10,Sony Rice Bag,Sony,Grocery,Vasa LLC,Raiganj,361,3,21,61,6,90,2024-01-01
+11,Samsung Mixer Grinder,Samsung,Home,Ravi-Prabhakar,Nagercoil,463,5,35,71,10,77,2024-01-01
+12,Himalaya Juice Bottle,Himalaya,Grocery,Dutt PLC,Ambarnath,373,4,28,73,3,74,2024-01-01
+13,Tata Smartwatch,Tata,Electronics,Kakar Ltd,Shimoga,167,8,56,53,5,18,2024-01-01
+14,Himalaya Ceiling Fan,Himalaya,Home,Warrior-Batta,Jamshedpur,31,17,119,51,9,1,2024-01-01
+15,Himalaya Iron Box,Himalaya,Home,Parmar Inc,Ludhiana,245,21,147,73,1,11,2024-01-01
+16,Himalaya Vacuum Cleaner,Himalaya,Home,Toor Group,Vellore,407,2,14,75,5,135,2024-01-01
+17,Himalaya Socks,Himalaya,Apparel,Bose-Dixit,Coimbatore,342,33,231,49,8,10,2024-01-01
+18,LG Cooking Oil,LG,Grocery,"Kuruvilla, Memon and Deshmukh",Malda,154,13,91,46,6,11,2024-01-01
+19,Godrej Socks,Godrej,Apparel,Arora Group,Panvel,489,5,35,54,10,81,2024-01-01
+20,Himalaya Mixer Grinder,Himalaya,Home,"Kala, Mistry and Nagy",Guntur,165,15,105,91,2,10,2024-01-01
+21,Sony Wheat Flour,Sony,Grocery,"Jha, Sharma and Loke",Dibrugarh,83,20,140,79,6,3,2024-01-01
+22,Nike Cooking Oil,Nike,Grocery,Mutti-Narayan,Allahabad,185,15,105,33,10,11,2024-01-01
+23,Sony Sneakers,Sony,Apparel,Soni Ltd,Navi Mumbai,160,0,0,42,7,160,2024-01-01
+24,Amul Sugar Packet,Amul,Grocery,Dhingra PLC,Unnao,254,6,42,81,1,36,2024-01-01
+25,LG Socks,LG,Apparel,"Banerjee, Ranganathan and Vaidya",Thane,130,7,49,98,7,16,2024-01-01
+26,Sony Iron Box,Sony,Home,D’Alia Ltd,Asansol,225,3,21,82,1,56,2024-01-01
+27,Nike Juice Bottle,Nike,Grocery,Kohli-Seth,Nellore,101,0,0,60,8,101,2024-01-01
+28,Himalaya Salt Pack,Himalaya,Grocery,Kibe Group,Ranchi,171,6,42,91,3,24,2024-01-01
+29,Tata Soap Bar,Tata,Beauty,"Baral, Saha and Dada",Ambala,102,20,140,40,3,4,2024-01-01
+30,Puma Rice Bag,Puma,Grocery,Gaba Ltd,Chandigarh,435,3,21,49,2,108,2024-01-01
+31,Himalaya Rice Bag,Himalaya,Grocery,Krishnan-Barman,Navi Mumbai,382,7,49,74,4,47,2024-01-01
+32,Nike Salt Pack,Nike,Grocery,"Varma, Raj and Mani",Rourkela,372,6,42,82,1,53,2024-01-01
+33,Philips Cap,Philips,Apparel,"Devan, Sha and Wason",Bokaro,100,21,147,93,10,4,2024-01-01
+34,Nike Tablet,Nike,Electronics,Mall-Thaman,Narasaraopet,131,22,154,29,7,5,2024-01-01
+35,Himalaya Smartphone,Himalaya,Electronics,"Palla, Kadakia and Dugar",North Dumdum,343,8,56,54,6,38,2024-01-01
+36,Himalaya Table Lamp,Himalaya,Home,"Taneja, Balakrishnan and Rana",Panvel,141,10,70,84,7,12,2024-01-01
+37,Philips Vacuum Cleaner,Philips,Home,Hayer-Datta,Tiruchirappalli,329,11,77,46,4,27,2024-01-01
+38,Samsung Ceiling Fan,Samsung,Home,Bhatti-Prashad,Panipat,290,14,98,99,7,19,2024-01-01
+39,Sony Headphones,Sony,Electronics,"Patil, Reddy and Mital",Navi Mumbai,314,5,35,52,6,52,2024-01-01
+40,Philips Table Lamp,Philips,Home,Pandit-Minhas,Rajkot,328,13,91,28,2,23,2024-01-01
+41,Nike Cap,Nike,Apparel,"Kamdar, Buch and Basu",Amravati,163,2,14,66,1,54,2024-01-01
+42,Amul Iron Box,Amul,Home,"Mangal, Anand and Bhatnagar",Surendranagar Dudhrej,388,0,0,22,6,388,2024-01-01
+43,Amul Iron Box,Amul,Home,Srinivas Group,Bidar,120,21,147,20,10,5,2024-01-01
+44,Himalaya Sneakers,Himalaya,Apparel,Arora and Sons,Guntakal,90,12,84,53,10,6,2024-01-01
+45,Samsung Salt Pack,Samsung,Grocery,Vora Inc,Dibrugarh,463,14,98,68,3,30,2024-01-01
+46,Nike Ceiling Fan,Nike,Home,Jaggi-Kaul,Davanagere,363,2,14,26,3,121,2024-01-01
+47,Philips Rice Bag,Philips,Grocery,Shah LLC,Bettiah,343,10,70,79,9,31,2024-01-01
+48,Godrej Hair Oil,Godrej,Beauty,Borra and Sons,Katni,294,9,63,85,9,29,2024-01-01
+49,Amul Hair Oil,Amul,Beauty,Sama LLC,Bijapur,474,11,77,68,1,39,2024-01-01
+50,Himalaya TV,Himalaya,Electronics,Srivastava-Kibe,Ulhasnagar,300,13,91,50,10,21,2024-01-01
+51,Amul Salt Pack,Amul,Grocery,Sahni LLC,Maheshtala,469,2,14,92,6,156,2024-01-01
+52,Himalaya Salt Pack,Himalaya,Grocery,Dayal-Chaudhry,Thanjavur,440,0,0,53,6,440,2024-01-01
+53,LG Socks,LG,Apparel,Arora and Sons,Mango,156,3,21,59,9,39,2024-01-01
+54,LG Laptop,LG,Electronics,"Wagle, Karpe and Sachdeva",Ambala,459,5,35,25,2,76,2024-01-01
+55,Philips Cap,Philips,Apparel,"Tak, Chakrabarti and Dubey",Ambattur,110,21,147,20,9,5,2024-01-01
+56,Puma Table Lamp,Puma,Home,Chakrabarti Inc,Bally,180,0,0,72,9,180,2024-01-01
+57,Amul LED Bulb,Amul,Home,Sen-Mammen,Ghaziabad,363,15,105,92,10,22,2024-01-01
+58,Puma Juice Bottle,Puma,Grocery,"Kashyap, Ramesh and Divan",Muzaffarpur,192,17,119,94,1,10,2024-01-01
+59,Nike Mixer Grinder,Nike,Home,Dhaliwal-Tandon,Haridwar,320,6,42,36,7,45,2024-01-01
+60,Himalaya LED Bulb,Himalaya,Home,Hora-Mandal,Madurai,453,6,42,45,1,64,2024-01-01
+61,Puma Cooking Oil,Puma,Grocery,"Sane, Dhar and Parikh",Barasat,376,1,7,83,2,188,2024-01-01
+62,Himalaya Headphones,Himalaya,Electronics,"Sur, Kadakia and Saha",Buxar,281,9,63,94,4,28,2024-01-01
+63,Philips TV,Philips,Electronics,Gill PLC,Naihati,90,7,49,25,6,11,2024-01-01
+64,Nike TV,Nike,Electronics,Hans-Kannan,Patna,468,4,28,26,2,93,2024-01-01
+65,Philips Tablet,Philips,Electronics,Barad LLC,Phusro,397,24,168,46,4,15,2024-01-01
+66,Godrej Mixer Grinder,Godrej,Home,Sathe-Kapadia,Dibrugarh,443,2,14,22,10,147,2024-01-01
+67,Himalaya Perfume,Himalaya,Beauty,Krishna Ltd,Visakhapatnam,486,6,42,61,4,69,2024-01-01
+68,Godrej Juice Bottle,Godrej,Grocery,Mander-Patla,Bidar,310,7,49,76,10,38,2024-01-01
+69,Samsung Tablet,Samsung,Electronics,Khanna-Jain,Bally,288,15,105,55,3,18,2024-01-01
+70,Tata Cooking Oil,Tata,Grocery,"Kata, Pillai and Ben",Rewa,246,0,0,49,7,246,2024-01-01
+71,Puma Sneakers,Puma,Apparel,Bhasin-Rastogi,Ghaziabad,128,3,21,30,3,32,2024-01-01
+72,Philips Soap Bar,Philips,Beauty,Ramakrishnan and Sons,Durgapur,171,14,98,39,7,11,2024-01-01
+73,Samsung Sugar Packet,Samsung,Grocery,Dugar and Sons,Karawal Nagar,152,6,42,28,1,21,2024-01-01
+74,Samsung Iron Box,Samsung,Home,"Sankaran, Dutt and Mannan",Jabalpur,387,15,105,63,1,24,2024-01-01
+75,Philips Hair Oil,Philips,Beauty,Taneja-Narasimhan,Tinsukia,442,12,84,52,7,34,2024-01-01
+76,Tata Smartwatch,Tata,Electronics,"Sandhu, Vala and Dar",Hindupur,415,10,70,24,10,37,2024-01-01
+77,Philips Shampoo,Philips,Beauty,"Dani, Balan and Dani",Coimbatore,162,24,168,23,6,6,2024-01-01
+78,Nike T-Shirt,Nike,Apparel,Raju-Dhingra,Tezpur,374,4,28,56,7,74,2024-01-01
+79,Sony TV,Sony,Electronics,"Radhakrishnan, Mistry and Kade",Muzaffarnagar,85,2,14,32,7,28,2024-01-01
+80,LG Juice Bottle,LG,Grocery,Saraf-Sawhney,Tumkur,145,10,70,49,6,13,2024-01-01
+81,Philips Dress,Philips,Apparel,Chaudry LLC,Raipur,168,7,49,70,3,21,2024-01-01
+82,Puma T-Shirt,Puma,Apparel,Kapur Ltd,Arrah,415,9,63,41,7,41,2024-01-01
+83,Samsung Face Wash,Samsung,Beauty,"Keer, Lad and Wali",Muzaffarnagar,473,25,175,52,8,18,2024-01-01
+84,Sony Mixer Grinder,Sony,Home,"Borah, Basu and Walia",Bokaro,487,8,56,23,7,54,2024-01-01
+85,Amul Vacuum Cleaner,Amul,Home,Saha-Dhar,Adoni,348,0,0,35,8,348,2024-01-01
+86,Nike Vacuum Cleaner,Nike,Home,"Iyengar, Naik and Lad",Arrah,310,9,63,67,2,31,2024-01-01
+87,Philips Vacuum Cleaner,Philips,Home,Ben PLC,Raiganj,380,22,154,87,2,16,2024-01-01
+88,Puma Table Lamp,Puma,Home,Randhawa Inc,Srinagar,295,3,21,74,10,73,2024-01-01
+89,Godrej Juice Bottle,Godrej,Grocery,"Bhatnagar, Pingle and Buch",Dehradun,155,7,49,56,5,19,2024-01-01
+90,Samsung Face Cream,Samsung,Beauty,Keer PLC,Jamshedpur,407,5,35,83,6,67,2024-01-01
+91,Himalaya LED Bulb,Himalaya,Home,Patla Inc,Noida,300,9,63,65,4,30,2024-01-01
+92,LG Sneakers,LG,Apparel,Dhillon Group,Burhanpur,139,6,42,21,10,19,2024-01-01
+93,Himalaya TV,Himalaya,Electronics,Mandal Inc,Hubli–Dharwad,167,26,182,23,2,6,2024-01-01
+94,Nike Mixer Grinder,Nike,Home,Khurana and Sons,Tumkur,104,15,105,99,7,6,2024-01-01
+95,Sony Perfume,Sony,Beauty,Ratti PLC,Mysore,476,6,42,99,1,68,2024-01-01
+96,Puma Hair Oil,Puma,Beauty,Chhabra PLC,Surendranagar Dudhrej,123,9,63,89,9,12,2024-01-01
+97,Godrej TV,Godrej,Electronics,Reddy PLC,Pali,437,10,70,34,8,39,2024-01-01
+98,Puma LED Bulb,Puma,Home,"Natarajan, Varma and Parsa",Yamunanagar,395,5,35,69,1,65,2024-01-01
+99,Nike LED Bulb,Nike,Home,"Gour, Srinivasan and Johal",Bathinda,455,11,77,53,2,37,2024-01-01
+100,Sony T-Shirt,Sony,Apparel,Gole LLC,Asansol,402,12,84,57,2,30,2024-01-01
+101,Tata Hair Oil,Tata,Beauty,Brahmbhatt-Solanki,Pallavaram,297,6,42,47,4,42,2024-01-01
+102,Samsung Face Wash,Samsung,Beauty,Madan-Manne,Ludhiana,243,22,154,86,10,10,2024-01-01
+103,Godrej Tablet,Godrej,Electronics,"Sidhu, Badami and Ranganathan",Thrissur,435,2,14,29,7,145,2024-01-01
+104,Amul LED Bulb,Amul,Home,Datta-Kala,Udupi,428,19,133,41,2,21,2024-01-01
+105,Puma Laptop,Puma,Electronics,Sampath Inc,Warangal,49,11,77,70,1,4,2024-01-01
+106,Himalaya Sneakers,Himalaya,Apparel,Manda-Dutt,Tinsukia,19,29,203,43,10,1,2024-01-01
+107,LG Wheat Flour,LG,Grocery,Manne Group,Firozabad,426,14,98,30,4,28,2024-01-01
+108,Nike Face Cream,Nike,Beauty,Chahal LLC,Ajmer,422,4,28,100,5,84,2024-01-01
+109,Godrej Headphones,Godrej,Electronics,Gupta-Dhaliwal,South Dumdum,432,14,98,65,1,28,2024-01-01
+110,Puma Table Lamp,Puma,Home,Kapoor Inc,Eluru,255,7,49,40,6,31,2024-01-01
+111,LG Wheat Flour,LG,Grocery,Verma Inc,Bhiwani,193,21,147,41,4,8,2024-01-01
+112,Sony Sneakers,Sony,Apparel,Pal and Sons,Kollam,127,13,91,34,8,9,2024-01-01
+113,Godrej Smartwatch,Godrej,Electronics,"Manda, Sachar and Majumdar",Madhyamgram,198,1,7,60,6,99,2024-01-01
+114,Puma Juice Bottle,Puma,Grocery,"Andra, Kurian and Venkatesh",Satna,321,8,56,47,1,35,2024-01-01
+115,LG Shampoo,LG,Beauty,Mohan-Saxena,North Dumdum,383,4,28,50,7,76,2024-01-01
+116,Godrej Camera,Godrej,Electronics,Hari Group,Ozhukarai,457,19,133,75,2,22,2024-01-01
+117,LG Soap Bar,LG,Beauty,"Rege, Raju and Kapoor",Udupi,179,3,21,97,7,44,2024-01-01
+118,Tata Jeans,Tata,Apparel,Mohanty-Ahuja,Ambattur,491,6,42,65,4,70,2024-01-01
+119,Godrej Jacket,Godrej,Apparel,Srinivas Inc,Malegaon,331,0,0,90,4,331,2024-01-01
+120,Tata Headphones,Tata,Electronics,Pall-Pillay,Tadipatri,208,4,28,65,7,41,2024-01-01
+121,Himalaya Soap Bar,Himalaya,Beauty,Khatri PLC,Anantapur,198,14,98,43,3,13,2024-01-01
+122,Samsung Jeans,Samsung,Apparel,"Chakrabarti, Kothari and Varma",Thiruvananthapuram,462,13,91,55,7,33,2024-01-01
+123,Amul Cooking Oil,Amul,Grocery,"Lall, Issac and Dalal",Guwahati,47,11,77,34,9,3,2024-01-01
+124,LG Juice Bottle,LG,Grocery,Kannan Inc,Sri Ganganagar,55,1,7,53,10,27,2024-01-01
+125,Tata Perfume,Tata,Beauty,Datta-Prashad,Medininagar,190,13,91,27,3,13,2024-01-01
+126,Amul Sneakers,Amul,Apparel,Sathe-Cheema,Bulandshahr,432,19,133,97,8,21,2024-01-01
+127,Samsung Face Wash,Samsung,Beauty,Sandhu LLC,Sultan Pur Majra,137,6,42,66,7,19,2024-01-01
+128,Himalaya Jeans,Himalaya,Apparel,"Deol, Rajan and Agarwal",Maheshtala,368,0,0,83,1,368,2024-01-01
+129,Samsung Soap Bar,Samsung,Beauty,Gandhi LLC,Dharmavaram,127,7,49,99,7,15,2024-01-01
+130,Tata Face Wash,Tata,Beauty,Kibe-Acharya,Munger,315,21,147,100,8,14,2024-01-01
+131,Amul TV,Amul,Electronics,Nagy PLC,Srikakulam,115,5,35,44,1,19,2024-01-01
+132,Himalaya Face Wash,Himalaya,Beauty,Subramanian-Bains,Tadipatri,198,7,49,48,5,24,2024-01-01
+133,Himalaya Jacket,Himalaya,Apparel,"Iyengar, Saini and Raghavan",Davanagere,282,6,42,88,1,40,2024-01-01
+134,LG Mixer Grinder,LG,Home,Banerjee LLC,Amritsar,252,12,84,56,6,19,2024-01-01
+135,Philips Salt Pack,Philips,Grocery,"Gala, Choudhury and Sane",Warangal,202,1,7,96,10,101,2024-01-01
+136,Sony Face Wash,Sony,Beauty,Nath-Garde,Bhilai,162,21,147,37,2,7,2024-01-01
+137,Himalaya Sugar Packet,Himalaya,Grocery,Natt-Puri,Delhi,217,10,70,63,8,19,2024-01-01
+138,Amul Hair Oil,Amul,Beauty,"Pant, Varty and Mittal",Alappuzha,434,13,91,88,1,31,2024-01-01
+139,Himalaya Jeans,Himalaya,Apparel,D’Alia-Bhattacharyya,Tirunelveli,78,26,182,92,2,2,2024-01-01
+140,Amul Camera,Amul,Electronics,Wali PLC,Sagar,383,7,49,44,2,47,2024-01-01
+141,Sony LED Bulb,Sony,Home,Chand LLC,Darbhanga,189,18,126,97,8,9,2024-01-01
+142,Tata Smartwatch,Tata,Electronics,Mall Ltd,Tenali,375,3,21,98,1,93,2024-01-01
+143,Sony Cap,Sony,Apparel,"Hari, Banerjee and Natt",Pali,131,0,0,94,1,131,2024-01-01
+144,Tata Rice Bag,Tata,Grocery,"Badal, Bajaj and Bakshi",Tiruvottiyur,407,20,140,88,6,19,2024-01-01
+145,Puma Milk Carton,Puma,Grocery,Bail Ltd,Warangal,380,22,154,37,1,16,2024-01-01
+146,LG Salt Pack,LG,Grocery,"Nath, Prabhakar and Rattan",Latur,119,9,63,35,2,11,2024-01-01
+147,Himalaya Juice Bottle,Himalaya,Grocery,"Lanka, Khanna and Pradhan",Sagar,53,11,77,89,2,4,2024-01-01
+148,Tata Iron Box,Tata,Home,"Chaudry, Balay and Hari",Hubli–Dharwad,242,4,28,33,2,48,2024-01-01
+149,Godrej Jacket,Godrej,Apparel,Kulkarni-Gera,Rajahmundry,167,9,63,62,1,16,2024-01-01
+150,Puma Sneakers,Puma,Apparel,"Bakshi, Nagarajan and Kuruvilla",Bidhannagar,417,4,28,42,1,83,2024-01-01
+151,Puma Perfume,Puma,Beauty,Suri-Narayanan,Hindupur,241,23,161,88,1,10,2024-01-01
+152,Tata Socks,Tata,Apparel,Morar-Tailor,Munger,167,13,91,59,4,11,2024-01-01
+153,Philips Salt Pack,Philips,Grocery,Kapadia-Pillai,Jamshedpur,99,4,28,33,2,19,2024-01-01
+154,Himalaya Smartphone,Himalaya,Electronics,Shenoy Group,Tezpur,375,1,7,50,2,187,2024-01-01
+155,Tata Iron Box,Tata,Home,Shah Inc,Farrukhabad,218,10,70,37,10,19,2024-01-01
+156,Tata Wheat Flour,Tata,Grocery,D’Alia LLC,Jhansi,457,10,70,30,5,41,2024-01-01
+157,Nike Dress,Nike,Apparel,Sandhu-Mukhopadhyay,Thrissur,140,10,70,32,4,12,2024-01-01
+158,Tata Ceiling Fan,Tata,Home,"Dugar, Ranganathan and Chaudry",Madanapalle,208,14,98,36,1,13,2024-01-01
+159,Amul Smartphone,Amul,Electronics,Kota Ltd,Bulandshahr,345,11,77,23,5,28,2024-01-01
+160,Puma LED Bulb,Puma,Home,"Pandit, Kohli and Contractor",Karawal Nagar,388,21,147,45,10,17,2024-01-01
+161,Amul Socks,Amul,Apparel,Bhagat-Manda,Tadepalligudem,70,14,98,55,6,4,2024-01-01
+162,LG Sneakers,LG,Apparel,Sawhney-Andra,Nandyal,79,20,140,28,6,3,2024-01-01
+163,Puma Sneakers,Puma,Apparel,"Nagi, Mander and Bumb",Muzaffarpur,167,2,14,82,5,55,2024-01-01
+164,Tata Sneakers,Tata,Apparel,Majumdar-Contractor,Pali,154,25,175,88,3,5,2024-01-01
+165,Puma Iron Box,Puma,Home,Mitra-Chanda,Vasai-Virar,70,10,70,48,3,6,2024-01-01
+166,Tata Vacuum Cleaner,Tata,Home,"Rao, Patel and Khanna",North Dumdum,444,5,35,93,6,74,2024-01-01
+167,Puma Jeans,Puma,Apparel,Parmar PLC,Dindigul,197,7,49,98,4,24,2024-01-01
+168,Godrej Sneakers,Godrej,Apparel,Kota Ltd,Dehradun,165,21,147,33,10,7,2024-01-01
+169,Tata Soap Bar,Tata,Beauty,"Patla, Kohli and Bala",Begusarai,292,15,105,54,10,18,2024-01-01
+170,Tata Headphones,Tata,Electronics,Sahota-Mahal,Kanpur,384,2,14,86,1,128,2024-01-01
+171,Philips TV,Philips,Electronics,"Devan, Sridhar and Oza",Rampur,121,15,105,62,10,7,2024-01-01
+172,Tata Juice Bottle,Tata,Grocery,"Setty, Om and Varughese",Alappuzha,155,0,0,35,9,155,2024-01-01
+173,Godrej Table Lamp,Godrej,Home,Dugal Inc,Bhind,345,3,21,73,6,86,2024-01-01
+174,Godrej Salt Pack,Godrej,Grocery,"Halder, Sagar and Basu",Thane,435,3,21,98,7,108,2024-01-01
+175,Amul Hair Oil,Amul,Beauty,"Rajagopalan, Bhatti and Hayre",Bhilai,234,17,119,58,7,13,2024-01-01
+176,Puma Body Lotion,Puma,Beauty,"Sahota, Bala and Chander",Amravati,461,15,105,52,3,28,2024-01-01
+177,Tata Jacket,Tata,Apparel,Raghavan-Chander,Suryapet,470,8,56,45,5,52,2024-01-01
+178,Amul Socks,Amul,Apparel,"Palla, Golla and Bhargava",Bhopal,381,7,49,30,5,47,2024-01-01
+179,Sony T-Shirt,Sony,Apparel,Bobal-Anand,Hosur,285,6,42,47,9,40,2024-01-01
+180,Amul Juice Bottle,Amul,Grocery,Sheth and Sons,Hubli–Dharwad,154,20,140,56,8,7,2024-01-01
+181,Philips Face Wash,Philips,Beauty,"Bhatia, Sunder and Oommen",Bilaspur,297,12,84,25,8,22,2024-01-01
+182,Samsung Hair Oil,Samsung,Beauty,Khurana Group,Bhiwandi,364,20,140,44,9,17,2024-01-01
+183,Puma Vacuum Cleaner,Puma,Home,Bora Ltd,Bangalore,470,18,126,31,5,24,2024-01-01
+184,Puma Cooking Oil,Puma,Grocery,Dixit Ltd,Deoghar,264,12,84,86,8,20,2024-01-01
+185,Amul Rice Bag,Amul,Grocery,Wali-Kala,Ahmednagar,86,12,84,62,5,6,2024-01-01
+186,Sony Table Lamp,Sony,Home,"Cherian, Hari and Dugal",Sultan Pur Majra,200,30,210,32,1,6,2024-01-01
+187,Samsung Smartwatch,Samsung,Electronics,Bhatia-Vyas,Pudukkottai,266,18,126,71,5,14,2024-01-01
+188,Amul Tablet,Amul,Electronics,Sodhi-Kulkarni,Shivpuri,235,2,14,58,7,78,2024-01-01
+189,Sony Smartwatch,Sony,Electronics,Chowdhury Ltd,Thoothukudi,49,15,105,55,5,3,2024-01-01
+190,Tata Headphones,Tata,Electronics,"Mody, Chada and Chokshi",Nagaon,453,5,35,79,4,75,2024-01-01
+191,Amul Juice Bottle,Amul,Grocery,"Mishra, Trivedi and Thakur",Solapur,216,2,14,43,9,72,2024-01-01
+192,Godrej Jacket,Godrej,Apparel,"Sarin, Jayaraman and Dyal",Gaya,178,5,35,66,8,29,2024-01-01
+193,LG Salt Pack,LG,Grocery,"Sami, Shah and Thakur",Katni,235,4,28,57,6,47,2024-01-01
+194,Godrej Camera,Godrej,Electronics,"Mani, Lala and Dugar",Singrauli,139,4,28,31,4,27,2024-01-01
+195,Sony Smartphone,Sony,Electronics,Kashyap-Wagle,Bhopal,279,5,35,53,2,46,2024-01-01
+196,Tata Smartphone,Tata,Electronics,"Swamy, Sama and Seshadri",Sonipat,171,13,91,29,4,12,2024-01-01
+197,Amul Tablet,Amul,Electronics,"Panchal, Bhatti and Gour",Bettiah,54,3,21,74,4,13,2024-01-01
+198,Himalaya Sugar Packet,Himalaya,Grocery,Mani-Setty,Barasat,46,10,70,27,6,4,2024-01-01
+199,Nike Table Lamp,Nike,Home,Barad-Dua,Jaunpur,97,12,84,25,10,7,2024-01-01
+200,LG Ceiling Fan,LG,Home,Ghosh-Patla,Kozhikode,462,21,147,59,10,21,2024-01-01
+201,Amul Salt Pack,Amul,Grocery,Apte Ltd,Kumbakonam,345,2,14,73,4,115,2024-01-01
+202,Tata Ceiling Fan,Tata,Home,"Natt, Sawhney and Nadig",Ramgarh,50,36,252,94,10,1,2024-01-01
+203,Himalaya Iron Box,Himalaya,Home,Bail Inc,Chapra,201,8,56,41,3,22,2024-01-01
+204,Puma Ceiling Fan,Puma,Home,Deol Ltd,Agra,488,4,28,96,7,97,2024-01-01
+205,Samsung Rice Bag,Samsung,Grocery,Sathe-Zacharia,Vadodara,371,3,21,71,5,92,2024-01-01
+206,LG Hair Oil,LG,Beauty,Minhas LLC,Bokaro,261,10,70,29,5,23,2024-01-01
+207,Amul Headphones,Amul,Electronics,"Kade, Kant and Arya",Bharatpur,232,1,7,36,10,116,2024-01-01
+208,Puma Smartphone,Puma,Electronics,Comar-Sengupta,Mira-Bhayandar,325,2,14,71,7,108,2024-01-01
+209,Samsung Cooking Oil,Samsung,Grocery,"Keer, Garg and Gopal",Patiala,122,9,63,74,3,12,2024-01-01
+210,Nike Headphones,Nike,Electronics,Chawla and Sons,Imphal,131,13,91,73,8,9,2024-01-01
+211,Tata Shampoo,Tata,Beauty,"Dutt, Sastry and Hayre",Deoghar,338,19,133,83,4,16,2024-01-01
+212,Sony Smartphone,Sony,Electronics,Shukla LLC,Hospet,237,0,0,48,1,237,2024-01-01
+213,Nike Face Wash,Nike,Beauty,Mody-Mahal,Tiruchirappalli,75,25,175,98,5,2,2024-01-01
+214,Philips Shampoo,Philips,Beauty,Mitra-Mangal,Tinsukia,269,2,14,81,4,89,2024-01-01
+215,Sony Cap,Sony,Apparel,"Mahal, Pau and Viswanathan",Erode,168,22,154,39,6,7,2024-01-01
+216,Nike Table Lamp,Nike,Home,Dora-Wagle,Ichalkaranji,221,26,182,36,9,8,2024-01-01
+217,Sony Shampoo,Sony,Beauty,Mand and Sons,Gudivada,244,24,168,59,8,9,2024-01-01
+218,Amul Dress,Amul,Apparel,Brahmbhatt Ltd,Alappuzha,382,9,63,53,1,38,2024-01-01
+219,LG Milk Carton,LG,Grocery,Kannan Group,Kanpur,107,17,119,50,2,5,2024-01-01
+220,Tata Socks,Tata,Apparel,"Kapoor, Naik and Saini",Ludhiana,486,5,35,45,6,81,2024-01-01
+221,Philips Iron Box,Philips,Home,Bhasin-Jhaveri,Karimnagar,438,13,91,40,6,31,2024-01-01
+222,Puma Face Wash,Puma,Beauty,Reddy and Sons,Machilipatnam,252,5,35,47,8,42,2024-01-01
+223,Tata Iron Box,Tata,Home,"Minhas, Kumer and Bhatti",Dehri,246,21,147,66,1,11,2024-01-01
+224,LG Vacuum Cleaner,LG,Home,More LLC,Kavali,98,24,168,70,5,3,2024-01-01
+225,LG Sugar Packet,LG,Grocery,"Atwal, Nath and Lad",Bhopal,252,11,77,72,1,21,2024-01-01
+226,Sony Perfume,Sony,Beauty,Bahri PLC,Bongaigaon,130,3,21,23,1,32,2024-01-01
+227,Tata Jacket,Tata,Apparel,Dhaliwal LLC,Amaravati,388,0,0,36,1,388,2024-01-01
+228,Tata Smartwatch,Tata,Electronics,Bali LLC,Kozhikode,158,3,21,27,1,39,2024-01-01
+229,Himalaya Table Lamp,Himalaya,Home,"Gole, Chowdhury and Arya",Ballia,276,16,112,94,8,16,2024-01-01
+230,Amul Perfume,Amul,Beauty,"Narang, Sandal and Agate",Eluru,125,1,7,72,9,62,2024-01-01
+231,Sony Hair Oil,Sony,Beauty,Yogi Inc,Bhind,62,16,112,21,5,3,2024-01-01
+232,Puma Hair Oil,Puma,Beauty,"Vohra, Guha and Bahl",Firozabad,82,14,98,48,1,5,2024-01-01
+233,Himalaya Soap Bar,Himalaya,Beauty,Sawhney-Shan,Belgaum,209,15,105,59,4,13,2024-01-01
+234,Tata Cooking Oil,Tata,Grocery,"Sastry, Deep and Babu",Vijayanagaram,275,13,91,34,7,19,2024-01-01
+235,Sony Body Lotion,Sony,Beauty,Peri-Sant,Mathura,58,0,0,43,4,58,2024-01-01
+236,Samsung Dress,Samsung,Apparel,Tank-Borra,Bhiwandi,163,7,49,99,5,20,2024-01-01
+237,Himalaya Jeans,Himalaya,Apparel,Merchant Inc,Bareilly,194,9,63,21,4,19,2024-01-01
+238,Nike Hair Oil,Nike,Beauty,Bali-Barman,Meerut,361,1,7,34,9,180,2024-01-01
+239,Puma Camera,Puma,Electronics,Bumb-Samra,Salem,128,5,35,61,6,21,2024-01-01
+240,Himalaya Iron Box,Himalaya,Home,Pandit and Sons,Panvel,174,3,21,53,6,43,2024-01-01
+241,Philips Mixer Grinder,Philips,Home,"Venkatesh, De and Chacko",Kavali,292,17,119,62,6,16,2024-01-01
+242,Puma Laptop,Puma,Electronics,Prasad Group,Jaipur,323,1,7,80,3,161,2024-01-01
+243,Sony Laptop,Sony,Electronics,Sastry LLC,Navi Mumbai,152,23,161,83,7,6,2024-01-01
+244,Himalaya Hair Oil,Himalaya,Beauty,"Sahni, Kapur and Sarin",Bongaigaon,130,2,14,94,2,43,2024-01-01
+245,LG Socks,LG,Apparel,Vyas-Chaudhuri,Panihati,235,10,70,64,10,21,2024-01-01
+246,Amul Smartphone,Amul,Electronics,Jain-Sibal,Gandhidham,83,5,35,46,9,13,2024-01-01
+247,Samsung Body Lotion,Samsung,Beauty,Rajagopal Inc,Tinsukia,135,16,112,50,4,7,2024-01-01
+248,Philips Body Lotion,Philips,Beauty,Mody-Savant,Hajipur,78,3,21,91,4,19,2024-01-01
+249,Godrej TV,Godrej,Electronics,Soni-Atwal,Chandrapur,94,15,105,93,10,5,2024-01-01
+250,Himalaya Rice Bag,Himalaya,Grocery,Chandran-Uppal,Siliguri,309,5,35,64,2,51,2024-01-01
+251,Sony Cooking Oil,Sony,Grocery,"Majumdar, Brar and Tara",Dehri,270,5,35,34,5,45,2024-01-01
+252,Sony Jeans,Sony,Apparel,"Sule, Salvi and Bhagat",Ramagundam,374,3,21,37,6,93,2024-01-01
+253,Amul LED Bulb,Amul,Home,Memon PLC,Faridabad,54,13,91,82,8,3,2024-01-01
+254,Tata Iron Box,Tata,Home,"Mani, Chowdhury and Wali",Karimnagar,331,16,112,53,5,19,2024-01-01
+255,Samsung Mixer Grinder,Samsung,Home,Bera-Mani,Anantapur,23,23,161,87,10,1,2024-01-01
+256,Sony Cooking Oil,Sony,Grocery,Ganguly-Khurana,Rajkot,178,9,63,34,4,17,2024-01-01
+257,Himalaya Face Cream,Himalaya,Beauty,Rastogi Inc,Panihati,396,24,168,59,5,15,2024-01-01
+258,Philips Laptop,Philips,Electronics,"Chhabra, Gala and Banerjee",Mehsana,111,17,119,56,7,6,2024-01-01
+259,Sony Sugar Packet,Sony,Grocery,"Raghavan, Oza and Sunder",Srinagar,491,3,21,77,4,122,2024-01-01
+260,Samsung Vacuum Cleaner,Samsung,Home,Shah-More,Bahraich,345,2,14,91,1,115,2024-01-01
+261,Godrej Body Lotion,Godrej,Beauty,Dani and Sons,Kumbakonam,198,2,14,100,4,66,2024-01-01
+262,Philips LED Bulb,Philips,Home,Sane Group,Ramagundam,479,21,147,33,6,21,2024-01-01
+263,Tata Perfume,Tata,Beauty,Chaudry and Sons,Bikaner,213,3,21,28,4,53,2024-01-01
+264,Himalaya Soap Bar,Himalaya,Beauty,Chada Inc,Suryapet,451,4,28,23,3,90,2024-01-01
+265,Philips Face Cream,Philips,Beauty,Bhasin Group,Deoghar,429,20,140,51,5,20,2024-01-01
+266,Himalaya Vacuum Cleaner,Himalaya,Home,"Kata, Kala and Dar",Unnao,464,7,49,60,1,58,2024-01-01
+267,Samsung Iron Box,Samsung,Home,"Sarin, Walia and Bhatti",Firozabad,161,5,35,97,1,26,2024-01-01
+268,LG LED Bulb,LG,Home,"Mitter, Nagar and Kohli",Baranagar,336,9,63,53,7,33,2024-01-01
+269,LG Juice Bottle,LG,Grocery,"Sule, Narain and Dhar",Amritsar,333,3,21,36,4,83,2024-01-01
+270,Nike Sugar Packet,Nike,Grocery,"Gara, Chandra and Johal",Unnao,380,6,42,82,4,54,2024-01-01
+271,Samsung Rice Bag,Samsung,Grocery,Din Group,Hindupur,485,4,28,59,2,97,2024-01-01
+272,LG Headphones,LG,Electronics,Mitter-Upadhyay,Jamshedpur,335,12,84,86,7,25,2024-01-01
+273,Amul Cap,Amul,Apparel,Kunda Group,Bhalswa Jahangir Pur,355,10,70,54,4,32,2024-01-01
+274,Philips Cooking Oil,Philips,Grocery,Warrior-Gaba,Anand,427,10,70,76,1,38,2024-01-01
+275,Philips TV,Philips,Electronics,Kohli-Pau,Begusarai,418,12,84,92,4,32,2024-01-01
+276,Tata Cap,Tata,Apparel,Prabhakar LLC,Panihati,248,11,77,64,5,20,2024-01-01
+277,Puma Cooking Oil,Puma,Grocery,Naidu-Dave,Tiruvottiyur,72,11,77,88,3,6,2024-01-01
+278,Nike Shampoo,Nike,Beauty,"Sem, Issac and Yohannan",Nagpur,125,12,84,37,7,9,2024-01-01
+279,Sony Milk Carton,Sony,Grocery,"Solanki, Chopra and Ganguly",Lucknow,450,1,7,30,9,225,2024-01-01
+280,Samsung Cooking Oil,Samsung,Grocery,Thaman-Tiwari,Gulbarga,243,12,84,57,2,18,2024-01-01
+281,Amul Face Wash,Amul,Beauty,Chokshi Inc,Orai,285,19,133,45,3,14,2024-01-01
+282,Philips Laptop,Philips,Electronics,"Kaul, Mistry and Tella",Farrukhabad,473,12,84,61,8,36,2024-01-01
+283,LG Soap Bar,LG,Beauty,"Kanda, Kothari and Narang",Barasat,349,19,133,35,6,17,2024-01-01
+284,Nike LED Bulb,Nike,Home,Tak-Sunder,Karimnagar,453,6,42,99,1,64,2024-01-01
+285,Nike Headphones,Nike,Electronics,"Guha, Bali and Sagar",Bulandshahr,398,6,42,22,4,56,2024-01-01
+286,Philips Vacuum Cleaner,Philips,Home,Bhatnagar PLC,Karnal,88,23,161,62,3,3,2024-01-01
+287,Himalaya Hair Oil,Himalaya,Beauty,"Saini, Keer and Samra",Tirunelveli,43,8,56,94,5,4,2024-01-01
+288,Amul Jeans,Amul,Apparel,Atwal-Sen,Nagaon,236,20,140,48,4,11,2024-01-01
+289,Samsung Shampoo,Samsung,Beauty,"Mall, Om and Khalsa",Bharatpur,368,4,28,57,3,73,2024-01-01
+290,Samsung Sugar Packet,Samsung,Grocery,"Mander, Natarajan and Rege",Sasaram,458,20,140,71,7,21,2024-01-01
+291,Godrej Jacket,Godrej,Apparel,Hayre-Deshpande,Aizawl,174,1,7,73,10,87,2024-01-01
+292,Puma Hair Oil,Puma,Beauty,Goswami Ltd,Amritsar,402,3,21,85,5,100,2024-01-01
+293,Puma Iron Box,Puma,Home,Pathak Group,Jalgaon,98,32,224,67,9,2,2024-01-01
+294,Nike Mixer Grinder,Nike,Home,"Kapadia, Devan and Thaman",Siliguri,459,0,0,37,7,459,2024-01-01
+295,Samsung Sugar Packet,Samsung,Grocery,Dixit-Sarna,Tenali,340,12,84,96,4,26,2024-01-01
+296,Puma Tablet,Puma,Electronics,"Dara, Saini and Walla",Gandhinagar,397,15,105,25,7,24,2024-01-01
+297,Philips Perfume,Philips,Beauty,Amble PLC,Ratlam,162,10,70,51,4,14,2024-01-01
+298,Tata Socks,Tata,Apparel,Ramakrishnan Inc,Silchar,254,0,0,46,6,254,2024-01-01
+299,Philips Milk Carton,Philips,Grocery,"Palla, Loke and Nagarajan",Adoni,268,17,119,43,4,14,2024-01-01
+300,Samsung Camera,Samsung,Electronics,"Bhavsar, Chada and Nayar",Patiala,281,18,126,76,9,14,2024-01-01
+301,LG Smartphone,LG,Electronics,Kumer-Zacharia,Korba,441,9,63,55,1,44,2024-01-01
+302,Philips Shampoo,Philips,Beauty,Chatterjee PLC,Buxar,77,11,77,48,10,6,2024-01-01
+303,Godrej Table Lamp,Godrej,Home,Raja-Om,Jalandhar,150,2,14,83,3,50,2024-01-01
+304,Nike Smartphone,Nike,Electronics,Mani-Dar,Kishanganj,262,12,84,37,5,20,2024-01-01
+305,Amul Face Wash,Amul,Beauty,"Malhotra, Sagar and Walia",Phagwara,371,0,0,44,9,371,2024-01-01
+306,LG LED Bulb,LG,Home,Dugar and Sons,Dewas,66,13,91,23,9,4,2024-01-01
+307,Nike Wheat Flour,Nike,Grocery,Setty-Deep,Gandhinagar,437,10,70,44,5,39,2024-01-01
+308,Sony Shampoo,Sony,Beauty,Bath Inc,Bhatpara,328,6,42,72,5,46,2024-01-01
+309,LG LED Bulb,LG,Home,Bala-Mallick,Korba,374,5,35,89,5,62,2024-01-01
+310,Amul Juice Bottle,Amul,Grocery,Devan Inc,Gandhinagar,182,18,126,79,8,9,2024-01-01
+311,LG Socks,LG,Apparel,"Prabhakar, Seshadri and Amble",Mahbubnagar,357,7,49,56,8,44,2024-01-01
+312,Philips Jeans,Philips,Apparel,"Pradhan, Biswas and Raval",Tinsukia,232,17,119,42,8,12,2024-01-01
+313,Philips Face Cream,Philips,Beauty,"Edwin, Sankaran and Muni",Jabalpur,266,5,35,73,3,44,2024-01-01
+314,Tata Milk Carton,Tata,Grocery,"Pau, Kota and Mander",Cuttack,469,4,28,52,10,93,2024-01-01
+315,Tata Vacuum Cleaner,Tata,Home,Hegde-Swaminathan,Bulandshahr,147,11,77,68,7,12,2024-01-01
+316,Sony Jacket,Sony,Apparel,Dyal-Barman,Panvel,215,8,56,43,8,23,2024-01-01
+317,Nike Shampoo,Nike,Beauty,"Varty, Chawla and Mitra",Jamalpur,277,7,49,50,8,34,2024-01-01
+318,Nike Ceiling Fan,Nike,Home,"Halder, Upadhyay and Ganesh",Nellore,130,9,63,25,7,13,2024-01-01
+319,Himalaya Tablet,Himalaya,Electronics,Sahota Ltd,Ambattur,402,1,7,76,4,201,2024-01-01
+320,Godrej Table Lamp,Godrej,Home,"Sidhu, Oommen and Ghosh",Hubli–Dharwad,330,1,7,27,7,165,2024-01-01
+321,Sony Soap Bar,Sony,Beauty,"Mallick, Deo and Konda",Raiganj,107,17,119,78,10,5,2024-01-01
+322,Philips Headphones,Philips,Electronics,"Mital, Chaudhari and Luthra",Kurnool,239,7,49,85,6,29,2024-01-01
+323,LG Perfume,LG,Beauty,Wable LLC,Mahbubnagar,322,8,56,41,3,35,2024-01-01
+324,Puma Jeans,Puma,Apparel,Sehgal-Natt,Rajpur Sonarpur,459,3,21,78,7,114,2024-01-01
+325,LG Jacket,LG,Apparel,Sahni-Ravi,Srikakulam,324,13,91,71,3,23,2024-01-01
+326,Nike Iron Box,Nike,Home,Mallick-Golla,Bilaspur,72,17,119,25,4,4,2024-01-01
+327,Philips Cooking Oil,Philips,Grocery,Mutti-Krish,Karimnagar,119,13,91,47,3,8,2024-01-01
+328,Amul Wheat Flour,Amul,Grocery,Kala-Tella,Ambattur,259,2,14,78,9,86,2024-01-01
+329,Himalaya Rice Bag,Himalaya,Grocery,"Basak, Nair and Agate",Secunderabad,463,4,28,97,4,92,2024-01-01
+330,Himalaya Headphones,Himalaya,Electronics,Misra Ltd,Guntur,272,27,189,64,10,9,2024-01-01
+331,Nike Socks,Nike,Apparel,Mangal LLC,Vijayanagaram,127,8,56,58,5,14,2024-01-01
+332,Godrej Cap,Godrej,Apparel,"Keer, Dixit and Krishnan",Bhiwandi,473,6,42,29,3,67,2024-01-01
+333,Godrej TV,Godrej,Electronics,"Oza, Rajagopalan and Dugal",Rajkot,136,23,161,26,7,5,2024-01-01
+334,Himalaya Dress,Himalaya,Apparel,Rajan-Bali,Erode,187,18,126,83,2,9,2024-01-01
+335,Sony LED Bulb,Sony,Home,Pant-Chaudhuri,Bhind,415,2,14,53,10,138,2024-01-01
+336,Amul Sugar Packet,Amul,Grocery,"Parekh, Purohit and Babu",Tadepalligudem,470,4,28,72,9,94,2024-01-01
+337,Godrej LED Bulb,Godrej,Home,Narain-Hegde,Kishanganj,456,11,77,65,7,38,2024-01-01
+338,Godrej Ceiling Fan,Godrej,Home,"Kant, Sachdev and Gandhi",Etawah,42,22,154,24,3,1,2024-01-01
+339,Himalaya Camera,Himalaya,Electronics,Tata PLC,Gorakhpur,477,11,77,50,8,39,2024-01-01
+340,Nike Socks,Nike,Apparel,Dash-Natt,Amritsar,212,7,49,34,7,26,2024-01-01
+341,Himalaya Sugar Packet,Himalaya,Grocery,Tella Ltd,Raiganj,408,16,112,74,6,24,2024-01-01
+342,Sony Perfume,Sony,Beauty,Konda PLC,Arrah,321,1,7,39,6,160,2024-01-01
+343,Godrej Hair Oil,Godrej,Beauty,Palla Inc,Secunderabad,429,13,91,57,2,30,2024-01-01
+344,LG Mixer Grinder,LG,Home,Memon PLC,Burhanpur,327,21,147,81,9,14,2024-01-01
+345,Sony Vacuum Cleaner,Sony,Home,"Prasad, Grover and Das",Eluru,285,4,28,70,3,57,2024-01-01
+346,Tata Jacket,Tata,Apparel,Rama-Hans,Jammu,458,10,70,33,1,41,2024-01-01
+347,Amul Soap Bar,Amul,Beauty,Mukhopadhyay PLC,Gulbarga,264,12,84,74,9,20,2024-01-01
+348,Sony Laptop,Sony,Electronics,"Tailor, Halder and Char",Agra,171,5,35,50,2,28,2024-01-01
+349,Samsung Wheat Flour,Samsung,Grocery,Vaidya-Yogi,Guwahati,328,20,140,81,6,15,2024-01-01
+350,Godrej Smartphone,Godrej,Electronics,Pradhan-Hari,Haldia,332,14,98,68,7,22,2024-01-01
+351,Sony Hair Oil,Sony,Beauty,"Misra, Munshi and Lal",Baranagar,403,20,140,97,10,19,2024-01-01
+352,Nike Perfume,Nike,Beauty,Ahuja-More,Pondicherry,362,18,126,58,10,19,2024-01-01
+353,Nike Tablet,Nike,Electronics,Mittal and Sons,Jamalpur,489,4,28,87,2,97,2024-01-01
+354,Himalaya Rice Bag,Himalaya,Grocery,Saraf Group,Narasaraopet,372,14,98,42,4,24,2024-01-01
+355,Puma Salt Pack,Puma,Grocery,"Nath, Shenoy and Natt",Jammu,131,8,56,34,6,14,2024-01-01
+356,Nike Wheat Flour,Nike,Grocery,Lall and Sons,Ujjain,442,5,35,85,4,73,2024-01-01
+357,Tata Headphones,Tata,Electronics,Bassi-Sahota,Chennai,218,13,91,56,9,15,2024-01-01
+358,Amul Tablet,Amul,Electronics,Bir and Sons,Sambalpur,418,3,21,38,9,104,2024-01-01
+359,Philips TV,Philips,Electronics,Chaudhary LLC,Rohtak,285,17,119,92,7,15,2024-01-01
+360,Amul Tablet,Amul,Electronics,Kamdar PLC,Amroha,67,12,84,80,2,5,2024-01-01
+361,Philips LED Bulb,Philips,Home,Lalla and Sons,Kozhikode,97,8,56,56,8,10,2024-01-01
+362,Philips Wheat Flour,Philips,Grocery,"Parmer, Sundaram and Seth",Durg,280,8,56,23,7,31,2024-01-01
+363,Amul TV,Amul,Electronics,Behl LLC,Ichalkaranji,375,6,42,39,10,53,2024-01-01
+364,Puma Body Lotion,Puma,Beauty,"Oak, Wagle and Padmanabhan",Gurgaon,207,2,14,86,1,69,2024-01-01
+365,Puma Smartwatch,Puma,Electronics,Sharma LLC,Chandigarh,249,1,7,43,1,124,2024-01-01
+366,Philips Ceiling Fan,Philips,Home,Chakrabarti-Bir,Jodhpur,402,6,42,76,5,57,2024-01-01
+367,LG Jacket,LG,Apparel,Talwar-Goswami,Kota,122,7,49,48,6,15,2024-01-01
+368,Amul Rice Bag,Amul,Grocery,"Kar, Andra and Sagar",Munger,36,29,203,64,3,1,2024-01-01
+369,Puma TV,Puma,Electronics,"Kannan, Wason and Kota",Dhanbad,99,2,14,52,2,33,2024-01-01
+370,Puma Sugar Packet,Puma,Grocery,"Ranganathan, Bhavsar and Chacko",Madanapalle,414,3,21,22,4,103,2024-01-01
+371,Sony LED Bulb,Sony,Home,"Sastry, Luthra and Lall",Amroha,124,3,21,42,9,31,2024-01-01
+372,Godrej Face Cream,Godrej,Beauty,Nori Ltd,Jaipur,47,11,77,91,2,3,2024-01-01
+373,Samsung Soap Bar,Samsung,Beauty,"Natarajan, Hegde and Balan",Tumkur,118,19,133,47,10,5,2024-01-01
+374,Sony T-Shirt,Sony,Apparel,Goswami-Salvi,Mangalore,478,8,56,27,10,53,2024-01-01
+375,Amul Face Cream,Amul,Beauty,Deep LLC,Aurangabad,70,3,21,35,4,17,2024-01-01
+376,Nike LED Bulb,Nike,Home,"Mitra, Kale and Kulkarni",Danapur,147,20,140,57,10,7,2024-01-01
+377,Tata Sneakers,Tata,Apparel,"Mall, Mammen and Badal",Shimla,469,0,0,90,4,469,2024-01-01
+378,Puma Mixer Grinder,Puma,Home,Garde-Kari,Ghaziabad,261,11,77,59,5,21,2024-01-01
+379,Sony Hair Oil,Sony,Beauty,"Sankar, Loke and Edwin",Meerut,128,12,84,56,7,9,2024-01-01
+380,LG Jacket,LG,Apparel,"Mammen, Randhawa and Maharaj",Kollam,214,10,70,44,5,19,2024-01-01
+381,Sony Cap,Sony,Apparel,Sathe Ltd,Guntakal,301,3,21,35,1,75,2024-01-01
+382,LG LED Bulb,LG,Home,"Mall, Krishna and Srinivasan",Moradabad,400,13,91,74,10,28,2024-01-01
+383,Samsung Wheat Flour,Samsung,Grocery,"Pant, Gole and Ben",Proddatur,46,5,35,91,6,7,2024-01-01
+384,Nike Tablet,Nike,Electronics,Bhattacharyya-Nagi,Orai,104,9,63,26,9,10,2024-01-01
+385,LG Vacuum Cleaner,LG,Home,Gala-Devi,Dewas,315,15,105,90,1,19,2024-01-01
+386,Amul Body Lotion,Amul,Beauty,"Tandon, Bhardwaj and Kari",Rajahmundry,244,9,63,53,1,24,2024-01-01
+387,Sony Juice Bottle,Sony,Grocery,"Seth, Varkey and Garde",Burhanpur,58,2,14,54,8,19,2024-01-01
+388,Samsung Soap Bar,Samsung,Beauty,Chad Ltd,Bellary,375,0,0,35,3,375,2024-01-01
+389,Tata Ceiling Fan,Tata,Home,Madan Ltd,Guntakal,374,2,14,40,3,124,2024-01-01
+390,Puma Table Lamp,Puma,Home,Toor Inc,Davanagere,422,15,105,80,7,26,2024-01-01
+391,Himalaya Smartwatch,Himalaya,Electronics,Malhotra-Chand,Burhanpur,115,16,112,96,2,6,2024-01-01
+392,Puma LED Bulb,Puma,Home,Mittal-Sangha,Kochi,184,3,21,38,7,46,2024-01-01
+393,Godrej Camera,Godrej,Electronics,"Nadkarni, Ghose and Sahota",Avadi,472,9,63,84,1,47,2024-01-01
+394,Philips Headphones,Philips,Electronics,"Sheth, Ahluwalia and Shere",Bhilai,105,1,7,34,2,52,2024-01-01
+395,Sony Salt Pack,Sony,Grocery,Prabhakar Group,Karawal Nagar,347,17,119,41,6,19,2024-01-01
+396,Himalaya Juice Bottle,Himalaya,Grocery,Murty and Sons,Madanapalle,435,4,28,23,2,87,2024-01-01
+397,LG T-Shirt,LG,Apparel,"Sunder, Prabhakar and Bahl",Ichalkaranji,163,20,140,47,7,7,2024-01-01
+398,Himalaya Ceiling Fan,Himalaya,Home,"Cherian, Krishnamurthy and Chadha",Pimpri-Chinchwad,196,4,28,60,7,39,2024-01-01
+399,Puma Wheat Flour,Puma,Grocery,"Bhatnagar, Deshmukh and Dubey",Sasaram,302,0,0,30,2,302,2024-01-01
+400,Amul LED Bulb,Amul,Home,"Dasgupta, Bhavsar and Patil",Mangalore,337,14,98,90,2,22,2024-01-01
+401,Nike Tablet,Nike,Electronics,Doctor-Master,Aurangabad,126,9,63,89,9,12,2024-01-01
+402,Philips Salt Pack,Philips,Grocery,Sangha-Sachar,Srinagar,367,10,70,90,10,33,2024-01-01
+403,Himalaya Milk Carton,Himalaya,Grocery,Joshi Group,Darbhanga,456,9,63,45,6,45,2024-01-01
+404,Nike Perfume,Nike,Beauty,Pai and Sons,Arrah,173,15,105,32,1,10,2024-01-01
+405,Sony Shampoo,Sony,Beauty,De Group,Dibrugarh,441,11,77,93,9,36,2024-01-01
+406,Godrej Hair Oil,Godrej,Beauty,Mand Group,Danapur,330,12,84,24,2,25,2024-01-01
+407,Philips Salt Pack,Philips,Grocery,Mishra-Sani,Mirzapur,455,10,70,34,8,41,2024-01-01
+408,Amul Laptop,Amul,Electronics,Ramakrishnan LLC,Jorhat,456,18,126,51,4,24,2024-01-01
+409,Puma Face Wash,Puma,Beauty,Thaker-Ravi,Tiruchirappalli,218,1,7,25,1,109,2024-01-01
+410,Samsung Perfume,Samsung,Beauty,Contractor Inc,Vijayanagaram,147,4,28,23,4,29,2024-01-01
+411,Amul Sugar Packet,Amul,Grocery,Prashad-Upadhyay,Sonipat,188,11,77,79,2,15,2024-01-01
+412,Philips Tablet,Philips,Electronics,Bahl-Zachariah,Anantapur,280,2,14,28,1,93,2024-01-01
+413,Philips Socks,Philips,Apparel,Pathak-Ratti,Bongaigaon,57,1,7,56,2,28,2024-01-01
+414,Godrej Jacket,Godrej,Apparel,Dutt-D’Alia,Ramgarh,262,11,77,28,9,21,2024-01-01
+415,Godrej Laptop,Godrej,Electronics,Patil-Prakash,Berhampur,100,18,126,62,8,5,2024-01-01
+416,Nike Smartwatch,Nike,Electronics,Bassi-Atwal,Jamshedpur,141,17,119,34,1,7,2024-01-01
+417,Philips Body Lotion,Philips,Beauty,Mangal PLC,Miryalaguda,199,9,63,73,4,19,2024-01-01
+418,Philips Tablet,Philips,Electronics,Bhattacharyya Ltd,New Delhi,36,12,84,29,6,2,2024-01-01
+419,Philips Camera,Philips,Electronics,Malhotra-Bedi,Asansol,77,6,42,72,6,11,2024-01-01
+420,Amul Tablet,Amul,Electronics,Rajagopalan Ltd,Jhansi,435,17,119,31,3,24,2024-01-01
+421,Amul Face Wash,Amul,Beauty,Lalla-Ramanathan,Jammu,221,14,98,83,8,14,2024-01-01
+422,Philips Vacuum Cleaner,Philips,Home,"Madan, Gour and Bobal",Bidar,242,6,42,44,1,34,2024-01-01
+423,LG LED Bulb,LG,Home,Sachar PLC,Udupi,335,14,98,43,2,22,2024-01-01
+424,Godrej Ceiling Fan,Godrej,Home,"Mahal, Lata and Hora",Dhanbad,105,22,154,74,7,4,2024-01-01
+425,Godrej Sugar Packet,Godrej,Grocery,Babu PLC,Gandhinagar,234,10,70,84,6,21,2024-01-01
+426,Godrej TV,Godrej,Electronics,Shankar-Setty,Asansol,50,5,35,77,7,8,2024-01-01
+427,Puma Perfume,Puma,Beauty,Shankar-Shan,Gandhidham,338,13,91,96,5,24,2024-01-01
+428,Philips Cooking Oil,Philips,Grocery,Sarraf-Nori,Raichur,202,8,56,74,6,22,2024-01-01
+429,Puma Laptop,Puma,Electronics,Som-Konda,Coimbatore,88,2,14,63,8,29,2024-01-01
+430,Amul Face Cream,Amul,Beauty,Balan and Sons,Ramgarh,333,7,49,86,1,41,2024-01-01
+431,Tata Shampoo,Tata,Beauty,Dara LLC,Vasai-Virar,418,21,147,51,6,19,2024-01-01
+432,Tata Mixer Grinder,Tata,Home,Issac-Malhotra,Shivpuri,423,22,154,26,3,18,2024-01-01
+433,Tata Rice Bag,Tata,Grocery,Krish PLC,Haridwar,204,35,245,98,5,5,2024-01-01
+434,Samsung Milk Carton,Samsung,Grocery,Som Inc,Ujjain,245,19,133,91,6,12,2024-01-01
+435,Nike T-Shirt,Nike,Apparel,Chad-Parikh,Ambattur,356,9,63,33,6,35,2024-01-01
+436,LG Sugar Packet,LG,Grocery,Purohit-Char,Bidar,191,1,7,32,9,95,2024-01-01
+437,Samsung T-Shirt,Samsung,Apparel,Viswanathan and Sons,Ratlam,286,15,105,46,1,17,2024-01-01
+438,Sony Face Cream,Sony,Beauty,"Bassi, Ganguly and Maharaj",Chapra,291,15,105,76,2,18,2024-01-01
+439,Sony Cap,Sony,Apparel,Lanka Group,Kalyan-Dombivli,295,6,42,75,4,42,2024-01-01
+440,Samsung Juice Bottle,Samsung,Grocery,Sani and Sons,Kanpur,92,14,98,40,8,6,2024-01-01
+441,Amul Socks,Amul,Apparel,Sarin Ltd,Jamshedpur,190,11,77,92,7,15,2024-01-01
+442,Amul LED Bulb,Amul,Home,"Bala, Nazareth and Reddy",Phusro,248,7,49,92,6,31,2024-01-01
+443,Himalaya Cap,Himalaya,Apparel,Shankar Ltd,Karaikudi,315,10,70,20,3,28,2024-01-01
+444,Himalaya Iron Box,Himalaya,Home,Varghese-Kapadia,Ahmednagar,133,1,7,49,7,66,2024-01-01
+445,Samsung Shampoo,Samsung,Beauty,Balan-Kari,Karimnagar,413,16,112,69,4,24,2024-01-01
+446,Amul Smartwatch,Amul,Electronics,Nanda Group,Panchkula,81,28,196,22,4,2,2024-01-01
+447,Himalaya Face Wash,Himalaya,Beauty,Balay-Ramesh,Coimbatore,91,9,63,64,10,9,2024-01-01
+448,Sony Wheat Flour,Sony,Grocery,Venkatesh Inc,Agartala,325,8,56,78,5,36,2024-01-01
+449,Nike T-Shirt,Nike,Apparel,Zachariah-Arora,Pondicherry,334,4,28,34,2,66,2024-01-01
+450,Puma T-Shirt,Puma,Apparel,Jain Inc,Berhampur,112,30,210,73,6,3,2024-01-01
+451,Amul Socks,Amul,Apparel,"Rout, Pathak and Kar",Hosur,238,12,84,74,5,18,2024-01-01
+452,Amul Face Wash,Amul,Beauty,Basu Ltd,Khammam,91,2,14,25,10,30,2024-01-01
+453,Samsung Jacket,Samsung,Apparel,Deo-Dayal,Miryalaguda,414,7,49,40,5,51,2024-01-01
+454,Philips Dress,Philips,Apparel,Garde-Ramesh,Rajkot,358,6,42,62,3,51,2024-01-01
+455,Nike Soap Bar,Nike,Beauty,Chowdhury-Kara,Durgapur,436,4,28,86,6,87,2024-01-01
+456,Samsung Body Lotion,Samsung,Beauty,Ghose-Subramanian,Yamunanagar,297,14,98,60,3,19,2024-01-01
+457,Puma Laptop,Puma,Electronics,Yogi Ltd,Munger,282,2,14,39,2,94,2024-01-01
+458,Nike Sugar Packet,Nike,Grocery,Behl-Sengupta,Giridih,394,9,63,94,10,39,2024-01-01
+459,Puma Wheat Flour,Puma,Grocery,Din-Sehgal,Aligarh,446,5,35,23,5,74,2024-01-01
+460,Godrej Cap,Godrej,Apparel,"Ramachandran, Prabhakar and Madan",Erode,275,7,49,26,6,34,2024-01-01
+461,Tata Sugar Packet,Tata,Grocery,Oommen Group,Delhi,387,10,70,46,10,35,2024-01-01
+462,Sony Jacket,Sony,Apparel,Manda-Sankaran,Korba,476,8,56,43,9,52,2024-01-01
+463,Sony Soap Bar,Sony,Beauty,Ganguly Group,Meerut,320,17,119,58,7,17,2024-01-01
+464,Amul Sneakers,Amul,Apparel,Amble-Narula,Bharatpur,172,0,0,60,5,172,2024-01-01
+465,Himalaya Camera,Himalaya,Electronics,Chatterjee-Contractor,Gopalpur,329,7,49,65,2,41,2024-01-01
+466,Tata Cap,Tata,Apparel,Bhatt LLC,Maheshtala,125,9,63,72,2,12,2024-01-01
+467,Himalaya Socks,Himalaya,Apparel,"Subramanian, Wali and Manne",Rourkela,341,9,63,88,10,34,2024-01-01
+468,Samsung Perfume,Samsung,Beauty,Butala-Golla,Gaya,490,2,14,66,4,163,2024-01-01
+469,Sony Juice Bottle,Sony,Grocery,Wadhwa-Bhardwaj,Rajkot,218,16,112,20,7,12,2024-01-01
+470,Godrej Perfume,Godrej,Beauty,"Mitter, Borah and Char",Raichur,214,2,14,24,3,71,2024-01-01
+471,Nike Table Lamp,Nike,Home,"Kaur, Ghose and Patil",Howrah,163,2,14,21,8,54,2024-01-01
+472,Amul Vacuum Cleaner,Amul,Home,Mody-Salvi,Mahbubnagar,257,13,91,77,1,18,2024-01-01
+473,Puma Body Lotion,Puma,Beauty,"Peri, Khosla and Gupta",Ujjain,336,4,28,54,6,67,2024-01-01
+474,Sony Wheat Flour,Sony,Grocery,Raja Group,Mira-Bhayandar,309,6,42,93,3,44,2024-01-01
+475,Puma Table Lamp,Puma,Home,Kaul-Taneja,Bhilai,468,21,147,32,1,21,2024-01-01
+476,Tata Perfume,Tata,Beauty,Dar Inc,Narasaraopet,408,27,189,73,10,14,2024-01-01
+477,Tata Iron Box,Tata,Home,"Kaur, Chakraborty and Iyer",Aurangabad,174,3,21,65,5,43,2024-01-01
+478,Samsung Table Lamp,Samsung,Home,Prabhu and Sons,Kavali,106,4,28,21,10,21,2024-01-01
+479,Godrej Tablet,Godrej,Electronics,Pal Ltd,Malda,179,3,21,98,7,44,2024-01-01
+480,Puma Vacuum Cleaner,Puma,Home,Das-Lad,Kamarhati,94,7,49,81,5,11,2024-01-01
+481,Amul Camera,Amul,Electronics,"Narasimhan, Dhawan and Virk",Tinsukia,354,7,49,31,8,44,2024-01-01
+482,Himalaya Face Cream,Himalaya,Beauty,Sarma LLC,Kolhapur,462,20,140,88,1,22,2024-01-01
+483,Godrej Juice Bottle,Godrej,Grocery,Sahota-Anne,Jhansi,324,10,70,46,4,29,2024-01-01
+484,Godrej Jacket,Godrej,Apparel,Khanna Group,Ambala,236,17,119,66,1,13,2024-01-01
+485,Tata Soap Bar,Tata,Beauty,Om-Natt,Lucknow,417,19,133,21,10,20,2024-01-01
+486,Amul Mixer Grinder,Amul,Home,Raman-Brahmbhatt,Ulhasnagar,430,19,133,47,6,21,2024-01-01
+487,Philips Perfume,Philips,Beauty,Golla-Chokshi,Eluru,204,27,189,63,10,7,2024-01-01
+488,Puma Hair Oil,Puma,Beauty,Raghavan Inc,Pallavaram,243,6,42,69,5,34,2024-01-01
+489,Samsung Hair Oil,Samsung,Beauty,Bhalla-Balay,Etawah,69,0,0,70,2,69,2024-01-01
+490,Himalaya Shampoo,Himalaya,Beauty,Modi PLC,Purnia,138,17,119,21,1,7,2024-01-01
+491,Godrej Rice Bag,Godrej,Grocery,"Handa, Aurora and Ray",Tiruppur,317,18,126,95,6,16,2024-01-01
+492,Sony Hair Oil,Sony,Beauty,Kadakia PLC,Ramgarh,94,8,56,66,4,10,2024-01-01
+493,Samsung Jeans,Samsung,Apparel,Arora Group,Vijayanagaram,414,13,91,57,1,29,2024-01-01
+494,Himalaya Sugar Packet,Himalaya,Grocery,Nagarajan-Kothari,Bhiwani,68,5,35,54,5,11,2024-01-01
+495,Amul Body Lotion,Amul,Beauty,Swaminathan-Bhargava,Saharanpur,392,15,105,53,7,24,2024-01-01
+496,Sony Table Lamp,Sony,Home,Krish-Bhasin,Naihati,133,19,133,88,4,6,2024-01-01
+497,Sony Camera,Sony,Electronics,Som-Minhas,Kulti,468,10,70,60,2,42,2024-01-01
+498,Nike Mixer Grinder,Nike,Home,Padmanabhan-Dada,Vijayawada,260,5,35,23,6,43,2024-01-01
+499,Amul Socks,Amul,Apparel,Vora-Bedi,Ahmednagar,135,9,63,66,4,13,2024-01-01
+500,Himalaya Socks,Himalaya,Apparel,"Gaba, Das and Gour",Ulhasnagar,350,22,154,52,6,15,2024-01-01
+501,Puma Smartphone,Puma,Electronics,Kanda Group,Panipat,344,13,91,76,3,24,2024-01-01
+502,LG Table Lamp,LG,Home,"Wagle, Mahal and Mital",Amritsar,367,17,119,36,3,20,2024-01-01
+503,Philips Tablet,Philips,Electronics,Borra LLC,Munger,380,5,35,21,10,63,2024-01-01
+504,Puma Laptop,Puma,Electronics,Bahl-Ben,Dibrugarh,356,16,112,63,10,20,2024-01-01
+505,Himalaya TV,Himalaya,Electronics,Panchal-Kapadia,Junagadh,247,17,119,33,2,13,2024-01-01
+506,Philips Body Lotion,Philips,Beauty,"Ganesh, Bajaj and Lad",Haldia,453,2,14,81,1,151,2024-01-01
+507,LG Jacket,LG,Apparel,Halder Group,Nandyal,472,11,77,25,1,39,2024-01-01
+508,LG Iron Box,LG,Home,Mallick-Deshmukh,Nangloi Jat,204,8,56,63,1,22,2024-01-01
+509,Samsung Juice Bottle,Samsung,Grocery,Gupta PLC,Faridabad,93,5,35,37,10,15,2024-01-01
+510,Sony Face Cream,Sony,Beauty,Chad-Chanda,Raichur,63,1,7,61,10,31,2024-01-01
+511,Amul T-Shirt,Amul,Apparel,Nigam Group,Shivpuri,426,15,105,48,3,26,2024-01-01
+512,Himalaya Rice Bag,Himalaya,Grocery,Vasa-Raghavan,Davanagere,220,10,70,73,9,20,2024-01-01
+513,Nike Jeans,Nike,Apparel,"Gokhale, Karnik and Acharya",Cuttack,243,11,77,59,4,20,2024-01-01
+514,Nike Jacket,Nike,Apparel,"Minhas, Kumar and Manda",Danapur,204,11,77,84,4,17,2024-01-01
+515,Philips Jacket,Philips,Apparel,Mahal-Peri,Agra,215,4,28,48,8,43,2024-01-01
+516,Himalaya Smartwatch,Himalaya,Electronics,Agrawal-Chakraborty,Mumbai,103,18,126,71,9,5,2024-01-01
+517,Tata Ceiling Fan,Tata,Home,"Deshpande, Rege and Tripathi",Bhiwandi,418,22,154,48,4,18,2024-01-01
+518,Sony Hair Oil,Sony,Beauty,Balan-Cheema,Tirupati,327,7,49,31,2,40,2024-01-01
+519,LG Jacket,LG,Apparel,"Walia, Mohan and Kala",Chapra,290,9,63,26,3,29,2024-01-01
+520,Samsung Ceiling Fan,Samsung,Home,Prakash PLC,Satna,267,13,91,49,10,19,2024-01-01
+521,Samsung Hair Oil,Samsung,Beauty,Deshpande Ltd,Dharmavaram,408,4,28,87,1,81,2024-01-01
+522,Puma LED Bulb,Puma,Home,Boase Group,Tezpur,368,25,175,63,8,14,2024-01-01
+523,Samsung Iron Box,Samsung,Home,Parsa and Sons,Tumkur,173,17,119,50,2,9,2024-01-01
+524,Samsung Jeans,Samsung,Apparel,Acharya Ltd,Kottayam,418,15,105,64,1,26,2024-01-01
+525,Himalaya Soap Bar,Himalaya,Beauty,Tank-Wadhwa,Madanapalle,128,4,28,83,1,25,2024-01-01
+526,Tata Cap,Tata,Apparel,Kannan-Saini,Amaravati,269,21,147,20,6,12,2024-01-01
+527,LG Laptop,LG,Electronics,"Bandi, Jaggi and Rana",Mysore,413,4,28,93,9,82,2024-01-01
+528,Sony Sneakers,Sony,Apparel,Kaur-Kothari,Dhule,120,7,49,37,3,15,2024-01-01
+529,Philips Table Lamp,Philips,Home,Sachdev-Bhatti,Hubli–Dharwad,324,9,63,84,8,32,2024-01-01
+530,LG Headphones,LG,Electronics,"Maharaj, Rau and Mukhopadhyay",Bhubaneswar,334,8,56,44,4,37,2024-01-01
+531,Philips Perfume,Philips,Beauty,"Murty, Roy and Keer",Salem,193,15,105,49,4,12,2024-01-01
+532,Himalaya Table Lamp,Himalaya,Home,"Kakar, Taneja and Mall",Hospet,196,6,42,80,4,28,2024-01-01
+533,Nike Wheat Flour,Nike,Grocery,Agarwal-Memon,Katihar,468,7,49,98,1,58,2024-01-01
+534,Godrej Hair Oil,Godrej,Beauty,Om and Sons,Bardhaman,306,3,21,92,6,76,2024-01-01
+535,LG Table Lamp,LG,Home,Dutta and Sons,Bidar,482,4,28,27,5,96,2024-01-01
+536,Puma Juice Bottle,Puma,Grocery,Kala and Sons,Saharsa,312,11,77,57,1,26,2024-01-01
+537,Puma Face Cream,Puma,Beauty,Khare-Lata,Kalyan-Dombivli,409,4,28,84,4,81,2024-01-01
+538,Philips Tablet,Philips,Electronics,"Dara, Desai and Sharma",Hazaribagh,418,3,21,56,10,104,2024-01-01
+539,LG Iron Box,LG,Home,Narain-Bhattacharyya,Pali,109,15,105,79,8,6,2024-01-01
+540,Puma Table Lamp,Puma,Home,Jain-Contractor,Bellary,323,15,105,21,5,20,2024-01-01
+541,Godrej T-Shirt,Godrej,Apparel,Dar-Bandi,Mango,430,3,21,79,7,107,2024-01-01
+542,Nike Iron Box,Nike,Home,Dass-Dhar,Gandhinagar,343,16,112,83,9,20,2024-01-01
+543,LG T-Shirt,LG,Apparel,"Baria, Seth and Bahl",Mirzapur,329,18,126,21,8,17,2024-01-01
+544,Puma Soap Bar,Puma,Beauty,Sengupta-Parsa,Bhimavaram,164,12,84,31,8,12,2024-01-01
+545,Amul Sneakers,Amul,Apparel,Sibal-Halder,Ambarnath,293,5,35,90,6,48,2024-01-01
+546,Samsung Smartwatch,Samsung,Electronics,Pandya Inc,Hubli–Dharwad,193,3,21,53,5,48,2024-01-01
+547,Amul Laptop,Amul,Electronics,Mahal LLC,Jalgaon,201,2,14,60,8,67,2024-01-01
+548,Samsung Table Lamp,Samsung,Home,Bhatti and Sons,Tiruchirappalli,227,7,49,57,3,28,2024-01-01
+549,Samsung Cap,Samsung,Apparel,Chahal and Sons,Asansol,417,18,126,81,3,21,2024-01-01
+550,Godrej Ceiling Fan,Godrej,Home,Kalla Ltd,Coimbatore,405,5,35,45,6,67,2024-01-01
+551,Puma Milk Carton,Puma,Grocery,Keer-Nagar,Kumbakonam,408,2,14,38,5,136,2024-01-01
+552,Himalaya Iron Box,Himalaya,Home,Thaker-Dugar,Meerut,385,12,84,40,1,29,2024-01-01
+553,Amul Milk Carton,Amul,Grocery,Narain and Sons,Jaunpur,309,14,98,62,3,20,2024-01-01
+554,Philips Dress,Philips,Apparel,Vyas-Sankar,Barasat,374,9,63,23,2,37,2024-01-01
+555,Sony Table Lamp,Sony,Home,"Khanna, Parikh and Tella",Mahbubnagar,298,0,0,30,8,298,2024-01-01
+556,Sony Smartwatch,Sony,Electronics,Ahuja-Kar,Guwahati,430,6,42,27,3,61,2024-01-01
+557,Godrej Sneakers,Godrej,Apparel,Upadhyay Inc,Ludhiana,270,17,119,37,8,15,2024-01-01
+558,Nike Ceiling Fan,Nike,Home,Choudhry Ltd,Ramgarh,399,12,84,24,5,30,2024-01-01
+559,Philips Juice Bottle,Philips,Grocery,"Bhasin, Dubey and Mand",Singrauli,415,13,91,42,7,29,2024-01-01
+560,Godrej Vacuum Cleaner,Godrej,Home,"Dayal, Bali and Bajaj",Mehsana,50,5,35,22,6,8,2024-01-01
+561,Amul Perfume,Amul,Beauty,Kale Inc,Anand,235,14,98,98,3,15,2024-01-01
+562,Tata Hair Oil,Tata,Beauty,De-Mital,Ozhukarai,408,3,21,32,1,102,2024-01-01
+563,Nike Smartwatch,Nike,Electronics,Varghese-Rajagopalan,Gandhidham,466,8,56,23,4,51,2024-01-01
+564,LG Body Lotion,LG,Beauty,"Kari, Bhatia and Reddy",Vadodara,428,7,49,74,1,53,2024-01-01
+565,Sony Hair Oil,Sony,Beauty,Agate-Padmanabhan,Jalna,465,13,91,72,3,33,2024-01-01
+566,Sony Perfume,Sony,Beauty,Badal-Saha,Deoghar,61,18,126,98,5,3,2024-01-01
+567,Philips Face Cream,Philips,Beauty,"Sethi, Karan and Gokhale",Siwan,488,3,21,28,4,122,2024-01-01
+568,Tata Socks,Tata,Apparel,Rattan-Gour,Latur,151,21,147,66,2,6,2024-01-01
+569,Sony Mixer Grinder,Sony,Home,Vala Group,Panchkula,279,20,140,60,1,13,2024-01-01
+570,Samsung TV,Samsung,Electronics,"Thaker, Pingle and Rajan",Dhule,485,12,84,26,9,37,2024-01-01
+571,Sony Face Wash,Sony,Beauty,Tandon-Toor,Katni,464,18,126,69,2,24,2024-01-01
+572,Tata Headphones,Tata,Electronics,"Uppal, Bajwa and Magar",Dhule,98,22,154,71,5,4,2024-01-01
+573,Philips Face Cream,Philips,Beauty,Sheth PLC,Secunderabad,393,10,70,21,8,35,2024-01-01
+574,Sony Jeans,Sony,Apparel,Sandal PLC,Anantapuram,364,16,112,29,7,21,2024-01-01
+575,Himalaya Cap,Himalaya,Apparel,Karpe Inc,Bhubaneswar,83,8,56,44,3,9,2024-01-01
+576,LG Camera,LG,Electronics,Kaur Group,Srinagar,221,18,126,36,9,11,2024-01-01
+577,LG Mixer Grinder,LG,Home,"Nigam, Tripathi and Mutti",Tezpur,280,13,91,73,8,20,2024-01-01
+578,Godrej Mixer Grinder,Godrej,Home,"Sehgal, Dua and Sheth",Siwan,470,13,91,22,2,33,2024-01-01
+579,Himalaya Salt Pack,Himalaya,Grocery,Venkataraman PLC,Danapur,371,2,14,75,5,123,2024-01-01
+580,Philips Table Lamp,Philips,Home,Dave PLC,Kamarhati,408,1,7,61,7,204,2024-01-01
+581,Philips Hair Oil,Philips,Beauty,"Agrawal, Ghosh and Kanda",Tadepalligudem,412,9,63,22,1,41,2024-01-01
+582,Samsung Perfume,Samsung,Beauty,Mand-Suresh,Pudukkottai,371,1,7,69,2,185,2024-01-01
+583,Philips Jacket,Philips,Apparel,"Tiwari, Barman and Varty",Secunderabad,170,7,49,100,3,21,2024-01-01
+584,Tata Sneakers,Tata,Apparel,"Bandi, Mandal and Rajan",Udupi,199,1,7,83,9,99,2024-01-01
+585,Godrej Body Lotion,Godrej,Beauty,Srinivasan-Rastogi,Hubli–Dharwad,227,27,189,96,6,8,2024-01-01
+586,Samsung LED Bulb,Samsung,Home,Karpe-Anand,Fatehpur,492,7,49,56,3,61,2024-01-01
+587,Sony Sugar Packet,Sony,Grocery,"Dhar, Raj and Sachdeva",New Delhi,356,3,21,44,4,89,2024-01-01
+588,Puma Smartwatch,Puma,Electronics,Sidhu-Master,Mangalore,244,10,70,72,6,22,2024-01-01
+589,Samsung Juice Bottle,Samsung,Grocery,Sankaran-Natarajan,Ghaziabad,350,7,49,67,7,43,2024-01-01
+590,Philips Wheat Flour,Philips,Grocery,Konda-Bansal,Vijayawada,172,4,28,93,2,34,2024-01-01
+591,Himalaya Sneakers,Himalaya,Apparel,Buch-Ramaswamy,Patna,113,14,98,95,3,7,2024-01-01
+592,Nike Vacuum Cleaner,Nike,Home,Kaul-Tandon,Thoothukudi,48,13,91,27,3,3,2024-01-01
+593,Philips Smartphone,Philips,Electronics,Shroff-Gole,Amroha,335,23,161,54,3,13,2024-01-01
+594,Nike T-Shirt,Nike,Apparel,"Reddy, Mani and Mani",Ichalkaranji,63,5,35,65,8,10,2024-01-01
+595,Puma Jeans,Puma,Apparel,Shukla-Wali,Naihati,244,17,119,77,2,13,2024-01-01
+596,Amul Dress,Amul,Apparel,Dugal-Tailor,Ahmednagar,65,2,14,58,5,21,2024-01-01
+597,Puma Dress,Puma,Apparel,Loyal-Brar,Avadi,152,3,21,77,7,38,2024-01-01
+598,Nike Salt Pack,Nike,Grocery,"Wason, Kapur and Sunder",Jaipur,188,7,49,26,8,23,2024-01-01
+599,Tata LED Bulb,Tata,Home,Yogi LLC,Cuttack,302,8,56,64,6,33,2024-01-01
+600,Himalaya Sneakers,Himalaya,Apparel,Natt-Thaker,Durg,136,15,105,71,2,8,2024-01-01
+601,Samsung Laptop,Samsung,Electronics,Yadav Group,Hajipur,182,7,49,37,4,22,2024-01-01
+602,LG Vacuum Cleaner,LG,Home,"Bora, Chanda and Datta",Noida,431,10,70,61,3,39,2024-01-01
+603,Sony Laptop,Sony,Electronics,Purohit-Raghavan,Ballia,481,8,56,77,4,53,2024-01-01
+604,Philips Wheat Flour,Philips,Grocery,"Joshi, Bhakta and Khosla",Yamunanagar,184,15,105,73,1,11,2024-01-01
+605,LG Wheat Flour,LG,Grocery,Din and Sons,Bidhannagar,453,3,21,56,6,113,2024-01-01
+606,Nike Smartphone,Nike,Electronics,"Randhawa, Barad and Kunda",Raipur,377,11,77,93,8,31,2024-01-01
+607,Tata Ceiling Fan,Tata,Home,Suresh-Swaminathan,Khora ,240,11,77,89,5,20,2024-01-01
+608,Nike TV,Nike,Electronics,Chand-Khurana,Chittoor,412,17,119,52,10,22,2024-01-01
+609,Godrej Iron Box,Godrej,Home,Singhal-Prabhu,Berhampore,122,17,119,49,1,6,2024-01-01
+610,Sony Sugar Packet,Sony,Grocery,"Kibe, Deshmukh and Radhakrishnan",Ahmednagar,84,15,105,37,3,5,2024-01-01
+611,Samsung Milk Carton,Samsung,Grocery,Mahajan Inc,Gwalior,273,17,119,56,3,15,2024-01-01
+612,Puma T-Shirt,Puma,Apparel,"Banik, Gola and Nadkarni",Ongole,328,11,77,71,4,27,2024-01-01
+613,Himalaya Dress,Himalaya,Apparel,Chaudhry Ltd,Junagadh,111,29,203,41,1,3,2024-01-01
+614,Nike Cap,Nike,Apparel,Agrawal-Misra,Baranagar,100,19,133,95,7,5,2024-01-01
+615,Himalaya Sugar Packet,Himalaya,Grocery,Vig-Vohra,Unnao,100,12,84,24,1,7,2024-01-01
+616,Puma Mixer Grinder,Puma,Home,"Wadhwa, Deshmukh and Tiwari",Agra,235,7,49,35,7,29,2024-01-01
+617,Godrej T-Shirt,Godrej,Apparel,Ratta-Das,Hubli–Dharwad,229,2,14,43,7,76,2024-01-01
+618,Puma Juice Bottle,Puma,Grocery,Chahal-Manne,Junagadh,282,5,35,66,5,47,2024-01-01
+619,Puma Smartphone,Puma,Electronics,Srivastava Group,Jalna,379,2,14,63,2,126,2024-01-01
+620,Godrej Sneakers,Godrej,Apparel,Dutta-Sur,Adoni,392,16,112,45,2,23,2024-01-01
+621,Puma Laptop,Puma,Electronics,Khalsa-Subramanian,Noida,403,3,21,61,1,100,2024-01-01
+622,Nike Body Lotion,Nike,Beauty,"Bath, Lata and Padmanabhan",Mahbubnagar,326,2,14,67,5,108,2024-01-01
+623,Nike Ceiling Fan,Nike,Home,"Sengupta, Krish and Chaudhary",Bhatpara,258,3,21,66,6,64,2024-01-01
+624,Amul Table Lamp,Amul,Home,Mane-Ghosh,Gopalpur,411,6,42,70,7,58,2024-01-01
+625,Godrej Smartphone,Godrej,Electronics,Kapadia-Bala,Gorakhpur,439,10,70,31,6,39,2024-01-01
+626,Himalaya Perfume,Himalaya,Beauty,Kala-Ravi,Arrah,95,7,49,38,9,11,2024-01-01
+627,Philips Smartphone,Philips,Electronics,Bala Group,Fatehpur,206,4,28,58,6,41,2024-01-01
+628,Himalaya Shampoo,Himalaya,Beauty,"Loke, Iyengar and Ranganathan",Aligarh,118,14,98,94,8,7,2024-01-01
+629,Sony Face Cream,Sony,Beauty,"Kumar, Deol and Khanna",North Dumdum,202,7,49,59,7,25,2024-01-01
+630,Philips Ceiling Fan,Philips,Home,Shankar Group,Gopalpur,337,16,112,89,9,19,2024-01-01
+631,Amul Hair Oil,Amul,Beauty,Raghavan Ltd,Jabalpur,57,6,42,73,8,8,2024-01-01
+632,Samsung Table Lamp,Samsung,Home,Bains Group,Tenali,134,23,161,67,10,5,2024-01-01
+633,Himalaya Jeans,Himalaya,Apparel,Pau-Bahl,Bilaspur,168,17,119,49,2,9,2024-01-01
+634,Philips Cooking Oil,Philips,Grocery,Buch-Dutta,Jodhpur,478,9,63,77,2,47,2024-01-01
+635,Philips Socks,Philips,Apparel,Ganguly-Chokshi,Mahbubnagar,216,10,70,37,10,19,2024-01-01
+636,Godrej Table Lamp,Godrej,Home,Parikh-Dua,Noida,273,1,7,28,2,136,2024-01-01
+637,Amul Iron Box,Amul,Home,Issac LLC,Arrah,306,16,112,54,10,18,2024-01-01
+638,Nike Hair Oil,Nike,Beauty,"Sekhon, Chandran and Dayal",Jodhpur,120,23,161,81,5,5,2024-01-01
+639,LG Sugar Packet,LG,Grocery,Borra-Dass,Unnao,220,3,21,60,7,55,2024-01-01
+640,Godrej Jeans,Godrej,Apparel,"D’Alia, Dey and Loyal",Durg,312,2,14,43,6,104,2024-01-01
+641,Samsung Body Lotion,Samsung,Beauty,Kurian LLC,Hosur,58,12,84,82,8,4,2024-01-01
+642,Himalaya Face Cream,Himalaya,Beauty,Choudhry Inc,Chennai,293,15,105,32,7,18,2024-01-01
+643,Himalaya Iron Box,Himalaya,Home,Narayan-Atwal,Madhyamgram,505,0,0,46,8,505,2024-01-01
+644,Philips Laptop,Philips,Electronics,"Anand, Lala and Puri",Amritsar,67,11,77,63,10,5,2024-01-01
+645,LG Face Cream,LG,Beauty,Kalita-Pandey,Mirzapur,259,21,147,50,4,11,2024-01-01
+646,Amul Soap Bar,Amul,Beauty,"Kakar, Lalla and Peri",Mira-Bhayandar,402,6,42,80,3,57,2024-01-01
+647,Puma Dress,Puma,Apparel,Pant Inc,Motihari,125,3,21,95,6,31,2024-01-01
+648,Puma Headphones,Puma,Electronics,Basu-Tandon,Phagwara,372,2,14,72,6,124,2024-01-01
+649,Godrej Iron Box,Godrej,Home,"Sibal, Mistry and Thaker",Asansol,147,17,119,53,6,8,2024-01-01
+650,Amul Juice Bottle,Amul,Grocery,"Varma, Modi and Narula",Sasaram,83,14,98,87,8,5,2024-01-01
+651,Amul Salt Pack,Amul,Grocery,"Karnik, Menon and Buch",Nagpur,147,13,91,99,9,10,2024-01-01
+652,Samsung Milk Carton,Samsung,Grocery,"Jaggi, Mani and Dugar",Ghaziabad,184,2,14,90,2,61,2024-01-01
+653,Tata Perfume,Tata,Beauty,"Sharaf, Bansal and Shanker",Hubli–Dharwad,302,17,119,53,7,16,2024-01-01
+654,Amul Face Cream,Amul,Beauty,"Bhat, Grewal and Chand",Bhagalpur,314,7,49,33,10,39,2024-01-01
+655,Nike Rice Bag,Nike,Grocery,Chacko-Mital,Durg,98,11,77,23,10,8,2024-01-01
+656,Sony Mixer Grinder,Sony,Home,Behl-Shroff,Narasaraopet,356,8,56,26,9,39,2024-01-01
+657,LG Smartwatch,LG,Electronics,Seth PLC,Bardhaman,423,5,35,86,6,70,2024-01-01
+658,Sony Ceiling Fan,Sony,Home,"Desai, Tripathi and Chaudhry",Saharanpur,444,1,7,69,7,222,2024-01-01
+659,Himalaya Jeans,Himalaya,Apparel,Halder-Tara,Ajmer,334,13,91,61,6,23,2024-01-01
+660,Philips Cap,Philips,Apparel,Nadig-Patla,Suryapet,201,10,70,50,10,18,2024-01-01
+661,Sony Rice Bag,Sony,Grocery,"Khatri, Tak and Malhotra",Gwalior,168,15,105,94,3,10,2024-01-01
+662,Sony Face Wash,Sony,Beauty,"Devan, Nadig and Chandran",Kanpur,238,6,42,71,1,34,2024-01-01
+663,Himalaya Iron Box,Himalaya,Home,Yohannan-Kapoor,Alwar,458,8,56,90,6,50,2024-01-01
+664,Philips Face Wash,Philips,Beauty,Gulati-Menon,Barasat,53,6,42,22,1,7,2024-01-01
+665,Godrej Jacket,Godrej,Apparel,Kaur Ltd,Sambalpur,370,16,112,28,4,21,2024-01-01
+666,Godrej Jacket,Godrej,Apparel,Gopal LLC,Bharatpur,153,7,49,36,8,19,2024-01-01
+667,Puma Jacket,Puma,Apparel,Hegde-Bal,Tinsukia,430,13,91,63,4,30,2024-01-01
+668,Nike LED Bulb,Nike,Home,Goda and Sons,Kurnool,303,10,70,82,1,27,2024-01-01
+669,Himalaya Vacuum Cleaner,Himalaya,Home,Upadhyay-Dani,Jamnagar,292,16,112,82,5,17,2024-01-01
+670,Godrej Rice Bag,Godrej,Grocery,"Muni, Chatterjee and Sura",Dharmavaram,275,2,14,100,5,91,2024-01-01
+671,Himalaya Tablet,Himalaya,Electronics,"Trivedi, Ramanathan and Krishna",Raichur,413,5,35,52,2,68,2024-01-01
+672,Godrej Sugar Packet,Godrej,Grocery,Walia LLC,Thiruvananthapuram,266,16,112,67,5,15,2024-01-01
+673,Himalaya Rice Bag,Himalaya,Grocery,Mani LLC,Jaipur,315,4,28,57,5,63,2024-01-01
+674,Amul Cap,Amul,Apparel,Balakrishnan Group,Rajkot,150,10,70,51,6,13,2024-01-01
+675,Sony Sneakers,Sony,Apparel,Bala-Goyal,Bhalswa Jahangir Pur,420,14,98,68,6,28,2024-01-01
+676,Puma T-Shirt,Puma,Apparel,"Palla, Srinivas and Lanka",Delhi,255,0,0,46,7,255,2024-01-01
+677,Amul Tablet,Amul,Electronics,Walla-Rastogi,Madanapalle,54,7,49,46,9,6,2024-01-01
+678,Puma Tablet,Puma,Electronics,"Agarwal, Sengupta and Khosla",Ahmednagar,430,0,0,65,6,430,2024-01-01
+679,Tata Jacket,Tata,Apparel,"Vyas, Sarna and Merchant",Aurangabad,373,15,105,21,9,23,2024-01-01
+680,Amul Iron Box,Amul,Home,Nagarajan Inc,Eluru,457,6,42,28,7,65,2024-01-01
+681,Tata Soap Bar,Tata,Beauty,"Patla, Tiwari and Soman",Noida,285,11,77,36,1,23,2024-01-01
+682,Philips Ceiling Fan,Philips,Home,Varghese-Nazareth,Nandyal,82,9,63,41,1,8,2024-01-01
+683,Nike TV,Nike,Electronics,Mitter LLC,Bhimavaram,254,22,154,33,5,11,2024-01-01
+684,Nike Iron Box,Nike,Home,Bajwa LLC,Ballia,313,6,42,32,1,44,2024-01-01
+685,Samsung Sneakers,Samsung,Apparel,More-Mandal,Ambattur,284,17,119,99,10,15,2024-01-01
+686,Amul Tablet,Amul,Electronics,Gandhi-Nagy,Belgaum,368,6,42,20,5,52,2024-01-01
+687,LG Smartphone,LG,Electronics,Mohan PLC,Hyderabad,354,2,14,67,9,118,2024-01-01
+688,Nike LED Bulb,Nike,Home,"Chowdhury, Kanda and Basu",Bhopal,228,10,70,99,6,20,2024-01-01
+689,Tata Cap,Tata,Apparel,Om-Mandal,Satna,248,15,105,32,2,15,2024-01-01
+690,Puma Rice Bag,Puma,Grocery,Om LLC,Purnia,367,5,35,58,6,61,2024-01-01
+691,Philips T-Shirt,Philips,Apparel,Sharma Ltd,Agra,275,3,21,85,9,68,2024-01-01
+692,Tata Iron Box,Tata,Home,Manda-Vig,Guntakal,207,18,126,22,2,10,2024-01-01
+693,Amul Socks,Amul,Apparel,Buch-Pradhan,Durgapur,173,1,7,30,6,86,2024-01-01
+694,LG Milk Carton,LG,Grocery,Sandal Group,Jorhat,304,3,21,67,6,76,2024-01-01
+695,Tata Smartphone,Tata,Electronics,"Walia, Behl and Ratti",Darbhanga,87,16,112,85,6,5,2024-01-01
+696,Philips TV,Philips,Electronics,"Dhaliwal, Deshpande and Gera",Hospet,134,12,84,68,4,10,2024-01-01
+697,LG Sneakers,LG,Apparel,Kale LLC,Phusro,376,6,42,84,10,53,2024-01-01
+698,Sony Face Wash,Sony,Beauty,Bhatia Ltd,Khandwa,406,16,112,20,3,23,2024-01-01
+699,Philips Perfume,Philips,Beauty,Basak-Peri,Firozabad,207,5,35,86,7,34,2024-01-01
+700,Nike Iron Box,Nike,Home,"Venkataraman, Rajan and Basu",Kanpur,473,11,77,100,9,39,2024-01-01
+701,Nike Ceiling Fan,Nike,Home,"Dugal, Manne and Pant",Muzaffarpur,204,13,91,62,9,14,2024-01-01
+702,Tata Body Lotion,Tata,Beauty,Dewan-Joshi,Muzaffarpur,218,12,84,87,1,16,2024-01-01
+703,Tata Milk Carton,Tata,Grocery,Chakraborty-Tailor,Pudukkottai,217,10,70,61,2,19,2024-01-01
+704,Amul Jeans,Amul,Apparel,Bera-Raman,Hazaribagh,371,11,77,88,3,30,2024-01-01
+705,Amul Perfume,Amul,Beauty,"Majumdar, Natt and Tak",Begusarai,403,15,105,47,9,25,2024-01-01
+706,Puma Cap,Puma,Apparel,Dhar-Vasa,Sri Ganganagar,376,10,70,38,3,34,2024-01-01
+707,Samsung Salt Pack,Samsung,Grocery,"Bawa, Lal and Gopal",Katihar,211,3,21,44,5,52,2024-01-01
+708,LG Salt Pack,LG,Grocery,"Sankaran, Parikh and Krishnamurthy",Bhilwara,69,13,91,32,9,4,2024-01-01
+709,Godrej T-Shirt,Godrej,Apparel,Char Group,Mathura,104,22,154,72,5,4,2024-01-01
+710,Amul Cooking Oil,Amul,Grocery,Bhatt Inc,Tirunelveli,119,10,70,83,10,10,2024-01-01
+711,Philips Smartphone,Philips,Electronics,Karpe-Dube,Mira-Bhayandar,270,7,49,95,4,33,2024-01-01
+712,Nike Body Lotion,Nike,Beauty,Pillay PLC,Haridwar,310,13,91,99,2,22,2024-01-01
+713,Amul Sugar Packet,Amul,Grocery,Uppal PLC,Nagaon,410,12,84,83,9,31,2024-01-01
+714,Amul Salt Pack,Amul,Grocery,Bir Inc,Dharmavaram,172,11,77,99,1,14,2024-01-01
+715,Nike Table Lamp,Nike,Home,Dayal-Brahmbhatt,Ajmer,230,7,49,98,7,28,2024-01-01
+716,Nike Headphones,Nike,Electronics,Chandra-Bhat,Asansol,429,12,84,64,8,33,2024-01-01
+717,Nike Jeans,Nike,Apparel,Iyengar and Sons,Kumbakonam,355,12,84,50,5,27,2024-01-01
+718,Puma T-Shirt,Puma,Apparel,Kamdar-Balay,Dibrugarh,262,2,14,20,6,87,2024-01-01
+719,Philips Smartphone,Philips,Electronics,Kapoor PLC,Aizawl,62,5,35,97,4,10,2024-01-01
+720,Sony Camera,Sony,Electronics,Dewan PLC,Bhiwandi,235,7,49,34,7,29,2024-01-01
+721,Puma Camera,Puma,Electronics,"Mahajan, Gulati and Lala",Ambala,260,11,77,71,8,21,2024-01-01
+722,Himalaya Soap Bar,Himalaya,Beauty,Mangat Group,North Dumdum,262,14,98,70,9,17,2024-01-01
+723,Amul Rice Bag,Amul,Grocery,Bhargava-Sidhu,Yamunanagar,496,2,14,51,1,165,2024-01-01
+724,Puma Soap Bar,Puma,Beauty,"Narayanan, Butala and Subramanian",Anand,75,6,42,42,1,10,2024-01-01
+725,Sony Socks,Sony,Apparel,"Vasa, Naik and Manda",Surendranagar Dudhrej,327,9,63,72,6,32,2024-01-01
+726,Puma Rice Bag,Puma,Grocery,"Nayar, Bora and Rajagopal",Anantapuram,402,6,42,91,2,57,2024-01-01
+727,Godrej Face Cream,Godrej,Beauty,Pandya and Sons,Siliguri,162,7,49,57,8,20,2024-01-01
+728,LG Jacket,LG,Apparel,"Kalita, Mukherjee and Sampath",Dhanbad,280,11,77,95,1,23,2024-01-01
+729,Puma LED Bulb,Puma,Home,Tandon LLC,Maheshtala,418,12,84,38,8,32,2024-01-01
+730,Godrej Cooking Oil,Godrej,Grocery,De-Kota,South Dumdum,163,25,175,22,5,6,2024-01-01
+731,Himalaya Headphones,Himalaya,Electronics,Vora-Nadkarni,Hapur,373,9,63,68,7,37,2024-01-01
+732,LG Vacuum Cleaner,LG,Home,Menon-Brar,Gaya,465,6,42,78,4,66,2024-01-01
+733,Godrej Perfume,Godrej,Beauty,Kohli and Sons,Vijayanagaram,204,9,63,44,1,20,2024-01-01
+734,Philips Smartphone,Philips,Electronics,Gaba PLC,Visakhapatnam,315,7,49,97,2,39,2024-01-01
+735,LG Soap Bar,LG,Beauty,Chaudry-Brahmbhatt,Anantapuram,117,9,63,77,10,11,2024-01-01
+736,Himalaya Headphones,Himalaya,Electronics,Wali-Babu,Mau,139,4,28,51,8,27,2024-01-01
+737,Himalaya Laptop,Himalaya,Electronics,Karpe-Mutti,Agartala,60,2,14,89,2,20,2024-01-01
+738,Amul LED Bulb,Amul,Home,Kanda and Sons,Gurgaon,397,21,147,22,8,18,2024-01-01
+739,Sony T-Shirt,Sony,Apparel,Master-Yogi,Kishanganj,412,10,70,71,2,37,2024-01-01
+740,LG Mixer Grinder,LG,Home,Ganesan-Ghosh,Saharanpur,316,10,70,21,3,28,2024-01-01
+741,Puma Cooking Oil,Puma,Grocery,Nanda-Tata,Rajkot,386,1,7,90,4,193,2024-01-01
+742,Godrej Laptop,Godrej,Electronics,Agarwal-Subramanian,Nagaon,94,2,14,76,5,31,2024-01-01
+743,Tata Salt Pack,Tata,Grocery,Johal and Sons,Orai,168,15,105,56,7,10,2024-01-01
+744,Himalaya T-Shirt,Himalaya,Apparel,Prabhu Inc,Surat,69,7,49,23,4,8,2024-01-01
+745,LG Dress,LG,Apparel,Shankar Group,Raichur,340,11,77,44,8,28,2024-01-01
+746,Himalaya Mixer Grinder,Himalaya,Home,Ganesh LLC,Medininagar,145,24,168,29,4,5,2024-01-01
+747,Tata Dress,Tata,Apparel,Manda PLC,Singrauli,389,14,98,97,5,25,2024-01-01
+748,Philips Rice Bag,Philips,Grocery,Lalla Ltd,Ajmer,194,5,35,36,3,32,2024-01-01
+749,Tata Mixer Grinder,Tata,Home,Mannan and Sons,Kanpur,357,8,56,95,5,39,2024-01-01
+750,Tata TV,Tata,Electronics,Saha-Narain,Bikaner,272,22,154,58,4,11,2024-01-01
+751,Godrej Laptop,Godrej,Electronics,"Raval, Khurana and Mannan",Gandhinagar,376,7,49,24,7,47,2024-01-01
+752,Nike Headphones,Nike,Electronics,Puri and Sons,Bulandshahr,107,10,70,64,8,9,2024-01-01
+753,Philips Ceiling Fan,Philips,Home,"Tailor, Wagle and Mangat",Bilaspur,469,4,28,82,1,93,2024-01-01
+754,Samsung Laptop,Samsung,Electronics,"Chaudhary, Munshi and Thakur",Ratlam,208,14,98,31,4,13,2024-01-01
+755,Nike Salt Pack,Nike,Grocery,Gopal-Puri,Karimnagar,143,6,42,37,9,20,2024-01-01
+756,Samsung Face Wash,Samsung,Beauty,Shenoy PLC,Dehradun,171,3,21,61,7,42,2024-01-01
+757,Samsung Shampoo,Samsung,Beauty,"Thakkar, Mann and Gole",Malegaon,448,25,175,46,8,17,2024-01-01
+758,Amul Vacuum Cleaner,Amul,Home,"Patla, Sem and Dhawan",Varanasi,252,16,112,78,8,14,2024-01-01
+759,Samsung Vacuum Cleaner,Samsung,Home,Chaudhari-Sundaram,Mirzapur,468,7,49,31,10,58,2024-01-01
+760,Amul Jacket,Amul,Apparel,Gole and Sons,Meerut,338,2,14,73,1,112,2024-01-01
+761,Nike T-Shirt,Nike,Apparel,Walla-Khatri,Ongole,285,11,77,43,10,23,2024-01-01
+762,Himalaya Headphones,Himalaya,Electronics,"Parikh, Naidu and Sachar",Bilaspur,481,18,126,46,2,25,2024-01-01
+763,Godrej Juice Bottle,Godrej,Grocery,"Goda, Shan and Dass",Thanjavur,259,10,70,79,4,23,2024-01-01
+764,LG Smartwatch,LG,Electronics,Mukherjee Inc,Bhimavaram,299,9,63,90,2,29,2024-01-01
+765,Tata LED Bulb,Tata,Home,De-Hegde,Ranchi,483,17,119,93,3,26,2024-01-01
+766,Puma Face Wash,Puma,Beauty,Vora Inc,Sagar,165,8,56,92,1,18,2024-01-01
+767,Himalaya Face Wash,Himalaya,Beauty,Krishnan Inc,Raiganj,433,19,133,83,3,21,2024-01-01
+768,Samsung Milk Carton,Samsung,Grocery,Pant-Lal,Bardhaman,407,1,7,52,7,203,2024-01-01
+769,Nike LED Bulb,Nike,Home,Sibal-Bedi,Jabalpur,192,2,14,82,6,64,2024-01-01
+770,Godrej Socks,Godrej,Apparel,"Pillay, Sem and Khanna",Mahbubnagar,397,6,42,66,1,56,2024-01-01
+771,Nike Table Lamp,Nike,Home,Gupta-Krishnan,Bihar Sharif,79,16,112,79,10,4,2024-01-01
+772,Sony Sugar Packet,Sony,Grocery,Sangha Group,Kalyan-Dombivli,317,8,56,73,1,35,2024-01-01
+773,Sony Vacuum Cleaner,Sony,Home,"Biswas, Mistry and Varughese",Farrukhabad,316,1,7,99,1,158,2024-01-01
+774,LG Shampoo,LG,Beauty,Deep LLC,Orai,423,1,7,24,8,211,2024-01-01
+775,Puma Iron Box,Puma,Home,"Sandhu, Goswami and Goyal",Sagar,245,18,126,31,3,12,2024-01-01
+776,Puma Milk Carton,Puma,Grocery,"Verma, Parikh and Chanda",Motihari,207,8,56,79,8,23,2024-01-01
+777,Puma Body Lotion,Puma,Beauty,Dalal-Desai,Patna,120,2,14,29,5,40,2024-01-01
+778,Nike Mixer Grinder,Nike,Home,Bhakta-Chadha,Serampore,264,6,42,74,3,37,2024-01-01
+779,Sony Face Cream,Sony,Beauty,Goda-Kala,Ambala,44,20,140,88,7,2,2024-01-01
+780,Godrej Soap Bar,Godrej,Beauty,"Lalla, Sankar and Jaggi",Ajmer,449,4,28,40,2,89,2024-01-01
+781,Nike Wheat Flour,Nike,Grocery,Bali-Mohan,Ludhiana,116,3,21,43,9,29,2024-01-01
+782,Nike Dress,Nike,Apparel,Kar-Cherian,Hyderabad,359,15,105,100,8,22,2024-01-01
+783,Sony LED Bulb,Sony,Home,Brar-Chandran,Vasai-Virar,161,3,21,56,9,40,2024-01-01
+784,Himalaya Face Wash,Himalaya,Beauty,Sethi Inc,Kozhikode,346,1,7,72,2,173,2024-01-01
+785,Godrej Jeans,Godrej,Apparel,Merchant-Manne,Dehradun,291,13,91,44,9,20,2024-01-01
+786,Puma Rice Bag,Puma,Grocery,Aggarwal-Rai,Sikar,273,3,21,53,1,68,2024-01-01
+787,Puma Dress,Puma,Apparel,Sani LLC,Thiruvananthapuram,190,6,42,25,8,27,2024-01-01
+788,Tata Jacket,Tata,Apparel,"Bumb, Dani and Warrior",Amaravati,350,0,0,53,1,350,2024-01-01
+789,Samsung Mixer Grinder,Samsung,Home,"Virk, Lata and Sathe",Nizamabad,205,6,42,83,6,29,2024-01-01
+790,Philips Body Lotion,Philips,Beauty,"Agrawal, Chawla and Singhal",Rajahmundry,83,10,70,42,6,7,2024-01-01
+791,Godrej Dress,Godrej,Apparel,Behl-Chawla,Alwar,35,18,126,28,2,1,2024-01-01
+792,Puma Jacket,Puma,Apparel,Bhalla Inc,Secunderabad,109,0,0,71,7,109,2024-01-01
+793,Philips Headphones,Philips,Electronics,Bir Ltd,Dhule,293,4,28,82,3,58,2024-01-01
+794,Nike Milk Carton,Nike,Grocery,Kulkarni PLC,Bhilai,96,7,49,49,8,12,2024-01-01
+795,Puma Rice Bag,Puma,Grocery,Rai PLC,Guntakal,481,7,49,27,5,60,2024-01-01
+796,Nike Dress,Nike,Apparel,Gandhi-Dugal,Gulbarga,254,8,56,50,10,28,2024-01-01
+797,Godrej Jacket,Godrej,Apparel,Garde Ltd,Raipur,79,10,70,66,10,7,2024-01-01
+798,Nike Jacket,Nike,Apparel,"Bali, Ratta and Bassi",Latur,326,3,21,47,10,81,2024-01-01
+799,LG Smartphone,LG,Electronics,"Mohanty, Kala and Buch",Chinsurah,247,8,56,44,2,27,2024-01-01
+800,Nike Vacuum Cleaner,Nike,Home,Sachdeva Ltd,Ramgarh,202,13,91,98,4,14,2024-01-01
+801,Godrej Iron Box,Godrej,Home,Palla Ltd,Berhampore,90,22,154,23,7,3,2024-01-01
+802,Puma LED Bulb,Puma,Home,Choudhary Ltd,Delhi,207,19,133,71,8,10,2024-01-01
+803,LG Milk Carton,LG,Grocery,"Ganesh, Gour and Kant",Mysore,119,7,49,71,10,14,2024-01-01
+804,Tata Mixer Grinder,Tata,Home,De LLC,Nagpur,281,17,119,96,2,15,2024-01-01
+805,Philips Vacuum Cleaner,Philips,Home,"Mukhopadhyay, Basu and Sinha",Narasaraopet,152,20,140,51,3,7,2024-01-01
+806,Puma Tablet,Puma,Electronics,"Cheema, Patil and Chandran",Durg,353,8,56,30,10,39,2024-01-01
+807,LG Face Wash,LG,Beauty,Karpe Inc,Sagar,467,19,133,53,5,23,2024-01-01
+808,Sony Ceiling Fan,Sony,Home,"Bala, Khanna and Chopra",Etawah,408,3,21,47,5,102,2024-01-01
+809,LG Wheat Flour,LG,Grocery,Badal Group,Siliguri,95,11,77,53,10,7,2024-01-01
+810,Samsung Smartphone,Samsung,Electronics,"Rajagopalan, Kunda and Palla",Salem,282,16,112,97,9,16,2024-01-01
+811,Tata Iron Box,Tata,Home,"Dani, Ratti and Chakraborty",Jamnagar,142,10,70,22,1,12,2024-01-01
+812,LG Dress,LG,Apparel,"Chopra, Sethi and Bobal",Nellore,307,14,98,64,5,20,2024-01-01
+813,Philips Ceiling Fan,Philips,Home,Sidhu and Sons,Khandwa,423,8,56,92,6,47,2024-01-01
+814,Puma Camera,Puma,Electronics,Sarma PLC,Mira-Bhayandar,114,3,21,94,5,28,2024-01-01
+815,Philips Laptop,Philips,Electronics,Basak-Jhaveri,Ambala,186,7,49,24,3,23,2024-01-01
+816,Nike Smartwatch,Nike,Electronics,Bail-Patil,Kochi,289,3,21,20,7,72,2024-01-01
+817,Puma Shampoo,Puma,Beauty,"Bhatt, Ramachandran and Sundaram",Bhubaneswar,74,16,112,46,10,4,2024-01-01
+818,Amul Ceiling Fan,Amul,Home,"Thakur, Parsa and Brahmbhatt",Khandwa,151,1,7,36,7,75,2024-01-01
+819,LG LED Bulb,LG,Home,"Om, Walia and Uppal",Shimoga,433,3,21,31,4,108,2024-01-01
+820,Philips Mixer Grinder,Philips,Home,"Agarwal, Maharaj and Pall",Siwan,67,10,70,50,1,6,2024-01-01
+821,Philips Vacuum Cleaner,Philips,Home,Mammen PLC,Bhimavaram,368,8,56,72,8,40,2024-01-01
+822,Nike Hair Oil,Nike,Beauty,"Soni, Venkataraman and Kurian",Tenali,334,4,28,67,10,66,2024-01-01
+823,Philips Wheat Flour,Philips,Grocery,Baria Ltd,Warangal,360,26,182,34,8,13,2024-01-01
+824,Sony Rice Bag,Sony,Grocery,Raval-Kalla,Proddatur,416,8,56,100,5,46,2024-01-01
+825,Sony Face Cream,Sony,Beauty,Sarkar-Sachdeva,Durg,48,10,70,90,10,4,2024-01-01
+826,Amul Camera,Amul,Electronics,Dua-Karnik,Srinagar,374,20,140,38,5,17,2024-01-01
+827,LG Hair Oil,LG,Beauty,Khosla-Saxena,Gaya,436,11,77,92,5,36,2024-01-01
+828,Tata Table Lamp,Tata,Home,Hayer-Varkey,Firozabad,326,19,133,84,6,16,2024-01-01
+829,Amul Face Wash,Amul,Beauty,Din-Pandya,Agartala,236,9,63,60,3,23,2024-01-01
+830,Samsung Smartphone,Samsung,Electronics,"Roy, Natt and Divan",Chinsurah,211,16,112,78,3,12,2024-01-01
+831,Godrej Soap Bar,Godrej,Beauty,"Sankar, Mani and Raju",Karnal,293,2,14,94,3,97,2024-01-01
+832,LG Smartphone,LG,Electronics,"Chaudry, Walla and Kata",Bhiwandi,412,11,77,69,8,34,2024-01-01
+833,Himalaya Face Cream,Himalaya,Beauty,"Batta, Sarin and Devan",Patna,170,15,105,84,7,10,2024-01-01
+834,Nike Tablet,Nike,Electronics,"Hora, Ratta and Biswas",Jalandhar,334,14,98,20,8,22,2024-01-01
+835,Godrej Jeans,Godrej,Apparel,Saha and Sons,Jorhat,376,11,77,44,10,31,2024-01-01
+836,Tata T-Shirt,Tata,Apparel,Murthy-Srivastava,Lucknow,295,22,154,34,4,12,2024-01-01
+837,Samsung Socks,Samsung,Apparel,Batta-Bhatnagar,Durg,116,8,56,25,1,12,2024-01-01
+838,Sony Dress,Sony,Apparel,"Sarin, Gera and Singh",Kurnool,132,11,77,81,2,11,2024-01-01
+839,Nike TV,Nike,Electronics,Ratta-Deol,Warangal,261,6,42,30,1,37,2024-01-01
+840,Sony Mixer Grinder,Sony,Home,"Pingle, Handa and Misra",Nashik,100,11,77,94,3,8,2024-01-01
+841,Godrej Shampoo,Godrej,Beauty,Kapur-Zachariah,Tumkur,472,11,77,59,10,39,2024-01-01
+842,Amul Sneakers,Amul,Apparel,Puri-Dalal,Thoothukudi,483,13,91,84,9,34,2024-01-01
+843,Amul Sugar Packet,Amul,Grocery,"Banik, Bali and Pradhan",Tinsukia,453,4,28,98,8,90,2024-01-01
+844,Nike Ceiling Fan,Nike,Home,Dhar-Nadkarni,Muzaffarpur,163,5,35,94,1,27,2024-01-01
+845,Sony Vacuum Cleaner,Sony,Home,Agrawal-Manne,Ratlam,374,7,49,76,10,46,2024-01-01
+846,Nike Dress,Nike,Apparel,Sagar-Bava,Nanded,221,5,35,97,2,36,2024-01-01
+847,Puma Face Wash,Puma,Beauty,"Khatri, Kibe and Sarna",Gopalpur,422,4,28,58,6,84,2024-01-01
+848,Philips Body Lotion,Philips,Beauty,Mistry Group,Sasaram,419,3,21,60,9,104,2024-01-01
+849,LG Salt Pack,LG,Grocery,Bal-Khurana,Ghaziabad,334,1,7,87,7,167,2024-01-01
+850,LG LED Bulb,LG,Home,Krish PLC,Morbi,440,6,42,30,9,62,2024-01-01
+851,Nike Laptop,Nike,Electronics,Prashad-Ramesh,Guwahati,122,15,105,73,4,7,2024-01-01
+852,Puma Smartwatch,Puma,Electronics,"Sanghvi, Suri and Bandi",Satara,263,17,119,56,7,14,2024-01-01
+853,Nike Body Lotion,Nike,Beauty,"Khare, Kaur and Dhillon",Ranchi,65,14,98,88,6,4,2024-01-01
+854,Himalaya TV,Himalaya,Electronics,"Natarajan, Raj and Sehgal",Kanpur,340,0,0,67,5,340,2024-01-01
+855,Amul Vacuum Cleaner,Amul,Home,Soman-Chokshi,Gopalpur,417,11,77,60,5,34,2024-01-01
+856,LG Table Lamp,LG,Home,Dey and Sons,Shahjahanpur,351,23,161,68,3,14,2024-01-01
+857,Samsung Jeans,Samsung,Apparel,Dubey-Lal,Kota,162,10,70,88,10,14,2024-01-01
+858,Nike Soap Bar,Nike,Beauty,Kala and Sons,Rourkela,324,12,84,54,7,24,2024-01-01
+859,Amul Sneakers,Amul,Apparel,Chadha-Wali,Malda,137,3,21,99,6,34,2024-01-01
+860,Samsung Smartwatch,Samsung,Electronics,Baria PLC,Chandrapur,185,13,91,23,1,13,2024-01-01
+861,LG Camera,LG,Electronics,Lalla PLC,Haridwar,392,10,70,26,9,35,2024-01-01
+862,Nike Jacket,Nike,Apparel,"Sood, Thaker and Gola",Arrah,402,13,91,89,3,28,2024-01-01
+863,Amul T-Shirt,Amul,Apparel,Apte-Bora,Bangalore,151,13,91,84,6,10,2024-01-01
+864,Godrej Cooking Oil,Godrej,Grocery,Dubey Inc,Dhanbad,257,16,112,98,5,15,2024-01-01
+865,Amul Jacket,Amul,Apparel,Koshy Ltd,Guna,428,3,21,34,10,107,2024-01-01
+866,Amul Rice Bag,Amul,Grocery,Chanda PLC,Thanjavur,261,5,35,76,8,43,2024-01-01
+867,Samsung Ceiling Fan,Samsung,Home,Subramaniam PLC,Aurangabad,72,1,7,75,6,36,2024-01-01
+868,Nike Cap,Nike,Apparel,Sundaram Inc,Madurai,342,5,35,27,3,57,2024-01-01
+869,Philips T-Shirt,Philips,Apparel,"Bahl, Munshi and Kannan",Unnao,432,1,7,49,9,216,2024-01-01
+870,Amul Table Lamp,Amul,Home,Khurana LLC,Satna,314,17,119,100,9,17,2024-01-01
+871,Puma Vacuum Cleaner,Puma,Home,Kannan-Setty,Maheshtala,476,6,42,36,2,68,2024-01-01
+872,Samsung Milk Carton,Samsung,Grocery,Baria-Mani,Jamnagar,101,12,84,22,4,7,2024-01-01
+873,Nike Tablet,Nike,Electronics,"Nath, Nanda and Savant",Barasat,200,17,119,24,6,11,2024-01-01
+874,Himalaya Salt Pack,Himalaya,Grocery,Chakrabarti LLC,Mau,267,9,63,59,5,26,2024-01-01
+875,Sony Tablet,Sony,Electronics,"Oommen, Walla and Padmanabhan",Baranagar,53,6,42,23,2,7,2024-01-01
+876,Nike Body Lotion,Nike,Beauty,"Rout, Salvi and Zacharia",Vijayanagaram,452,1,7,67,7,226,2024-01-01
+877,Amul Smartphone,Amul,Electronics,Shanker-Thakkar,Jaunpur,57,6,42,43,5,8,2024-01-01
+878,LG Smartphone,LG,Electronics,Bhasin Ltd,Kollam,192,2,14,70,6,64,2024-01-01
+879,Tata Camera,Tata,Electronics,Prabhu-Korpal,Chapra,117,2,14,29,3,39,2024-01-01
+880,Sony Sugar Packet,Sony,Grocery,Din-Hari,Tiruvottiyur,248,8,56,26,5,27,2024-01-01
+881,Nike Sugar Packet,Nike,Grocery,"Mohan, Dutt and Solanki",Asansol,396,9,63,40,4,39,2024-01-01
+882,Nike T-Shirt,Nike,Apparel,Johal-Kumar,Aligarh,237,10,70,24,1,21,2024-01-01
+883,Nike Cap,Nike,Apparel,"Natt, Bhatia and Prasad",Mahbubnagar,223,1,7,63,1,111,2024-01-01
+884,Sony Ceiling Fan,Sony,Home,Ramesh-Karnik,Secunderabad,459,14,98,61,7,30,2024-01-01
+885,Puma Face Wash,Puma,Beauty,"Srinivasan, Gole and Chhabra",Suryapet,105,9,63,55,2,10,2024-01-01
+886,LG Perfume,LG,Beauty,Modi Inc,Jamalpur,271,19,133,70,6,13,2024-01-01
+887,Puma LED Bulb,Puma,Home,Krishnamurthy-Kadakia,Parbhani,453,4,28,90,9,90,2024-01-01
+888,Samsung Table Lamp,Samsung,Home,"Luthra, Ranganathan and Rana",Ramgarh,325,2,14,28,5,108,2024-01-01
+889,Samsung Wheat Flour,Samsung,Grocery,Naidu and Sons,Sirsa,62,13,91,69,6,4,2024-01-01
+890,Nike Jacket,Nike,Apparel,Bava Inc,Durgapur,286,0,0,44,4,286,2024-01-01
+891,Tata Hair Oil,Tata,Beauty,Savant-Borde,Ichalkaranji,330,3,21,28,6,82,2024-01-01
+892,Himalaya Salt Pack,Himalaya,Grocery,Soman-Dyal,Naihati,59,5,35,81,1,9,2024-01-01
+893,Tata LED Bulb,Tata,Home,"Sahni, Thakkar and Singh",Sonipat,487,9,63,84,10,48,2024-01-01
+894,Sony Ceiling Fan,Sony,Home,"Ghosh, Kari and Pall",Farrukhabad,170,17,119,100,9,9,2024-01-01
+895,Nike LED Bulb,Nike,Home,Kapadia Inc,Ludhiana,245,1,7,28,1,122,2024-01-01
+896,Samsung Body Lotion,Samsung,Beauty,Batta-Borra,Hospet,311,4,28,87,9,62,2024-01-01
+897,Puma Laptop,Puma,Electronics,Kala-Prabhakar,Moradabad,485,1,7,36,1,242,2024-01-01
+898,Puma LED Bulb,Puma,Home,Varghese-Maharaj,Aizawl,225,6,42,86,9,32,2024-01-01
+899,Philips Headphones,Philips,Electronics,Bose Group,Madanapalle,431,13,91,56,7,30,2024-01-01
+900,LG Face Wash,LG,Beauty,"Basak, Gulati and Soni",Ratlam,399,10,70,28,9,36,2024-01-01
+901,Amul Table Lamp,Amul,Home,Sinha-Solanki,Kanpur,108,20,140,66,7,5,2024-01-01
+902,Puma Dress,Puma,Apparel,Khosla Group,Haridwar,309,1,7,88,1,154,2024-01-01
+903,Tata Body Lotion,Tata,Beauty,Oak-Nagi,Salem,216,15,105,57,4,13,2024-01-01
+904,Philips Soap Bar,Philips,Beauty,Jain-Hegde,Berhampur,186,8,56,44,1,20,2024-01-01
+905,Nike Iron Box,Nike,Home,Ranganathan Ltd,Hospet,380,1,7,77,10,190,2024-01-01
+906,Tata Vacuum Cleaner,Tata,Home,Mann Inc,Yamunanagar,358,19,133,31,6,17,2024-01-01
+907,Samsung Smartwatch,Samsung,Electronics,Chakrabarti-Sastry,Siwan,116,9,63,98,4,11,2024-01-01
+908,Philips Dress,Philips,Apparel,Apte-Basak,Patiala,52,13,91,61,5,3,2024-01-01
+909,Godrej Laptop,Godrej,Electronics,Pal Ltd,Mahbubnagar,349,8,56,48,4,38,2024-01-01
+910,LG Sugar Packet,LG,Grocery,Chaudhry and Sons,Patiala,461,13,91,66,9,32,2024-01-01
+911,Nike Wheat Flour,Nike,Grocery,"Venkatesh, Kannan and Tak",Rewa,44,10,70,90,1,4,2024-01-01
+912,Himalaya Tablet,Himalaya,Electronics,Bhavsar Inc,Sangli-Miraj & Kupwad,198,3,21,33,6,49,2024-01-01
+913,Tata Rice Bag,Tata,Grocery,"Hayre, Dewan and Thaker",Bhilwara,199,9,63,78,9,19,2024-01-01
+914,LG Laptop,LG,Electronics,Prabhu Group,Rajpur Sonarpur,160,29,203,20,6,5,2024-01-01
+915,Philips Tablet,Philips,Electronics,"Kalla, Sharma and Ganesh",Nashik,165,11,77,87,10,13,2024-01-01
+916,Puma Tablet,Puma,Electronics,"Goswami, Khurana and Pau",Panihati,112,13,91,60,7,8,2024-01-01
+917,Nike Table Lamp,Nike,Home,Naik-Gade,Thane,82,12,84,47,10,6,2024-01-01
+918,LG Ceiling Fan,LG,Home,"Dave, Bhargava and Banik",Chennai,256,2,14,49,5,85,2024-01-01
+919,Philips Salt Pack,Philips,Grocery,"D’Alia, Biswas and Shroff",Ujjain,332,3,21,92,9,83,2024-01-01
+920,Godrej Perfume,Godrej,Beauty,Lad Group,Pallavaram,261,5,35,100,1,43,2024-01-01
+921,Nike Wheat Flour,Nike,Grocery,"Pandit, Koshy and Grewal",Berhampur,380,22,154,50,1,16,2024-01-01
+922,LG Sugar Packet,LG,Grocery,Radhakrishnan-Shere,Hyderabad,275,2,14,51,4,91,2024-01-01
+923,Samsung Salt Pack,Samsung,Grocery,Karan LLC,Amritsar,311,2,14,54,8,103,2024-01-01
+924,Himalaya Laptop,Himalaya,Electronics,Grover Group,Jabalpur,358,0,0,41,9,358,2024-01-01
+925,Himalaya Shampoo,Himalaya,Beauty,Dutta and Sons,Panchkula,359,2,14,85,6,119,2024-01-01
+926,Amul TV,Amul,Electronics,Comar-Nayar,Rajkot,193,14,98,40,8,12,2024-01-01
+927,Himalaya Smartphone,Himalaya,Electronics,Manda Ltd,Mehsana,403,22,154,66,8,17,2024-01-01
+928,Godrej Dress,Godrej,Apparel,"Sunder, Prabhakar and Balasubramanian",Jhansi,248,13,91,44,10,17,2024-01-01
+929,Nike Salt Pack,Nike,Grocery,Kade Group,Bhavnagar,90,7,49,91,6,11,2024-01-01
+930,LG TV,LG,Electronics,Chatterjee Group,Bareilly,421,26,182,42,2,15,2024-01-01
+931,Tata Cooking Oil,Tata,Grocery,"Yadav, Dave and Chowdhury",Satna,88,16,112,63,8,5,2024-01-01
+932,Sony Camera,Sony,Electronics,Viswanathan Ltd,Kalyan-Dombivli,90,8,56,87,4,10,2024-01-01
+933,Samsung Iron Box,Samsung,Home,Parsa-Sampath,Silchar,50,11,77,84,4,4,2024-01-01
+934,Nike Milk Carton,Nike,Grocery,"Varughese, Chandran and Suri",Ulhasnagar,130,14,98,45,1,8,2024-01-01
+935,Puma Smartwatch,Puma,Electronics,Tripathi LLC,Akola,460,6,42,79,8,65,2024-01-01
+936,Philips Face Wash,Philips,Beauty,"Kapur, Ahluwalia and Bassi",Junagadh,114,27,189,28,9,4,2024-01-01
+937,Himalaya Camera,Himalaya,Electronics,Narayan and Sons,Bettiah,364,19,133,66,10,18,2024-01-01
+938,Samsung Wheat Flour,Samsung,Grocery,"Babu, Bir and Rau",Chapra,215,7,49,67,7,26,2024-01-01
+939,Godrej Milk Carton,Godrej,Grocery,Shere Group,Ghaziabad,252,14,98,44,3,16,2024-01-01
+940,Philips Juice Bottle,Philips,Grocery,Kalita-Mangat,Serampore,414,12,84,43,9,31,2024-01-01
+941,Philips Face Cream,Philips,Beauty,Varma and Sons,Bhatpara,247,13,91,30,2,17,2024-01-01
+942,Puma Soap Bar,Puma,Beauty,"Vohra, Doctor and Raj",Jehanabad,432,16,112,50,6,25,2024-01-01
+943,LG Face Wash,LG,Beauty,Jhaveri-Toor,Pali,381,0,0,80,5,381,2024-01-01
+944,Tata Smartphone,Tata,Electronics,Prakash Group,Thoothukudi,180,14,98,69,6,12,2024-01-01
+945,LG Milk Carton,LG,Grocery,Andra-Kibe,Bhubaneswar,319,0,0,81,1,319,2024-01-01
+946,Sony Milk Carton,Sony,Grocery,"Pillay, Sood and Dasgupta",Firozabad,259,12,84,26,3,19,2024-01-01
+947,Nike Face Wash,Nike,Beauty,"Mitter, Kashyap and Padmanabhan",Proddatur,40,11,77,80,4,3,2024-01-01
+948,LG Sugar Packet,LG,Grocery,Dhar-Gara,Jalna,423,11,77,20,6,35,2024-01-01
+949,Himalaya Hair Oil,Himalaya,Beauty,"Ahluwalia, Dey and Loyal",Siwan,215,6,42,75,1,30,2024-01-01
+950,Sony Face Cream,Sony,Beauty,Kala LLC,Mathura,467,21,147,24,10,21,2024-01-01
+951,Amul TV,Amul,Electronics,"Bhalla, Choudhury and Vyas",Anantapur,292,2,14,95,4,97,2024-01-01
+952,Sony Ceiling Fan,Sony,Home,Mannan-Ramanathan,Kavali,334,20,140,20,2,15,2024-01-01
+953,Amul Cooking Oil,Amul,Grocery,"Mutti, Uppal and Nanda",Kirari Suleman Nagar,69,14,98,48,9,4,2024-01-01
+954,LG LED Bulb,LG,Home,Sane-Khanna,Hosur,172,26,182,78,1,6,2024-01-01
+955,Amul Hair Oil,Amul,Beauty,"Bhasin, Tandon and Chowdhury",Korba,453,19,133,64,7,22,2024-01-01
+956,Amul Smartphone,Amul,Electronics,Yohannan LLC,Sirsa,209,3,21,42,6,52,2024-01-01
+957,Nike Socks,Nike,Apparel,Zacharia-Kari,Kakinada,194,15,105,61,8,12,2024-01-01
+958,Nike Face Wash,Nike,Beauty,Tiwari PLC,Muzaffarpur,196,3,21,43,5,49,2024-01-01
+959,Himalaya Sugar Packet,Himalaya,Grocery,"Wadhwa, Dua and Ramaswamy",Adoni,317,7,49,34,5,39,2024-01-01
+960,Himalaya Laptop,Himalaya,Electronics,Vasa Group,Kishanganj,274,8,56,33,1,30,2024-01-01
+961,Puma Mixer Grinder,Puma,Home,Bawa Group,Gandhinagar,322,1,7,52,5,161,2024-01-01
+962,Godrej Milk Carton,Godrej,Grocery,Virk-Iyer,Jaunpur,167,14,98,21,9,11,2024-01-01
+963,Puma Dress,Puma,Apparel,Pai-Loyal,Nellore,355,13,91,21,8,25,2024-01-01
+964,Tata Dress,Tata,Apparel,"Talwar, Kalla and Amble",Solapur,162,4,28,34,5,32,2024-01-01
+965,Nike Table Lamp,Nike,Home,Goswami LLC,Dharmavaram,325,4,28,67,6,65,2024-01-01
+966,Samsung Body Lotion,Samsung,Beauty,Padmanabhan Ltd,Kottayam,55,6,42,100,6,7,2024-01-01
+967,Puma Cooking Oil,Puma,Grocery,Chad Ltd,Ratlam,434,1,7,53,6,217,2024-01-01
+968,Himalaya LED Bulb,Himalaya,Home,Dalal-Ganesh,Sambhal,270,1,7,20,1,135,2024-01-01
+969,Samsung Body Lotion,Samsung,Beauty,Gandhi Ltd,Mangalore,97,2,14,48,8,32,2024-01-01
+970,Puma Laptop,Puma,Electronics,Ahluwalia Inc,Serampore,281,18,126,93,7,14,2024-01-01
+971,Himalaya Camera,Himalaya,Electronics,"Varty, Oza and Sawhney",Jorhat,91,10,70,73,1,8,2024-01-01
+972,Godrej Laptop,Godrej,Electronics,Hayre-Pingle,Moradabad,326,6,42,53,3,46,2024-01-01
+973,Sony Perfume,Sony,Beauty,Devi Ltd,Khammam,399,0,0,77,6,399,2024-01-01
+974,LG Mixer Grinder,LG,Home,Bath PLC,Srikakulam,272,17,119,61,1,15,2024-01-01
+975,Puma Dress,Puma,Apparel,Sarraf PLC,Tezpur,496,0,0,89,5,496,2024-01-01
+976,LG Sugar Packet,LG,Grocery,Patil and Sons,Rewa,471,12,84,75,4,36,2024-01-01
+977,Amul Cap,Amul,Apparel,Sachdev Group,Rajpur Sonarpur,60,0,0,40,4,60,2024-01-01
+978,Amul Smartwatch,Amul,Electronics,Bala-Dixit,Maheshtala,83,0,0,83,6,83,2024-01-01
+979,Godrej Soap Bar,Godrej,Beauty,"Savant, Parsa and Naidu",Jamnagar,316,1,7,63,3,158,2024-01-01
+980,Philips T-Shirt,Philips,Apparel,"Naik, Kaur and Narula",Surat,73,1,7,73,10,36,2024-01-01
+981,LG Jeans,LG,Apparel,De LLC,Medininagar,263,6,42,86,4,37,2024-01-01
+982,Puma Sugar Packet,Puma,Grocery,"Pathak, Nagar and Verma",Avadi,162,4,28,76,2,32,2024-01-01
+983,LG Sneakers,LG,Apparel,Sabharwal and Sons,Kochi,123,15,105,84,1,7,2024-01-01
+984,Amul Wheat Flour,Amul,Grocery,Bir-Narula,Panipat,491,7,49,99,10,61,2024-01-01
+985,Samsung Mixer Grinder,Samsung,Home,Nagarajan Group,Nangloi Jat,132,13,91,21,2,9,2024-01-01
+986,Amul Rice Bag,Amul,Grocery,"Srinivas, Bhatt and Sundaram",Guwahati,260,3,21,93,1,65,2024-01-01
+987,Samsung Juice Bottle,Samsung,Grocery,"Lala, Raju and Dhar",Amaravati,70,6,42,87,9,10,2024-01-01
+988,LG Juice Bottle,LG,Grocery,"Chaudhary, Bajaj and Sandal",Pondicherry,301,12,84,56,2,23,2024-01-01
+989,Puma Cap,Puma,Apparel,"Dube, Kapadia and Kata",Bhalswa Jahangir Pur,450,1,7,57,10,225,2024-01-01
+990,Philips Table Lamp,Philips,Home,Lad-Oommen,Tumkur,356,2,14,95,5,118,2024-01-01
+991,Philips Headphones,Philips,Electronics,"Sama, Pau and Saran",Tadepalligudem,83,8,56,37,3,9,2024-01-01
+992,Puma Mixer Grinder,Puma,Home,"Palan, Bava and Saran",Danapur,313,19,133,79,9,15,2024-01-01
+993,Amul Soap Bar,Amul,Beauty,Muni-Pandey,Hubli–Dharwad,456,1,7,41,7,228,2024-01-01
+994,Godrej Headphones,Godrej,Electronics,Nagar Group,Allahabad,237,1,7,65,8,118,2024-01-01
+995,Amul Body Lotion,Amul,Beauty,Baria-Hegde,Nellore,426,0,0,78,9,426,2024-01-01
+996,Himalaya Wheat Flour,Himalaya,Grocery,Palla PLC,Sirsa,174,18,126,92,7,9,2024-01-01
+997,Amul Hair Oil,Amul,Beauty,Samra-Hegde,Kulti,157,6,42,70,5,22,2024-01-01
+998,Puma Iron Box,Puma,Home,Rajagopalan-Mukhopadhyay,Baranagar,60,15,105,91,6,3,2024-01-01
+999,Amul T-Shirt,Amul,Apparel,Cherian Group,Hajipur,74,13,91,57,4,5,2024-01-01
+1000,Philips Sugar Packet,Philips,Grocery,"Gera, Jayaraman and Nori",Junagadh,61,12,84,30,8,4,2024-01-01
+1001,LG Rice Bag,LG,Grocery,Nadig-Gole,Maheshtala,285,11,77,93,6,23,2024-01-01
+1002,Godrej Milk Carton,Godrej,Grocery,Gola-Muni,Kurnool,125,3,21,32,5,31,2024-01-01
+1003,Samsung Table Lamp,Samsung,Home,Tiwari-Singh,Bettiah,149,2,14,63,2,49,2024-01-01
+1004,Samsung Smartwatch,Samsung,Electronics,Ahluwalia-Divan,Khora ,286,14,98,89,1,19,2024-01-01
+1005,Puma Tablet,Puma,Electronics,Sehgal-Subramaniam,Durg,135,7,49,32,7,16,2024-01-01
+1006,Amul Jacket,Amul,Apparel,Murty and Sons,Raiganj,121,4,28,60,10,24,2024-01-01
+1007,Godrej Juice Bottle,Godrej,Grocery,Prasad-Ratti,Panihati,306,8,56,39,1,34,2024-01-01
+1008,Nike Ceiling Fan,Nike,Home,Yohannan PLC,Jehanabad,438,13,91,74,3,31,2024-01-01
+1009,LG Dress,LG,Apparel,"Din, Butala and Chaudry",Burhanpur,97,6,42,42,7,13,2024-01-01
+1010,Godrej Socks,Godrej,Apparel,Patla-Sarna,Dehradun,280,6,42,48,2,40,2024-01-01
+1011,Himalaya Face Cream,Himalaya,Beauty,Arora-Lata,Singrauli,125,12,84,49,7,9,2024-01-01
+1012,Godrej T-Shirt,Godrej,Apparel,Ramakrishnan-Rai,Aurangabad,217,2,14,35,1,72,2024-01-01
+1013,Puma Table Lamp,Puma,Home,"Palla, Shetty and Kala",Unnao,323,1,7,96,9,161,2024-01-01
+1014,Himalaya Sugar Packet,Himalaya,Grocery,"Lala, Rau and Saini",Phagwara,399,26,182,79,2,14,2024-01-01
+1015,Godrej Laptop,Godrej,Electronics,"Batra, Gala and Sandal",Tiruchirappalli,408,2,14,47,1,136,2024-01-01
+1016,Tata TV,Tata,Electronics,Tiwari-Subramanian,Nagercoil,202,7,49,31,2,25,2024-01-01
+1017,LG Laptop,LG,Electronics,Nagar Inc,Purnia,466,7,49,66,3,58,2024-01-01
+1018,LG Hair Oil,LG,Beauty,Sandal and Sons,Bhilai,458,7,49,47,7,57,2024-01-01
+1019,Puma Laptop,Puma,Electronics,Vyas-Gola,Loni,182,15,105,96,5,11,2024-01-01
+1020,LG Cap,LG,Apparel,"Viswanathan, Ben and Agrawal",Rampur,393,15,105,97,5,24,2024-01-01
+1021,Amul Cap,Amul,Apparel,Khatri-Sanghvi,Guntakal,48,2,14,99,8,16,2024-01-01
+1022,Nike Salt Pack,Nike,Grocery,Taneja-Halder,Surat,477,8,56,27,5,53,2024-01-01
+1023,Puma Cap,Puma,Apparel,Varughese-Chander,Bhagalpur,247,7,49,97,9,30,2024-01-01
+1024,Amul TV,Amul,Electronics,Bawa-Sha,Madanapalle,158,15,105,40,5,9,2024-01-01
+1025,Samsung Headphones,Samsung,Electronics,Sanghvi Ltd,Purnia,244,19,133,87,4,12,2024-01-01
+1026,Sony Camera,Sony,Electronics,Dhawan PLC,Firozabad,260,2,14,30,8,86,2024-01-01
+1027,Tata Dress,Tata,Apparel,Toor-Sarma,Ratlam,491,9,63,49,9,49,2024-01-01
+1028,Sony Jeans,Sony,Apparel,Char-Bava,Chapra,391,7,49,61,5,48,2024-01-01
+1029,Sony Cooking Oil,Sony,Grocery,Date-Boase,Bhavnagar,373,5,35,28,8,62,2024-01-01
+1030,Sony Vacuum Cleaner,Sony,Home,Sane-Arora,Rourkela,264,12,84,55,3,20,2024-01-01
+1031,Tata Cap,Tata,Apparel,Brahmbhatt-Jhaveri,Bhind,261,2,14,95,2,87,2024-01-01
+1032,LG TV,LG,Electronics,Patla-Sethi,Kadapa,161,10,70,37,3,14,2024-01-01
+1033,Sony Tablet,Sony,Electronics,Banerjee-Karpe,Ongole,315,1,7,69,5,157,2024-01-01
+1034,Sony Perfume,Sony,Beauty,Keer-Dave,Madanapalle,355,7,49,96,4,44,2024-01-01
+1035,Samsung Jeans,Samsung,Apparel,"Acharya, Savant and Subramanian",Gulbarga,365,8,56,56,5,40,2024-01-01
+1036,Amul Smartwatch,Amul,Electronics,Merchant and Sons,Udaipur,77,13,91,35,10,5,2024-01-01
+1037,Godrej Hair Oil,Godrej,Beauty,"Keer, Kapoor and Mishra",Gulbarga,371,17,119,59,7,20,2024-01-01
+1038,Sony Shampoo,Sony,Beauty,"Toor, Viswanathan and Setty",Shivpuri,63,0,0,50,9,63,2024-01-01
+1039,Puma LED Bulb,Puma,Home,Jani PLC,Kochi,459,21,147,24,9,20,2024-01-01
+1040,Samsung Perfume,Samsung,Beauty,"Nadkarni, Jha and Sehgal",Muzaffarpur,408,3,21,31,9,102,2024-01-01
+1041,Amul Smartphone,Amul,Electronics,Sachdev-Gokhale,Raurkela Industrial Township,223,29,203,42,8,7,2024-01-01
+1042,Samsung Vacuum Cleaner,Samsung,Home,Walla Ltd,Lucknow,339,12,84,70,10,26,2024-01-01
+1043,LG Headphones,LG,Electronics,Srinivasan-Pandey,Nanded,158,6,42,100,4,22,2024-01-01
+1044,Sony Shampoo,Sony,Beauty,Ganesh-Pal,Pondicherry,75,10,70,83,10,6,2024-01-01
+1045,Amul TV,Amul,Electronics,Sankaran LLC,Aligarh,207,8,56,82,8,23,2024-01-01
+1046,Nike Sneakers,Nike,Apparel,Oommen and Sons,Kottayam,379,18,126,27,9,19,2024-01-01
+1047,Himalaya T-Shirt,Himalaya,Apparel,"Rajagopalan, Walia and Lalla",Morena,405,18,126,96,10,21,2024-01-01
+1048,Himalaya Hair Oil,Himalaya,Beauty,"Sangha, Bal and Suresh",Kadapa,436,6,42,49,7,62,2024-01-01
+1049,Samsung Camera,Samsung,Electronics,Jaggi PLC,Sangli-Miraj & Kupwad,469,20,140,53,10,22,2024-01-01
+1050,LG Sugar Packet,LG,Grocery,Bhakta Ltd,Sagar,127,24,168,35,10,5,2024-01-01
+1051,Himalaya Headphones,Himalaya,Electronics,Singh-Aurora,Deoghar,52,5,35,92,6,8,2024-01-01
+1052,Samsung T-Shirt,Samsung,Apparel,Baral-Khatri,Vijayawada,132,23,161,46,2,5,2024-01-01
+1053,Tata Rice Bag,Tata,Grocery,Jaggi Group,Nellore,286,4,28,54,10,57,2024-01-01
+1054,Godrej Socks,Godrej,Apparel,Dube Group,Panchkula,394,12,84,89,8,30,2024-01-01
+1055,Godrej Ceiling Fan,Godrej,Home,"Raj, Tandon and Chada",Bidhannagar,372,22,154,82,9,16,2024-01-01
+1056,Samsung Laptop,Samsung,Electronics,Mandal LLC,Tiruvottiyur,221,12,84,47,3,17,2024-01-01
+1057,Godrej Jeans,Godrej,Apparel,"Palla, Dugar and Mittal",Kanpur,88,1,7,83,3,44,2024-01-01
+1058,Sony Sneakers,Sony,Apparel,Sachdeva Group,Parbhani,474,9,63,61,5,47,2024-01-01
+1059,Nike Shampoo,Nike,Beauty,Goda LLC,Moradabad,194,11,77,93,7,16,2024-01-01
+1060,Sony Milk Carton,Sony,Grocery,"Patla, Deol and Lala",Sikar,204,8,56,37,5,22,2024-01-01
+1061,Puma Vacuum Cleaner,Puma,Home,"Tank, Shankar and Sodhi",Shahjahanpur,119,8,56,92,9,13,2024-01-01
+1062,Samsung Table Lamp,Samsung,Home,Badal Ltd,Akola,382,4,28,94,9,76,2024-01-01
+1063,Sony Sneakers,Sony,Apparel,Deo-Sarraf,Jalandhar,89,6,42,79,1,12,2024-01-01
+1064,Godrej Shampoo,Godrej,Beauty,Gokhale LLC,Bhubaneswar,207,22,154,54,7,9,2024-01-01
+1065,Himalaya Body Lotion,Himalaya,Beauty,Buch LLC,Kollam,432,23,161,51,1,18,2024-01-01
+1066,Tata Sugar Packet,Tata,Grocery,"Memon, Wagle and Mandal",Mau,471,8,56,81,3,52,2024-01-01
+1067,LG Shampoo,LG,Beauty,Kumer PLC,Alappuzha,185,6,42,25,4,26,2024-01-01
+1068,Samsung Shampoo,Samsung,Beauty,"Narain, Raman and Chand",Vasai-Virar,304,15,105,88,3,19,2024-01-01
+1069,Puma LED Bulb,Puma,Home,Srinivas-Gera,Bhusawal,121,8,56,33,1,13,2024-01-01
+1070,LG Hair Oil,LG,Beauty,"Kar, Tandon and Jhaveri",Mumbai,462,19,133,70,8,23,2024-01-01
+1071,Sony Face Wash,Sony,Beauty,Banerjee Group,Tadipatri,271,15,105,69,7,16,2024-01-01
+1072,LG Juice Bottle,LG,Grocery,Bhat-Kashyap,Amaravati,280,0,0,96,7,280,2024-01-01
+1073,Nike Table Lamp,Nike,Home,Puri-Chowdhury,Vijayanagaram,311,5,35,63,8,51,2024-01-01
+1074,Puma Camera,Puma,Electronics,Kade-Prasad,Ambala,418,21,147,21,2,19,2024-01-01
+1075,Tata Face Wash,Tata,Beauty,"Chaudhuri, Vaidya and Talwar",Dehradun,132,14,98,56,5,8,2024-01-01
+1076,Puma TV,Puma,Electronics,Arora Inc,Patna,253,4,28,35,1,50,2024-01-01
+1077,Nike Face Wash,Nike,Beauty,"Ahluwalia, Anne and Natt",Gandhinagar,329,2,14,45,3,109,2024-01-01
+1078,Puma Body Lotion,Puma,Beauty,"Dua, Virk and Warrior",Jamalpur,327,20,140,81,7,15,2024-01-01
+1079,Philips Iron Box,Philips,Home,"Yogi, Chopra and Dutta",Loni,103,14,98,40,1,6,2024-01-01
+1080,Himalaya Perfume,Himalaya,Beauty,"Balakrishnan, Hegde and Nath",Hyderabad,367,5,35,83,3,61,2024-01-01
+1081,Himalaya Dress,Himalaya,Apparel,Gill-Grewal,Ahmedabad,176,3,21,26,4,44,2024-01-01
+1082,Tata Milk Carton,Tata,Grocery,Garg Group,Bhopal,172,11,77,99,2,14,2024-01-01
+1083,Samsung Jacket,Samsung,Apparel,Sodhi and Sons,Burhanpur,202,8,56,62,4,22,2024-01-01
+1084,LG Laptop,LG,Electronics,Buch-Seth,Imphal,264,4,28,22,10,52,2024-01-01
+1085,Godrej Camera,Godrej,Electronics,Balan and Sons,Shivpuri,339,1,7,81,7,169,2024-01-01
+1086,Godrej Table Lamp,Godrej,Home,"Kakar, Mammen and Prabhakar",Hajipur,351,4,28,100,4,70,2024-01-01
+1087,LG Iron Box,LG,Home,Din-Chopra,Siwan,481,2,14,40,7,160,2024-01-01
+1088,Himalaya Cap,Himalaya,Apparel,Keer LLC,Agartala,177,15,105,22,2,11,2024-01-01
+1089,Philips Iron Box,Philips,Home,Dasgupta and Sons,Berhampur,342,13,91,97,6,24,2024-01-01
+1090,Puma Cap,Puma,Apparel,Chahal-Pandya,Thiruvananthapuram,209,8,56,87,5,23,2024-01-01
+1091,LG Face Cream,LG,Beauty,Lala Inc,Tumkur,287,16,112,93,5,16,2024-01-01
+1092,Himalaya Iron Box,Himalaya,Home,"Biswas, Shetty and Rana",Bareilly,384,12,84,89,5,29,2024-01-01
+1093,LG Dress,LG,Apparel,Kakar Group,Mahbubnagar,62,14,98,45,4,4,2024-01-01
+1094,Nike Cap,Nike,Apparel,"Buch, Gade and Sahni",Dhule,30,29,203,25,5,1,2024-01-01
+1095,LG Face Cream,LG,Beauty,Dayal LLC,Dhule,133,7,49,66,9,16,2024-01-01
+1096,Himalaya Perfume,Himalaya,Beauty,"Kakar, Issac and Venkatesh",Dhanbad,103,1,7,83,4,51,2024-01-01
+1097,Tata Tablet,Tata,Electronics,Chhabra-Borah,Siwan,120,15,105,44,1,7,2024-01-01
+1098,Nike Jacket,Nike,Apparel,Narang-Doctor,Navi Mumbai,79,11,77,34,10,6,2024-01-01
+1099,Amul Socks,Amul,Apparel,Sen and Sons,Munger,244,4,28,95,4,48,2024-01-01
+1100,Nike Vacuum Cleaner,Nike,Home,Bava-Ganguly,Farrukhabad,361,4,28,50,7,72,2024-01-01
+1101,Puma Hair Oil,Puma,Beauty,"Jhaveri, Vaidya and Buch",Unnao,108,3,21,54,3,27,2024-01-01
+1102,Godrej Tablet,Godrej,Electronics,"Peri, Dewan and Rau",Chinsurah,286,4,28,48,7,57,2024-01-01
+1103,Tata Shampoo,Tata,Beauty,Sidhu-Apte,Hindupur,148,14,98,74,5,9,2024-01-01
+1104,Samsung Cap,Samsung,Apparel,"Dugar, Shah and Shanker",Jhansi,144,4,28,94,9,28,2024-01-01
+1105,Tata Headphones,Tata,Electronics,"Pathak, Kapoor and Dugal",Morbi,307,14,98,52,8,20,2024-01-01
+1106,Nike Sugar Packet,Nike,Grocery,Bhargava-Vasa,Sonipat,290,22,154,84,10,12,2024-01-01
+1107,Amul Tablet,Amul,Electronics,Char-Bava,Ambarnath,134,4,28,71,6,26,2024-01-01
+1108,Philips Vacuum Cleaner,Philips,Home,Mallick LLC,Saharsa,85,17,119,50,8,4,2024-01-01
+1109,Samsung Rice Bag,Samsung,Grocery,"Anne, Parekh and De",Patiala,308,1,7,28,10,154,2024-01-01
+1110,Himalaya Shampoo,Himalaya,Beauty,Mann-Chacko,Siliguri,189,8,56,100,7,21,2024-01-01
+1111,Nike Vacuum Cleaner,Nike,Home,"Sem, Kamdar and Tiwari",Bhalswa Jahangir Pur,261,15,105,21,8,16,2024-01-01
+1112,Puma Milk Carton,Puma,Grocery,Hayer-Banerjee,Srikakulam,336,15,105,22,7,21,2024-01-01
+1113,Himalaya LED Bulb,Himalaya,Home,Kala-Joshi,Narasaraopet,295,11,77,21,2,24,2024-01-01
+1114,LG Cooking Oil,LG,Grocery,Choudhry-Sastry,Raipur,197,14,98,50,4,13,2024-01-01
+1115,Sony Sneakers,Sony,Apparel,Yohannan Inc,Bhatpara,381,4,28,73,3,76,2024-01-01
+1116,Samsung Dress,Samsung,Apparel,Chana Ltd,Gwalior,246,0,0,81,8,246,2024-01-01
+1117,LG Jacket,LG,Apparel,Bakshi PLC,Gandhidham,104,4,28,20,1,20,2024-01-01
+1118,Godrej Ceiling Fan,Godrej,Home,Raja-Palla,Rampur,247,12,84,72,8,19,2024-01-01
+1119,Philips Iron Box,Philips,Home,Dhawan-Shenoy,Nandyal,351,12,84,69,3,27,2024-01-01
+1120,Philips Socks,Philips,Apparel,"Prakash, Kannan and Dugal",Muzaffarpur,352,31,217,28,5,11,2024-01-01
+1121,LG Jeans,LG,Apparel,"Johal, Dayal and Mammen",Ballia,385,1,7,44,3,192,2024-01-01
+1122,Sony Face Wash,Sony,Beauty,"Palan, Ravel and Deol",Raipur,141,3,21,56,5,35,2024-01-01
+1123,Nike Vacuum Cleaner,Nike,Home,"Cherian, Kohli and Krishnan",Nangloi Jat,263,9,63,73,10,26,2024-01-01
+1124,Sony Body Lotion,Sony,Beauty,Shankar-Maharaj,Danapur,471,16,112,36,1,27,2024-01-01
+1125,Nike Jacket,Nike,Apparel,"Amble, Zacharia and Bal",Panchkula,434,10,70,33,8,39,2024-01-01
+1126,Puma Tablet,Puma,Electronics,Sane and Sons,Pali,84,17,119,76,4,4,2024-01-01
+1127,Puma Jacket,Puma,Apparel,"Deep, Nadkarni and Warrior",Tiruchirappalli,240,5,35,78,7,40,2024-01-01
+1128,Nike Face Cream,Nike,Beauty,"Gandhi, Vaidya and Patla",Parbhani,123,27,189,53,8,4,2024-01-01
+1129,Puma Cap,Puma,Apparel,Dixit-Bawa,Jabalpur,294,7,49,75,10,36,2024-01-01
+1130,LG Face Wash,LG,Beauty,Borra Group,Gandhinagar,165,1,7,94,6,82,2024-01-01
+1131,Samsung Headphones,Samsung,Electronics,Memon Inc,Jabalpur,170,25,175,48,5,6,2024-01-01
+1132,Nike Juice Bottle,Nike,Grocery,"Maharaj, Goda and Gera",South Dumdum,116,3,21,81,3,29,2024-01-01
+1133,Godrej Perfume,Godrej,Beauty,Borra Group,Rajahmundry,376,1,7,98,3,188,2024-01-01
+1134,Samsung Headphones,Samsung,Electronics,"Saini, Subramaniam and Raman",Jodhpur,87,8,56,38,8,9,2024-01-01
+1135,Philips Hair Oil,Philips,Beauty,Sengupta Ltd,Jabalpur,66,14,98,55,9,4,2024-01-01
+1136,Tata Smartwatch,Tata,Electronics,Kanda Group,Gangtok,457,9,63,66,7,45,2024-01-01
+1137,Samsung Table Lamp,Samsung,Home,"Swamy, Sen and Ben",Kottayam,65,10,70,81,5,5,2024-01-01
+1138,Amul Smartphone,Amul,Electronics,Narang Group,Pimpri-Chinchwad,167,4,28,45,3,33,2024-01-01
+1139,Puma T-Shirt,Puma,Apparel,Dash Ltd,Bettiah,490,5,35,94,2,81,2024-01-01
+1140,Samsung Camera,Samsung,Electronics,Jayaraman Group,Srinagar,403,7,49,50,2,50,2024-01-01
+1141,Tata Table Lamp,Tata,Home,"Acharya, Sanghvi and Arya",Nashik,216,15,105,52,9,13,2024-01-01
+1142,Amul Perfume,Amul,Beauty,"Chander, Purohit and Padmanabhan",Vellore,69,6,42,79,9,9,2024-01-01
+1143,Amul TV,Amul,Electronics,Din-Nigam,Bhimavaram,359,9,63,27,10,35,2024-01-01
+1144,Himalaya T-Shirt,Himalaya,Apparel,Sinha Ltd,Mirzapur,387,1,7,80,7,193,2024-01-01
+1145,Himalaya TV,Himalaya,Electronics,"Pal, Sarna and Parmer",Tadipatri,109,3,21,57,9,27,2024-01-01
+1146,Nike Dress,Nike,Apparel,"Sastry, Goda and Prabhakar",Gandhidham,260,10,70,91,4,23,2024-01-01
+1147,LG Dress,LG,Apparel,"Rajagopal, Choudhry and Gulati",Surat,363,3,21,63,8,90,2024-01-01
+1148,Samsung T-Shirt,Samsung,Apparel,Kar Ltd,Kurnool,302,14,98,63,4,20,2024-01-01
+1149,Amul Dress,Amul,Apparel,"Bir, Sehgal and Kunda",Jamshedpur,64,4,28,23,2,12,2024-01-01
+1150,Nike Smartphone,Nike,Electronics,"Bhandari, Deep and Khalsa",Bidhannagar,168,1,7,51,8,84,2024-01-01
+1151,Puma Shampoo,Puma,Beauty,"Patla, Hans and Nagi",Naihati,370,8,56,31,4,41,2024-01-01
+1152,LG Hair Oil,LG,Beauty,Rama Ltd,Sagar,111,13,91,75,7,7,2024-01-01
+1153,Himalaya T-Shirt,Himalaya,Apparel,Kaur-Bava,Munger,46,21,147,66,6,2,2024-01-01
+1154,Tata Socks,Tata,Apparel,Srinivasan Group,Ahmedabad,487,3,21,59,10,121,2024-01-01
+1155,Himalaya Vacuum Cleaner,Himalaya,Home,"Bahl, Raman and Kala",Ramagundam,383,15,105,75,5,23,2024-01-01
+1156,Himalaya Vacuum Cleaner,Himalaya,Home,"Devi, Bakshi and Sangha",Saharanpur,490,1,7,37,8,245,2024-01-01
+1157,Godrej Vacuum Cleaner,Godrej,Home,Warrior Ltd,Srinagar,383,12,84,62,3,29,2024-01-01
+1158,Philips Soap Bar,Philips,Beauty,Basak-Bedi,Sambhal,236,12,84,81,9,18,2024-01-01
+1159,Sony Face Cream,Sony,Beauty,"Mandal, Kala and Aurora",Kollam,201,6,42,50,5,28,2024-01-01
+1160,Philips Face Wash,Philips,Beauty,Aggarwal-Om,Orai,205,0,0,86,7,205,2024-01-01
+1161,Sony Salt Pack,Sony,Grocery,"Karpe, Kade and Sastry",Etawah,376,5,35,24,8,62,2024-01-01
+1162,Amul Sneakers,Amul,Apparel,Comar LLC,Surat,371,12,84,25,3,28,2024-01-01
+1163,Godrej Soap Bar,Godrej,Beauty,"Mannan, Iyengar and Ratti",Udaipur,285,17,119,84,10,15,2024-01-01
+1164,Godrej Iron Box,Godrej,Home,Menon Ltd,Sangli-Miraj & Kupwad,273,1,7,40,2,136,2024-01-01
+1165,Amul Wheat Flour,Amul,Grocery,Dugal-Nayar,Tenali,233,8,56,31,8,25,2024-01-01
+1166,LG Sugar Packet,LG,Grocery,Zacharia-Yohannan,Malegaon,219,33,231,97,10,6,2024-01-01
+1167,Puma Laptop,Puma,Electronics,"Swaminathan, Shukla and Pai",Amroha,329,9,63,81,9,32,2024-01-01
+1168,Sony Smartphone,Sony,Electronics,"Sunder, Ganguly and Dave",Moradabad,399,6,42,69,7,57,2024-01-01
+1169,Samsung Cooking Oil,Samsung,Grocery,Khosla-Hans,Bidhannagar,446,7,49,41,9,55,2024-01-01
+1170,Himalaya Dress,Himalaya,Apparel,Gulati-Kannan,Siwan,132,13,91,20,8,9,2024-01-01
+1171,Philips Cap,Philips,Apparel,"Iyengar, Parikh and Madan",Chinsurah,177,16,112,99,7,10,2024-01-01
+1172,Sony Soap Bar,Sony,Beauty,Subramanian and Sons,Gopalpur,146,9,63,100,9,14,2024-01-01
+1173,Godrej Smartphone,Godrej,Electronics,"Chacko, Chacko and Chopra",Jamshedpur,363,23,161,96,1,15,2024-01-01
+1174,Himalaya Perfume,Himalaya,Beauty,Patil PLC,Raiganj,374,0,0,80,10,374,2024-01-01
+1175,Samsung T-Shirt,Samsung,Apparel,Kapoor-Mann,Rajkot,101,18,126,80,2,5,2024-01-01
+1176,Sony Dress,Sony,Apparel,Kunda and Sons,Nagercoil,76,17,119,88,7,4,2024-01-01
+1177,Nike Headphones,Nike,Electronics,Padmanabhan-Mohanty,Mathura,191,3,21,74,6,47,2024-01-01
+1178,Philips Tablet,Philips,Electronics,"Madan, Balan and Chanda",Naihati,150,11,77,62,10,12,2024-01-01
+1179,LG LED Bulb,LG,Home,Sathe LLC,Tenali,123,15,105,99,3,7,2024-01-01
+1180,Sony Shampoo,Sony,Beauty,Yohannan-Saxena,Jaunpur,477,5,35,72,9,79,2024-01-01
+1181,Puma LED Bulb,Puma,Home,Pant-Biswas,Muzaffarpur,250,24,168,95,10,10,2024-01-01
+1182,Puma Vacuum Cleaner,Puma,Home,"Sidhu, Rau and Kalla",Jabalpur,148,8,56,50,8,16,2024-01-01
+1183,Amul Vacuum Cleaner,Amul,Home,Sarkar-Kala,Ballia,124,9,63,80,2,12,2024-01-01
+1184,Nike Cooking Oil,Nike,Grocery,Kapoor and Sons,Singrauli,58,19,133,20,4,2,2024-01-01
+1185,Puma Ceiling Fan,Puma,Home,"Chacko, Wadhwa and Gill",Kollam,206,2,14,22,6,68,2024-01-01
+1186,Philips Mixer Grinder,Philips,Home,Khare-Chaudhuri,Khora ,234,18,126,68,2,12,2024-01-01
+1187,Sony Mixer Grinder,Sony,Home,Mohan and Sons,Shimla,396,13,91,38,2,28,2024-01-01
+1188,LG Camera,LG,Electronics,Ramesh LLC,Surat,249,7,49,70,1,31,2024-01-01
+1189,Tata Laptop,Tata,Electronics,Kunda-Halder,Kollam,198,13,91,91,5,14,2024-01-01
+1190,LG Smartwatch,LG,Electronics,Luthra Inc,Gopalpur,166,26,182,39,6,6,2024-01-01
+1191,LG T-Shirt,LG,Apparel,"Kala, Cheema and Din",Singrauli,423,16,112,44,1,24,2024-01-01
+1192,Himalaya Headphones,Himalaya,Electronics,"Boase, Palan and Keer",Imphal,130,18,126,48,10,6,2024-01-01
+1193,Himalaya Iron Box,Himalaya,Home,Rout-Balan,Hospet,299,3,21,88,1,74,2024-01-01
+1194,Himalaya Rice Bag,Himalaya,Grocery,Raj-Tara,Gulbarga,304,13,91,40,6,21,2024-01-01
+1195,Puma Tablet,Puma,Electronics,Loke PLC,Bhiwandi,396,3,21,92,5,99,2024-01-01
+1196,Nike Iron Box,Nike,Home,Ravi-Bhatia,Ghaziabad,263,7,49,29,7,32,2024-01-01
+1197,Amul Perfume,Amul,Beauty,"Arya, Deshmukh and Deo",Amritsar,284,13,91,100,9,20,2024-01-01
+1198,Puma T-Shirt,Puma,Apparel,Johal-Johal,Dehri,175,8,56,64,3,19,2024-01-01
+1199,Sony Jeans,Sony,Apparel,Deep Group,Gurgaon,108,8,56,97,3,12,2024-01-01
+1200,LG Dress,LG,Apparel,Srinivasan PLC,Ahmedabad,397,21,147,62,6,18,2024-01-01
+1201,LG Mixer Grinder,LG,Home,"Kapoor, Comar and Gill",Sirsa,157,0,0,30,3,157,2024-01-01
+1202,Philips Cooking Oil,Philips,Grocery,"Shetty, Anne and Venkatesh",Dharmavaram,105,11,77,47,10,8,2024-01-01
+1203,Samsung Sneakers,Samsung,Apparel,Wason and Sons,Ulhasnagar,431,12,84,67,6,33,2024-01-01
+1204,Puma Sneakers,Puma,Apparel,"Shroff, Mammen and Gera",Baranagar,155,7,49,23,6,19,2024-01-01
+1205,Godrej Face Wash,Godrej,Beauty,"Tripathi, Parmar and Sinha",Ramagundam,157,14,98,68,1,10,2024-01-01
+1206,Samsung Milk Carton,Samsung,Grocery,Sachdeva and Sons,Vellore,318,11,77,90,6,26,2024-01-01
+1207,Tata Soap Bar,Tata,Beauty,Bala-Mannan,Kollam,61,3,21,20,7,15,2024-01-01
+1208,Godrej Ceiling Fan,Godrej,Home,Chatterjee Group,Ratlam,360,1,7,46,2,180,2024-01-01
+1209,LG Shampoo,LG,Beauty,Pall-Varghese,Pudukkottai,64,10,70,97,5,5,2024-01-01
+1210,Himalaya LED Bulb,Himalaya,Home,Chaudry and Sons,Karawal Nagar,369,0,0,68,10,369,2024-01-01
+1211,Philips Camera,Philips,Electronics,Dave Inc,Kavali,491,5,35,67,2,81,2024-01-01
+1212,Amul Table Lamp,Amul,Home,Wable Ltd,Gorakhpur,326,2,14,69,2,108,2024-01-01
+1213,Amul Soap Bar,Amul,Beauty,"Dara, Bajaj and Bala",Haridwar,361,1,7,34,5,180,2024-01-01
+1214,Sony Wheat Flour,Sony,Grocery,Bhagat Ltd,Agartala,363,5,35,79,5,60,2024-01-01
+1215,Nike Dress,Nike,Apparel,"Prasad, Devan and Mammen",Srikakulam,278,2,14,55,5,92,2024-01-01
+1216,Puma Shampoo,Puma,Beauty,Borde-Pant,Siwan,142,7,49,33,1,17,2024-01-01
+1217,Himalaya Iron Box,Himalaya,Home,"Thakkar, Dada and Vora",Thoothukudi,497,2,14,64,10,165,2024-01-01
+1218,Samsung Socks,Samsung,Apparel,Mukherjee Ltd,Korba,276,6,42,26,4,39,2024-01-01
+1219,Nike Socks,Nike,Apparel,Prabhu-Atwal,Jabalpur,389,15,105,21,2,24,2024-01-01
+1220,Samsung Salt Pack,Samsung,Grocery,"Deshpande, Tata and Jani",Amravati,367,16,112,50,4,21,2024-01-01
+1221,Himalaya Sugar Packet,Himalaya,Grocery,"Chaudhry, Merchant and Chaudhari",Chennai,419,1,7,65,10,209,2024-01-01
+1222,LG Soap Bar,LG,Beauty,Nagarajan-Ramanathan,Udaipur,368,9,63,72,2,36,2024-01-01
+1223,Puma Body Lotion,Puma,Beauty,Mukhopadhyay-Bhakta,Jalandhar,457,13,91,84,5,32,2024-01-01
+1224,Puma Smartphone,Puma,Electronics,Dara-Date,Jammu,90,2,14,47,1,30,2024-01-01
+1225,Tata Iron Box,Tata,Home,Nagarajan-Pandey,Ajmer,116,23,161,97,6,4,2024-01-01
+1226,LG TV,LG,Electronics,"Ganesh, Sekhon and Shanker",Begusarai,354,7,49,20,2,44,2024-01-01
+1227,LG T-Shirt,LG,Apparel,Kothari-Kuruvilla,Jalgaon,448,11,77,30,7,37,2024-01-01
+1228,Samsung Sneakers,Samsung,Apparel,Dani-Bahl,Guntur,378,15,105,86,10,23,2024-01-01
+1229,Sony LED Bulb,Sony,Home,Biswas LLC,Nanded,223,17,119,64,9,12,2024-01-01
+1230,LG Rice Bag,LG,Grocery,"Sachdev, Chakrabarti and Dada",Gandhinagar,283,15,105,27,10,17,2024-01-01
+1231,Philips Laptop,Philips,Electronics,Soman-Bir,Bahraich,278,20,140,62,5,13,2024-01-01
+1232,Himalaya Salt Pack,Himalaya,Grocery,Chakraborty Inc,Bhiwani,268,2,14,82,9,89,2024-01-01
+1233,Tata Table Lamp,Tata,Home,Bhavsar-Kashyap,Pallavaram,278,14,98,96,4,18,2024-01-01
+1234,Amul Laptop,Amul,Electronics,Tiwari PLC,South Dumdum,61,6,42,73,7,8,2024-01-01
+1235,LG Milk Carton,LG,Grocery,"Radhakrishnan, Rout and Pillai",Sultan Pur Majra,388,26,182,70,1,14,2024-01-01
+1236,Nike Mixer Grinder,Nike,Home,Prakash Ltd,Shimla,432,9,63,63,5,43,2024-01-01
+1237,Samsung Ceiling Fan,Samsung,Home,"Tandon, Basak and Rana",Loni,62,6,42,77,9,8,2024-01-01
+1238,Godrej Mixer Grinder,Godrej,Home,Chauhan LLC,Jalgaon,485,3,21,32,9,121,2024-01-01
+1239,Puma Shampoo,Puma,Beauty,"Prabhu, Gole and Bhargava",Ranchi,262,15,105,66,1,16,2024-01-01
+1240,Nike Mixer Grinder,Nike,Home,Chhabra Inc,Sambalpur,260,10,70,73,7,23,2024-01-01
+1241,Tata Dress,Tata,Apparel,Sehgal and Sons,Jodhpur,56,8,56,28,2,6,2024-01-01
+1242,LG Socks,LG,Apparel,Vasa-Ramachandran,Firozabad,296,12,84,52,10,22,2024-01-01
+1243,Sony Face Wash,Sony,Beauty,Krishnan-Roy,Madurai,199,10,70,30,9,18,2024-01-01
+1244,Tata Headphones,Tata,Electronics,Badal-Sankar,Durg,324,10,70,26,3,29,2024-01-01
+1245,Himalaya LED Bulb,Himalaya,Home,Memon-Panchal,Raurkela Industrial Township,234,16,112,98,9,13,2024-01-01
+1246,LG Tablet,LG,Electronics,Shukla Ltd,Kharagpur,244,12,84,95,8,18,2024-01-01
+1247,LG Salt Pack,LG,Grocery,"Nagi, Mital and Bakshi",Berhampore,239,4,28,23,6,47,2024-01-01
+1248,Tata TV,Tata,Electronics,Korpal-Garg,Bharatpur,175,8,56,91,2,19,2024-01-01
+1249,Tata Face Cream,Tata,Beauty,Chaudhuri-Mistry,Ramagundam,390,2,14,42,6,130,2024-01-01
+1250,Godrej Headphones,Godrej,Electronics,"Bhatnagar, Ramachandran and Choudhary",Kurnool,103,1,7,99,10,51,2024-01-01
+1251,Himalaya Milk Carton,Himalaya,Grocery,Bhat-Borah,Jamalpur,217,15,105,78,4,13,2024-01-01
+1252,Nike TV,Nike,Electronics,"Ghosh, Tak and Golla",Dindigul,279,0,0,82,7,279,2024-01-01
+1253,Sony Mixer Grinder,Sony,Home,Bora-Ratta,Sonipat,243,14,98,21,8,16,2024-01-01
+1254,Amul Soap Bar,Amul,Beauty,Srinivasan Inc,Akola,204,13,91,67,3,14,2024-01-01
+1255,Puma Smartphone,Puma,Electronics,Sankar-Manda,Siliguri,54,15,105,56,6,3,2024-01-01
+1256,Philips Vacuum Cleaner,Philips,Home,Chaudhry Ltd,Hajipur,50,6,42,78,9,7,2024-01-01
+1257,Tata Mixer Grinder,Tata,Home,"Barad, Murthy and Karnik",Udaipur,133,1,7,33,7,66,2024-01-01
+1258,Godrej Milk Carton,Godrej,Grocery,Samra-Palla,Salem,151,1,7,24,9,75,2024-01-01
+1259,Himalaya Iron Box,Himalaya,Home,Aggarwal Inc,Bongaigaon,70,11,77,79,3,5,2024-01-01
+1260,Amul Dress,Amul,Apparel,Shroff-Sarin,Nandyal,457,3,21,48,1,114,2024-01-01
+1261,Tata Perfume,Tata,Beauty,"Ahluwalia, Dada and Kuruvilla",Deoghar,80,18,126,23,4,4,2024-01-01
+1262,Tata Wheat Flour,Tata,Grocery,Som Group,Delhi,360,2,14,47,6,120,2024-01-01
+1263,Nike TV,Nike,Electronics,"Dhingra, Sekhon and Bandi",Durg,468,14,98,66,5,31,2024-01-01
+1264,Philips Ceiling Fan,Philips,Home,Vasa Ltd,Ozhukarai,372,24,168,43,7,14,2024-01-01
+1265,Himalaya TV,Himalaya,Electronics,Gopal-Dhar,Ambarnath,302,7,49,71,2,37,2024-01-01
+1266,Samsung Jacket,Samsung,Apparel,Krishnamurthy Inc,Rajahmundry,284,13,91,94,3,20,2024-01-01
+1267,Amul Laptop,Amul,Electronics,Kaur and Sons,South Dumdum,359,10,70,69,5,32,2024-01-01
+1268,Tata Ceiling Fan,Tata,Home,"Nagar, Banik and Pathak",Jodhpur,152,1,7,96,10,76,2024-01-01
+1269,Himalaya Mixer Grinder,Himalaya,Home,Datta Ltd,Rajahmundry,375,7,49,64,8,46,2024-01-01
+1270,Philips Tablet,Philips,Electronics,"Gupta, Hans and Maharaj",Buxar,65,19,133,51,3,3,2024-01-01
+1271,Samsung Shampoo,Samsung,Beauty,"Garg, Mannan and Batra",Darbhanga,361,2,14,64,10,120,2024-01-01
+1272,Tata Wheat Flour,Tata,Grocery,Chad Group,Dhule,249,19,133,87,9,12,2024-01-01
+1273,Nike Face Wash,Nike,Beauty,Dhar Group,Morena,46,9,63,45,10,4,2024-01-01
+1274,Samsung Perfume,Samsung,Beauty,Deshpande-Keer,Aurangabad,234,7,49,81,5,29,2024-01-01
+1275,Samsung Salt Pack,Samsung,Grocery,Sani-Mangal,Asansol,223,15,105,43,8,13,2024-01-01
+1276,Godrej Iron Box,Godrej,Home,Soman-Sarma,South Dumdum,28,21,147,25,2,1,2024-01-01
+1277,Samsung Body Lotion,Samsung,Beauty,Rege-Balakrishnan,Nagaon,110,17,119,98,4,6,2024-01-01
+1278,Sony Juice Bottle,Sony,Grocery,Om-Rout,Ozhukarai,335,9,63,74,10,33,2024-01-01
+1279,Puma Face Cream,Puma,Beauty,Khanna-Sengupta,Kulti,333,15,105,22,9,20,2024-01-01
+1280,LG Tablet,LG,Electronics,Natarajan and Sons,Pudukkottai,172,5,35,22,8,28,2024-01-01
+1281,Puma Hair Oil,Puma,Beauty,"Sami, Chacko and Sahota",Rourkela,454,15,105,91,9,28,2024-01-01
+1282,Himalaya TV,Himalaya,Electronics,Naik-Saxena,Kota,240,1,7,72,1,120,2024-01-01
+1283,Amul LED Bulb,Amul,Home,Bobal-Krishnan,Ahmedabad,281,8,56,40,8,31,2024-01-01
+1284,Amul Jacket,Amul,Apparel,Vasa PLC,Rajpur Sonarpur,338,4,28,65,7,67,2024-01-01
+1285,Samsung Smartphone,Samsung,Electronics,Karnik and Sons,Sasaram,472,12,84,70,8,36,2024-01-01
+1286,Philips Tablet,Philips,Electronics,Om Inc,Mahbubnagar,465,3,21,80,5,116,2024-01-01
+1287,Himalaya Body Lotion,Himalaya,Beauty,"Chaudhry, Sundaram and Pal",Ghaziabad,101,17,119,25,5,5,2024-01-01
+1288,Amul Face Wash,Amul,Beauty,Sachar Inc,Bongaigaon,430,15,105,62,9,26,2024-01-01
+1289,Sony LED Bulb,Sony,Home,Chana PLC,Jhansi,362,15,105,64,1,22,2024-01-01
+1290,Tata Face Cream,Tata,Beauty,Bera and Sons,Udupi,432,16,112,32,10,25,2024-01-01
+1291,Sony Sneakers,Sony,Apparel,"Mitra, Golla and Chand",Kurnool,295,20,140,42,10,14,2024-01-01
+1292,Godrej Tablet,Godrej,Electronics,"Nanda, Grewal and Garg",Mehsana,207,20,140,76,10,9,2024-01-01
+1293,Himalaya Face Cream,Himalaya,Beauty,Pau-Saran,Bokaro,56,9,63,71,7,5,2024-01-01
+1294,Nike Jacket,Nike,Apparel,Bhakta-Shere,Hazaribagh,351,3,21,71,4,87,2024-01-01
+1295,Amul Jacket,Amul,Apparel,Dalal-Rout,Thoothukudi,81,11,77,85,7,6,2024-01-01
+1296,Tata Juice Bottle,Tata,Grocery,Pingle Ltd,Kollam,293,8,56,70,10,32,2024-01-01
+1297,Amul Ceiling Fan,Amul,Home,"Bhagat, Toor and Bhagat",Proddatur,305,21,147,85,10,13,2024-01-01
+1298,Samsung Juice Bottle,Samsung,Grocery,Merchant Group,Raebareli,280,13,91,41,8,20,2024-01-01
+1299,Tata Jacket,Tata,Apparel,Nath-De,Anantapur,102,5,35,95,1,17,2024-01-01
+1300,Philips Soap Bar,Philips,Beauty,Roy PLC,Bidar,349,10,70,59,1,31,2024-01-01
+1301,LG LED Bulb,LG,Home,Garde Group,Kochi,380,13,91,86,3,27,2024-01-01
+1302,Godrej T-Shirt,Godrej,Apparel,Tella Inc,Bellary,346,11,77,48,2,28,2024-01-01
+1303,Sony Milk Carton,Sony,Grocery,Buch-Kade,Madhyamgram,286,3,21,86,2,71,2024-01-01
+1304,Tata Iron Box,Tata,Home,Bajaj Ltd,Kharagpur,380,10,70,79,5,34,2024-01-01
+1305,Samsung Sneakers,Samsung,Apparel,Issac-Jaggi,Tiruppur,261,5,35,65,4,43,2024-01-01
+1306,Sony Soap Bar,Sony,Beauty,Pathak Ltd,Moradabad,181,8,56,21,9,20,2024-01-01
+1307,Puma Body Lotion,Puma,Beauty,Sampath-Warrior,Phagwara,76,4,28,79,8,15,2024-01-01
+1308,Godrej Hair Oil,Godrej,Beauty,Lal-Gole,Mango,198,13,91,93,8,14,2024-01-01
+1309,Nike Smartphone,Nike,Electronics,"Patla, Kaul and Bail",Udupi,197,1,7,30,5,98,2024-01-01
+1310,Godrej Sneakers,Godrej,Apparel,"Mistry, Natt and Divan",Mahbubnagar,163,10,70,98,2,14,2024-01-01
+1311,Tata Perfume,Tata,Beauty,Hegde-Wable,Tirupati,247,19,133,29,3,12,2024-01-01
+1312,Tata Smartwatch,Tata,Electronics,Shan Inc,Jorhat,367,6,42,83,2,52,2024-01-01
+1313,Philips Cap,Philips,Apparel,"Doshi, Sheth and Chahal",Bongaigaon,96,23,161,31,7,4,2024-01-01
+1314,Samsung Laptop,Samsung,Electronics,Nori Inc,Agartala,133,6,42,94,4,19,2024-01-01
+1315,Tata Laptop,Tata,Electronics,Mohan Group,Kalyan-Dombivli,425,21,147,69,1,19,2024-01-01
+1316,Sony Cap,Sony,Apparel,Toor-Bir,Pallavaram,386,4,28,23,1,77,2024-01-01
+1317,Amul Smartwatch,Amul,Electronics,Dora-Taneja,Hindupur,453,16,112,49,4,26,2024-01-01
+1318,Godrej Laptop,Godrej,Electronics,"Naidu, Loke and Choudhry",Rewa,91,4,28,34,2,18,2024-01-01
+1319,Godrej Table Lamp,Godrej,Home,"Sarkar, Sundaram and Sarraf",Surat,221,7,49,27,8,27,2024-01-01
+1320,Amul Smartphone,Amul,Electronics,Chokshi-Gala,Bongaigaon,279,15,105,77,4,17,2024-01-01
+1321,Godrej Sugar Packet,Godrej,Grocery,Lad PLC,Ambarnath,308,17,119,100,3,17,2024-01-01
+1322,Himalaya Hair Oil,Himalaya,Beauty,Thaker-Rege,Anantapur,430,14,98,93,10,28,2024-01-01
+1323,Amul Vacuum Cleaner,Amul,Home,Bajaj PLC,Aizawl,87,4,28,66,10,17,2024-01-01
+1324,Himalaya Tablet,Himalaya,Electronics,Bath-Yadav,Alappuzha,221,7,49,37,6,27,2024-01-01
+1325,Nike Jacket,Nike,Apparel,Luthra Group,Bhilwara,387,11,77,62,7,32,2024-01-01
+1326,Godrej Dress,Godrej,Apparel,Luthra Inc,Siwan,413,3,21,29,3,103,2024-01-01
+1327,Tata Sneakers,Tata,Apparel,"Chandra, Dua and Zacharia",Nanded,247,5,35,95,3,41,2024-01-01
+1328,Puma Sugar Packet,Puma,Grocery,Bahri-Sen,Hospet,242,3,21,60,8,60,2024-01-01
+1329,LG Mixer Grinder,LG,Home,Sundaram-Chowdhury,Bihar Sharif,113,17,119,33,6,6,2024-01-01
+1330,Godrej Smartphone,Godrej,Electronics,Verma-Sani,Panipat,269,10,70,45,9,24,2024-01-01
+1331,Godrej Headphones,Godrej,Electronics,Arya and Sons,Kumbakonam,133,9,63,74,10,13,2024-01-01
+1332,Amul Perfume,Amul,Beauty,Iyengar-Sant,Bidar,78,2,14,83,5,26,2024-01-01
+1333,Puma Face Cream,Puma,Beauty,Dugar-Kara,Kulti,209,9,63,65,8,20,2024-01-01
+1334,Tata Salt Pack,Tata,Grocery,Mandal-Virk,Varanasi,225,7,49,75,6,28,2024-01-01
+1335,Sony Headphones,Sony,Electronics,Dugar and Sons,Aizawl,404,10,70,99,5,36,2024-01-01
+1336,Samsung Laptop,Samsung,Electronics,"Madan, Reddy and Khalsa",Begusarai,433,5,35,44,6,72,2024-01-01
+1337,Himalaya Wheat Flour,Himalaya,Grocery,Zacharia-Rana,Davanagere,469,21,147,98,4,21,2024-01-01
+1338,Nike Rice Bag,Nike,Grocery,Reddy-Ranganathan,Tadepalligudem,295,10,70,35,4,26,2024-01-01
+1339,Himalaya Perfume,Himalaya,Beauty,Krish Inc,Rajpur Sonarpur,298,21,147,48,10,13,2024-01-01
+1340,Nike Socks,Nike,Apparel,Modi Group,Ozhukarai,79,20,140,81,2,3,2024-01-01
+1341,Samsung Laptop,Samsung,Electronics,Rajan-Verma,Gwalior,342,27,189,53,5,12,2024-01-01
+1342,Puma Ceiling Fan,Puma,Home,"Dar, Chacko and Chand",Arrah,339,11,77,74,6,28,2024-01-01
+1343,Tata Mixer Grinder,Tata,Home,Gera-Sen,Bulandshahr,420,11,77,74,4,35,2024-01-01
+1344,Godrej Smartwatch,Godrej,Electronics,Vyas-Devi,Cuttack,391,15,105,81,6,24,2024-01-01
+1345,Tata Shampoo,Tata,Beauty,Mody-Tella,Ghaziabad,420,10,70,52,2,38,2024-01-01
+1346,LG Soap Bar,LG,Beauty,"Bose, Kashyap and Barad",Begusarai,480,16,112,99,1,28,2024-01-01
+1347,Samsung Sugar Packet,Samsung,Grocery,Patla LLC,Faridabad,334,1,7,58,4,167,2024-01-01
+1348,Nike Mixer Grinder,Nike,Home,Shah-Ram,Guntur,358,17,119,99,7,19,2024-01-01
+1349,Puma TV,Puma,Electronics,"Kapadia, Mann and Biswas",Siwan,471,4,28,46,10,94,2024-01-01
+1350,Philips Smartwatch,Philips,Electronics,"Kanda, Kohli and Sankar",Warangal,392,22,154,73,5,17,2024-01-01
+1351,Philips Ceiling Fan,Philips,Home,"Prabhu, Sengupta and Varghese",Ranchi,447,0,0,28,9,447,2024-01-01
+1352,Puma Jeans,Puma,Apparel,Ganesh and Sons,Gudivada,389,29,203,96,9,12,2024-01-01
+1353,Godrej Soap Bar,Godrej,Beauty,Chacko-Chaudhary,Mau,224,2,14,83,5,74,2024-01-01
+1354,Godrej Table Lamp,Godrej,Home,Tella-Gera,Guntur,374,2,14,27,1,124,2024-01-01
+1355,Samsung Ceiling Fan,Samsung,Home,"Oommen, Dayal and Ramakrishnan",Raichur,365,12,84,81,9,28,2024-01-01
+1356,Philips T-Shirt,Philips,Apparel,Saha Inc,Tadepalligudem,341,1,7,40,4,170,2024-01-01
+1357,Sony Camera,Sony,Electronics,Ganguly-Sandal,Srikakulam,53,24,168,36,8,2,2024-01-01
+1358,LG Soap Bar,LG,Beauty,Sarma and Sons,Anantapur,146,17,119,28,9,8,2024-01-01
+1359,Tata Camera,Tata,Electronics,"Borah, Dugal and Khare",Rourkela,435,5,35,69,1,72,2024-01-01
+1360,Nike Smartphone,Nike,Electronics,Lalla PLC,Bangalore,311,15,105,35,9,19,2024-01-01
+1361,LG Camera,LG,Electronics,Dora and Sons,Vasai-Virar,230,20,140,72,8,10,2024-01-01
+1362,Godrej Smartphone,Godrej,Electronics,Dhillon PLC,Kolkata,100,23,161,71,8,4,2024-01-01
+1363,Amul Body Lotion,Amul,Beauty,"Bala, Sant and Nagar",Amroha,266,19,133,92,3,13,2024-01-01
+1364,Nike Face Cream,Nike,Beauty,Dixit-Lalla,Kollam,273,3,21,45,1,68,2024-01-01
+1365,LG Smartwatch,LG,Electronics,"Sengupta, Gara and Gill",Chennai,118,5,35,48,7,19,2024-01-01
+1366,Himalaya Face Wash,Himalaya,Beauty,"Ravi, Soni and Dhar",Kharagpur,136,6,42,45,1,19,2024-01-01
+1367,Philips Ceiling Fan,Philips,Home,Tripathi Group,Navi Mumbai,294,10,70,26,1,26,2024-01-01
+1368,Himalaya LED Bulb,Himalaya,Home,Magar Inc,Ujjain,146,23,161,88,1,6,2024-01-01
+1369,Samsung Cap,Samsung,Apparel,"Saraf, Pandey and Suresh",Aizawl,330,17,119,71,10,18,2024-01-01
+1370,Tata Jacket,Tata,Apparel,Kohli-Srivastava,Bhopal,169,3,21,24,3,42,2024-01-01
+1371,Himalaya Juice Bottle,Himalaya,Grocery,"Hegde, Savant and Sibal",Kolhapur,171,17,119,80,2,9,2024-01-01
+1372,Tata Cooking Oil,Tata,Grocery,Bhargava-Dewan,Vadodara,220,24,168,37,6,8,2024-01-01
+1373,Philips Body Lotion,Philips,Beauty,Mittal PLC,Bhiwani,393,28,196,81,6,13,2024-01-01
+1374,Samsung Perfume,Samsung,Beauty,"Nayak, Manne and Comar",Guntakal,311,18,126,53,9,16,2024-01-01
+1375,Nike Tablet,Nike,Electronics,"Rana, Chandra and Bala",Ambattur,64,8,56,55,3,7,2024-01-01
+1376,Amul T-Shirt,Amul,Apparel,Dara-Goda,Bettiah,333,1,7,22,7,166,2024-01-01
+1377,Himalaya Socks,Himalaya,Apparel,"Mohanty, Gola and Sama",Ratlam,112,4,28,50,1,22,2024-01-01
+1378,Nike Rice Bag,Nike,Grocery,Aggarwal and Sons,Karawal Nagar,406,11,77,48,6,33,2024-01-01
+1379,Puma Salt Pack,Puma,Grocery,"Sant, Gill and Goel",Purnia,217,25,175,68,4,8,2024-01-01
+1380,Tata Sneakers,Tata,Apparel,Oak-Tata,Hapur,187,11,77,64,8,15,2024-01-01
+1381,LG Shampoo,LG,Beauty,Ravel-Menon,Srinagar,272,2,14,23,6,90,2024-01-01
+1382,Puma Smartwatch,Puma,Electronics,"Sharaf, Palla and Shah",Bahraich,173,3,21,70,3,43,2024-01-01
+1383,Godrej Cap,Godrej,Apparel,Varma-Luthra,Bhiwandi,198,5,35,99,1,33,2024-01-01
+1384,Nike Jeans,Nike,Apparel,Buch-Devi,Thrissur,124,9,63,23,2,12,2024-01-01
+1385,Philips Face Cream,Philips,Beauty,Kalla-Ranganathan,Guntakal,208,7,49,50,5,26,2024-01-01
+1386,Philips Headphones,Philips,Electronics,Sabharwal-Ravel,Jaunpur,155,8,56,63,6,17,2024-01-01
+1387,Sony Face Wash,Sony,Beauty,"Keer, Sundaram and Mitra",Durgapur,122,13,91,71,2,8,2024-01-01
+1388,Samsung Salt Pack,Samsung,Grocery,Manda-Mani,Parbhani,302,20,140,23,5,14,2024-01-01
+1389,Tata Table Lamp,Tata,Home,Kakar PLC,Serampore,134,2,14,65,5,44,2024-01-01
+1390,Puma Perfume,Puma,Beauty,Lad LLC,Muzaffarnagar,380,7,49,23,6,47,2024-01-01
+1391,LG Sugar Packet,LG,Grocery,Chatterjee Group,Kolhapur,181,11,77,47,2,15,2024-01-01
+1392,LG Headphones,LG,Electronics,"Kumer, Bedi and Ranganathan",Pune,72,21,147,79,7,3,2024-01-01
+1393,Godrej Rice Bag,Godrej,Grocery,Sem-Saraf,Tenali,321,1,7,75,4,160,2024-01-01
+1394,Godrej Hair Oil,Godrej,Beauty,"Walla, Warrior and Ganesh",Bidhannagar,293,12,84,57,7,22,2024-01-01
+1395,Godrej Face Cream,Godrej,Beauty,Prabhu-Sura,Dibrugarh,258,16,112,82,6,15,2024-01-01
+1396,LG Jeans,LG,Apparel,Kalla-Tiwari,Jamalpur,173,3,21,60,10,43,2024-01-01
+1397,Himalaya Rice Bag,Himalaya,Grocery,Lad and Sons,Tirupati,58,5,35,46,4,9,2024-01-01
+1398,Nike Wheat Flour,Nike,Grocery,Dugal-Jani,Orai,398,9,63,53,8,39,2024-01-01
+1399,Amul Ceiling Fan,Amul,Home,"Chokshi, Ravel and Ramachandran",Saharanpur,322,5,35,63,5,53,2024-01-01
+1400,Amul Headphones,Amul,Electronics,"Misra, Varghese and Apte",Nagpur,470,15,105,85,4,29,2024-01-01
+1401,LG Milk Carton,LG,Grocery,"Loke, Gour and Jayaraman",Davanagere,94,22,154,24,4,4,2024-01-01
+1402,Tata Smartphone,Tata,Electronics,Halder Group,Dibrugarh,83,4,28,68,9,16,2024-01-01
+1403,Tata Socks,Tata,Apparel,"Chadha, Bedi and Jayaraman",Kavali,127,23,161,88,3,5,2024-01-01
+1404,Godrej Smartphone,Godrej,Electronics,Lall PLC,Anantapur,431,18,126,54,3,22,2024-01-01
+1405,Samsung Juice Bottle,Samsung,Grocery,Dhawan-Keer,Pudukkottai,106,9,63,54,9,10,2024-01-01
+1406,Samsung Hair Oil,Samsung,Beauty,Nath PLC,Shahjahanpur,475,2,14,75,7,158,2024-01-01
+1407,Godrej Milk Carton,Godrej,Grocery,Lall PLC,Aizawl,72,16,112,55,8,4,2024-01-01
+1408,Samsung Smartwatch,Samsung,Electronics,Savant Ltd,Madurai,248,18,126,95,8,13,2024-01-01
+1409,LG Mixer Grinder,LG,Home,Tata-Bedi,Anantapur,360,0,0,78,3,360,2024-01-01
+1410,Philips Soap Bar,Philips,Beauty,More Group,Jalna,405,8,56,21,2,45,2024-01-01
+1411,Puma Dress,Puma,Apparel,Narain-Basak,Sambhal,293,22,154,46,7,12,2024-01-01
+1412,Tata Jacket,Tata,Apparel,"Lall, Ramachandran and Dass",Ambala,116,1,7,42,8,58,2024-01-01
+1413,Puma Jacket,Puma,Apparel,Bhat Inc,Amroha,95,9,63,41,5,9,2024-01-01
+1414,Philips Face Wash,Philips,Beauty,Gupta-Raval,Mysore,372,15,105,23,9,23,2024-01-01
+1415,Godrej Sugar Packet,Godrej,Grocery,Shukla Group,Bhind,233,18,126,24,4,12,2024-01-01
+1416,Amul Jeans,Amul,Apparel,Arya Inc,Shimoga,122,20,140,59,3,5,2024-01-01
+1417,Puma Jacket,Puma,Apparel,Vohra-Swaminathan,South Dumdum,138,23,161,64,8,5,2024-01-01
+1418,Tata Iron Box,Tata,Home,Aurora-Kapoor,Kavali,474,17,119,69,5,26,2024-01-01
+1419,Himalaya Juice Bottle,Himalaya,Grocery,Nadig-Agrawal,Jorhat,485,8,56,24,9,53,2024-01-01
+1420,Amul Camera,Amul,Electronics,Raghavan-Nanda,Sonipat,345,12,84,56,6,26,2024-01-01
+1421,Tata Table Lamp,Tata,Home,Mistry PLC,Jaipur,431,19,133,62,7,21,2024-01-01
+1422,Puma Ceiling Fan,Puma,Home,"Venkatesh, Ahuja and Bhatt",Haldia,175,13,91,57,2,12,2024-01-01
+1423,Tata Socks,Tata,Apparel,"Bala, Khurana and Pandit",Bathinda,433,4,28,91,3,86,2024-01-01
+1424,LG Body Lotion,LG,Beauty,"Chaudry, Anne and Bose",Akola,51,6,42,74,7,7,2024-01-01
+1425,Amul Rice Bag,Amul,Grocery,Joshi-Chaudhry,Nadiad,205,14,98,87,2,13,2024-01-01
+1426,Sony Soap Bar,Sony,Beauty,Munshi-Mani,Gandhidham,170,9,63,97,5,17,2024-01-01
+1427,Puma Smartwatch,Puma,Electronics,Talwar Inc,Bhilai,125,14,98,58,6,8,2024-01-01
+1428,Godrej Body Lotion,Godrej,Beauty,"Banerjee, Shenoy and Mand",Bahraich,132,16,112,80,2,7,2024-01-01
+1429,Amul Face Wash,Amul,Beauty,Loke-Jani,Mango,315,22,154,29,6,13,2024-01-01
+1430,Puma Socks,Puma,Apparel,Khalsa Inc,Khora ,253,4,28,86,1,50,2024-01-01
+1431,Tata Face Wash,Tata,Beauty,"Ramachandran, Gour and Sani",Surat,445,1,7,62,5,222,2024-01-01
+1432,LG Smartwatch,LG,Electronics,Krishnamurthy-Gade,Panipat,128,9,63,20,3,12,2024-01-01
+1433,Sony Table Lamp,Sony,Home,"Doctor, Manne and D’Alia",Giridih,255,0,0,67,5,255,2024-01-01
+1434,Puma Laptop,Puma,Electronics,"Madan, Korpal and Pillay",Purnia,38,21,147,93,8,1,2024-01-01
+1435,Tata Face Wash,Tata,Beauty,Saraf-Subramanian,Sikar,436,3,21,67,2,109,2024-01-01
+1436,Puma Mixer Grinder,Puma,Home,Varty and Sons,Bhusawal,447,8,56,54,6,49,2024-01-01
+1437,Sony Rice Bag,Sony,Grocery,"Ramanathan, Agate and Varghese",Bidhannagar,231,1,7,23,9,115,2024-01-01
+1438,Puma Table Lamp,Puma,Home,Ghose and Sons,Hajipur,442,2,14,90,5,147,2024-01-01
+1439,LG Smartwatch,LG,Electronics,Edwin-Bose,Bareilly,333,20,140,35,10,15,2024-01-01
+1440,Sony Vacuum Cleaner,Sony,Home,Bhalla-Maharaj,Arrah,429,8,56,86,6,47,2024-01-01
+1441,Godrej Smartphone,Godrej,Electronics,Kuruvilla Inc,Naihati,443,3,21,94,4,110,2024-01-01
+1442,Puma Wheat Flour,Puma,Grocery,Bhatia-Bakshi,Rajpur Sonarpur,361,0,0,60,8,361,2024-01-01
+1443,Himalaya Vacuum Cleaner,Himalaya,Home,"Kade, Choudhry and Tiwari",Narasaraopet,260,0,0,95,2,260,2024-01-01
+1444,Himalaya Camera,Himalaya,Electronics,Pai and Sons,Ranchi,236,7,49,61,3,29,2024-01-01
+1445,Sony Jacket,Sony,Apparel,"Bandi, Bedi and Deep",Indore,386,9,63,39,7,38,2024-01-01
+1446,Puma Hair Oil,Puma,Beauty,"Sinha, Bhatnagar and Manda",Bhilwara,197,8,56,80,8,21,2024-01-01
+1447,Godrej Face Wash,Godrej,Beauty,Rana-Bumb,Chittoor,431,3,21,41,1,107,2024-01-01
+1448,Sony Cooking Oil,Sony,Grocery,Babu Ltd,Kakinada,231,11,77,100,8,19,2024-01-01
+1449,LG Sugar Packet,LG,Grocery,Iyengar-Prashad,Bellary,441,11,77,22,8,36,2024-01-01
+1450,Tata Mixer Grinder,Tata,Home,Contractor-Vora,New Delhi,408,21,147,44,6,18,2024-01-01
+1451,Puma Soap Bar,Puma,Beauty,"Dhar, Mangat and Toor",Nanded,61,3,21,78,8,15,2024-01-01
+1452,Amul Dress,Amul,Apparel,"Mittal, Ramakrishnan and Ganesan",Sultan Pur Majra,197,12,84,84,2,15,2024-01-01
+1453,Puma Camera,Puma,Electronics,"Gara, Rana and Raju",Srikakulam,49,4,28,58,5,9,2024-01-01
+1454,LG Smartwatch,LG,Electronics,Kota-Chauhan,Kharagpur,493,2,14,96,5,164,2024-01-01
+1455,Nike Cooking Oil,Nike,Grocery,Parikh Group,Bhavnagar,94,9,63,97,3,9,2024-01-01
+1456,Tata Smartphone,Tata,Electronics,"Sandhu, Bains and Mann",Maheshtala,476,1,7,20,10,238,2024-01-01
+1457,Nike Cooking Oil,Nike,Grocery,Sharma-Deshmukh,Bareilly,166,21,147,33,8,7,2024-01-01
+1458,Sony Tablet,Sony,Electronics,"Chacko, Bains and Ghose",Bidar,41,18,126,26,6,2,2024-01-01
+1459,Himalaya LED Bulb,Himalaya,Home,Verma and Sons,Guntakal,249,10,70,44,1,22,2024-01-01
+1460,Himalaya Laptop,Himalaya,Electronics,Deshpande-De,Bhalswa Jahangir Pur,132,20,140,24,9,6,2024-01-01
+1461,Puma Shampoo,Puma,Beauty,Kaur-Naik,Ahmednagar,440,18,126,86,7,23,2024-01-01
+1462,Amul Salt Pack,Amul,Grocery,Radhakrishnan LLC,Varanasi,489,0,0,53,9,489,2024-01-01
+1463,Nike Jeans,Nike,Apparel,Naik-Nanda,Raiganj,39,10,70,94,9,3,2024-01-01
+1464,Sony Socks,Sony,Apparel,Munshi-Divan,Proddatur,97,11,77,51,9,8,2024-01-01
+1465,Amul Jeans,Amul,Apparel,Nanda-Chakraborty,Ramgarh,171,2,14,55,9,57,2024-01-01
+1466,LG LED Bulb,LG,Home,Mannan-Mallick,Amaravati,351,10,70,90,8,31,2024-01-01
+1467,Amul Vacuum Cleaner,Amul,Home,"Babu, Sandhu and Raman",Erode,351,6,42,22,2,50,2024-01-01
+1468,Sony Milk Carton,Sony,Grocery,Das-Manne,Bellary,276,6,42,35,8,39,2024-01-01
+1469,Samsung Ceiling Fan,Samsung,Home,Dewan-Gour,Nandyal,392,14,98,80,4,26,2024-01-01
+1470,Tata Dress,Tata,Apparel,Gola-Setty,Kottayam,419,23,161,78,5,17,2024-01-01
+1471,Nike Ceiling Fan,Nike,Home,"Magar, Comar and Chand",Guntakal,320,8,56,28,2,35,2024-01-01
+1472,Samsung T-Shirt,Samsung,Apparel,Andra-Shere,Gandhidham,235,9,63,32,2,23,2024-01-01
+1473,Sony Face Wash,Sony,Beauty,Baria-Mukherjee,Sagar,47,5,35,99,6,7,2024-01-01
+1474,Himalaya Camera,Himalaya,Electronics,Kala-Chadha,Kadapa,462,14,98,63,6,30,2024-01-01
+1475,Philips Jeans,Philips,Apparel,Krish LLC,Etawah,105,12,84,45,7,8,2024-01-01
+1476,Godrej Cooking Oil,Godrej,Grocery,Shah Ltd,Loni,247,27,189,60,5,8,2024-01-01
+1477,Nike Hair Oil,Nike,Beauty,Das-Mall,Bareilly,133,8,56,61,7,14,2024-01-01
+1478,Sony Cooking Oil,Sony,Grocery,Dugal-Bhargava,Karawal Nagar,354,25,175,84,5,13,2024-01-01
+1479,Amul Smartwatch,Amul,Electronics,"Chokshi, Khare and Bava",Srikakulam,471,28,196,59,9,16,2024-01-01
+1480,LG Jeans,LG,Apparel,"Dass, Bhagat and Rastogi",Kalyan-Dombivli,330,13,91,70,2,23,2024-01-01
+1481,Godrej Cooking Oil,Godrej,Grocery,"Naik, Om and Kapadia",Tinsukia,191,1,7,39,8,95,2024-01-01
+1482,Puma T-Shirt,Puma,Apparel,Sama Ltd,Moradabad,334,3,21,93,7,83,2024-01-01
+1483,Philips Juice Bottle,Philips,Grocery,Ratta Group,Raebareli,436,15,105,23,10,27,2024-01-01
+1484,Amul Face Cream,Amul,Beauty,"Mukhopadhyay, Banerjee and Halder",Singrauli,429,15,105,44,3,26,2024-01-01
+1485,Sony Salt Pack,Sony,Grocery,Narasimhan-Palla,Akola,259,16,112,93,8,15,2024-01-01
+1486,LG Salt Pack,LG,Grocery,Samra-Narula,Gandhidham,384,10,70,62,8,34,2024-01-01
+1487,Puma Perfume,Puma,Beauty,"Savant, Sur and Venkataraman",Bongaigaon,465,14,98,85,2,31,2024-01-01
+1488,Nike Face Wash,Nike,Beauty,"Rastogi, Andra and Bhatt",Chandigarh,303,4,28,88,4,60,2024-01-01
+1489,Tata Iron Box,Tata,Home,Aurora Group,Chittoor,232,17,119,23,3,12,2024-01-01
+1490,Sony Jeans,Sony,Apparel,Choudhry-Bhasin,Bilaspur,435,14,98,92,8,29,2024-01-01
+1491,Philips Ceiling Fan,Philips,Home,"Sundaram, Mukherjee and Dube",Nangloi Jat,247,5,35,92,10,41,2024-01-01
+1492,Nike Smartwatch,Nike,Electronics,"Patla, Bhatia and Palla",Avadi,426,8,56,46,9,47,2024-01-01
+1493,LG Socks,LG,Apparel,Raghavan-Gara,Alwar,319,23,161,53,8,13,2024-01-01
+1494,Sony Smartwatch,Sony,Electronics,Nadig-Chahal,Purnia,37,22,154,69,7,1,2024-01-01
+1495,Nike Vacuum Cleaner,Nike,Home,Wali Group,Dibrugarh,196,10,70,34,2,17,2024-01-01
+1496,Puma Ceiling Fan,Puma,Home,"Mitra, Sule and Vohra",Indore,344,7,49,75,7,43,2024-01-01
+1497,Himalaya Mixer Grinder,Himalaya,Home,Lanka Ltd,Panipat,182,14,98,97,3,12,2024-01-01
+1498,Himalaya Sneakers,Himalaya,Apparel,Nori Inc,Muzaffarnagar,287,10,70,86,8,26,2024-01-01
+1499,Amul Soap Bar,Amul,Beauty,Dugar Ltd,Aurangabad,150,13,91,67,8,10,2024-01-01
+1500,Philips Vacuum Cleaner,Philips,Home,Goel LLC,Kishanganj,137,16,112,51,2,8,2024-01-01
+1501,Himalaya Soap Bar,Himalaya,Beauty,"Sharaf, Jaggi and Mann",Jehanabad,87,7,49,66,7,10,2024-01-01
+1502,Himalaya Ceiling Fan,Himalaya,Home,Nayak-Murty,Jamalpur,141,10,70,70,7,12,2024-01-01
+1503,Tata Juice Bottle,Tata,Grocery,Dayal-Badal,Anantapur,41,20,140,74,2,1,2024-01-01
+1504,Nike Wheat Flour,Nike,Grocery,"Bhavsar, Verma and Nagar",Jamshedpur,228,1,7,46,4,114,2024-01-01
+1505,LG Sneakers,LG,Apparel,Prabhakar and Sons,Warangal,173,21,147,28,5,7,2024-01-01
+1506,Amul Salt Pack,Amul,Grocery,Sahota Ltd,Ranchi,472,26,182,49,10,17,2024-01-01
+1507,Amul Cap,Amul,Apparel,"Sibal, Mangat and Lall",Rewa,54,10,70,78,3,4,2024-01-01
+1508,Godrej Dress,Godrej,Apparel,Balakrishnan-Sood,Bidhannagar,475,3,21,60,4,118,2024-01-01
+1509,Himalaya Smartphone,Himalaya,Electronics,Gandhi Inc,Satara,181,20,140,88,8,8,2024-01-01
+1510,Amul Tablet,Amul,Electronics,Shroff Ltd,Bally,409,5,35,84,9,68,2024-01-01
+1511,Amul Mixer Grinder,Amul,Home,Parikh Ltd,Jodhpur,217,13,91,61,1,15,2024-01-01
+1512,Himalaya Salt Pack,Himalaya,Grocery,"Manda, Modi and Natt",Vasai-Virar,353,13,91,27,7,25,2024-01-01
+1513,Samsung Ceiling Fan,Samsung,Home,"Vaidya, Ravel and Saxena",Danapur,99,1,7,44,10,49,2024-01-01
+1514,Amul Mixer Grinder,Amul,Home,Ramaswamy-Bandi,Hapur,280,20,140,93,5,13,2024-01-01
+1515,Puma Smartphone,Puma,Electronics,"Barad, Raghavan and More",Satna,203,10,70,78,9,18,2024-01-01
+1516,Amul Juice Bottle,Amul,Grocery,Datta-Kunda,Bhusawal,208,13,91,67,5,14,2024-01-01
+1517,LG Wheat Flour,LG,Grocery,Comar Group,Jalgaon,417,1,7,38,4,208,2024-01-01
+1518,Amul Wheat Flour,Amul,Grocery,Lala Ltd,Hajipur,351,11,77,50,9,29,2024-01-01
+1519,Tata Dress,Tata,Apparel,Soman Ltd,Bhilwara,419,1,7,49,8,209,2024-01-01
+1520,Tata Cooking Oil,Tata,Grocery,Gill-Rajagopalan,Loni,162,4,28,89,1,32,2024-01-01
+1521,Philips Smartwatch,Philips,Electronics,Keer-Mohan,Rewa,171,14,98,36,3,11,2024-01-01
+1522,Nike Perfume,Nike,Beauty,Sengupta PLC,Bahraich,466,14,98,30,3,31,2024-01-01
+1523,Himalaya Iron Box,Himalaya,Home,"Wali, Badami and Barad",Mango,324,24,168,80,5,12,2024-01-01
+1524,Himalaya Cap,Himalaya,Apparel,"Mohan, Sekhon and Bala",Narasaraopet,155,6,42,21,1,22,2024-01-01
+1525,Tata Ceiling Fan,Tata,Home,Choudhary-Dora,Hyderabad,471,9,63,42,9,47,2024-01-01
+1526,Puma LED Bulb,Puma,Home,"Garg, Yohannan and Buch",Ballia,196,2,14,96,2,65,2024-01-01
+1527,Godrej Sneakers,Godrej,Apparel,"Reddy, Khalsa and Chada",Kadapa,241,7,49,64,10,30,2024-01-01
+1528,Samsung Jeans,Samsung,Apparel,Suri-Murthy,Erode,374,5,35,22,4,62,2024-01-01
+1529,Samsung Vacuum Cleaner,Samsung,Home,"Chokshi, Parmar and Naidu",Sonipat,374,8,56,27,6,41,2024-01-01
+1530,Himalaya Iron Box,Himalaya,Home,Srinivas Ltd,Haridwar,136,1,7,100,1,68,2024-01-01
+1531,Nike Iron Box,Nike,Home,"Rama, Bera and Bhagat",Anand,345,4,28,44,4,69,2024-01-01
+1532,Godrej Laptop,Godrej,Electronics,"Dar, Patla and Shukla",Nadiad,230,3,21,89,8,57,2024-01-01
+1533,Himalaya Perfume,Himalaya,Beauty,Batta-Bhattacharyya,Buxar,415,5,35,63,5,69,2024-01-01
+1534,Philips Milk Carton,Philips,Grocery,"Shukla, Doctor and Ghose",Haridwar,199,15,105,39,7,12,2024-01-01
+1535,Tata Cap,Tata,Apparel,Ben Ltd,Bhilwara,370,2,14,39,2,123,2024-01-01
+1536,LG Table Lamp,LG,Home,Rattan-Gola,Akola,153,7,49,70,8,19,2024-01-01
+1537,Philips Laptop,Philips,Electronics,Bal-Gour,Nanded,79,9,63,32,7,7,2024-01-01
+1538,Sony LED Bulb,Sony,Home,"Mohanty, Dhawan and Bhavsar",South Dumdum,389,0,0,26,4,389,2024-01-01
+1539,Tata Camera,Tata,Electronics,"Nigam, Loyal and Nadig",Nadiad,192,14,98,79,9,12,2024-01-01
+1540,Philips Hair Oil,Philips,Beauty,Agrawal-Venkataraman,Medininagar,232,6,42,100,2,33,2024-01-01
+1541,LG Juice Bottle,LG,Grocery,Lalla-Arya,Pune,99,9,63,99,6,9,2024-01-01
+1542,Himalaya Smartwatch,Himalaya,Electronics,Sura and Sons,Aurangabad,112,7,49,84,3,14,2024-01-01
+1543,Amul Soap Bar,Amul,Beauty,Chandra Group,Jehanabad,428,5,35,70,9,71,2024-01-01
+1544,Puma LED Bulb,Puma,Home,"Rao, Barad and Gulati",Sangli-Miraj & Kupwad,341,7,49,100,7,42,2024-01-01
+1545,Puma Juice Bottle,Puma,Grocery,Dyal-Talwar,Anand,331,7,49,88,6,41,2024-01-01
+1546,Nike Jeans,Nike,Apparel,"Amble, Iyer and Taneja",Chapra,390,14,98,72,9,26,2024-01-01
+1547,Sony TV,Sony,Electronics,Tiwari Ltd,Jamnagar,240,14,98,85,7,16,2024-01-01
+1548,Philips Face Cream,Philips,Beauty,Karnik-Sarkar,Aligarh,237,5,35,75,7,39,2024-01-01
+1549,Nike Sugar Packet,Nike,Grocery,Loke Inc,Rajkot,349,17,119,76,1,19,2024-01-01
+1550,Samsung LED Bulb,Samsung,Home,Tiwari-Varma,Dhule,175,2,14,37,4,58,2024-01-01
+1551,Sony Cooking Oil,Sony,Grocery,Rajagopalan-Mammen,Orai,496,0,0,95,2,496,2024-01-01
+1552,Philips Vacuum Cleaner,Philips,Home,Memon Inc,Berhampur,170,3,21,36,10,42,2024-01-01
+1553,Himalaya Wheat Flour,Himalaya,Grocery,"Butala, Natt and Sule",Mumbai,443,2,14,41,6,147,2024-01-01
+1554,Philips LED Bulb,Philips,Home,"Hans, Munshi and Chand",Bharatpur,493,2,14,90,3,164,2024-01-01
+1555,Sony Laptop,Sony,Electronics,Nigam Inc,Ambala,58,15,105,30,6,3,2024-01-01
+1556,Himalaya Perfume,Himalaya,Beauty,"Dhar, Golla and Panchal",Khandwa,160,13,91,63,6,11,2024-01-01
+1557,Godrej Laptop,Godrej,Electronics,"Prakash, Muni and Gera",Bongaigaon,198,7,49,20,4,24,2024-01-01
+1558,Sony Body Lotion,Sony,Beauty,Lalla-Mahajan,Panchkula,106,3,21,37,7,26,2024-01-01
+1559,Godrej Shampoo,Godrej,Beauty,Joshi LLC,Katni,374,4,28,49,1,74,2024-01-01
+1560,Puma Smartphone,Puma,Electronics,"Raja, Mukherjee and Bhatia",Nadiad,394,7,49,63,10,49,2024-01-01
+1561,Godrej Mixer Grinder,Godrej,Home,"Sen, Prabhakar and Batra",Raipur,72,6,42,76,10,10,2024-01-01
+1562,Godrej Soap Bar,Godrej,Beauty,"Krishnamurthy, Date and Agrawal",Deoghar,128,16,112,74,3,7,2024-01-01
+1563,Himalaya Jacket,Himalaya,Apparel,Hegde Group,Jodhpur,49,5,35,83,10,8,2024-01-01
+1564,Amul Cap,Amul,Apparel,Naidu-Joshi,Raipur,282,12,84,40,5,21,2024-01-01
+1565,LG Camera,LG,Electronics,Patel Ltd,Muzaffarnagar,228,1,7,93,6,114,2024-01-01
+1566,Philips Jeans,Philips,Apparel,"Reddy, Hari and Kamdar",Thrissur,51,6,42,39,9,7,2024-01-01
+1567,Nike Headphones,Nike,Electronics,Misra-Mani,Kakinada,151,7,49,27,3,18,2024-01-01
+1568,Himalaya Smartphone,Himalaya,Electronics,Dutta Inc,Muzaffarpur,416,7,49,47,8,52,2024-01-01
+1569,Sony Body Lotion,Sony,Beauty,Magar-Barman,Khandwa,377,8,56,65,4,41,2024-01-01
+1570,Godrej TV,Godrej,Electronics,Chandra and Sons,Warangal,285,10,70,26,10,25,2024-01-01
+1571,Sony Cap,Sony,Apparel,Uppal-Mane,Chapra,312,4,28,68,3,62,2024-01-01
+1572,Nike Perfume,Nike,Beauty,Mandal-Tandon,Dharmavaram,101,7,49,61,7,12,2024-01-01
+1573,Amul Sugar Packet,Amul,Grocery,Dixit Group,Pondicherry,432,3,21,48,1,108,2024-01-01
+1574,Puma Sugar Packet,Puma,Grocery,Sawhney LLC,Jorhat,97,13,91,79,3,6,2024-01-01
+1575,Samsung Soap Bar,Samsung,Beauty,Lal LLC,Chandigarh,272,13,91,33,8,19,2024-01-01
+1576,Philips Ceiling Fan,Philips,Home,Malhotra-Deshpande,Ajmer,349,24,168,22,8,13,2024-01-01
+1577,Puma Headphones,Puma,Electronics,"Badami, Bansal and Banerjee",Bikaner,53,6,42,84,1,7,2024-01-01
+1578,Amul Face Cream,Amul,Beauty,"Pillay, Cheema and Naidu",Sangli-Miraj & Kupwad,99,7,49,91,2,12,2024-01-01
+1579,Sony Headphones,Sony,Electronics,Warrior Ltd,Guntur,396,6,42,28,8,56,2024-01-01
+1580,LG Headphones,LG,Electronics,Shanker LLC,Bikaner,160,10,70,75,3,14,2024-01-01
+1581,Samsung Jacket,Samsung,Apparel,Deshmukh Inc,Nandyal,191,11,77,51,2,15,2024-01-01
+1582,Sony Shampoo,Sony,Beauty,Rastogi Ltd,Bettiah,165,6,42,34,6,23,2024-01-01
+1583,Puma Face Wash,Puma,Beauty,"Gokhale, Parmer and Yohannan",Gaya,47,20,140,92,4,2,2024-01-01
+1584,LG Face Cream,LG,Beauty,"Chaudhry, Bhatt and Bhatnagar",Latur,164,4,28,66,1,32,2024-01-01
+1585,Nike LED Bulb,Nike,Home,Batra Inc,Bangalore,140,7,49,32,2,17,2024-01-01
+1586,Godrej Mixer Grinder,Godrej,Home,Atwal Inc,Singrauli,157,6,42,28,7,22,2024-01-01
+1587,Puma Perfume,Puma,Beauty,Goswami-Chada,Sasaram,243,24,168,65,2,9,2024-01-01
+1588,Amul Rice Bag,Amul,Grocery,Parmer-Nagi,Gulbarga,238,14,98,86,8,15,2024-01-01
+1589,LG Ceiling Fan,LG,Home,Dugar-Morar,Tiruvottiyur,440,19,133,41,3,22,2024-01-01
+1590,Nike Laptop,Nike,Electronics,Brar-Ganesh,Nanded,481,7,49,58,6,60,2024-01-01
+1591,Puma Rice Bag,Puma,Grocery,Sachar-Ram,Suryapet,106,19,133,22,8,5,2024-01-01
+1592,Tata Hair Oil,Tata,Beauty,"Mannan, Shankar and Khatri",Jamshedpur,445,9,63,64,5,44,2024-01-01
+1593,Godrej Shampoo,Godrej,Beauty,Kale-Keer,Mango,213,3,21,55,8,53,2024-01-01
+1594,Himalaya Rice Bag,Himalaya,Grocery,Pant LLC,Chennai,233,19,133,40,8,11,2024-01-01
+1595,Himalaya Mixer Grinder,Himalaya,Home,"Warrior, Srivastava and Sha",Bhubaneswar,117,2,14,56,7,39,2024-01-01
+1596,Puma Laptop,Puma,Electronics,"Puri, Varkey and Mand",Malegaon,284,4,28,53,10,56,2024-01-01
+1597,Samsung Milk Carton,Samsung,Grocery,"Oak, Mahajan and Pillai",Raichur,445,12,84,97,8,34,2024-01-01
+1598,Himalaya Soap Bar,Himalaya,Beauty,Gandhi Ltd,Ramgarh,272,14,98,74,5,18,2024-01-01
+1599,Himalaya Milk Carton,Himalaya,Grocery,"Setty, Malhotra and Chana",Gulbarga,49,14,98,94,9,3,2024-01-01
+1600,Samsung Iron Box,Samsung,Home,Golla-Raja,Junagadh,240,1,7,75,3,120,2024-01-01
+1601,Tata Ceiling Fan,Tata,Home,Arora-Konda,Etawah,276,4,28,21,3,55,2024-01-01
+1602,LG Juice Bottle,LG,Grocery,Maharaj LLC,Kulti,92,6,42,94,10,13,2024-01-01
+1603,Godrej Ceiling Fan,Godrej,Home,Mani-Hayer,Barasat,270,5,35,63,10,45,2024-01-01
+1604,Philips Jacket,Philips,Apparel,"Sankar, Madan and Morar",Raiganj,82,4,28,75,7,16,2024-01-01
+1605,Samsung Dress,Samsung,Apparel,"Srivastava, Dhar and Oak",Bangalore,288,28,196,50,1,9,2024-01-01
+1606,Himalaya Jeans,Himalaya,Apparel,Keer-Barad,Navi Mumbai,138,12,84,20,2,10,2024-01-01
+1607,Puma Face Cream,Puma,Beauty,"Johal, Saraf and Bose",Navi Mumbai,251,2,14,94,1,83,2024-01-01
+1608,Godrej Shampoo,Godrej,Beauty,Yadav LLC,Pimpri-Chinchwad,216,5,35,60,5,36,2024-01-01
+1609,Puma Sugar Packet,Puma,Grocery,"Sani, Doshi and Mani",Barasat,287,0,0,69,2,287,2024-01-01
+1610,Puma Socks,Puma,Apparel,Sibal-Sabharwal,Dibrugarh,145,12,84,33,5,11,2024-01-01
+1611,Himalaya Tablet,Himalaya,Electronics,Natt-Sengupta,Bhusawal,174,15,105,86,7,10,2024-01-01
+1612,LG Shampoo,LG,Beauty,Oommen and Sons,Saharanpur,187,4,28,25,5,37,2024-01-01
+1613,Samsung Table Lamp,Samsung,Home,Suri Inc,Thane,461,23,161,93,9,19,2024-01-01
+1614,Nike Tablet,Nike,Electronics,Wali LLC,Jorhat,388,22,154,87,7,16,2024-01-01
+1615,LG Juice Bottle,LG,Grocery,Banerjee-Shan,Bhavnagar,268,13,91,37,6,19,2024-01-01
+1616,LG TV,LG,Electronics,"Mall, Guha and Contractor",Serampore,216,18,126,91,6,11,2024-01-01
+1617,Samsung Camera,Samsung,Electronics,"Parsa, Bera and Mandal",Unnao,73,2,14,78,5,24,2024-01-01
+1618,LG Tablet,LG,Electronics,Nagi Ltd,Machilipatnam,64,6,42,24,2,9,2024-01-01
+1619,Sony Rice Bag,Sony,Grocery,"Srinivas, Kala and Ganguly",Tezpur,209,6,42,50,5,29,2024-01-01
+1620,Puma Body Lotion,Puma,Beauty,Saha and Sons,Chittoor,434,3,21,73,1,108,2024-01-01
+1621,Samsung Soap Bar,Samsung,Beauty,"Garg, Dhillon and Srivastava",Gulbarga,86,2,14,79,7,28,2024-01-01
+1622,Godrej Jeans,Godrej,Apparel,"Ray, Agrawal and Bhasin",Jalandhar,188,9,63,100,2,18,2024-01-01
+1623,Godrej Smartphone,Godrej,Electronics,Sood-Bail,Vijayawada,406,12,84,49,2,31,2024-01-01
+1624,Philips Soap Bar,Philips,Beauty,"Sodhi, Mahajan and Gaba",Bhiwani,231,3,21,87,1,57,2024-01-01
+1625,Philips Wheat Flour,Philips,Grocery,"Mitra, Kata and Dass",Malegaon,101,7,49,77,6,12,2024-01-01
+1626,Puma Mixer Grinder,Puma,Home,Wagle-Mody,Bhalswa Jahangir Pur,267,10,70,59,7,24,2024-01-01
+1627,Tata Cap,Tata,Apparel,Ram-Bhattacharyya,Kumbakonam,291,16,112,23,4,17,2024-01-01
+1628,Nike Perfume,Nike,Beauty,Kashyap-Venkatesh,Bhilwara,55,12,84,95,6,4,2024-01-01
+1629,Puma Tablet,Puma,Electronics,"Kar, Gola and Cherian",Dehradun,252,13,91,65,3,18,2024-01-01
+1630,Tata Perfume,Tata,Beauty,Balakrishnan-Chadha,Davanagere,230,8,56,24,1,25,2024-01-01
+1631,Tata Dress,Tata,Apparel,Divan PLC,Asansol,140,10,70,37,9,12,2024-01-01
+1632,Tata Ceiling Fan,Tata,Home,Bala-Behl,Rajkot,336,2,14,93,2,112,2024-01-01
+1633,Sony Sneakers,Sony,Apparel,Rajan Group,Kurnool,271,4,28,42,4,54,2024-01-01
+1634,Godrej Milk Carton,Godrej,Grocery,Loke Inc,Pali,236,2,14,91,1,78,2024-01-01
+1635,LG Juice Bottle,LG,Grocery,Konda-Thaker,Haridwar,91,3,21,33,7,22,2024-01-01
+1636,Nike Ceiling Fan,Nike,Home,"Bhakta, Kibe and Tandon",Berhampore,381,22,154,47,1,16,2024-01-01
+1637,Nike Jacket,Nike,Apparel,"Barad, Gandhi and Sampath",Munger,477,0,0,81,7,477,2024-01-01
+1638,Nike Vacuum Cleaner,Nike,Home,"Tripathi, Nadkarni and Mandal",Thrissur,346,8,56,63,6,38,2024-01-01
+1639,Samsung Mixer Grinder,Samsung,Home,Nayar and Sons,Rohtak,183,17,119,25,10,10,2024-01-01
+1640,Samsung Table Lamp,Samsung,Home,Dixit-Jaggi,Naihati,305,23,161,54,1,12,2024-01-01
+1641,Philips Body Lotion,Philips,Beauty,"Subramanian, Kapur and Palan",Belgaum,324,15,105,22,6,20,2024-01-01
+1642,LG T-Shirt,LG,Apparel,"Bera, Raju and Bajwa",Kurnool,60,8,56,27,4,6,2024-01-01
+1643,Philips Face Cream,Philips,Beauty,"Keer, Balay and Chaudry",Madanapalle,308,14,98,62,1,20,2024-01-01
+1644,Sony TV,Sony,Electronics,"Nanda, Barad and Chhabra",Panchkula,45,10,70,46,4,4,2024-01-01
+1645,Samsung Mixer Grinder,Samsung,Home,"Zachariah, Bahri and Bal",Raipur,409,13,91,33,2,29,2024-01-01
+1646,Puma Cooking Oil,Puma,Grocery,"Dora, Saran and Borde",Karimnagar,338,13,91,60,8,24,2024-01-01
+1647,Philips Sugar Packet,Philips,Grocery,Chawla-Sundaram,Khora ,487,0,0,51,3,487,2024-01-01
+1648,Puma Tablet,Puma,Electronics,"Saraf, Das and Som",Rajkot,174,4,28,41,5,34,2024-01-01
+1649,Philips Mixer Grinder,Philips,Home,"Vaidya, Sabharwal and Mody",Guntur,104,3,21,50,10,26,2024-01-01
+1650,Puma Shampoo,Puma,Beauty,"Setty, Kumar and Ramachandran",Burhanpur,164,8,56,94,10,18,2024-01-01
+1651,LG Perfume,LG,Beauty,Ramesh-Magar,Rajkot,93,17,119,97,3,5,2024-01-01
+1652,Sony Juice Bottle,Sony,Grocery,Munshi Inc,Amroha,50,20,140,29,8,2,2024-01-01
+1653,Godrej Face Wash,Godrej,Beauty,Natt-Nath,Dindigul,324,6,42,74,9,46,2024-01-01
+1654,Philips Ceiling Fan,Philips,Home,Date-Rau,Srikakulam,412,21,147,62,9,18,2024-01-01
+1655,Samsung T-Shirt,Samsung,Apparel,Nagi and Sons,Gwalior,434,5,35,83,9,72,2024-01-01
+1656,Puma Juice Bottle,Puma,Grocery,"Tara, Chopra and Borah",Gulbarga,281,13,91,21,7,20,2024-01-01
+1657,Sony Dress,Sony,Apparel,Narula Inc,Karnal,164,3,21,44,3,41,2024-01-01
+1658,LG Face Cream,LG,Beauty,Cheema-Chanda,Kavali,304,5,35,83,3,50,2024-01-01
+1659,Godrej Jacket,Godrej,Apparel,Goyal-Bhakta,Haldia,147,3,21,68,2,36,2024-01-01
+1660,Sony Vacuum Cleaner,Sony,Home,Lal Inc,Aligarh,408,3,21,95,7,102,2024-01-01
+1661,Tata Sneakers,Tata,Apparel,Kamdar Ltd,Kozhikode,285,6,42,90,5,40,2024-01-01
+1662,Godrej Sugar Packet,Godrej,Grocery,Padmanabhan-Bassi,Bhilai,97,1,7,29,4,48,2024-01-01
+1663,Tata Face Wash,Tata,Beauty,Raman Inc,Kalyan-Dombivli,49,18,126,100,1,2,2024-01-01
+1664,LG Sneakers,LG,Apparel,"Misra, Gulati and Srinivasan",Hajipur,250,7,49,53,3,31,2024-01-01
+1665,Nike Hair Oil,Nike,Beauty,"Khare, Varkey and Krishna",Bidar,434,21,147,76,4,19,2024-01-01
+1666,Nike Sugar Packet,Nike,Grocery,Sharaf Ltd,Mau,50,10,70,83,5,4,2024-01-01
+1667,LG Iron Box,LG,Home,Kade-Pradhan,Kulti,144,11,77,56,3,12,2024-01-01
+1668,Tata Jacket,Tata,Apparel,Das-Sidhu,Dewas,324,4,28,74,6,64,2024-01-01
+1669,Samsung T-Shirt,Samsung,Apparel,Shenoy-Aurora,Jaunpur,55,11,77,66,5,4,2024-01-01
+1670,Godrej Shampoo,Godrej,Beauty,Shanker and Sons,Guna,368,2,14,67,8,122,2024-01-01
+1671,Sony Vacuum Cleaner,Sony,Home,"Choudhary, Patel and Bahl",Chittoor,172,10,70,31,7,15,2024-01-01
+1672,Samsung Body Lotion,Samsung,Beauty,Parmer Group,Kozhikode,92,5,35,53,8,15,2024-01-01
+1673,Amul Juice Bottle,Amul,Grocery,Gera-Mistry,Tiruchirappalli,486,6,42,28,10,69,2024-01-01
+1674,Godrej Cooking Oil,Godrej,Grocery,Radhakrishnan-Saraf,Nadiad,225,8,56,67,7,25,2024-01-01
+1675,Samsung Smartphone,Samsung,Electronics,"Chaudhuri, Chahal and Soman",Guna,188,2,14,91,8,62,2024-01-01
+1676,Nike Ceiling Fan,Nike,Home,"Nigam, Chad and Saraf",Bhiwandi,115,3,21,75,5,28,2024-01-01
+1677,Philips Laptop,Philips,Electronics,Patla Group,Siliguri,159,5,35,95,4,26,2024-01-01
+1678,Himalaya Socks,Himalaya,Apparel,"Lal, Sarma and Chandran",Hindupur,113,5,35,59,8,18,2024-01-01
+1679,Himalaya Headphones,Himalaya,Electronics,"Ghose, Tandon and Iyengar",Sikar,204,2,14,42,9,68,2024-01-01
+1680,Sony Hair Oil,Sony,Beauty,"Bansal, Goswami and Soman",Fatehpur,133,14,98,43,5,8,2024-01-01
+1681,Himalaya Cap,Himalaya,Apparel,"Vasa, Mohanty and Barad",Muzaffarpur,418,5,35,21,8,69,2024-01-01
+1682,Samsung Wheat Flour,Samsung,Grocery,"Soni, Naidu and Loke",Begusarai,165,9,63,34,9,16,2024-01-01
+1683,Puma Sugar Packet,Puma,Grocery,Dalal LLC,Vellore,310,13,91,70,8,22,2024-01-01
+1684,Puma Milk Carton,Puma,Grocery,"Warrior, Ganguly and Nagar",Karawal Nagar,262,19,133,27,5,13,2024-01-01
+1685,Philips Smartwatch,Philips,Electronics,Pathak-Pau,Alappuzha,66,5,35,59,10,11,2024-01-01
+1686,Himalaya Socks,Himalaya,Apparel,Vaidya-De,Asansol,203,22,154,88,9,8,2024-01-01
+1687,Sony T-Shirt,Sony,Apparel,Tara-Gour,Pune,439,6,42,80,4,62,2024-01-01
+1688,LG Sugar Packet,LG,Grocery,"Dhaliwal, Hegde and Bajaj",Malda,370,22,154,20,5,16,2024-01-01
+1689,Tata T-Shirt,Tata,Apparel,Ramesh PLC,Jamshedpur,447,5,35,61,3,74,2024-01-01
+1690,Samsung Laptop,Samsung,Electronics,Sane Inc,Nagercoil,311,3,21,27,6,77,2024-01-01
+1691,LG Ceiling Fan,LG,Home,Parmar Inc,Sasaram,336,0,0,94,9,336,2024-01-01
+1692,LG Tablet,LG,Electronics,"Vohra, Nadig and Sangha",Jamshedpur,462,0,0,26,7,462,2024-01-01
+1693,Tata Cooking Oil,Tata,Grocery,Din-Sarna,Aligarh,220,9,63,92,1,22,2024-01-01
+1694,Nike Smartphone,Nike,Electronics,Srinivas Inc,Medininagar,59,15,105,69,5,3,2024-01-01
+1695,Samsung Dress,Samsung,Apparel,Nayak-Ganesan,Nizamabad,446,11,77,29,1,37,2024-01-01
+1696,Godrej Cap,Godrej,Apparel,"Gour, Yadav and Vyas",Tiruvottiyur,369,10,70,71,8,33,2024-01-01
+1697,Tata Cooking Oil,Tata,Grocery,Sura Ltd,Katihar,256,8,56,95,9,28,2024-01-01
+1698,Amul Tablet,Amul,Electronics,Saran-Varma,Moradabad,116,12,84,99,8,8,2024-01-01
+1699,Puma Table Lamp,Puma,Home,Chatterjee Ltd,Guwahati,243,1,7,51,9,121,2024-01-01
+1700,Puma Soap Bar,Puma,Beauty,"Kadakia, Loyal and Sabharwal",Shahjahanpur,133,13,91,62,5,9,2024-01-01
+1701,Amul T-Shirt,Amul,Apparel,"Bali, Samra and Sen",Ghaziabad,457,12,84,44,4,35,2024-01-01
+1702,Sony LED Bulb,Sony,Home,Kannan LLC,Bharatpur,130,28,196,65,5,4,2024-01-01
+1703,Amul Milk Carton,Amul,Grocery,"Dar, Rattan and Balan",Firozabad,415,10,70,62,5,37,2024-01-01
+1704,Tata Mixer Grinder,Tata,Home,Chaudhuri-Kunda,Anantapuram,68,12,84,96,10,5,2024-01-01
+1705,Nike Headphones,Nike,Electronics,Trivedi-Chander,Thoothukudi,454,17,119,24,5,25,2024-01-01
+1706,Puma Vacuum Cleaner,Puma,Home,Bail-Nadig,Akola,373,5,35,79,6,62,2024-01-01
+1707,Amul Jeans,Amul,Apparel,Narain LLC,Tumkur,464,17,119,20,2,25,2024-01-01
+1708,Nike Headphones,Nike,Electronics,"Mander, Bedi and Das",Bilaspur,131,5,35,23,2,21,2024-01-01
+1709,Godrej TV,Godrej,Electronics,Divan Inc,Pallavaram,208,17,119,48,10,11,2024-01-01
+1710,Philips Headphones,Philips,Electronics,"Shan, Datta and Karan",Ghaziabad,190,18,126,55,2,10,2024-01-01
+1711,LG Body Lotion,LG,Beauty,Sekhon-Kannan,Ramagundam,455,19,133,54,3,22,2024-01-01
+1712,Sony Cap,Sony,Apparel,Sastry PLC,Jamnagar,444,14,98,33,2,29,2024-01-01
+1713,Samsung Jacket,Samsung,Apparel,Dayal and Sons,Siliguri,93,1,7,76,8,46,2024-01-01
+1714,Sony Wheat Flour,Sony,Grocery,"Kaur, Contractor and Dani",Shimoga,374,9,63,70,4,37,2024-01-01
+1715,LG T-Shirt,LG,Apparel,"Kothari, Mahajan and Kulkarni",Asansol,368,3,21,55,5,92,2024-01-01
+1716,Godrej Cooking Oil,Godrej,Grocery,Patil-Maharaj,Hindupur,422,6,42,99,4,60,2024-01-01
+1717,Godrej Ceiling Fan,Godrej,Home,"Kumar, Agate and Sura",Naihati,211,14,98,61,2,14,2024-01-01
+1718,Philips Laptop,Philips,Electronics,Iyer LLC,Jehanabad,85,15,105,39,7,5,2024-01-01
+1719,Samsung Rice Bag,Samsung,Grocery,"Samra, Lalla and Apte",Akola,429,6,42,21,1,61,2024-01-01
+1720,Nike Sneakers,Nike,Apparel,Savant-Uppal,Thanjavur,336,5,35,36,8,56,2024-01-01
+1721,LG LED Bulb,LG,Home,Gala-Varma,Parbhani,344,11,77,65,1,28,2024-01-01
+1722,Philips Wheat Flour,Philips,Grocery,Dewan-Singh,Unnao,96,16,112,76,7,5,2024-01-01
+1723,Sony LED Bulb,Sony,Home,"Raja, Merchant and Rau",Secunderabad,340,9,63,28,7,34,2024-01-01
+1724,Amul Dress,Amul,Apparel,Palan-Agrawal,Alwar,408,26,182,66,3,15,2024-01-01
+1725,Puma Iron Box,Puma,Home,Rattan Inc,Karaikudi,384,6,42,96,2,54,2024-01-01
+1726,Puma Laptop,Puma,Electronics,Tandon and Sons,Phusro,152,1,7,34,5,76,2024-01-01
+1727,Samsung Soap Bar,Samsung,Beauty,"Khanna, Rajan and Dubey",Salem,393,17,119,20,7,21,2024-01-01
+1728,Samsung Juice Bottle,Samsung,Grocery,Pall-Upadhyay,Jamalpur,338,19,133,34,10,16,2024-01-01
+1729,Philips Juice Bottle,Philips,Grocery,Tella-Mann,Nagpur,79,14,98,29,5,5,2024-01-01
+1730,Philips Cap,Philips,Apparel,Sankar-Maharaj,Saharanpur,82,12,84,39,9,6,2024-01-01
+1731,Godrej Hair Oil,Godrej,Beauty,"Om, Madan and Cheema",Barasat,66,15,105,27,6,4,2024-01-01
+1732,Himalaya Wheat Flour,Himalaya,Grocery,Krishna Inc,Muzaffarnagar,42,14,98,30,1,2,2024-01-01
+1733,Sony Mixer Grinder,Sony,Home,Shroff Ltd,Asansol,237,1,7,28,9,118,2024-01-01
+1734,Sony Camera,Sony,Electronics,Ramachandran-Sandhu,Ulhasnagar,276,8,56,49,3,30,2024-01-01
+1735,Philips Hair Oil,Philips,Beauty,Murthy Group,Karnal,338,1,7,97,8,169,2024-01-01
+1736,Philips Table Lamp,Philips,Home,"Sodhi, Jha and Varma",Srinagar,262,9,63,69,7,26,2024-01-01
+1737,Nike Cap,Nike,Apparel,Pillai-Dhawan,Nagercoil,258,3,21,75,5,64,2024-01-01
+1738,Nike Laptop,Nike,Electronics,Menon LLC,Nagaon,43,15,105,52,8,2,2024-01-01
+1739,Amul Tablet,Amul,Electronics,Bahri-Bhalla,Aligarh,81,6,42,93,6,11,2024-01-01
+1740,Nike Hair Oil,Nike,Beauty,Dugal-Dara,Shimla,468,13,91,81,3,33,2024-01-01
+1741,Puma LED Bulb,Puma,Home,"Sen, Muni and Dayal",Saharanpur,300,9,63,59,9,30,2024-01-01
+1742,Tata Headphones,Tata,Electronics,Krishna-Pandey,Alappuzha,316,18,126,91,10,16,2024-01-01
+1743,Sony Hair Oil,Sony,Beauty,Kala LLC,Nashik,277,3,21,42,7,69,2024-01-01
+1744,Samsung Juice Bottle,Samsung,Grocery,"Madan, Wadhwa and Nazareth",Bharatpur,111,22,154,78,3,4,2024-01-01
+1745,Philips Ceiling Fan,Philips,Home,Bhavsar PLC,Shivpuri,464,9,63,25,6,46,2024-01-01
+1746,LG T-Shirt,LG,Apparel,Ben PLC,Jamshedpur,298,14,98,84,5,19,2024-01-01
+1747,Samsung Iron Box,Samsung,Home,Gokhale Group,Davanagere,270,3,21,91,6,67,2024-01-01
+1748,Philips Rice Bag,Philips,Grocery,Murty Group,Mysore,440,1,7,52,6,220,2024-01-01
+1749,Puma Jacket,Puma,Apparel,Balay Ltd,Tiruvottiyur,72,3,21,46,3,18,2024-01-01
+1750,Tata Vacuum Cleaner,Tata,Home,"Morar, Khanna and Wali",Yamunanagar,56,15,105,22,7,3,2024-01-01
+1751,Puma Jacket,Puma,Apparel,"Chahal, Sastry and Soman",Sirsa,273,15,105,97,7,17,2024-01-01
+1752,Philips Cap,Philips,Apparel,Brahmbhatt-Ratta,Alappuzha,434,23,161,89,10,18,2024-01-01
+1753,Tata Hair Oil,Tata,Beauty,Sachdev-Ram,Etawah,484,6,42,31,3,69,2024-01-01
+1754,Amul Socks,Amul,Apparel,Gopal LLC,Vasai-Virar,483,5,35,78,5,80,2024-01-01
+1755,LG Face Wash,LG,Beauty,"Mital, Issac and Thakur",Madanapalle,352,1,7,28,3,176,2024-01-01
+1756,Tata Jeans,Tata,Apparel,Lad and Sons,Suryapet,292,13,91,21,5,20,2024-01-01
+1757,LG Iron Box,LG,Home,Suri-Nori,Anand,118,14,98,28,2,7,2024-01-01
+1758,Nike Shampoo,Nike,Beauty,Sarna PLC,Hyderabad,295,27,189,65,3,10,2024-01-01
+1759,Himalaya Jeans,Himalaya,Apparel,Ganesan-Setty,Katihar,435,8,56,54,3,48,2024-01-01
+1760,Himalaya Ceiling Fan,Himalaya,Home,Kibe Inc,Hajipur,340,9,63,79,2,34,2024-01-01
+1761,Nike Tablet,Nike,Electronics,Krishnan-Kumer,Aligarh,454,4,28,98,2,90,2024-01-01
+1762,Sony Soap Bar,Sony,Beauty,Madan-Choudhry,Vijayanagaram,243,16,112,59,7,14,2024-01-01
+1763,Samsung Ceiling Fan,Samsung,Home,"Sethi, Toor and Mishra",Nagercoil,279,9,63,76,9,27,2024-01-01
+1764,Tata Body Lotion,Tata,Beauty,"Kata, Venkataraman and Singhal",Bathinda,354,14,98,41,9,23,2024-01-01
+1765,Philips Cooking Oil,Philips,Grocery,Sheth-Ganesan,Dehri,80,7,49,92,4,10,2024-01-01
+1766,Godrej Smartphone,Godrej,Electronics,"Peri, Hayer and Dalal",Gaya,123,4,28,78,4,24,2024-01-01
+1767,Tata Cap,Tata,Apparel,Ganguly-Sha,Kanpur,435,4,28,87,3,87,2024-01-01
+1768,LG Cooking Oil,LG,Grocery,Chad Group,Proddatur,70,2,14,49,1,23,2024-01-01
+1769,Nike Juice Bottle,Nike,Grocery,Parmar-Patla,Jamnagar,364,5,35,78,9,60,2024-01-01
+1770,Nike Tablet,Nike,Electronics,Thakkar LLC,Jhansi,457,7,49,79,5,57,2024-01-01
+1771,Philips Iron Box,Philips,Home,"Loyal, Natarajan and Talwar",Bhavnagar,445,0,0,33,2,445,2024-01-01
+1772,Amul Camera,Amul,Electronics,Chad-Sood,Mehsana,254,15,105,94,10,15,2024-01-01
+1773,Amul Smartwatch,Amul,Electronics,Nagy Group,Bally,390,4,28,34,1,78,2024-01-01
+1774,Philips Salt Pack,Philips,Grocery,Gandhi-Memon,Silchar,150,18,126,31,1,7,2024-01-01
+1775,Tata Camera,Tata,Electronics,"Kota, Guha and Patel",Thanjavur,333,18,126,68,1,17,2024-01-01
+1776,LG Soap Bar,LG,Beauty,Kala-Garde,Tenali,274,15,105,90,7,17,2024-01-01
+1777,Nike Mixer Grinder,Nike,Home,Mall Group,Bharatpur,113,2,14,53,5,37,2024-01-01
+1778,Godrej T-Shirt,Godrej,Apparel,Banerjee Ltd,Sangli-Miraj & Kupwad,65,6,42,58,6,9,2024-01-01
+1779,Sony T-Shirt,Sony,Apparel,Mane-Wason,Ambarnath,193,13,91,45,10,13,2024-01-01
+1780,Puma Mixer Grinder,Puma,Home,Apte LLC,Rajpur Sonarpur,182,10,70,28,4,16,2024-01-01
+1781,Nike Mixer Grinder,Nike,Home,"Bains, Bajaj and Deo",South Dumdum,467,7,49,23,2,58,2024-01-01
+1782,Godrej Rice Bag,Godrej,Grocery,Samra PLC,Alwar,360,24,168,96,7,14,2024-01-01
+1783,Amul Smartphone,Amul,Electronics,Chandran PLC,Arrah,262,1,7,45,10,131,2024-01-01
+1784,LG Milk Carton,LG,Grocery,"Dash, Khare and Bains",Bongaigaon,299,5,35,91,7,49,2024-01-01
+1785,Philips Camera,Philips,Electronics,Mittal-Choudhury,Vijayawada,183,14,98,59,7,12,2024-01-01
+1786,Amul T-Shirt,Amul,Apparel,"Doctor, Warrior and Sama",Sirsa,350,3,21,23,8,87,2024-01-01
+1787,LG Ceiling Fan,LG,Home,Tak Group,Belgaum,80,13,91,72,10,5,2024-01-01
+1788,Tata Face Wash,Tata,Beauty,Barad-Bail,Muzaffarnagar,314,8,56,51,4,34,2024-01-01
+1789,Puma Laptop,Puma,Electronics,Sarkar-Gour,Imphal,31,26,182,32,4,1,2024-01-01
+1790,Amul Wheat Flour,Amul,Grocery,Nadkarni LLC,Amaravati,218,11,77,53,9,18,2024-01-01
+1791,Sony LED Bulb,Sony,Home,"Chaudhuri, Bala and Ganesh",Etawah,283,9,63,34,1,28,2024-01-01
+1792,Philips Soap Bar,Philips,Beauty,"Acharya, Din and Gola",Dharmavaram,377,6,42,99,5,53,2024-01-01
+1793,Nike Table Lamp,Nike,Home,Nagarajan-Hari,Bellary,290,14,98,22,2,19,2024-01-01
+1794,Himalaya Body Lotion,Himalaya,Beauty,Nagarajan-Swamy,Muzaffarnagar,271,9,63,86,3,27,2024-01-01
+1795,LG Smartphone,LG,Electronics,Lalla-Doshi,Bhatpara,301,13,91,56,1,21,2024-01-01
+1796,Tata Milk Carton,Tata,Grocery,Mangal-Raman,Hyderabad,113,1,7,38,9,56,2024-01-01
+1797,Puma Juice Bottle,Puma,Grocery,Khosla Group,Raebareli,106,19,133,57,1,5,2024-01-01
+1798,Amul T-Shirt,Amul,Apparel,Chokshi Group,Latur,196,11,77,60,2,16,2024-01-01
+1799,Philips T-Shirt,Philips,Apparel,"Memon, Mannan and Dubey",Karnal,134,10,70,78,2,12,2024-01-01
+1800,Philips Headphones,Philips,Electronics,"Narang, Gera and Gera",Jammu,297,13,91,74,5,21,2024-01-01
+1801,Samsung Iron Box,Samsung,Home,Nayar Ltd,Kharagpur,192,15,105,57,9,12,2024-01-01
+1802,Nike Dress,Nike,Apparel,"Gara, Kota and Zacharia",Amravati,77,12,84,25,7,5,2024-01-01
+1803,Philips Sugar Packet,Philips,Grocery,Acharya Group,Sasaram,204,16,112,98,3,12,2024-01-01
+1804,Tata Sugar Packet,Tata,Grocery,"Sankaran, Korpal and Bumb",Srinagar,142,4,28,75,6,28,2024-01-01
+1805,LG Sneakers,LG,Apparel,"Mangat, Palan and Rattan",Moradabad,135,24,168,78,2,5,2024-01-01
+1806,Philips Camera,Philips,Electronics,Kapadia Ltd,Chinsurah,363,3,21,30,10,90,2024-01-01
+1807,Godrej Salt Pack,Godrej,Grocery,"Ganesan, Aggarwal and Bhandari",Bhiwandi,28,26,182,26,1,1,2024-01-01
+1808,Nike Shampoo,Nike,Beauty,"Nanda, Contractor and Basu",Raiganj,196,14,98,47,3,13,2024-01-01
+1809,Himalaya Salt Pack,Himalaya,Grocery,Johal Ltd,Madurai,424,15,105,64,10,26,2024-01-01
+1810,Tata Dress,Tata,Apparel,Solanki-Kannan,Patiala,482,16,112,48,2,28,2024-01-01
+1811,Tata Vacuum Cleaner,Tata,Home,Narayanan-Chaudhuri,Ambattur,48,7,49,93,1,6,2024-01-01
+1812,Puma Juice Bottle,Puma,Grocery,Dhillon LLC,Pali,295,20,140,33,5,14,2024-01-01
+1813,Puma Body Lotion,Puma,Beauty,Gupta-Kakar,Aurangabad,83,16,112,23,9,4,2024-01-01
+1814,LG Rice Bag,LG,Grocery,Buch PLC,Tirunelveli,158,22,154,76,6,6,2024-01-01
+1815,Tata Jacket,Tata,Apparel,Ganesan-Ramanathan,Latur,391,16,112,55,8,23,2024-01-01
+1816,Tata Salt Pack,Tata,Grocery,"Raja, Sehgal and Gola",Ulhasnagar,139,4,28,51,5,27,2024-01-01
+1817,Samsung Milk Carton,Samsung,Grocery,Magar-Palla,Nagpur,478,5,35,83,9,79,2024-01-01
+1818,LG Wheat Flour,LG,Grocery,Bajaj and Sons,Gulbarga,78,26,182,37,2,2,2024-01-01
+1819,Nike Jeans,Nike,Apparel,"Sahni, Tak and Sura",Guntur,439,10,70,68,2,39,2024-01-01
+1820,Amul Vacuum Cleaner,Amul,Home,"Pall, Puri and Kashyap",Hapur,69,1,7,36,7,34,2024-01-01
+1821,LG Laptop,LG,Electronics,Parmar PLC,Bhagalpur,313,18,126,97,5,16,2024-01-01
+1822,Tata Smartwatch,Tata,Electronics,Solanki-Naidu,Pimpri-Chinchwad,383,6,42,99,4,54,2024-01-01
+1823,Amul Ceiling Fan,Amul,Home,"Prashad, Kalita and Rana",North Dumdum,356,5,35,67,4,59,2024-01-01
+1824,Sony Table Lamp,Sony,Home,Jayaraman-Divan,Bhiwandi,312,25,175,41,2,12,2024-01-01
+1825,Nike Cap,Nike,Apparel,Vyas Ltd,Visakhapatnam,445,20,140,77,5,21,2024-01-01
+1826,Sony Perfume,Sony,Beauty,Muni Inc,Erode,175,12,84,49,7,13,2024-01-01
+1827,Puma Table Lamp,Puma,Home,"Tank, Sundaram and Suresh",Rewa,178,5,35,44,8,29,2024-01-01
+1828,Samsung Face Cream,Samsung,Beauty,Sidhu LLC,Machilipatnam,50,15,105,97,5,3,2024-01-01
+1829,Godrej Rice Bag,Godrej,Grocery,"Sen, Vora and Karan",Ambala,465,2,14,91,5,155,2024-01-01
+1830,Godrej Milk Carton,Godrej,Grocery,Natarajan-Bali,Moradabad,286,16,112,98,9,16,2024-01-01
+1831,Nike Ceiling Fan,Nike,Home,Ghosh-Balasubramanian,Tenali,145,9,63,94,10,14,2024-01-01
+1832,Godrej Jacket,Godrej,Apparel,Narasimhan Ltd,Mumbai,334,1,7,88,8,167,2024-01-01
+1833,LG T-Shirt,LG,Apparel,"Srinivas, Batta and Chopra",Begusarai,198,5,35,74,10,33,2024-01-01
+1834,Himalaya Laptop,Himalaya,Electronics,"Basu, Taneja and Salvi",Gandhinagar,219,2,14,22,7,73,2024-01-01
+1835,Sony Jacket,Sony,Apparel,Narain-Ratta,Howrah,284,8,56,53,5,31,2024-01-01
+1836,LG Face Wash,LG,Beauty,Singh-Cheema,Rohtak,282,7,49,41,7,35,2024-01-01
+1837,Godrej Laptop,Godrej,Electronics,Magar-Sarma,Tenali,415,22,154,22,6,18,2024-01-01
+1838,LG Juice Bottle,LG,Grocery,Chahal Inc,Shimla,438,2,14,52,10,146,2024-01-01
+1839,LG Cap,LG,Apparel,Dave LLC,Belgaum,443,0,0,30,6,443,2024-01-01
+1840,LG Cap,LG,Apparel,Sangha Inc,Madurai,344,5,35,22,7,57,2024-01-01
+1841,Amul Camera,Amul,Electronics,"Bala, Anand and Agrawal",Guwahati,64,17,119,80,6,3,2024-01-01
+1842,Amul Wheat Flour,Amul,Grocery,Chatterjee LLC,Dhanbad,92,18,126,83,4,4,2024-01-01
+1843,LG Smartwatch,LG,Electronics,Dua and Sons,Ambarnath,227,10,70,51,1,20,2024-01-01
+1844,Godrej Dress,Godrej,Apparel,Bandi Group,Hosur,310,7,49,32,3,38,2024-01-01
+1845,Amul Shampoo,Amul,Beauty,Zachariah-Sodhi,Chennai,112,7,49,42,5,14,2024-01-01
+1846,Sony Camera,Sony,Electronics,Peri-D’Alia,Danapur,212,8,56,74,9,23,2024-01-01
+1847,Philips T-Shirt,Philips,Apparel,"Kamdar, Dhar and Bhardwaj",Miryalaguda,211,19,133,72,9,10,2024-01-01
+1848,LG Jacket,LG,Apparel,Chawla-Vyas,Karnal,480,4,28,46,8,96,2024-01-01
+1849,Himalaya Milk Carton,Himalaya,Grocery,Mody-Menon,Miryalaguda,340,15,105,85,2,21,2024-01-01
+1850,Godrej Rice Bag,Godrej,Grocery,Dube-Bose,Nizamabad,99,16,112,81,3,5,2024-01-01
+1851,Samsung Sugar Packet,Samsung,Grocery,"Bains, Shah and Cheema",Bhavnagar,404,18,126,61,8,21,2024-01-01
+1852,Tata Cooking Oil,Tata,Grocery,"Bath, Kanda and Doctor",Muzaffarnagar,342,5,35,96,6,57,2024-01-01
+1853,Sony Cooking Oil,Sony,Grocery,Chauhan Group,Asansol,235,2,14,31,2,78,2024-01-01
+1854,Amul Sugar Packet,Amul,Grocery,Samra-Gopal,Jaunpur,310,5,35,89,6,51,2024-01-01
+1855,Godrej Perfume,Godrej,Beauty,Rama-Bali,Patna,89,2,14,77,3,29,2024-01-01
+1856,Tata Socks,Tata,Apparel,"Patel, Raj and Sule",Nandyal,421,12,84,87,10,32,2024-01-01
+1857,Philips Shampoo,Philips,Beauty,"Gera, Korpal and Sule",Chandrapur,418,10,70,66,2,38,2024-01-01
+1858,Godrej T-Shirt,Godrej,Apparel,Dua and Sons,Bahraich,194,4,28,69,7,38,2024-01-01
+1859,Amul Iron Box,Amul,Home,Pal Group,Karaikudi,91,1,7,54,8,45,2024-01-01
+1860,Philips Mixer Grinder,Philips,Home,Badami-Khatri,Coimbatore,438,21,147,86,6,19,2024-01-01
+1861,LG Tablet,LG,Electronics,"Sankar, Kalla and Ramachandran",Agra,414,14,98,52,4,27,2024-01-01
+1862,Sony Body Lotion,Sony,Beauty,"Vyas, Kari and Varghese",Gopalpur,220,14,98,30,7,14,2024-01-01
+1863,Samsung Smartphone,Samsung,Electronics,Balay PLC,Howrah,383,11,77,40,10,31,2024-01-01
+1864,Puma Face Wash,Puma,Beauty,"Dugar, Shankar and Jani",Ozhukarai,232,5,35,69,4,38,2024-01-01
+1865,Nike LED Bulb,Nike,Home,"Khanna, Wali and Varghese",Mehsana,280,15,105,81,8,17,2024-01-01
+1866,Nike Camera,Nike,Electronics,Loke-Srinivas,Visakhapatnam,66,10,70,71,6,6,2024-01-01
+1867,Sony Laptop,Sony,Electronics,Ramakrishnan-Vala,Rewa,479,1,7,40,10,239,2024-01-01
+1868,Himalaya Vacuum Cleaner,Himalaya,Home,Singhal-Sule,Jhansi,188,6,42,100,7,26,2024-01-01
+1869,Amul Body Lotion,Amul,Beauty,Desai-Sankaran,Bellary,358,0,0,95,3,358,2024-01-01
+1870,Philips Vacuum Cleaner,Philips,Home,"Bali, Rao and Sheth",South Dumdum,387,9,63,61,7,38,2024-01-01
+1871,Himalaya Mixer Grinder,Himalaya,Home,Pall-Char,Vadodara,425,3,21,35,7,106,2024-01-01
+1872,Nike Camera,Nike,Electronics,Ram Inc,Kota,167,14,98,51,1,11,2024-01-01
+1873,Amul Shampoo,Amul,Beauty,Iyengar Inc,Indore,248,8,56,65,8,27,2024-01-01
+1874,Nike Dress,Nike,Apparel,Gole and Sons,Bilaspur,44,18,126,37,7,2,2024-01-01
+1875,Puma Table Lamp,Puma,Home,Rana LLC,Khandwa,386,9,63,84,4,38,2024-01-01
+1876,Nike Dress,Nike,Apparel,"Kalla, Jain and Chander",Visakhapatnam,172,17,119,58,6,9,2024-01-01
+1877,Puma Headphones,Puma,Electronics,Mukherjee-Date,Begusarai,358,8,56,30,1,39,2024-01-01
+1878,Nike Vacuum Cleaner,Nike,Home,Bhagat Ltd,Karimnagar,83,4,28,96,7,16,2024-01-01
+1879,Puma Jeans,Puma,Apparel,Dora LLC,Thane,226,12,84,98,6,17,2024-01-01
+1880,Sony Camera,Sony,Electronics,Padmanabhan Group,Pune,191,1,7,64,8,95,2024-01-01
+1881,Nike Sneakers,Nike,Apparel,"Khanna, Balan and Parekh",Nanded,485,5,35,92,6,80,2024-01-01
+1882,Nike Cap,Nike,Apparel,Vala-Kothari,Shahjahanpur,120,7,49,31,6,15,2024-01-01
+1883,Nike Laptop,Nike,Electronics,Din Group,Rajpur Sonarpur,355,5,35,51,6,59,2024-01-01
+1884,Nike Iron Box,Nike,Home,"Kapoor, Dhillon and Thaker",Kalyan-Dombivli,342,16,112,45,10,20,2024-01-01
+1885,Puma Soap Bar,Puma,Beauty,Nagar-Kothari,Cuttack,205,12,84,87,2,15,2024-01-01
+1886,Sony T-Shirt,Sony,Apparel,Gara-Rai,Tirupati,360,5,35,88,9,60,2024-01-01
+1887,Samsung Perfume,Samsung,Beauty,Sachdeva-Deshpande,Morbi,77,15,105,22,2,4,2024-01-01
+1888,LG Rice Bag,LG,Grocery,Dutt-Bora,Gudivada,160,8,56,31,7,17,2024-01-01
+1889,Tata Milk Carton,Tata,Grocery,Choudhury LLC,Hubli–Dharwad,264,2,14,69,7,88,2024-01-01
+1890,Godrej Smartphone,Godrej,Electronics,Brar and Sons,Gudivada,313,0,0,61,6,313,2024-01-01
+1891,Sony Vacuum Cleaner,Sony,Home,Dutta-Saraf,Gangtok,219,1,7,62,7,109,2024-01-01
+1892,Puma Mixer Grinder,Puma,Home,Bains Inc,Miryalaguda,293,7,49,38,5,36,2024-01-01
+1893,Puma Jacket,Puma,Apparel,Sarin-Singh,Kirari Suleman Nagar,392,9,63,24,10,39,2024-01-01
+1894,Himalaya LED Bulb,Himalaya,Home,Karnik Inc,Ramagundam,353,8,56,96,5,39,2024-01-01
+1895,Philips Ceiling Fan,Philips,Home,Yadav-Nair,Muzaffarpur,470,5,35,78,9,78,2024-01-01
+1896,Himalaya LED Bulb,Himalaya,Home,Deo-Hora,Morena,39,15,105,46,3,2,2024-01-01
+1897,Amul Shampoo,Amul,Beauty,Saraf PLC,Jamnagar,274,4,28,89,3,54,2024-01-01
+1898,Puma TV,Puma,Electronics,Ganguly-Vig,Agartala,238,17,119,56,5,13,2024-01-01
+1899,Nike Soap Bar,Nike,Beauty,Devan-Saxena,Srikakulam,471,4,28,85,2,94,2024-01-01
+1900,Puma Vacuum Cleaner,Puma,Home,"Bhandari, Rai and Kant",Kanpur,174,2,14,30,7,58,2024-01-01
+1901,Himalaya Smartphone,Himalaya,Electronics,"Bhatti, D’Alia and Devi",Tiruvottiyur,351,2,14,35,5,117,2024-01-01
+1902,Amul Vacuum Cleaner,Amul,Home,Khalsa Ltd,Orai,390,9,63,20,3,39,2024-01-01
+1903,Philips Hair Oil,Philips,Beauty,"Handa, Suresh and Ram",Dewas,359,2,14,28,10,119,2024-01-01
+1904,Himalaya Jacket,Himalaya,Apparel,Chokshi-Sen,Latur,139,8,56,68,2,15,2024-01-01
+1905,Philips Ceiling Fan,Philips,Home,"Wali, Dewan and Gera",Kavali,297,12,84,66,10,22,2024-01-01
+1906,Puma Mixer Grinder,Puma,Home,"Chaudry, Dubey and Rau",Alappuzha,77,10,70,32,10,7,2024-01-01
+1907,Tata Tablet,Tata,Electronics,"Nagi, Kota and Tailor",Raipur,392,26,182,40,6,14,2024-01-01
+1908,Himalaya Ceiling Fan,Himalaya,Home,"Kothari, Pant and Brahmbhatt",Kulti,89,10,70,23,7,8,2024-01-01
+1909,Sony Sneakers,Sony,Apparel,"Choudhury, Sastry and Mander",Ratlam,295,9,63,84,1,29,2024-01-01
+1910,Tata Shampoo,Tata,Beauty,"Suri, Dara and Talwar",Gaya,346,10,70,74,1,31,2024-01-01
+1911,Tata Shampoo,Tata,Beauty,Misra Ltd,Singrauli,261,3,21,92,6,65,2024-01-01
+1912,Amul Body Lotion,Amul,Beauty,"Ahuja, Kala and Chada",Hazaribagh,409,13,91,52,9,29,2024-01-01
+1913,Sony Hair Oil,Sony,Beauty,"Contractor, Raval and Singhal",Narasaraopet,384,2,14,79,8,128,2024-01-01
+1914,Nike Body Lotion,Nike,Beauty,"Rao, Sinha and Mammen",Bareilly,470,2,14,42,9,156,2024-01-01
+1915,Philips Salt Pack,Philips,Grocery,"Walla, Bali and Gaba",Ahmednagar,298,7,49,36,1,37,2024-01-01
+1916,Sony Smartphone,Sony,Electronics,"Sabharwal, Soman and Viswanathan",Thane,192,2,14,46,9,64,2024-01-01
+1917,Tata Sneakers,Tata,Apparel,Aurora-Mandal,Ambarnath,218,16,112,22,2,12,2024-01-01
+1918,Puma Tablet,Puma,Electronics,Chakraborty-Sankaran,Akola,268,1,7,86,6,134,2024-01-01
+1919,Godrej Face Cream,Godrej,Beauty,"Savant, Malhotra and Mistry",Naihati,415,12,84,87,8,31,2024-01-01
+1920,Samsung Headphones,Samsung,Electronics,Patel Inc,Morena,425,20,140,92,10,20,2024-01-01
+1921,Himalaya Sugar Packet,Himalaya,Grocery,Chaudhuri-Ram,Sri Ganganagar,230,1,7,21,6,115,2024-01-01
+1922,LG Face Wash,LG,Beauty,Grover Inc,Bidhannagar,105,6,42,42,8,15,2024-01-01
+1923,Godrej T-Shirt,Godrej,Apparel,Kari-Dara,Gangtok,192,7,49,60,8,24,2024-01-01
+1924,Amul Sneakers,Amul,Apparel,Guha-Dixit,Ambarnath,360,6,42,68,2,51,2024-01-01
+1925,Philips Salt Pack,Philips,Grocery,"Bumb, Manne and Nori",Delhi,380,16,112,66,5,22,2024-01-01
+1926,Puma Juice Bottle,Puma,Grocery,Golla Group,Mumbai,341,14,98,65,4,22,2024-01-01
+1927,Tata Camera,Tata,Electronics,Oak-Ray,Meerut,128,16,112,46,2,7,2024-01-01
+1928,Samsung Milk Carton,Samsung,Grocery,Ben-Divan,Karaikudi,316,3,21,78,10,79,2024-01-01
+1929,Sony Juice Bottle,Sony,Grocery,"Sachdev, Date and Basak",Kadapa,452,15,105,93,5,28,2024-01-01
+1930,Amul Sugar Packet,Amul,Grocery,Narula PLC,Tirunelveli,497,4,28,79,3,99,2024-01-01
+1931,LG Laptop,LG,Electronics,Barad Inc,Bhiwandi,370,3,21,48,3,92,2024-01-01
+1932,Sony Headphones,Sony,Electronics,Cheema PLC,Hazaribagh,63,2,14,69,5,21,2024-01-01
+1933,Godrej Juice Bottle,Godrej,Grocery,Srivastava Group,Lucknow,129,2,14,71,5,43,2024-01-01
+1934,Philips Sneakers,Philips,Apparel,Yadav Group,Cuttack,413,3,21,40,8,103,2024-01-01
+1935,Samsung Jacket,Samsung,Apparel,Khosla-Buch,Pondicherry,355,0,0,66,3,355,2024-01-01
+1936,Puma TV,Puma,Electronics,Sura PLC,Bhilwara,371,7,49,31,7,46,2024-01-01
+1937,Godrej Body Lotion,Godrej,Beauty,Nayak-Sachdev,Ulhasnagar,96,6,42,32,3,13,2024-01-01
+1938,Amul Face Wash,Amul,Beauty,"Lanka, Dada and Kaul",Bhagalpur,312,2,14,83,8,104,2024-01-01
+1939,Tata Iron Box,Tata,Home,"Krishnan, Kohli and Tripathi",Mysore,424,19,133,96,7,21,2024-01-01
+1940,Samsung Smartphone,Samsung,Electronics,Bhandari-Bhalla,Tenali,257,18,126,35,2,13,2024-01-01
+1941,Amul Shampoo,Amul,Beauty,Thaman-Iyer,Tirupati,288,9,63,58,5,28,2024-01-01
+1942,LG Camera,LG,Electronics,"Thaman, Babu and Dash",Patna,251,4,28,58,8,50,2024-01-01
+1943,Himalaya Camera,Himalaya,Electronics,"Ramaswamy, Dhaliwal and Dar",Satara,198,27,189,26,3,7,2024-01-01
+1944,Nike Smartwatch,Nike,Electronics,Narayanan LLC,Phagwara,403,2,14,35,1,134,2024-01-01
+1945,Amul Tablet,Amul,Electronics,"Shetty, Bal and Bumb",Erode,303,6,42,21,9,43,2024-01-01
+1946,Tata Laptop,Tata,Electronics,"Sethi, Sheth and Dey",Chandrapur,422,1,7,53,6,211,2024-01-01
+1947,Himalaya Jacket,Himalaya,Apparel,Date-Bandi,Bharatpur,162,3,21,45,3,40,2024-01-01
+1948,Sony Jeans,Sony,Apparel,Dani-Suresh,Anantapuram,122,14,98,50,4,8,2024-01-01
+1949,Nike Body Lotion,Nike,Beauty,Bhargava and Sons,Naihati,338,10,70,91,1,30,2024-01-01
+1950,Puma TV,Puma,Electronics,Pai LLC,Surat,433,7,49,75,1,54,2024-01-01
+1951,Puma TV,Puma,Electronics,Palla and Sons,Guna,239,25,175,41,1,9,2024-01-01
+1952,Samsung Juice Bottle,Samsung,Grocery,"Sankaran, Konda and Suresh",Amritsar,335,3,21,95,5,83,2024-01-01
+1953,Himalaya T-Shirt,Himalaya,Apparel,Radhakrishnan Inc,Farrukhabad,245,11,77,50,1,20,2024-01-01
+1954,LG LED Bulb,LG,Home,Ramesh LLC,North Dumdum,389,3,21,68,10,97,2024-01-01
+1955,Sony Socks,Sony,Apparel,Kota PLC,Korba,418,18,126,86,1,22,2024-01-01
+1956,Himalaya Juice Bottle,Himalaya,Grocery,Rajan Group,Belgaum,61,7,49,47,9,7,2024-01-01
+1957,Nike Shampoo,Nike,Beauty,"Mutti, Lata and Agate",Raurkela Industrial Township,360,13,91,45,6,25,2024-01-01
+1958,Puma Sneakers,Puma,Apparel,"Kaur, Upadhyay and Choudhry",Bihar Sharif,159,7,49,96,10,19,2024-01-01
+1959,Nike Sneakers,Nike,Apparel,"Issac, Suresh and Ben",Alappuzha,167,8,56,67,2,18,2024-01-01
+1960,Philips Face Cream,Philips,Beauty,"Chander, Vohra and Basu",Patna,55,1,7,21,2,27,2024-01-01
+1961,LG Sneakers,LG,Apparel,Kapadia-Mand,Bhiwani,226,9,63,65,4,22,2024-01-01
+1962,Nike Smartphone,Nike,Electronics,Om-Sagar,Nashik,187,9,63,61,5,18,2024-01-01
+1963,Godrej Camera,Godrej,Electronics,"Gera, Nazareth and Borah",Gudivada,481,11,77,61,3,40,2024-01-01
+1964,Himalaya Face Wash,Himalaya,Beauty,Talwar Ltd,Kalyan-Dombivli,411,12,84,27,7,31,2024-01-01
+1965,Puma Wheat Flour,Puma,Grocery,Sachdev-Brahmbhatt,Kalyan-Dombivli,378,15,105,35,2,23,2024-01-01
+1966,Sony Sugar Packet,Sony,Grocery,Sathe-Jhaveri,Bahraich,371,16,112,68,6,21,2024-01-01
+1967,LG Iron Box,LG,Home,"Dugal, Batra and Char",Hazaribagh,377,6,42,30,7,53,2024-01-01
+1968,Godrej Ceiling Fan,Godrej,Home,"Agate, Prakash and Warrior",Mehsana,107,7,49,44,5,13,2024-01-01
+1969,Sony Vacuum Cleaner,Sony,Home,Rai-Kala,Akola,71,2,14,81,10,23,2024-01-01
+1970,Puma Iron Box,Puma,Home,Keer-Dalal,Bhilwara,356,11,77,55,9,29,2024-01-01
+1971,Godrej Laptop,Godrej,Electronics,Ghose-Sama,Tadepalligudem,438,1,7,72,1,219,2024-01-01
+1972,Samsung Shampoo,Samsung,Beauty,"Dhillon, Manne and Dhar",Gorakhpur,168,9,63,25,1,16,2024-01-01
+1973,Philips Smartwatch,Philips,Electronics,Comar Group,Panchkula,330,1,7,63,8,165,2024-01-01
+1974,Nike LED Bulb,Nike,Home,Salvi Group,Ichalkaranji,146,25,175,79,1,5,2024-01-01
+1975,Nike Iron Box,Nike,Home,"Saxena, Agrawal and Shenoy",Tadepalligudem,384,14,98,99,6,25,2024-01-01
+1976,Philips Cooking Oil,Philips,Grocery,Sabharwal-Kamdar,Gopalpur,74,12,84,37,9,5,2024-01-01
+1977,LG Vacuum Cleaner,LG,Home,Pradhan Inc,Kalyan-Dombivli,304,8,56,59,6,33,2024-01-01
+1978,Samsung Rice Bag,Samsung,Grocery,Garde-Dar,Nashik,396,30,210,56,10,12,2024-01-01
+1979,Samsung Headphones,Samsung,Electronics,Loke LLC,Katni,466,1,7,26,9,233,2024-01-01
+1980,Godrej Cooking Oil,Godrej,Grocery,Sethi Inc,Jehanabad,77,14,98,67,7,5,2024-01-01
+1981,LG Hair Oil,LG,Beauty,Kibe Inc,Salem,108,8,56,45,6,12,2024-01-01
+1982,Puma Tablet,Puma,Electronics,"Pillay, Bhargava and Bhatti",Guntakal,384,12,84,63,2,29,2024-01-01
+1983,Nike Ceiling Fan,Nike,Home,Kamdar Inc,Gandhinagar,195,18,126,97,4,10,2024-01-01
+1984,Puma Dress,Puma,Apparel,"Batra, Tiwari and Prakash",Pudukkottai,310,6,42,55,8,44,2024-01-01
+1985,Samsung Smartphone,Samsung,Electronics,Nanda Group,Hazaribagh,367,10,70,60,6,33,2024-01-01
+1986,Nike Camera,Nike,Electronics,Sidhu LLC,Gandhidham,218,14,98,67,4,14,2024-01-01
+1987,Puma Cooking Oil,Puma,Grocery,Tripathi Group,Jalna,168,22,154,53,8,7,2024-01-01
+1988,Nike Jeans,Nike,Apparel,Chauhan-Brar,Thane,113,3,21,53,1,28,2024-01-01
+1989,Philips Perfume,Philips,Beauty,Chanda-Hayre,Guntakal,190,11,77,44,8,15,2024-01-01
+1990,LG TV,LG,Electronics,Ramachandran Ltd,Vasai-Virar,273,1,7,52,2,136,2024-01-01
+1991,Himalaya Jacket,Himalaya,Apparel,Nagarajan LLC,Amravati,73,15,105,84,8,4,2024-01-01
+1992,Tata Laptop,Tata,Electronics,Andra and Sons,Dibrugarh,236,8,56,44,1,26,2024-01-01
+1993,Puma Soap Bar,Puma,Beauty,"Ganguly, Balay and Roy",Malda,412,21,147,41,6,18,2024-01-01
+1994,Tata Smartphone,Tata,Electronics,"Zacharia, Raman and Wali",Rajahmundry,113,5,35,71,7,18,2024-01-01
+1995,Amul Salt Pack,Amul,Grocery,"Saxena, Kamdar and Viswanathan",Howrah,251,3,21,89,8,62,2024-01-01
+1996,LG Table Lamp,LG,Home,Verma LLC,Nashik,430,3,21,98,1,107,2024-01-01
+1997,Tata Dress,Tata,Apparel,Bora-Ramanathan,Bhiwandi,487,9,63,63,2,48,2024-01-01
+1998,Amul Face Wash,Amul,Beauty,Divan PLC,Hyderabad,111,4,28,77,4,22,2024-01-01
+1999,LG Camera,LG,Electronics,Bandi-Balakrishnan,South Dumdum,433,15,105,75,4,27,2024-01-01
+2000,Himalaya Tablet,Himalaya,Electronics,Rajagopalan-D’Alia,Kavali,317,9,63,24,8,31,2024-01-01

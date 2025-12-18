@@ -22,21 +22,21 @@ const TopSKUsChart: React.FC<TopSKUsChartProps> = ({ topSKUs = [] }) => {
           <p className="text-gray-500 dark:text-gray-400 text-sm">This month's forecast</p>
         </div>
       </div>
-      
+
       {topSKUs.length > 0 ? (
         <>
           <div className="h-80">
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={topSKUs} layout="horizontal">
+              <BarChart data={topSKUs} layout="vertical">
                 <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
-                <XAxis 
-                  type="number" 
+                <XAxis
+                  type="number"
                   stroke="#9ca3af"
                   fontSize={12}
                   tickLine={false}
                   axisLine={false}
                 />
-                <YAxis 
+                <YAxis
                   type="category"
                   dataKey="name"
                   stroke="#9ca3af"
@@ -56,17 +56,17 @@ const TopSKUsChart: React.FC<TopSKUsChartProps> = ({ topSKUs = [] }) => {
                   formatter={(value: number) => [`${value} units`, 'Predicted Demand']}
                   labelFormatter={(label) => `Product: ${label}`}
                 />
-                <Bar 
-                  dataKey="predictedDemand" 
-                  fill="#6366f1" 
+                <Bar
+                  dataKey="predictedDemand"
+                  fill="#6366f1"
                   radius={[0, 6, 6, 0]}
                 />
               </BarChart>
             </ResponsiveContainer>
           </div>
-          
+
           <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {topSKUs.slice(0, 3).map((sku, index) => (
+            {topSKUs.slice(0, 3).map((sku) => (
               <div key={sku.sku} className="flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-800 rounded-lg">
                 <div>
                   <p className="font-medium text-gray-900 dark:text-white text-sm">{sku.sku}</p>

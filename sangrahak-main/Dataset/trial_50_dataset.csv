@@ -1,0 +1,51 @@
+sku,name,category,stock,reorderPoint,supplier,price
+SKU001,Gaming Mouse,Electronics,5,20,TechSuppliers,45.00
+SKU002,USB Hub (4-port),Electronics,2,15,CableCo,12.00
+SKU003,Desk Lamp,Furniture,0,10,BrightLights,35.00
+SKU004,Notepads (A5),Stationery,10,50,PaperWorld,2.00
+SKU005,Gel Pens (Black),Stationery,15,100,WriteRight,0.80
+SKU006,HDMI Adapter,Electronics,3,25,CableCo,8.00
+SKU007,Cleaning Wipes,Accessories,5,30,CleanView,5.00
+SKU008,Batteries (AA Pack),Electronics,8,40,PowerSafe,4.00
+SKU009,Coffee Filters,Pantry,4,20,BrewMaster,3.00
+SKU010,Green Tea (Box),Pantry,2,15,TeaTime,6.00
+SKU011,Paper Towels (Roll),Pantry,5,30,EcoWare,1.50
+SKU012,Printer Ink (Cyan),Electronics,1,10,PrintMaster,45.00
+SKU013,Extension Cord (5m),Electronics,4,15,PowerSafe,10.00
+SKU014,Wireless Keyboard,Electronics,300,20,KeyMaster,60.00
+SKU015,Monitor Stand,Accessories,150,10,AlloyTech,25.00
+SKU016,Ballpoint Pens (Blue),Stationery,2000,100,WriteRight,0.40
+SKU017,Staples (Box),Stationery,500,20,OfficeEssentials,1.00
+SKU018,USB-C Cable (1m),Electronics,400,30,CableCo,9.00
+SKU019,Mouse Pad (Large),Accessories,350,25,SurfaceTech,6.00
+SKU020,Sticky Notes (Neon),Stationery,600,50,PaperWorld,1.50
+SKU021,Whiteboard Markers,Stationery,250,20,WriteRight,8.00
+SKU022,Paper Clips (Large),Stationery,800,40,OfficeEssentials,0.50
+SKU023,Plastic Cups (50pk),Pantry,1000,100,EcoWare,2.50
+SKU024,Ethernet Cable (5m),Electronics,200,15,CableCo,12.00
+SKU025,Cable Ties (100pk),Accessories,900,50,OrganizeIt,4.00
+SKU026,Ergonomic Chair,Furniture,15,10,ComfortSeating,180.00
+SKU027,Standing Desk,Furniture,8,5,OfficePro,320.00
+SKU028,Webcam 4K,Electronics,25,15,Visionary,90.00
+SKU029,Headset with Mic,Electronics,30,20,SoundWave,55.00
+SKU030,Mechanical Pencil,Stationery,45,30,WriteRight,3.00
+SKU031,A4 Paper Ream,Stationery,80,50,PaperWorld,6.00
+SKU032,File Folders (Pack),Stationery,120,80,OfficeEssentials,12.00
+SKU033,Scissors,Stationery,40,25,CutRite,5.00
+SKU034,Tape Dispenser,Stationery,20,12,StickFast,7.00
+SKU035,Scientific Calculator,Electronics,35,20,MathWiz,15.00
+SKU036,Paper Shredder,Electronics,8,5,OfficePro,120.00
+SKU037,Label Maker,Electronics,12,8,PrintMaster,40.00
+SKU038,Desk Organizer,Accessories,28,20,OrganizeIt,18.00
+SKU039,Laptop Sleeve (15"),Accessories,22,15,ProtectIt,20.00
+SKU040,Screen Cleaner Spray,Accessories,35,25,CleanView,8.00
+SKU041,Footrest,Furniture,12,8,ComfortSeating,35.00
+SKU042,Wall Clock,Decor,18,12,TimeKeepers,22.00
+SKU043,Artificial Plant,Decor,24,15,GreenSpaces,28.00
+SKU044,Coffee Maker,Pantry,6,4,BrewMaster,85.00
+SKU045,Tea Bags (Earl Grey),Pantry,40,30,TeaTime,5.00
+SKU046,Sugar Packets (Box),Pantry,100,80,SweetLife,4.00
+SKU047,Biscuits (Pack),Pantry,35,20,SnackTime,2.00
+SKU048,Air Purifier,Appliances,7,4,PureAir,140.00
+SKU049,Portable Fan,Appliances,18,12,CoolBreeze,25.00
+SKU050,Power Strip (Surge),Electronics,40,25,PowerSafe,18.00

@@ -1,0 +1,2001 @@
+item_id,product_name,brand,category,supplier_name,location,current_stock,daily_sales,weekly_sales,reorder_level,lead_time,days_to_empty,date
+1,Expedita Plus,Puma,Home,"Swaminathan, Wason and Nagarajan",Bijapur,460,2,14,49,4,153,2024-01-01
+2,Deserunt Pro,Godrej,Home,Swaminathan-Bhardwaj,Nagaon,432,11,77,33,7,36,2024-01-01
+3,Ad Elite,Nike,Electronics,Chauhan-Tandon,Dhule,344,12,84,52,8,26,2024-01-01
+4,Doloremque X,Sony,Grocery,Kata LLC,Sambalpur,343,5,35,67,2,57,2024-01-01
+5,Facere Elite,Tata,Apparel,Ramakrishnan Group,Motihari,117,13,91,97,5,8,2024-01-01
+6,Quis Plus,Philips,Apparel,Wable-Kannan,Noida,241,1,7,53,6,120,2024-01-01
+7,Fuga Max,Amul,Home,Sidhu PLC,Udupi,336,8,56,53,4,37,2024-01-01
+8,Est Pro,Amul,Beauty,"Sem, Datta and Rama",Raiganj,52,21,147,27,8,2,2024-01-01
+9,Aut Max,Puma,Apparel,Thakur LLC,Visakhapatnam,53,13,91,29,8,3,2024-01-01
+10,Atque Max,LG,Grocery,Mangat-Tank,Kirari Suleman Nagar,314,8,56,87,1,34,2024-01-01
+11,Quaerat Pro,Sony,Electronics,Thaman-Mann,Munger,419,25,175,100,5,16,2024-01-01
+12,Praesentium Max,Tata,Apparel,"Dhar, Chopra and Loke",Pune,413,13,91,35,3,29,2024-01-01
+13,Temporibus Plus,Tata,Beauty,"Goswami, Mohan and Dey",Bettiah,444,2,14,100,2,148,2024-01-01
+14,Tempore X,Tata,Grocery,"Lal, Bedi and Chand",Vellore,278,11,77,31,6,23,2024-01-01
+15,Qui Max,Tata,Grocery,Ratti-Soni,Asansol,219,16,112,47,6,12,2024-01-01
+16,Nulla Elite,LG,Apparel,Lal LLC,Warangal,289,22,154,36,9,12,2024-01-01
+17,Cum Elite,Tata,Electronics,Dhillon Inc,Bhilwara,329,6,42,30,7,47,2024-01-01
+18,Suscipit Pro,Puma,Home,"Chad, Kari and Bhargava",Alappuzha,334,23,161,37,8,13,2024-01-01
+19,Iste Max,Godrej,Grocery,"Morar, Kumar and Bhattacharyya",Bulandshahr,188,9,63,20,6,18,2024-01-01
+20,Temporibus Plus,Nike,Beauty,Chander-Varty,Sri Ganganagar,231,23,161,76,2,9,2024-01-01
+21,Sapiente Max,LG,Electronics,"Iyer, Vohra and Dayal",Ghaziabad,293,13,91,82,1,20,2024-01-01
+22,Quibusdam X,Himalaya,Electronics,"Basu, Chopra and Borra",Kakinada,359,0,0,58,4,359,2024-01-01
+23,Harum Pro,Amul,Apparel,"Loyal, Sant and Mital",Ujjain,213,12,84,20,6,16,2024-01-01
+24,Dolores Plus,Nike,Electronics,"Sama, Divan and Mane",Belgaum,463,20,140,31,1,22,2024-01-01
+25,Aliquid Plus,Nike,Grocery,Gopal PLC,Nashik,416,5,35,91,1,69,2024-01-01
+26,Esse Elite,Amul,Beauty,Rastogi-Mammen,Ajmer,358,3,21,82,1,89,2024-01-01
+27,Tempore Elite,Sony,Beauty,Bahl-Sarna,Ahmedabad,223,2,14,74,6,74,2024-01-01
+28,Consequuntur Max,Samsung,Apparel,"Sodhi, Mukhopadhyay and Tailor",Gorakhpur,297,16,112,85,1,17,2024-01-01
+29,Neque Plus,Nike,Beauty,Patla-Bal,Malegaon,470,15,105,52,10,29,2024-01-01
+30,Quod Pro,Samsung,Apparel,"Goda, Krishnamurthy and Kibe",Karnal,65,8,56,29,8,7,2024-01-01
+31,Eaque Plus,Nike,Home,"Sandhu, Borah and Randhawa",Ludhiana,56,15,105,45,10,3,2024-01-01
+32,Facilis Elite,Tata,Beauty,Sachdev-Bakshi,Hazaribagh,143,3,21,89,1,35,2024-01-01
+33,Dolore X,Amul,Electronics,Rout-Memon,Adoni,199,5,35,30,4,33,2024-01-01
+34,Laboriosam Max,Godrej,Apparel,Warrior-Narasimhan,Bhatpara,430,4,28,58,2,86,2024-01-01
+35,Eum X,Philips,Home,Batta-Gala,Dibrugarh,78,10,70,44,2,7,2024-01-01
+36,Optio Pro,Sony,Grocery,"Palan, Lad and Bassi",Malegaon,54,17,119,44,6,3,2024-01-01
+37,Deleniti Pro,Sony,Electronics,"Varghese, Kata and Babu",Guntakal,331,5,35,93,8,55,2024-01-01
+38,Pariatur Elite,Samsung,Beauty,"Sura, Sagar and Gill",Chapra,129,5,35,88,1,21,2024-01-01
+39,Maxime Max,Godrej,Grocery,Kar-Dhingra,Hospet,263,7,49,98,10,32,2024-01-01
+40,Ratione Max,Samsung,Home,"Agarwal, Chad and Sundaram",Imphal,381,0,0,75,10,381,2024-01-01
+41,Quasi Elite,Philips,Beauty,"Amble, Uppal and Natarajan",Gorakhpur,311,9,63,58,10,31,2024-01-01
+42,Ducimus X,Samsung,Grocery,"Acharya, Bansal and Borde",Nizamabad,115,18,126,67,7,6,2024-01-01
+43,Tempore Plus,Puma,Home,Nadig Ltd,Thanjavur,391,34,238,90,3,11,2024-01-01
+44,Et X,Philips,Grocery,"Purohit, Shere and Mannan",Chittoor,454,8,56,99,2,50,2024-01-01
+45,Enim Pro,Godrej,Electronics,"Gaba, Dutta and Venkatesh",Gopalpur,405,16,112,98,6,23,2024-01-01
+46,Perspiciatis X,Godrej,Apparel,Bahri-Gour,Pudukkottai,86,11,77,85,2,7,2024-01-01
+47,Facilis Max,Puma,Beauty,Saraf PLC,Morena,341,11,77,55,6,28,2024-01-01
+48,Enim Elite,Godrej,Apparel,Shere-Jayaraman,Belgaum,151,28,196,93,6,5,2024-01-01
+49,Ipsum X,Philips,Electronics,"Nath, Kota and Bhat",Panihati,344,13,91,25,4,24,2024-01-01
+50,Pariatur Elite,Samsung,Electronics,Bala-Varughese,Chennai,253,9,63,79,1,25,2024-01-01
+51,Illo Pro,Amul,Grocery,Gola-Khosla,Chandigarh,243,10,70,25,3,22,2024-01-01
+52,Quaerat Elite,Sony,Electronics,"Kapadia, Sur and Oak",Medininagar,234,18,126,95,9,12,2024-01-01
+53,Maiores Plus,Samsung,Apparel,Saini-Choudhury,Amaravati,139,12,84,31,5,10,2024-01-01
+54,Consequatur X,Nike,Grocery,Mander-Kata,Vellore,342,15,105,79,8,21,2024-01-01
+55,Inventore Elite,Himalaya,Beauty,Goyal-Cheema,Medininagar,101,2,14,65,2,33,2024-01-01
+56,Optio X,Philips,Electronics,"Sengupta, Vasa and Butala",Dhule,184,5,35,57,8,30,2024-01-01
+57,Molestiae Elite,Amul,Home,Baral PLC,Rohtak,236,18,126,92,9,12,2024-01-01
+58,Quisquam Pro,Nike,Beauty,"Oak, Ravel and Upadhyay",Mira-Bhayandar,300,22,154,73,1,13,2024-01-01
+59,Temporibus Pro,Puma,Beauty,Grewal PLC,Gandhidham,260,5,35,64,4,43,2024-01-01
+60,Dolor Max,Samsung,Grocery,"Palla, Prashad and Doctor",Jhansi,104,9,63,76,6,10,2024-01-01
+61,Consequuntur X,Tata,Grocery,Handa-Dayal,Shimla,308,20,140,56,6,14,2024-01-01
+62,Error X,Sony,Grocery,Guha PLC,Amroha,331,4,28,27,4,66,2024-01-01
+63,Molestias Plus,Tata,Electronics,Doshi Inc,Purnia,105,15,105,39,6,6,2024-01-01
+64,Quaerat Elite,Godrej,Electronics,"Talwar, Bawa and Keer",Surendranagar Dudhrej,150,17,119,20,3,8,2024-01-01
+65,Eligendi Pro,Tata,Grocery,Deo-Agrawal,Panihati,425,8,56,55,6,47,2024-01-01
+66,Odio Max,Samsung,Home,Sankar Inc,Khammam,399,10,70,69,2,36,2024-01-01
+67,Quod Pro,Nike,Grocery,"Mukhopadhyay, Golla and Pandey",Raurkela Industrial Township,206,7,49,43,3,25,2024-01-01
+68,Quas Max,Nike,Electronics,Tripathi and Sons,Uluberia,399,9,63,41,2,39,2024-01-01
+69,Esse Plus,Sony,Home,Walia Group,Ambala,173,22,154,20,3,7,2024-01-01
+70,Vitae Elite,Godrej,Grocery,"Palla, Goyal and Banik",Durg,456,7,49,70,1,57,2024-01-01
+71,Dolore Max,Himalaya,Beauty,Contractor-Kar,Chennai,82,7,49,61,8,10,2024-01-01
+72,Amet Elite,Amul,Apparel,Lanka-Mistry,Surendranagar Dudhrej,306,21,147,23,10,13,2024-01-01
+73,Quo X,Nike,Beauty,"Wable, Raj and Comar",Surendranagar Dudhrej,410,3,21,40,7,102,2024-01-01
+74,Ipsam X,Puma,Beauty,Rajagopalan PLC,Chandigarh,334,17,119,64,3,18,2024-01-01
+75,Aliquid Max,Tata,Beauty,Dey-Sachdev,Chittoor,423,4,28,61,7,84,2024-01-01
+76,Eaque Plus,Nike,Electronics,Vasa-Bhavsar,Vijayanagaram,455,8,56,29,7,50,2024-01-01
+77,Corporis Pro,LG,Apparel,"Savant, Wason and Karpe",Tumkur,271,2,14,62,3,90,2024-01-01
+78,Reiciendis Plus,LG,Beauty,"Mukhopadhyay, Ben and Kota",Tenali,424,0,0,61,10,424,2024-01-01
+79,Voluptate Elite,LG,Electronics,Shanker and Sons,Ramagundam,244,3,21,76,7,61,2024-01-01
+80,Quia Elite,LG,Beauty,"Sachdev, Nagi and Mander",Kollam,417,0,0,56,6,417,2024-01-01
+81,Nihil Pro,Sony,Home,Narasimhan-Tata,Hajipur,363,8,56,89,3,40,2024-01-01
+82,Natus Pro,Samsung,Apparel,"Ray, Dara and Char",Udaipur,273,16,112,27,6,16,2024-01-01
+83,Delectus Max,Himalaya,Grocery,Deshpande-Devan,Shahjahanpur,439,1,7,89,4,219,2024-01-01
+84,Dolore Max,Tata,Electronics,Ganesan Ltd,Hubli–Dharwad,182,5,35,76,8,30,2024-01-01
+85,Eligendi Max,LG,Home,Handa-Sundaram,Belgaum,457,21,147,84,10,20,2024-01-01
+86,Architecto X,Tata,Grocery,Kibe-Sathe,Suryapet,467,1,7,48,2,233,2024-01-01
+87,Omnis Max,Nike,Grocery,Nadig PLC,Ramagundam,447,11,77,79,9,37,2024-01-01
+88,Error Max,Samsung,Beauty,"Karpe, Mangal and Srivastava",Jalgaon,188,9,63,20,3,18,2024-01-01
+89,Quaerat Elite,Puma,Home,"Karnik, Dube and Nath",Kalyan-Dombivli,197,5,35,21,2,32,2024-01-01
+90,Sequi Plus,Nike,Electronics,Gole Inc,Bhopal,70,12,84,66,7,5,2024-01-01
+91,Saepe Elite,Himalaya,Home,Bora-Gola,Yamunanagar,269,7,49,57,6,33,2024-01-01
+92,Molestiae Pro,Godrej,Beauty,Choudhary-More,Hapur,84,6,42,87,9,12,2024-01-01
+93,Delectus Max,Samsung,Home,Anand LLC,Anantapuram,271,22,154,26,8,11,2024-01-01
+94,Quam Pro,Himalaya,Electronics,Ghosh LLC,Bokaro,250,19,133,75,3,12,2024-01-01
+95,Doloremque X,Philips,Electronics,"Ahluwalia, Sahota and Kala",Phagwara,206,12,84,80,3,15,2024-01-01
+96,Id Pro,Sony,Home,Gade Group,Chandrapur,236,7,49,76,4,29,2024-01-01
+97,Ducimus Max,Philips,Grocery,Pai-Mohanty,Ulhasnagar,340,24,168,59,10,13,2024-01-01
+98,Occaecati Max,Sony,Apparel,Goel Inc,Kochi,183,14,98,41,3,12,2024-01-01
+99,Eum X,Himalaya,Home,Loyal-Magar,Bellary,480,8,56,46,3,53,2024-01-01
+100,Natus Plus,Puma,Grocery,"Ahluwalia, Sethi and Bhattacharyya",Begusarai,98,2,14,98,2,32,2024-01-01
+101,Deserunt Max,Amul,Home,Sekhon and Sons,Bhavnagar,402,4,28,64,7,80,2024-01-01
+102,Commodi Pro,Sony,Grocery,Ramesh-Peri,Sangli-Miraj & Kupwad,295,15,105,61,8,18,2024-01-01
+103,Quod Max,Sony,Home,Mitra Inc,Gaya,106,20,140,63,3,5,2024-01-01
+104,Aperiam X,Philips,Grocery,"Chatterjee, Balakrishnan and Chowdhury",Srikakulam,420,14,98,36,8,28,2024-01-01
+105,Nam Pro,Samsung,Apparel,De Group,Erode,152,22,154,62,5,6,2024-01-01
+106,Odio X,Tata,Beauty,Kala PLC,Srikakulam,172,12,84,53,1,13,2024-01-01
+107,Maiores Elite,Himalaya,Beauty,Kala-Sandal,Kolhapur,379,9,63,79,6,37,2024-01-01
+108,Cumque X,Puma,Apparel,Khatri-Ramesh,Madhyamgram,115,15,105,59,3,7,2024-01-01
+109,Quis Plus,Samsung,Beauty,Zachariah and Sons,Pallavaram,461,31,217,78,1,14,2024-01-01
+110,Unde X,Amul,Beauty,Koshy and Sons,Singrauli,41,5,35,46,1,6,2024-01-01
+111,Corporis X,Samsung,Electronics,Madan PLC,Madhyamgram,229,7,49,71,3,28,2024-01-01
+112,Tempore Max,Sony,Apparel,Rajagopalan-Peri,Bettiah,279,9,63,55,4,27,2024-01-01
+113,Voluptatum Max,Puma,Home,Hora Inc,Bhimavaram,312,13,91,80,7,22,2024-01-01
+114,Ab Plus,Sony,Apparel,Mane-Shankar,Tenali,72,20,140,52,5,3,2024-01-01
+115,Dolorem Plus,Samsung,Home,Mander Inc,Miryalaguda,413,8,56,32,9,45,2024-01-01
+116,Natus Plus,Puma,Home,Hora PLC,Dhanbad,444,2,14,50,1,148,2024-01-01
+117,Fuga Pro,LG,Home,"Saha, Sankaran and Kohli",Begusarai,60,14,98,93,2,4,2024-01-01
+118,Eos Max,Himalaya,Grocery,Mandal PLC,Howrah,201,19,133,51,3,10,2024-01-01
+119,Tenetur Elite,LG,Apparel,Setty-Sarma,Siwan,154,4,28,51,3,30,2024-01-01
+120,Deserunt Plus,Tata,Grocery,Mammen LLC,Noida,436,8,56,42,1,48,2024-01-01
+121,Sint Plus,Himalaya,Electronics,"Basu, Bora and Iyengar",Bongaigaon,442,13,91,73,8,31,2024-01-01
+122,Quae Pro,Philips,Home,Handa-Gera,Jamnagar,266,21,147,73,9,12,2024-01-01
+123,Tempora X,Puma,Beauty,Boase LLC,Raurkela Industrial Township,253,1,7,86,5,126,2024-01-01
+124,Perspiciatis Max,Godrej,Apparel,Sarkar-Chanda,Agra,116,18,126,75,6,6,2024-01-01
+125,Recusandae X,Godrej,Home,Bawa-Lata,Noida,303,7,49,100,8,37,2024-01-01
+126,Doloremque Pro,Samsung,Home,Mangal-Uppal,Panipat,454,10,70,47,10,41,2024-01-01
+127,Blanditiis Pro,Nike,Grocery,Bhargava LLC,Faridabad,240,12,84,29,9,18,2024-01-01
+128,Numquam Max,Puma,Grocery,Sundaram-Manne,Karaikudi,373,3,21,47,5,93,2024-01-01
+129,Nobis Max,Philips,Beauty,"Kuruvilla, Bava and Pal",Kalyan-Dombivli,51,4,28,65,8,10,2024-01-01
+130,Ut Max,Tata,Grocery,"Savant, Mallick and Lanka",Karaikudi,326,5,35,73,4,54,2024-01-01
+131,Non X,Samsung,Grocery,Varughese-Chaudhry,Mehsana,63,12,84,70,7,4,2024-01-01
+132,Doloremque Max,Nike,Grocery,Nagy PLC,Madhyamgram,319,3,21,21,4,79,2024-01-01
+133,Sunt Elite,Puma,Grocery,Chatterjee-Varma,Berhampore,208,17,119,88,10,11,2024-01-01
+134,Amet Elite,Tata,Grocery,Tank-Iyer,Gandhinagar,358,5,35,85,9,59,2024-01-01
+135,Optio Plus,Amul,Apparel,Dani-Kota,Siliguri,41,11,77,67,10,3,2024-01-01
+136,In X,Philips,Home,"Vyas, Tata and Sabharwal",Anand,322,11,77,68,4,26,2024-01-01
+137,Quibusdam X,Amul,Apparel,Banerjee Group,Uluberia,166,13,91,83,7,11,2024-01-01
+138,Nulla Plus,Godrej,Electronics,"Pandey, Korpal and Minhas",Silchar,139,9,63,89,9,13,2024-01-01
+139,Dolorum Plus,Samsung,Apparel,Dara-Kaur,Udupi,291,8,56,29,7,32,2024-01-01
+140,Autem Pro,Nike,Home,Wable Group,Ajmer,294,10,70,24,4,26,2024-01-01
+141,Adipisci Plus,Sony,Electronics,Goswami-Venkatesh,Asansol,101,29,203,42,7,3,2024-01-01
+142,Minus Plus,Amul,Electronics,"Pathak, Chowdhury and Choudhry",Machilipatnam,379,5,35,40,6,63,2024-01-01
+143,Doloremque Pro,Amul,Grocery,Chawla-Kapur,Thane,292,13,91,47,10,20,2024-01-01
+144,Eum Elite,Godrej,Electronics,"Gade, Hayer and Chacko",Anand,407,8,56,92,4,45,2024-01-01
+145,Aliquid Plus,Himalaya,Grocery,"Hora, More and Madan",Silchar,113,1,7,21,5,56,2024-01-01
+146,Quibusdam Plus,Puma,Apparel,Bhardwaj-Karan,South Dumdum,440,6,42,67,5,62,2024-01-01
+147,Quisquam Max,Nike,Grocery,"Lad, Patla and Deep",Katihar,343,11,77,96,7,28,2024-01-01
+148,Hic X,Philips,Home,Bhavsar-Borah,Navi Mumbai,476,2,14,21,8,158,2024-01-01
+149,Accusantium Elite,Puma,Grocery,Wali-Prashad,Jodhpur,333,11,77,90,6,27,2024-01-01
+150,Nemo Max,Nike,Electronics,Boase-Chana,Vijayanagaram,245,3,21,92,6,61,2024-01-01
+151,Quibusdam Max,Amul,Grocery,Pillay-Lall,Gangtok,467,9,63,90,2,46,2024-01-01
+152,Minus Pro,Sony,Electronics,"Malhotra, Chanda and Thakur",Raiganj,170,22,154,24,1,7,2024-01-01
+153,Fugiat Elite,Puma,Home,"Mall, Oak and Nagar",Sangli-Miraj & Kupwad,148,15,105,73,1,9,2024-01-01
+154,Enim Elite,Godrej,Beauty,Bahl-Swaminathan,Hazaribagh,79,8,56,77,7,8,2024-01-01
+155,Aperiam Pro,LG,Home,Yohannan-Subramaniam,Tiruvottiyur,92,4,28,89,6,18,2024-01-01
+156,Necessitatibus Max,Puma,Home,Merchant-Tandon,Rohtak,385,6,42,36,9,55,2024-01-01
+157,Et Elite,Sony,Apparel,Banerjee Inc,Sagar,335,15,105,90,10,20,2024-01-01
+158,Repellendus Max,Puma,Home,Agate LLC,Raichur,173,7,49,74,2,21,2024-01-01
+159,Cumque Pro,Nike,Beauty,Vaidya and Sons,Jamalpur,160,12,84,73,4,12,2024-01-01
+160,Quas Pro,Sony,Grocery,"Varkey, Ganesh and Khare",Jalgaon,280,15,105,57,2,17,2024-01-01
+161,Veniam Elite,Philips,Beauty,Buch-Rattan,Nadiad,85,11,77,46,7,7,2024-01-01
+162,Ex Pro,Samsung,Apparel,Mistry-Cherian,Muzaffarnagar,387,15,105,38,7,24,2024-01-01
+163,Id Plus,Tata,Grocery,Venkatesh Ltd,Shivpuri,473,15,105,25,4,29,2024-01-01
+164,Quibusdam X,Philips,Beauty,Datta-Sengupta,Delhi,321,17,119,71,10,17,2024-01-01
+165,Enim Max,Philips,Electronics,"Wason, Sanghvi and Shetty",Jhansi,296,2,14,88,6,98,2024-01-01
+166,Aperiam Max,Philips,Grocery,Prashad-Mistry,Gorakhpur,318,8,56,64,7,35,2024-01-01
+167,Expedita Plus,Himalaya,Electronics,"Parsa, Mutti and Sekhon",Bijapur,70,17,119,28,9,3,2024-01-01
+168,Pariatur Elite,Nike,Electronics,Shroff Inc,Bardhaman,457,8,56,47,10,50,2024-01-01
+169,Rem X,Philips,Apparel,Deep Ltd,Hospet,202,18,126,65,8,10,2024-01-01
+170,Asperiores Pro,LG,Apparel,"Viswanathan, Badami and Chawla",Kurnool,204,1,7,90,10,102,2024-01-01
+171,Quos X,Puma,Electronics,Mallick Group,Rohtak,275,1,7,33,9,137,2024-01-01
+172,Nisi Elite,LG,Grocery,"Samra, Som and Goswami",Mirzapur,63,23,161,86,10,2,2024-01-01
+173,Nobis X,Tata,Beauty,Kashyap LLC,Bidar,113,5,35,83,3,18,2024-01-01
+174,Aperiam Plus,Nike,Apparel,Seth and Sons,Saharsa,235,2,14,38,1,78,2024-01-01
+175,Placeat X,LG,Apparel,Pandey and Sons,Jalna,413,2,14,89,3,137,2024-01-01
+176,Unde Max,Nike,Apparel,"Sheth, Dara and Khatri",Saharsa,333,16,112,68,7,19,2024-01-01
+177,Minus X,Puma,Home,Mannan LLC,Madhyamgram,350,5,35,39,6,58,2024-01-01
+178,Esse X,Godrej,Grocery,Om-Saran,Sagar,226,11,77,97,4,18,2024-01-01
+179,Ipsum Pro,Amul,Beauty,"Chaudhuri, Dugar and Chadha",Khandwa,447,3,21,91,4,111,2024-01-01
+180,Facilis X,Himalaya,Home,Naik LLC,Dewas,408,9,63,42,5,40,2024-01-01
+181,Officia Plus,Philips,Electronics,"Banik, Chauhan and Sastry",Thoothukudi,382,13,91,59,9,27,2024-01-01
+182,Voluptatum Plus,Tata,Beauty,"Bhavsar, Som and Wagle",Asansol,303,5,35,71,10,50,2024-01-01
+183,Maxime X,Tata,Apparel,Vyas-Panchal,Dindigul,145,1,7,52,2,72,2024-01-01
+184,Fugit X,Puma,Grocery,Pradhan-Bhagat,Hapur,406,12,84,98,7,31,2024-01-01
+185,Excepturi X,Puma,Grocery,Dasgupta-Peri,Davanagere,386,2,14,32,7,128,2024-01-01
+186,Saepe Pro,Samsung,Electronics,Nath Inc,Gandhinagar,447,4,28,27,1,89,2024-01-01
+187,Corrupti Elite,Philips,Electronics,"Datta, Kashyap and Sangha",Malda,97,4,28,82,9,19,2024-01-01
+188,Ab Elite,Nike,Grocery,Vyas Inc,Kota,207,13,91,23,1,14,2024-01-01
+189,Corrupti Pro,Philips,Electronics,Krishna-Trivedi,Kollam,198,10,70,80,7,18,2024-01-01
+190,Error Plus,Samsung,Home,Butala-Deo,Raichur,168,5,35,43,9,28,2024-01-01
+191,Soluta Elite,Puma,Apparel,Sabharwal-Warrior,Bokaro,121,1,7,65,4,60,2024-01-01
+192,Harum X,Philips,Electronics,Agarwal Inc,Alwar,51,13,91,85,8,3,2024-01-01
+193,Sed Plus,Philips,Beauty,Srinivasan PLC,New Delhi,66,0,0,79,5,66,2024-01-01
+194,Eveniet Elite,LG,Beauty,Acharya Inc,Tirunelveli,411,4,28,64,7,82,2024-01-01
+195,Pariatur Pro,Tata,Beauty,"Wagle, Mannan and Sarna",Sri Ganganagar,43,13,91,95,2,3,2024-01-01
+196,Culpa Pro,Puma,Electronics,"Upadhyay, Balasubramanian and Barman",Saharsa,324,7,49,85,2,40,2024-01-01
+197,Dolores Plus,Philips,Home,"Comar, Ram and Kamdar",Saharanpur,456,6,42,23,7,65,2024-01-01
+198,Dolorem Pro,Philips,Apparel,"Shanker, Tandon and Mani",Thane,161,4,28,38,7,32,2024-01-01
+199,Dolore Plus,Tata,Grocery,Deol Group,Pune,483,2,14,41,4,161,2024-01-01
+200,Hic Elite,Nike,Apparel,Raju-Varughese,Haridwar,329,16,112,40,3,19,2024-01-01
+201,Rerum Max,Godrej,Home,Sarma PLC,Hospet,164,1,7,77,10,82,2024-01-01
+202,Accusamus X,Philips,Grocery,Chana-Misra,Chennai,116,19,133,48,5,5,2024-01-01
+203,Excepturi Plus,Amul,Grocery,Dhawan LLC,Siliguri,83,18,126,67,1,4,2024-01-01
+204,Pariatur Elite,Puma,Home,Sidhu PLC,Kalyan-Dombivli,176,15,105,87,8,11,2024-01-01
+205,Qui Pro,Godrej,Grocery,Aurora-Hayre,Sangli-Miraj & Kupwad,306,5,35,27,9,51,2024-01-01
+206,Corporis Elite,Nike,Home,Mody Ltd,Satara,394,17,119,78,10,21,2024-01-01
+207,Unde Max,Tata,Beauty,Prasad-Dubey,Pune,489,15,105,93,7,30,2024-01-01
+208,Repellat Max,Nike,Grocery,Sha-Dyal,Pudukkottai,157,8,56,56,1,17,2024-01-01
+209,Id Elite,Amul,Beauty,"Raman, Sundaram and Nori",Noida,53,7,49,76,4,6,2024-01-01
+210,Amet Max,Philips,Apparel,"Chadha, Chaudhari and Sur",Purnia,415,11,77,50,7,34,2024-01-01
+211,Nesciunt X,LG,Electronics,Palan and Sons,Maheshtala,323,12,84,92,9,24,2024-01-01
+212,Cum Pro,Himalaya,Home,"Hora, Lall and Chauhan",Gopalpur,47,17,119,28,8,2,2024-01-01
+213,Quod Pro,Puma,Grocery,Varty Group,Nashik,355,6,42,52,10,50,2024-01-01
+214,Amet Pro,LG,Electronics,"Shenoy, Ravel and Wable",Jodhpur,64,15,105,95,6,4,2024-01-01
+215,Corporis Pro,Godrej,Home,Bhattacharyya-Chaudry,Mirzapur,272,10,70,30,5,24,2024-01-01
+216,Sunt X,Nike,Beauty,Som-Rana,Bhavnagar,280,2,14,24,9,93,2024-01-01
+217,Non Max,Tata,Grocery,Iyer Inc,Mau,444,0,0,96,6,444,2024-01-01
+218,Magni Max,Sony,Apparel,Minhas Ltd,Chennai,49,8,56,67,4,5,2024-01-01
+219,Quas X,Sony,Apparel,"Korpal, Upadhyay and Ram",Mehsana,440,30,210,58,2,14,2024-01-01
+220,Dignissimos Max,Amul,Apparel,Viswanathan-Din,Mumbai,49,17,119,20,8,2,2024-01-01
+221,Adipisci X,LG,Home,Kannan-Mallick,Sambhal,198,8,56,24,8,22,2024-01-01
+222,Amet X,Himalaya,Beauty,Tank-Kala,Karnal,333,6,42,36,5,47,2024-01-01
+223,Architecto Plus,Philips,Beauty,"Kale, Hans and Khare",Deoghar,153,4,28,36,9,30,2024-01-01
+224,Voluptatem Pro,Samsung,Apparel,"Kakar, Bahri and Kakar",Jorhat,193,23,161,43,9,8,2024-01-01
+225,Reiciendis Pro,Puma,Beauty,Kari-Sachar,Mysore,227,1,7,31,7,113,2024-01-01
+226,Vel Max,Puma,Home,"Bhatti, Rana and Chaudry",Srikakulam,456,29,203,42,9,15,2024-01-01
+227,Nihil Plus,LG,Beauty,Minhas and Sons,Srinagar,164,13,91,57,4,11,2024-01-01
+228,Animi Elite,Sony,Grocery,Sem Ltd,Surendranagar Dudhrej,392,10,70,94,3,35,2024-01-01
+229,Recusandae X,Puma,Beauty,"Bali, Lad and Swaminathan",Farrukhabad,165,3,21,94,4,41,2024-01-01
+230,Rem Elite,Nike,Home,"Varughese, Narang and Sabharwal",Coimbatore,115,15,105,38,7,7,2024-01-01
+231,Tempore Elite,Puma,Apparel,"Menon, Bora and Bera",Mumbai,69,6,42,63,7,9,2024-01-01
+232,Dolorem Pro,Sony,Grocery,Sachdev-Dugar,Meerut,76,24,168,50,8,3,2024-01-01
+233,Repudiandae Plus,Himalaya,Beauty,Krishnamurthy-Virk,Bokaro,51,20,140,60,6,2,2024-01-01
+234,Doloribus X,Philips,Electronics,Grewal and Sons,Unnao,66,4,28,87,2,13,2024-01-01
+235,Doloremque Pro,Sony,Home,Bal and Sons,Munger,303,4,28,33,2,60,2024-01-01
+236,Rem Max,Puma,Beauty,Hayer and Sons,Rajpur Sonarpur,67,13,91,31,3,4,2024-01-01
+237,Sequi Pro,Godrej,Apparel,Bhatti and Sons,Gudivada,168,12,84,72,7,12,2024-01-01
+238,Consequatur Max,Amul,Home,"Shan, Devan and Varghese",Chinsurah,322,20,140,74,1,15,2024-01-01
+239,Quas Elite,Amul,Apparel,"Sangha, Sen and Keer",Junagadh,455,25,175,48,10,17,2024-01-01
+240,In Elite,Godrej,Grocery,"Reddy, Lalla and Dugar",Ludhiana,298,8,56,30,2,33,2024-01-01
+241,Velit Plus,Amul,Grocery,Parekh PLC,Faridabad,314,5,35,53,8,52,2024-01-01
+242,Eveniet Pro,LG,Apparel,Sura Inc,Nangloi Jat,211,1,7,62,7,105,2024-01-01
+243,Natus Pro,LG,Home,Sem-Mukherjee,Barasat,422,2,14,39,7,140,2024-01-01
+244,Quaerat Elite,Tata,Grocery,Murthy and Sons,Gwalior,152,0,0,93,8,152,2024-01-01
+245,Quo Max,Tata,Electronics,"Chhabra, Saraf and Narang",Buxar,233,12,84,83,7,17,2024-01-01
+246,Facere Max,Samsung,Grocery,Singh PLC,Hapur,279,19,133,54,6,13,2024-01-01
+247,Deserunt X,Samsung,Electronics,Parmer-Bajwa,Bhiwandi,413,2,14,39,3,137,2024-01-01
+248,Necessitatibus Plus,Tata,Electronics,"Nath, Upadhyay and Parmer",Gandhidham,368,6,42,29,9,52,2024-01-01
+249,Aspernatur Plus,LG,Beauty,Ramanathan-Chokshi,Bhopal,106,16,112,94,10,6,2024-01-01
+250,Deleniti Max,Puma,Beauty,Mital and Sons,Gudivada,38,14,98,20,1,2,2024-01-01
+251,Qui Max,Godrej,Electronics,Choudhry PLC,Rourkela,200,7,49,33,3,25,2024-01-01
+252,Quae Elite,Samsung,Electronics,"Doshi, Raghavan and Lall",Mathura,272,9,63,37,6,27,2024-01-01
+253,Corrupti Max,Puma,Apparel,Pathak Inc,Bidhannagar,214,10,70,88,5,19,2024-01-01
+254,Nihil Plus,Nike,Beauty,"Doshi, Kaur and Varkey",Kozhikode,422,2,14,32,9,140,2024-01-01
+255,Praesentium X,Philips,Home,"Suri, Brar and Deo",Bhilai,312,2,14,66,3,104,2024-01-01
+256,Debitis Plus,Puma,Apparel,Mitra Inc,Shivpuri,319,21,147,49,3,14,2024-01-01
+257,Dolorem X,Himalaya,Beauty,Hayre and Sons,Visakhapatnam,200,18,126,97,6,10,2024-01-01
+258,Unde Elite,Amul,Beauty,"Sha, Murthy and Ramakrishnan",Sangli-Miraj & Kupwad,238,10,70,76,1,21,2024-01-01
+259,Ad Pro,Nike,Apparel,Kashyap-Tripathi,Vasai-Virar,240,6,42,24,3,34,2024-01-01
+260,Iusto Plus,Sony,Beauty,"Ranganathan, Khurana and Tailor",Madanapalle,464,6,42,70,9,66,2024-01-01
+261,Atque Elite,Sony,Grocery,"Mahajan, Bail and Bahl",Gorakhpur,49,7,49,61,2,6,2024-01-01
+262,Alias Plus,Sony,Grocery,Dasgupta LLC,Indore,113,27,189,26,1,4,2024-01-01
+263,Ea X,Tata,Grocery,Peri-Chauhan,Jaipur,71,2,14,26,5,23,2024-01-01
+264,Est Plus,Philips,Beauty,"Shroff, Dugar and Narayan",Jorhat,158,17,119,73,3,8,2024-01-01
+265,Hic Pro,Amul,Electronics,Varkey-Choudhury,Nellore,249,28,196,93,3,8,2024-01-01
+266,Dolorem Elite,Puma,Electronics,Rege-Raman,Rampur,391,12,84,41,1,30,2024-01-01
+267,Aliquam Elite,Tata,Apparel,"Samra, Dalal and Goda",Thanjavur,271,23,161,71,9,11,2024-01-01
+268,Iusto Plus,Godrej,Electronics,Subramanian-Verma,Srikakulam,436,12,84,63,3,33,2024-01-01
+269,Vero Max,Puma,Beauty,"Gade, Nagi and Lata",Adoni,117,10,70,51,1,10,2024-01-01
+270,Debitis Pro,Philips,Apparel,Anand-Narasimhan,Kottayam,442,3,21,50,7,110,2024-01-01
+271,Facere Plus,Puma,Apparel,Mitra and Sons,Thoothukudi,276,3,21,50,8,69,2024-01-01
+272,Minus Plus,Amul,Beauty,"Bajwa, Mallick and Nagy",Allahabad,56,8,56,25,2,6,2024-01-01
+273,Ducimus Max,Sony,Grocery,"Devan, Dhingra and Hari",Mango,327,14,98,34,6,21,2024-01-01
+274,Itaque Elite,Puma,Home,Hayer-Wali,Korba,247,17,119,90,6,13,2024-01-01
+275,Voluptatem X,Tata,Electronics,"Handa, Sood and Rajan",Sirsa,227,12,84,89,3,17,2024-01-01
+276,Repellat Plus,Sony,Home,Bail and Sons,Mumbai,202,4,28,78,8,40,2024-01-01
+277,Veritatis Plus,Puma,Grocery,Bhatia-Munshi,Ahmednagar,464,13,91,26,1,33,2024-01-01
+278,Reprehenderit Elite,Nike,Beauty,"Purohit, Narasimhan and Sule",Gulbarga,384,14,98,99,1,25,2024-01-01
+279,Eaque Pro,Samsung,Apparel,"Walia, Issac and Suri",Eluru,88,4,28,53,9,17,2024-01-01
+280,Ipsa Elite,Philips,Apparel,Gole-Rao,Vijayawada,482,5,35,95,3,80,2024-01-01
+281,Tempore X,Samsung,Grocery,Ganesan Ltd,Raichur,383,1,7,72,4,191,2024-01-01
+282,Quisquam X,LG,Beauty,Hayre-Parmer,Moradabad,343,19,133,31,3,17,2024-01-01
+283,Iure Pro,Himalaya,Apparel,"Mittal, Chaudhary and Walia",Kolhapur,205,4,28,97,10,41,2024-01-01
+284,Repellendus Pro,Nike,Beauty,Bhatti-Kaul,Bangalore,432,14,98,63,4,28,2024-01-01
+285,Nihil Elite,Godrej,Electronics,Kadakia-Swaminathan,Jammu,420,11,77,47,8,35,2024-01-01
+286,Harum Plus,Himalaya,Beauty,Sodhi Inc,Ballia,215,16,112,68,3,12,2024-01-01
+287,Expedita Elite,LG,Beauty,"Chokshi, More and Hari",Hospet,274,20,140,99,6,13,2024-01-01
+288,Neque Elite,Amul,Apparel,Bhakta and Sons,Purnia,93,2,14,21,2,31,2024-01-01
+289,Aliquam X,Samsung,Beauty,"Gokhale, Chadha and Palla",Ambarnath,140,10,70,40,7,12,2024-01-01
+290,Sed Max,Tata,Beauty,Uppal-Khanna,Howrah,400,1,7,78,3,200,2024-01-01
+291,Voluptatibus Pro,Samsung,Beauty,Dave-Bala,Haldia,202,4,28,74,3,40,2024-01-01
+292,Ex Pro,Samsung,Grocery,"Mitra, Dhar and Nanda",Chittoor,52,17,119,83,6,2,2024-01-01
+293,Commodi Plus,Puma,Grocery,Kaur LLC,Mumbai,442,16,112,58,6,26,2024-01-01
+294,Nobis Elite,Himalaya,Apparel,Mannan-Bawa,Indore,244,6,42,81,5,34,2024-01-01
+295,Deleniti X,Puma,Grocery,"Bhardwaj, Krishnamurthy and Madan",Ramgarh,264,7,49,68,7,33,2024-01-01
+296,Ut Pro,Sony,Apparel,Kaur Inc,Ghaziabad,243,20,140,43,8,11,2024-01-01
+297,Animi Elite,Samsung,Electronics,"Vasa, Savant and Mandal",Agartala,360,15,105,81,1,22,2024-01-01
+298,Perferendis Plus,Samsung,Electronics,Chander-Thaker,Bhalswa Jahangir Pur,83,6,42,20,10,11,2024-01-01
+299,Nobis Elite,LG,Home,Dalal-Sahni,Tinsukia,455,12,84,41,7,35,2024-01-01
+300,Saepe Pro,Himalaya,Apparel,Vaidya-Ghosh,Burhanpur,381,2,14,86,3,127,2024-01-01
+301,Quo Elite,Puma,Home,Mallick-Pai,Muzaffarnagar,53,8,56,52,5,5,2024-01-01
+302,Voluptate Pro,Sony,Apparel,Gade-Mohan,Phusro,311,2,14,29,10,103,2024-01-01
+303,Ex Max,Nike,Beauty,Sridhar Inc,Gaya,274,1,7,58,8,137,2024-01-01
+304,Laudantium Plus,Godrej,Home,"Nath, Tank and Vyas",Bhalswa Jahangir Pur,204,21,147,72,1,9,2024-01-01
+305,Optio Max,Himalaya,Home,"Hayer, Hari and Narang",Agra,227,0,0,22,5,227,2024-01-01
+306,Nobis X,Tata,Apparel,"Murthy, Basak and Mitter",Shivpuri,335,10,70,60,10,30,2024-01-01
+307,Culpa Plus,Himalaya,Grocery,"Ramachandran, Pal and Gala",Vellore,117,14,98,59,5,7,2024-01-01
+308,Necessitatibus Elite,Nike,Beauty,Bhatnagar LLC,Rewa,192,4,28,78,10,38,2024-01-01
+309,Possimus Elite,Himalaya,Apparel,Shenoy-Joshi,Chapra,83,2,14,40,1,27,2024-01-01
+310,Mollitia Pro,Godrej,Home,Rajagopalan PLC,Berhampur,463,11,77,75,3,38,2024-01-01
+311,Libero Pro,Philips,Beauty,"Malhotra, Nori and Gandhi",Orai,57,22,154,77,6,2,2024-01-01
+312,Iusto Pro,Godrej,Home,Dhar Group,Chinsurah,100,22,154,44,7,4,2024-01-01
+313,Odit Max,Puma,Home,Barad-Dani,Jaipur,350,17,119,45,9,19,2024-01-01
+314,Voluptate Pro,Himalaya,Beauty,Dhar and Sons,Dhanbad,317,15,105,65,1,19,2024-01-01
+315,Recusandae Pro,Tata,Beauty,"Butala, Hayre and Bhatnagar",Sonipat,288,17,119,94,2,16,2024-01-01
+316,Voluptas Plus,Sony,Electronics,"Choudhury, Kant and Wagle",Sultan Pur Majra,347,9,63,86,6,34,2024-01-01
+317,Earum Plus,Godrej,Beauty,Dua and Sons,Satara,474,4,28,94,9,94,2024-01-01
+318,Inventore X,Himalaya,Electronics,Purohit-Gaba,Tadipatri,114,31,217,46,9,3,2024-01-01
+319,Enim X,Puma,Home,"Basu, Chaudhary and Mitter",Surendranagar Dudhrej,418,8,56,94,5,46,2024-01-01
+320,Quos X,LG,Grocery,Mital Ltd,Dharmavaram,134,28,196,28,10,4,2024-01-01
+321,Aut X,Puma,Beauty,"Bhatia, Barman and Baral",Kirari Suleman Nagar,294,3,21,44,7,73,2024-01-01
+322,Incidunt Max,Tata,Apparel,Bala and Sons,Karimnagar,435,6,42,66,10,62,2024-01-01
+323,Fuga Max,LG,Home,Gandhi Group,Indore,473,18,126,54,5,24,2024-01-01
+324,Officiis Plus,Samsung,Electronics,Thakkar Inc,Buxar,200,21,147,91,5,9,2024-01-01
+325,Vitae Pro,Samsung,Grocery,"Dube, Kapadia and Bir",Korba,292,5,35,20,10,48,2024-01-01
+326,Mollitia Elite,Himalaya,Beauty,Ratti-Mahajan,Nagaon,242,5,35,60,2,40,2024-01-01
+327,Harum Max,Sony,Home,Mitra-Palan,Muzaffarnagar,336,17,119,62,9,18,2024-01-01
+328,Vitae Elite,LG,Grocery,Sant-Chokshi,Ozhukarai,79,15,105,82,6,4,2024-01-01
+329,Eveniet Plus,Amul,Home,Ramaswamy-Hegde,Phusro,288,5,35,99,3,48,2024-01-01
+330,Minus Pro,Amul,Apparel,Sane-Ganguly,Bally,151,4,28,30,4,30,2024-01-01
+331,Tenetur Plus,LG,Beauty,"Vora, Din and Gour",Ramgarh,322,17,119,52,9,17,2024-01-01
+332,Sequi Plus,Himalaya,Electronics,Chacko PLC,Bettiah,280,19,133,20,4,14,2024-01-01
+333,Praesentium Max,Tata,Home,Rao Group,Haridwar,469,13,91,43,2,33,2024-01-01
+334,Quo Elite,Himalaya,Electronics,Natt Ltd,Amroha,458,3,21,73,4,114,2024-01-01
+335,Autem Plus,Puma,Electronics,"Doctor, Raman and Venkataraman",Bhubaneswar,144,13,91,74,1,10,2024-01-01
+336,Facilis X,Puma,Beauty,Reddy and Sons,Haldia,409,26,182,35,5,15,2024-01-01
+337,Ut X,Sony,Beauty,Sha-Atwal,Bijapur,150,18,126,68,7,7,2024-01-01
+338,Nemo Elite,Godrej,Beauty,Puri Inc,Raebareli,358,1,7,53,10,179,2024-01-01
+339,Occaecati Max,Sony,Grocery,"Nayar, Barad and Chada",Motihari,328,15,105,24,2,20,2024-01-01
+340,Quod Plus,Tata,Grocery,"Baral, Bhagat and Brar",Unnao,249,11,77,23,4,20,2024-01-01
+341,Dolorum X,Amul,Apparel,Memon-Dani,Mahbubnagar,286,7,49,21,6,35,2024-01-01
+342,Nam Pro,Puma,Grocery,Solanki-Pandya,Mehsana,87,2,14,22,9,29,2024-01-01
+343,Rem Max,Philips,Electronics,"Date, Sankar and Kara",Dhule,412,13,91,59,10,29,2024-01-01
+344,Ex Elite,Samsung,Home,"Dey, Sama and Pal",Surat,68,7,49,32,8,8,2024-01-01
+345,Numquam Max,Godrej,Apparel,Luthra-Badal,Saharsa,181,13,91,59,6,12,2024-01-01
+346,Excepturi Pro,Himalaya,Home,Kala PLC,Darbhanga,47,17,119,36,4,2,2024-01-01
+347,Quis Pro,Philips,Home,"Mani, Rege and Deep",Udupi,252,2,14,44,2,84,2024-01-01
+348,Provident X,Amul,Home,Lall and Sons,Cuttack,211,18,126,77,4,11,2024-01-01
+349,Voluptate Pro,Amul,Apparel,Khatri and Sons,Morena,264,9,63,68,6,26,2024-01-01
+350,Quas X,Sony,Electronics,Sibal-Kapadia,Kollam,406,12,84,58,3,31,2024-01-01
+351,Animi Elite,Philips,Apparel,"Dutt, Om and Banik",Jamalpur,332,1,7,60,5,166,2024-01-01
+352,Consequatur Max,Godrej,Electronics,"Tandon, Kant and Dhaliwal",Ghaziabad,179,20,140,27,5,8,2024-01-01
+353,Reiciendis Pro,Nike,Beauty,Pai PLC,Kakinada,299,20,140,52,2,14,2024-01-01
+354,Ut Elite,Godrej,Home,Kale and Sons,Aizawl,467,16,112,30,4,27,2024-01-01
+355,Officia Elite,Tata,Home,Bala Ltd,Gulbarga,454,22,154,24,3,19,2024-01-01
+356,Nisi X,Nike,Beauty,Hayer Group,Bahraich,129,9,63,40,7,12,2024-01-01
+357,Rerum Plus,Himalaya,Beauty,Guha and Sons,Ramagundam,364,6,42,59,1,52,2024-01-01
+358,Cum X,Amul,Apparel,Goswami Ltd,Vellore,408,9,63,78,8,40,2024-01-01
+359,Quibusdam Elite,Himalaya,Grocery,Shenoy-Bhargava,Surat,104,4,28,43,3,20,2024-01-01
+360,Earum Elite,Samsung,Home,Narang-Ram,Jaunpur,203,6,42,72,9,29,2024-01-01
+361,Reiciendis Plus,Philips,Beauty,Verma PLC,Guwahati,195,13,91,55,7,13,2024-01-01
+362,Molestiae Max,Samsung,Home,"Narula, Khatri and Bhardwaj",Khammam,242,0,0,90,10,242,2024-01-01
+363,Error Max,LG,Home,Bhardwaj-Shroff,Ramgarh,470,2,14,38,1,156,2024-01-01
+364,Reiciendis Plus,Himalaya,Home,"Keer, Modi and Dasgupta",Ghaziabad,94,1,7,100,4,47,2024-01-01
+365,Optio Pro,LG,Electronics,"Mistry, Handa and Naik",Salem,203,19,133,70,5,10,2024-01-01
+366,Est Pro,Philips,Grocery,Mall-Narasimhan,Unnao,143,4,28,67,2,28,2024-01-01
+367,Quae Max,Godrej,Electronics,"Pant, Nori and Purohit",Mumbai,62,11,77,52,7,5,2024-01-01
+368,Maiores X,Samsung,Apparel,Pandey PLC,Vadodara,334,11,77,32,7,27,2024-01-01
+369,Possimus Elite,Samsung,Grocery,"Manda, Dhar and Singh",Alwar,240,13,91,68,4,17,2024-01-01
+370,Culpa Max,Tata,Beauty,Karpe-Koshy,Bhiwani,455,10,70,84,7,41,2024-01-01
+371,Laboriosam Max,Philips,Home,Zachariah-Murty,Nanded,96,16,112,52,3,5,2024-01-01
+372,Id Pro,Tata,Beauty,Chakrabarti-Krishnan,Arrah,316,7,49,35,6,39,2024-01-01
+373,Quos Plus,Samsung,Home,Sarin-Nori,Thrissur,274,13,91,80,3,19,2024-01-01
+374,Modi X,Tata,Grocery,"Sangha, Dyal and Banik",Tumkur,43,20,140,26,2,2,2024-01-01
+375,Dolorum Plus,Nike,Grocery,Mannan and Sons,Bikaner,301,7,49,57,5,37,2024-01-01
+376,Laudantium Max,Puma,Apparel,"Purohit, Guha and Kothari",Gandhinagar,408,7,49,95,4,51,2024-01-01
+377,Odio X,Godrej,Electronics,Saxena-Halder,Jalandhar,234,2,14,23,4,78,2024-01-01
+378,Facilis X,Nike,Apparel,Narayan-Sarkar,Dewas,296,21,147,45,2,13,2024-01-01
+379,Optio Elite,Tata,Beauty,Kashyap-Shenoy,Gudivada,343,2,14,65,10,114,2024-01-01
+380,Necessitatibus Max,Puma,Home,Bahl-Dhingra,Mahbubnagar,126,5,35,20,5,21,2024-01-01
+381,Excepturi Pro,Nike,Grocery,Nath Group,Kurnool,213,2,14,50,8,71,2024-01-01
+382,Perferendis Elite,Philips,Beauty,Ravel and Sons,Nandyal,224,7,49,61,4,28,2024-01-01
+383,A X,Nike,Grocery,"Jha, Natt and Solanki",Karnal,295,1,7,45,3,147,2024-01-01
+384,Labore Max,Sony,Home,Pillai Group,Aurangabad,418,3,21,32,5,104,2024-01-01
+385,Animi Pro,Himalaya,Electronics,"Chauhan, Agarwal and Deol",Tadepalligudem,329,4,28,100,3,65,2024-01-01
+386,Dolorem Max,Tata,Apparel,"Gera, Dada and Memon",Bulandshahr,242,5,35,36,9,40,2024-01-01
+387,Sunt Plus,Puma,Apparel,Vora-Kalla,Avadi,400,0,0,51,5,400,2024-01-01
+388,In X,LG,Apparel,Ben-Gour,Raipur,472,6,42,41,2,67,2024-01-01
+389,Accusantium Pro,Sony,Grocery,Oak-Keer,Jamnagar,408,19,133,80,2,20,2024-01-01
+390,Ratione Pro,Himalaya,Home,"Atwal, Venkatesh and Luthra",Gandhidham,387,14,98,20,2,25,2024-01-01
+391,Ut Max,Himalaya,Grocery,Prakash-Atwal,Kottayam,74,0,0,95,2,74,2024-01-01
+392,Harum Pro,Puma,Electronics,Chaudhuri LLC,Dhanbad,52,30,210,57,3,1,2024-01-01
+393,Facere X,Puma,Apparel,"Dada, Patla and D’Alia",Muzaffarpur,75,17,119,63,1,4,2024-01-01
+394,Necessitatibus X,Amul,Beauty,"Bhasin, Baria and Chaudhary",Cuttack,55,15,105,58,8,3,2024-01-01
+395,Fuga Plus,Philips,Apparel,"Banerjee, Narang and Setty",Tiruvottiyur,240,5,35,89,5,40,2024-01-01
+396,Ad X,Samsung,Beauty,Gara Inc,Khandwa,475,9,63,49,2,47,2024-01-01
+397,Commodi Elite,Nike,Apparel,Brar-Khanna,Delhi,396,4,28,82,4,79,2024-01-01
+398,Labore X,Himalaya,Beauty,Chandran Inc,Jamnagar,69,21,147,71,10,3,2024-01-01
+399,Asperiores X,Himalaya,Grocery,Pai Ltd,Dharmavaram,153,12,84,40,6,11,2024-01-01
+400,Cum Plus,Nike,Apparel,"Narasimhan, Keer and Mishra",Vadodara,158,20,140,20,3,7,2024-01-01
+401,Aliquam Pro,Godrej,Beauty,Natarajan-Parmer,Thiruvananthapuram,130,9,63,40,2,13,2024-01-01
+402,Explicabo Elite,Sony,Electronics,"Prasad, Barad and Bansal",Malda,83,15,105,93,9,5,2024-01-01
+403,Ducimus Pro,Philips,Beauty,Seshadri-Borra,Ambarnath,269,9,63,66,2,26,2024-01-01
+404,Deleniti X,LG,Electronics,"Mutti, Nanda and Raju",Ahmedabad,389,4,28,100,3,77,2024-01-01
+405,Debitis Plus,LG,Home,Dara-Walia,Muzaffarnagar,80,7,49,96,9,10,2024-01-01
+406,Doloribus Pro,Amul,Beauty,Nagy-Mane,Pimpri-Chinchwad,181,8,56,62,8,20,2024-01-01
+407,Delectus Pro,Philips,Grocery,"Hari, Chana and Buch",Kozhikode,274,10,70,56,8,24,2024-01-01
+408,Molestiae Max,Tata,Apparel,Korpal-Batta,Dharmavaram,218,2,14,87,5,72,2024-01-01
+409,Nulla Pro,Nike,Electronics,Choudhury-Narain,Warangal,431,1,7,36,4,215,2024-01-01
+410,At Pro,Amul,Apparel,Lalla-Bahl,Chandigarh,175,11,77,78,8,14,2024-01-01
+411,Impedit Pro,Philips,Home,Sama-Uppal,Jalgaon,232,4,28,64,6,46,2024-01-01
+412,Nobis Pro,Godrej,Electronics,"Dani, Sengupta and Vora",Bhimavaram,358,7,49,54,4,44,2024-01-01
+413,Perspiciatis Plus,Nike,Grocery,Dyal-Ravel,Amritsar,64,15,105,52,4,4,2024-01-01
+414,Beatae X,Philips,Electronics,"Salvi, Vig and Kumer",Mango,119,8,56,34,2,13,2024-01-01
+415,Perspiciatis Plus,Amul,Electronics,"Gera, Narain and Chatterjee",Barasat,335,15,105,60,8,20,2024-01-01
+416,Debitis Elite,Puma,Apparel,Garg-Kota,Jammu,162,7,49,59,2,20,2024-01-01
+417,Ad Pro,Nike,Home,Raval and Sons,Secunderabad,108,15,105,25,7,6,2024-01-01
+418,Dolor X,Philips,Beauty,Anne Inc,Nashik,111,8,56,36,5,12,2024-01-01
+419,Nulla Max,Sony,Electronics,Morar LLC,Secunderabad,161,1,7,59,2,80,2024-01-01
+420,Eum Plus,Godrej,Home,Dave-Baral,Cuttack,199,10,70,37,9,18,2024-01-01
+421,Maiores X,Nike,Home,Mutti-Barad,Uluberia,197,7,49,46,5,24,2024-01-01
+422,Aliquid Pro,Himalaya,Apparel,Sani-Sethi,Nizamabad,363,1,7,41,7,181,2024-01-01
+423,Neque Pro,Nike,Apparel,Bedi-Salvi,Chittoor,477,5,35,99,2,79,2024-01-01
+424,Praesentium X,LG,Grocery,"Gupta, Om and Varkey",Yamunanagar,446,2,14,93,3,148,2024-01-01
+425,Illum X,Philips,Apparel,Dua Group,Hosur,155,0,0,61,10,155,2024-01-01
+426,Rerum Plus,Samsung,Home,Shukla Inc,Solapur,152,9,63,65,9,15,2024-01-01
+427,Sit Plus,Godrej,Electronics,Sachdeva Group,Tumkur,225,14,98,21,10,15,2024-01-01
+428,A X,Nike,Beauty,Kashyap PLC,Mathura,301,13,91,89,5,21,2024-01-01
+429,Accusantium X,Himalaya,Electronics,Goyal-Sood,Aurangabad,66,6,42,61,8,9,2024-01-01
+430,Tempora X,Himalaya,Apparel,Sahota-Boase,Aurangabad,404,12,84,20,8,31,2024-01-01
+431,Maiores Plus,Himalaya,Electronics,Kaur Ltd,Vellore,237,22,154,87,4,10,2024-01-01
+432,Provident X,LG,Apparel,"Raval, Sibal and Vig",Bhagalpur,447,12,84,82,5,34,2024-01-01
+433,Voluptate Max,Himalaya,Home,Hayer-Dyal,Jalandhar,46,14,98,78,3,3,2024-01-01
+434,Sint Plus,Godrej,Grocery,"Bala, Bajaj and Gera",Shahjahanpur,479,16,112,53,2,28,2024-01-01
+435,Excepturi Pro,Godrej,Beauty,Gokhale-Dada,Latur,338,2,14,92,2,112,2024-01-01
+436,Pariatur Elite,Tata,Electronics,"Sharaf, Kothari and Madan",Panchkula,417,27,189,66,1,14,2024-01-01
+437,Quos Plus,Sony,Home,Kaur and Sons,Pimpri-Chinchwad,104,20,140,22,6,4,2024-01-01
+438,Adipisci X,Sony,Grocery,Grover Ltd,Mau,92,5,35,46,2,15,2024-01-01
+439,Delectus Max,Godrej,Electronics,"Narang, Srinivasan and Nagar",Ahmedabad,373,17,119,62,7,20,2024-01-01
+440,Repudiandae X,Amul,Home,Ganguly-Tiwari,Darbhanga,163,4,28,92,9,32,2024-01-01
+441,Illo Plus,LG,Electronics,"Sani, Mistry and Saxena",Ambala,362,12,84,43,1,27,2024-01-01
+442,Sunt Max,Tata,Electronics,Balay Inc,Coimbatore,114,15,105,24,2,7,2024-01-01
+443,Alias X,Puma,Beauty,Majumdar-Shenoy,Deoghar,291,22,154,38,9,12,2024-01-01
+444,Omnis Plus,Philips,Electronics,"Mangat, Mangat and Borde",Meerut,418,5,35,94,6,69,2024-01-01
+445,Nobis Pro,Himalaya,Electronics,Pathak and Sons,Davanagere,349,14,98,91,7,23,2024-01-01
+446,Minima X,Tata,Home,"Maharaj, Jhaveri and Mani",Orai,451,10,70,49,7,41,2024-01-01
+447,Provident Plus,Godrej,Electronics,Deol PLC,Raurkela Industrial Township,177,8,56,58,5,19,2024-01-01
+448,Voluptates X,Godrej,Beauty,Bandi PLC,Madanapalle,388,3,21,94,9,97,2024-01-01
+449,Deserunt Plus,Puma,Home,Walla Group,Rohtak,80,10,70,85,3,7,2024-01-01
+450,Incidunt Max,Tata,Beauty,"Suri, Patil and Roy",Madurai,473,0,0,53,6,473,2024-01-01
+451,Earum X,LG,Beauty,Keer Group,Jaipur,215,16,112,54,7,12,2024-01-01
+452,Sunt Plus,Samsung,Apparel,Saha Ltd,Deoghar,116,19,133,60,10,5,2024-01-01
+453,Tempora Max,Godrej,Grocery,Apte PLC,Agra,182,3,21,72,3,45,2024-01-01
+454,Illo Pro,Himalaya,Electronics,Bhavsar-Mukhopadhyay,Bahraich,375,4,28,49,1,75,2024-01-01
+455,Eos X,Himalaya,Home,Ram-Gour,Hubli–Dharwad,141,5,35,97,8,23,2024-01-01
+456,Doloremque Pro,Tata,Electronics,Modi-Kakar,Mathura,96,4,28,75,5,19,2024-01-01
+457,Incidunt Elite,Philips,Beauty,Subramanian PLC,Machilipatnam,180,5,35,24,5,30,2024-01-01
+458,Incidunt X,Amul,Grocery,Chawla LLC,Madanapalle,60,17,119,53,3,3,2024-01-01
+459,Quasi Max,Nike,Home,"Gola, Upadhyay and Mishra",Uluberia,454,2,14,22,9,151,2024-01-01
+460,Animi Elite,Philips,Home,Borah and Sons,Eluru,276,11,77,48,6,23,2024-01-01
+461,Quo X,Nike,Electronics,Kar LLC,Kumbakonam,282,12,84,20,7,21,2024-01-01
+462,Quam Elite,Philips,Electronics,Kulkarni LLC,Arrah,405,5,35,25,10,67,2024-01-01
+463,Earum Pro,Sony,Apparel,Dua PLC,Pune,66,10,70,91,1,6,2024-01-01
+464,Quod Pro,Samsung,Electronics,Bhavsar PLC,Etawah,69,0,0,93,4,69,2024-01-01
+465,Eligendi X,Tata,Electronics,"Kapur, Sarkar and Agate",Bareilly,261,19,133,73,8,13,2024-01-01
+466,Excepturi Max,Puma,Electronics,Mitra-Patla,Agartala,94,3,21,24,1,23,2024-01-01
+467,Quidem X,Philips,Electronics,Babu LLC,Anand,408,1,7,94,1,204,2024-01-01
+468,Cum Elite,Tata,Apparel,Sastry Ltd,Chandigarh,468,19,133,56,2,23,2024-01-01
+469,Veritatis Elite,Amul,Electronics,Boase Ltd,Bhavnagar,292,5,35,85,7,48,2024-01-01
+470,Explicabo Elite,Philips,Home,Singhal PLC,Ballia,99,15,105,66,6,6,2024-01-01
+471,Omnis Pro,Sony,Home,Kala LLC,Bhilai,296,18,126,91,5,15,2024-01-01
+472,Mollitia X,LG,Beauty,Rout PLC,Ballia,81,6,42,83,10,11,2024-01-01
+473,Similique Plus,LG,Home,Nagar Group,Haridwar,65,1,7,28,9,32,2024-01-01
+474,Velit Elite,Tata,Electronics,"Sahni, Kade and Chokshi",Madanapalle,417,1,7,63,6,208,2024-01-01
+475,Totam X,Amul,Apparel,Bera-Vig,Gaya,398,12,84,94,6,30,2024-01-01
+476,Reiciendis Plus,Tata,Home,"Mody, Cherian and Sem",Sasaram,434,0,0,66,2,434,2024-01-01
+477,Pariatur Elite,Nike,Apparel,"Divan, Sabharwal and Mutti",Bathinda,468,13,91,90,3,33,2024-01-01
+478,Maxime Plus,Nike,Home,Majumdar Ltd,Tadepalligudem,202,18,126,40,1,10,2024-01-01
+479,Dignissimos Elite,Samsung,Beauty,Randhawa LLC,Parbhani,177,22,154,91,2,7,2024-01-01
+480,Temporibus Plus,Puma,Apparel,"Ram, Yogi and Dixit",Meerut,96,8,56,25,3,10,2024-01-01
+481,Suscipit X,Nike,Apparel,Bhatti-Sharma,Lucknow,340,13,91,45,5,24,2024-01-01
+482,Odio Max,Puma,Grocery,Halder Group,Bhiwani,459,21,147,33,8,20,2024-01-01
+483,Quis Pro,Philips,Grocery,Tara and Sons,Nanded,62,6,42,100,3,8,2024-01-01
+484,Inventore Pro,Amul,Home,"Lad, Shah and Sampath",Bidar,305,13,91,87,9,21,2024-01-01
+485,Dolorum Elite,Godrej,Home,Bains-Gera,Jodhpur,214,4,28,63,8,42,2024-01-01
+486,Iste Pro,Sony,Apparel,Bhattacharyya Inc,Bikaner,136,17,119,86,8,7,2024-01-01
+487,Voluptate Max,Himalaya,Beauty,"Sant, Mannan and Randhawa",Sultan Pur Majra,277,18,126,92,2,14,2024-01-01
+488,Doloribus X,Samsung,Grocery,Reddy-Bir,Hubli–Dharwad,445,6,42,99,7,63,2024-01-01
+489,Voluptas X,Himalaya,Grocery,Suresh-Padmanabhan,Kochi,245,26,182,63,1,9,2024-01-01
+490,Assumenda Max,Amul,Electronics,Hans-Aggarwal,Sasaram,85,5,35,35,6,14,2024-01-01
+491,Et Plus,Himalaya,Home,Sha and Sons,Asansol,279,6,42,59,9,39,2024-01-01
+492,Doloribus Elite,Puma,Grocery,Cheema-Kohli,Haridwar,226,1,7,42,10,113,2024-01-01
+493,Labore Pro,Samsung,Electronics,"Munshi, Deshpande and Gola",Ramagundam,242,2,14,67,10,80,2024-01-01
+494,Laborum X,Philips,Home,"Cherian, Vyas and Barad",Fatehpur,78,8,56,57,10,8,2024-01-01
+495,Ullam X,Philips,Beauty,Lad-Parsa,Kanpur,452,14,98,83,4,30,2024-01-01
+496,Aut Plus,Samsung,Beauty,"Borra, Rau and Bhatti",Vasai-Virar,190,13,91,65,7,13,2024-01-01
+497,Quae Elite,Amul,Beauty,"Sandal, Yadav and Bhagat",Bhagalpur,174,24,168,25,3,6,2024-01-01
+498,Quam Elite,Tata,Apparel,"Walia, Grewal and Sen",Maheshtala,256,1,7,21,7,128,2024-01-01
+499,Eos Max,Sony,Grocery,Date Inc,Rohtak,489,5,35,44,1,81,2024-01-01
+500,Dicta Plus,Amul,Home,"Pingle, Sant and Anne",Jaunpur,407,5,35,35,5,67,2024-01-01
+501,Odio X,Godrej,Home,"Shenoy, Contractor and Tandon",Hosur,400,2,14,78,8,133,2024-01-01
+502,Distinctio Max,Puma,Beauty,Dora-Ahluwalia,Firozabad,450,3,21,87,9,112,2024-01-01
+503,In Elite,Sony,Grocery,"Mani, Talwar and Rana",Panihati,280,9,63,78,6,28,2024-01-01
+504,Harum Max,Godrej,Beauty,Hans PLC,Ambarnath,311,10,70,58,6,28,2024-01-01
+505,Dolor Max,Nike,Electronics,"Johal, Om and Boase",Jodhpur,440,13,91,47,2,31,2024-01-01
+506,Aut Pro,Puma,Beauty,"Lad, Sur and Nagi",North Dumdum,368,20,140,44,4,17,2024-01-01
+507,Vitae X,Amul,Home,"Sheth, Varghese and Nath",Malegaon,312,7,49,55,10,39,2024-01-01
+508,Eveniet Pro,Samsung,Apparel,Vaidya-Hari,Guna,379,9,63,74,5,37,2024-01-01
+509,Aliquam Elite,Himalaya,Beauty,Bains-Saxena,Nanded,74,9,63,50,10,7,2024-01-01
+510,Consequuntur Elite,Sony,Beauty,Balay Inc,Amaravati,50,21,147,59,7,2,2024-01-01
+511,Error Plus,LG,Grocery,Sagar LLC,Buxar,269,11,77,92,5,22,2024-01-01
+512,Voluptate Pro,Nike,Grocery,"Rastogi, Malhotra and Sachar",Singrauli,206,26,182,47,4,7,2024-01-01
+513,Tempore Elite,Puma,Apparel,Kant-Bhardwaj,Lucknow,240,1,7,77,10,120,2024-01-01
+514,Laudantium Elite,Amul,Electronics,Tank-Thakkar,Katni,456,16,112,22,8,26,2024-01-01
+515,Dolore X,Amul,Apparel,"Maharaj, Deol and Subramaniam",Nagaon,368,11,77,44,3,30,2024-01-01
+516,Quas Pro,Puma,Beauty,"Bedi, Dhawan and Mohanty",Ramgarh,258,13,91,44,2,18,2024-01-01
+517,Cum X,Godrej,Electronics,"Dugar, Kohli and Seth",Bhubaneswar,166,12,84,25,5,12,2024-01-01
+518,Aut X,LG,Beauty,Din LLC,Dhule,342,20,140,70,4,16,2024-01-01
+519,Maiores Pro,Philips,Beauty,Dube PLC,Thoothukudi,464,10,70,60,10,42,2024-01-01
+520,Iste Plus,Nike,Beauty,Bajaj Inc,Muzaffarnagar,376,14,98,96,9,25,2024-01-01
+521,Enim Pro,Godrej,Grocery,"Handa, De and Srinivas",Latur,62,17,119,28,5,3,2024-01-01
+522,Repellendus Plus,Samsung,Electronics,Srinivasan LLC,Tadepalligudem,343,4,28,38,5,68,2024-01-01
+523,Iure Pro,Samsung,Home,Sunder-Kari,Satara,229,16,112,91,2,13,2024-01-01
+524,Fuga Pro,Amul,Beauty,Swamy-Luthra,Raipur,135,10,70,39,10,12,2024-01-01
+525,Perspiciatis Pro,Tata,Electronics,Bandi and Sons,Ongole,277,9,63,46,9,27,2024-01-01
+526,Praesentium Plus,Himalaya,Beauty,Bail-Chawla,Saharanpur,315,4,28,91,10,63,2024-01-01
+527,Assumenda Max,LG,Grocery,"Sant, Majumdar and Samra",Jamalpur,312,3,21,44,6,78,2024-01-01
+528,Iure Max,Puma,Home,"Jayaraman, Baral and Krishna",Siwan,233,2,14,52,3,77,2024-01-01
+529,Cumque Max,Samsung,Beauty,Khurana-Ramesh,Lucknow,450,6,42,85,9,64,2024-01-01
+530,Voluptates Elite,Philips,Beauty,Seth PLC,Sambalpur,142,24,168,44,2,5,2024-01-01
+531,Rem Plus,LG,Beauty,Sahota Group,Cuttack,353,3,21,75,2,88,2024-01-01
+532,Eius Pro,Nike,Apparel,Om and Sons,Dhanbad,111,9,63,70,2,11,2024-01-01
+533,Corrupti Pro,Tata,Home,"Palla, Prashad and Sood",Buxar,338,11,77,93,2,28,2024-01-01
+534,Corporis X,Amul,Apparel,"Tella, Das and Bhatti",Ghaziabad,384,12,84,33,5,29,2024-01-01
+535,Ut Plus,Godrej,Electronics,"Gara, Kohli and Prabhu",Kochi,449,13,91,21,9,32,2024-01-01
+536,Autem Plus,Nike,Grocery,"Kothari, Goswami and Gupta",Bongaigaon,480,7,49,56,2,60,2024-01-01
+537,Adipisci X,LG,Apparel,Varghese LLC,Mango,83,13,91,31,2,5,2024-01-01
+538,Amet Pro,Nike,Beauty,"Pillay, Bhagat and Balakrishnan",Lucknow,46,12,84,66,5,3,2024-01-01
+539,Animi Max,Puma,Home,Sood and Sons,Raiganj,39,21,147,40,2,1,2024-01-01
+540,Repellat X,Puma,Home,Khalsa Ltd,Bangalore,357,9,63,30,2,35,2024-01-01
+541,Delectus Elite,Amul,Home,"Kumar, Wagle and Balan",Alappuzha,501,1,7,27,4,250,2024-01-01
+542,Ratione X,Himalaya,Grocery,"Parmar, Trivedi and Mander",Orai,255,9,63,76,3,25,2024-01-01
+543,Sunt Pro,Godrej,Grocery,Mammen-Saran,Amaravati,155,3,21,71,8,38,2024-01-01
+544,Quas X,Sony,Apparel,Gupta Inc,Parbhani,80,25,175,46,1,3,2024-01-01
+545,Cumque Pro,Puma,Beauty,Kara Ltd,Pondicherry,438,18,126,94,7,23,2024-01-01
+546,Perferendis Plus,Tata,Electronics,"Chadha, Mahajan and Grover",Nashik,99,8,56,63,3,11,2024-01-01
+547,Molestias Plus,Sony,Electronics,"Swaminathan, Garg and Chada",Chandrapur,372,21,147,94,7,16,2024-01-01
+548,Id Max,Himalaya,Apparel,Thakur and Sons,Tirupati,133,7,49,80,2,16,2024-01-01
+549,Reprehenderit Elite,Samsung,Apparel,"Krishnamurthy, Ben and Nayak",Malda,63,10,70,53,9,5,2024-01-01
+550,Praesentium Pro,LG,Beauty,Issac and Sons,Sasaram,208,5,35,65,9,34,2024-01-01
+551,Ut Elite,Nike,Electronics,Sha-Vala,Chinsurah,197,8,56,62,7,21,2024-01-01
+552,Repellendus Plus,Amul,Apparel,Desai-Tripathi,Sambhal,83,4,28,73,6,16,2024-01-01
+553,Iusto Pro,Sony,Electronics,Thakkar-Nori,Tenali,262,16,112,99,10,15,2024-01-01
+554,Exercitationem Elite,Tata,Grocery,Suri-Sunder,Dewas,119,8,56,65,2,13,2024-01-01
+555,Rerum Plus,Samsung,Beauty,"Bedi, Khalsa and Pal",Akola,153,16,112,97,4,9,2024-01-01
+556,Perferendis Elite,Amul,Home,Bhasin PLC,Hubli–Dharwad,403,14,98,39,9,26,2024-01-01
+557,At Max,Himalaya,Home,"Ramanathan, Choudhury and Bedi",Berhampur,116,13,91,34,1,8,2024-01-01
+558,Sint Elite,Amul,Apparel,Venkataraman Group,Jorhat,288,10,70,36,1,26,2024-01-01
+559,Commodi Plus,Nike,Beauty,Koshy-Ramanathan,Belgaum,286,5,35,97,9,47,2024-01-01
+560,Eius Elite,Philips,Apparel,Ben-Raman,Junagadh,404,3,21,34,9,101,2024-01-01
+561,Praesentium Pro,Nike,Grocery,"Gulati, Mitra and Baria",Bellary,78,15,105,55,6,4,2024-01-01
+562,Minus Max,Tata,Grocery,Kamdar-Kapoor,Vijayawada,338,32,224,76,4,10,2024-01-01
+563,Exercitationem X,Nike,Grocery,Parikh-Morar,Bhatpara,174,19,133,62,8,8,2024-01-01
+564,Quae X,Puma,Electronics,Hora-Bhatt,Ghaziabad,407,8,56,65,5,45,2024-01-01
+565,Perspiciatis Pro,Puma,Beauty,"Ravi, Saran and Setty",Muzaffarpur,164,5,35,33,10,27,2024-01-01
+566,Dolores X,Amul,Electronics,Sastry and Sons,Kottayam,211,24,168,83,2,8,2024-01-01
+567,Voluptatem X,Himalaya,Electronics,Mall and Sons,Gopalpur,45,6,42,83,2,6,2024-01-01
+568,Quaerat Pro,Nike,Electronics,"Tella, Badal and De",Dhanbad,154,3,21,60,1,38,2024-01-01
+569,Minus Max,Godrej,Grocery,Naidu-Borra,Chandrapur,360,6,42,41,1,51,2024-01-01
+570,Quis Plus,Samsung,Electronics,Sarin-Soman,Motihari,369,6,42,22,3,52,2024-01-01
+571,Doloribus Max,Godrej,Electronics,Dani-Chahal,Chandigarh,264,8,56,63,8,29,2024-01-01
+572,Vitae Max,Sony,Home,"Bora, Bhat and Sehgal",Kottayam,42,24,168,82,4,1,2024-01-01
+573,Magni Pro,Godrej,Home,Dey-Cheema,Purnia,116,0,0,46,7,116,2024-01-01
+574,Soluta X,Tata,Beauty,Bora LLC,Bidhannagar,395,9,63,61,8,39,2024-01-01
+575,Iure Elite,Sony,Beauty,Gill-Vora,Eluru,278,11,77,42,9,23,2024-01-01
+576,Quis Max,Nike,Home,Khurana-Mann,Karaikudi,61,1,7,76,8,30,2024-01-01
+577,Omnis Plus,Godrej,Apparel,"Shroff, Sundaram and Varkey",Hindupur,310,18,126,35,9,16,2024-01-01
+578,Ex Pro,Himalaya,Home,"Dhar, Saha and Mukherjee",Berhampore,391,8,56,24,9,43,2024-01-01
+579,Rerum X,Godrej,Home,"Mody, Sampath and Kapadia",Kalyan-Dombivli,106,9,63,73,6,10,2024-01-01
+580,Sed Elite,Philips,Apparel,Hayre Ltd,Chapra,250,3,21,86,1,62,2024-01-01
+581,Laboriosam X,Amul,Apparel,Chatterjee-Dhingra,Fatehpur,453,25,175,34,9,17,2024-01-01
+582,Illum Plus,Nike,Apparel,Mani-Venkatesh,Bhavnagar,198,23,161,61,8,8,2024-01-01
+583,Quas Max,Amul,Electronics,Comar Ltd,Raichur,54,2,14,30,8,18,2024-01-01
+584,A Plus,Nike,Apparel,Menon-Kari,Alappuzha,390,19,133,59,6,19,2024-01-01
+585,Ipsum Max,Godrej,Electronics,"Prakash, Divan and Gopal",Burhanpur,369,11,77,71,2,30,2024-01-01
+586,Quod Elite,Samsung,Beauty,"Mann, Palan and Oza",Thiruvananthapuram,193,14,98,68,8,12,2024-01-01
+587,Veritatis Plus,LG,Beauty,Nagar-Raju,Gaya,209,9,63,87,8,20,2024-01-01
+588,Sit Elite,Nike,Apparel,Doctor and Sons,Ambattur,89,6,42,93,10,12,2024-01-01
+589,Ut Plus,Sony,Grocery,Randhawa-Radhakrishnan,Tenali,292,6,42,96,3,41,2024-01-01
+590,Laudantium Plus,Philips,Home,Raval-Bassi,Ahmednagar,39,12,84,51,9,3,2024-01-01
+591,Molestiae X,Puma,Apparel,Upadhyay LLC,Gaya,134,15,105,33,1,8,2024-01-01
+592,Nihil X,Samsung,Electronics,Bhatt-Kaur,Bharatpur,117,8,56,56,10,13,2024-01-01
+593,Sapiente Elite,Amul,Apparel,Aggarwal-Roy,Dharmavaram,345,9,63,100,10,34,2024-01-01
+594,Voluptate Max,Godrej,Grocery,"Chaudhari, Agate and Din",Bettiah,300,13,91,53,10,21,2024-01-01
+595,Iusto Pro,Nike,Electronics,"Kumar, Borde and Suri",Haldia,55,14,98,52,5,3,2024-01-01
+596,Cum Elite,Amul,Electronics,Tata-Sanghvi,Panipat,251,6,42,75,3,35,2024-01-01
+597,Sapiente X,Godrej,Apparel,Banik Inc,Khora ,451,1,7,86,10,225,2024-01-01
+598,Neque Plus,Philips,Electronics,Pandya-Ramaswamy,Thanjavur,329,2,14,25,1,109,2024-01-01
+599,Nisi X,Puma,Apparel,Rau-Dubey,Thane,356,12,84,20,7,27,2024-01-01
+600,Esse Pro,Philips,Apparel,Pandit Group,Mahbubnagar,454,25,175,92,7,17,2024-01-01
+601,Natus Plus,Puma,Electronics,"Toor, Koshy and Manne",Pimpri-Chinchwad,124,2,14,27,8,41,2024-01-01
+602,Sint Elite,LG,Apparel,"Anand, Sathe and Johal",Maheshtala,199,4,28,22,2,39,2024-01-01
+603,Cumque Plus,Puma,Electronics,Ravi PLC,Bikaner,167,15,105,98,2,10,2024-01-01
+604,Rerum Max,Sony,Grocery,Ravi PLC,Tiruvottiyur,152,10,70,28,1,13,2024-01-01
+605,Veniam X,Samsung,Home,"Deep, Parmar and Nath",Bellary,78,23,161,34,1,3,2024-01-01
+606,Adipisci Max,Puma,Electronics,Varghese PLC,Hyderabad,222,12,84,69,5,17,2024-01-01
+607,Distinctio Elite,Himalaya,Electronics,Oak-Kala,Rewa,438,1,7,61,10,219,2024-01-01
+608,Sequi X,Amul,Grocery,Pal Group,Dehri,211,15,105,54,3,13,2024-01-01
+609,Odit X,Amul,Grocery,Sahni and Sons,Alappuzha,380,14,98,21,6,25,2024-01-01
+610,Tempore Max,Himalaya,Beauty,Wali Inc,Shahjahanpur,334,13,91,23,2,23,2024-01-01
+611,Accusamus Elite,Nike,Grocery,"Rastogi, Narain and Anand",Tumkur,178,10,70,100,6,16,2024-01-01
+612,Doloribus Plus,Nike,Apparel,Jha Group,Gangtok,346,1,7,54,10,173,2024-01-01
+613,Consequuntur X,Sony,Home,Sidhu-Baral,Vijayanagaram,331,3,21,60,3,82,2024-01-01
+614,Omnis Max,Godrej,Grocery,"Grewal, Singhal and Chawla",Eluru,108,11,77,64,8,9,2024-01-01
+615,Id Plus,Tata,Apparel,"Lalla, Ganguly and Zachariah",Jaunpur,391,11,77,85,9,32,2024-01-01
+616,Excepturi Max,Tata,Apparel,Mandal-Cheema,Dehri,236,0,0,64,2,236,2024-01-01
+617,Sunt Pro,Sony,Beauty,"Ganesan, Pall and Malhotra",Guna,202,7,49,99,10,25,2024-01-01
+618,Non Pro,Amul,Apparel,"Brahmbhatt, Mall and Kadakia",Suryapet,362,15,105,69,5,22,2024-01-01
+619,Magni Max,Puma,Electronics,Murty-Karpe,Mangalore,420,8,56,70,1,46,2024-01-01
+620,Officia Plus,Godrej,Grocery,Bala-Garde,Jaipur,169,9,63,22,5,16,2024-01-01
+621,Quos Pro,Godrej,Apparel,Divan-Sharma,Sirsa,119,13,91,50,9,8,2024-01-01
+622,Sint Pro,Tata,Home,"Buch, Swamy and Ganesh",Ballia,431,5,35,70,3,71,2024-01-01
+623,Ex X,Himalaya,Beauty,Lad LLC,Bhiwani,276,10,70,37,2,25,2024-01-01
+624,Soluta Plus,Tata,Grocery,Devi-Vora,Bidar,240,8,56,39,1,26,2024-01-01
+625,Nihil Pro,Sony,Electronics,"Raj, Bala and Sengupta",Gulbarga,214,9,63,55,4,21,2024-01-01
+626,Maiores Max,Samsung,Beauty,Menon and Sons,Sangli-Miraj & Kupwad,83,17,119,54,2,4,2024-01-01
+627,Consequatur Plus,Tata,Electronics,"Khosla, Brahmbhatt and Dugar",Kharagpur,348,20,140,89,7,16,2024-01-01
+628,Totam Pro,Samsung,Grocery,"Rege, Rana and Wali",Panihati,248,17,119,93,7,13,2024-01-01
+629,Sunt Max,Sony,Home,"Mani, Mukherjee and Sunder",Vijayanagaram,345,1,7,48,7,172,2024-01-01
+630,Laborum Max,Amul,Apparel,Master-Dhar,Bangalore,279,7,49,54,3,34,2024-01-01
+631,Beatae X,Himalaya,Beauty,Dubey Inc,Gorakhpur,170,3,21,69,4,42,2024-01-01
+632,Inventore Elite,Himalaya,Electronics,"Bandi, Badal and Agrawal",Thiruvananthapuram,425,3,21,91,6,106,2024-01-01
+633,Corporis Elite,Himalaya,Electronics,"Sahni, Deshpande and Nayak",Imphal,321,5,35,30,3,53,2024-01-01
+634,Atque Plus,Himalaya,Electronics,"Dutt, Kanda and Atwal",Bidhannagar,341,5,35,79,10,56,2024-01-01
+635,Deserunt Pro,Nike,Electronics,Raju-Kannan,Rohtak,135,12,84,33,10,10,2024-01-01
+636,Perspiciatis X,Himalaya,Beauty,"Iyengar, Bhavsar and Bhandari",Akola,435,19,133,69,9,21,2024-01-01
+637,Illum Pro,Samsung,Home,Kapur Group,Aurangabad,245,21,147,91,7,11,2024-01-01
+638,Magnam Max,Tata,Apparel,Manne-Sharma,Rewa,266,6,42,90,5,38,2024-01-01
+639,Esse Elite,Himalaya,Beauty,Goel LLC,Ghaziabad,282,10,70,45,7,25,2024-01-01
+640,Nobis Elite,Himalaya,Home,Basak-Modi,Eluru,476,1,7,94,9,238,2024-01-01
+641,Hic Plus,Nike,Grocery,Chahal LLC,Deoghar,233,12,84,45,2,17,2024-01-01
+642,Quibusdam Max,Nike,Beauty,Dhar-Wali,Muzaffarnagar,220,4,28,94,6,44,2024-01-01
+643,Quasi Max,Sony,Electronics,Zacharia-Bumb,Morbi,344,15,105,40,3,21,2024-01-01
+644,Delectus X,Amul,Grocery,Roy and Sons,Ghaziabad,116,16,112,46,8,6,2024-01-01
+645,Assumenda Max,Sony,Apparel,"Naidu, Mall and Vasa",Tinsukia,115,1,7,54,2,57,2024-01-01
+646,Aspernatur Pro,Nike,Grocery,"Arya, Sarin and Chowdhury",Bhalswa Jahangir Pur,143,9,63,64,1,14,2024-01-01
+647,Error Plus,Philips,Grocery,"Pant, Madan and Pant",Karaikudi,282,6,42,93,4,40,2024-01-01
+648,Ipsam Elite,LG,Electronics,"Mangat, Ray and Garde",Raipur,126,11,77,88,5,10,2024-01-01
+649,Qui Plus,Himalaya,Home,Mane-Tella,Warangal,199,4,28,33,9,39,2024-01-01
+650,Quasi Pro,Godrej,Beauty,Shenoy Inc,Naihati,237,19,133,59,8,11,2024-01-01
+651,Suscipit Elite,Godrej,Apparel,Shetty LLC,Darbhanga,264,4,28,94,5,52,2024-01-01
+652,Modi Pro,Amul,Grocery,Bhalla-Sen,Shahjahanpur,148,10,70,25,3,13,2024-01-01
+653,Vero Max,Philips,Beauty,Khalsa Inc,Sirsa,378,24,168,20,2,15,2024-01-01
+654,Quia Plus,Godrej,Electronics,Yadav LLC,Ludhiana,144,25,175,26,5,5,2024-01-01
+655,Similique Max,Nike,Apparel,Kakar-Shukla,Rajahmundry,128,0,0,57,5,128,2024-01-01
+656,Ratione Pro,Puma,Home,"Manda, Swamy and Bedi",Jamalpur,397,12,84,68,10,30,2024-01-01
+657,Blanditiis Max,Amul,Electronics,Bera-Ranganathan,Gwalior,76,8,56,22,3,8,2024-01-01
+658,Ipsam Pro,Tata,Beauty,Chowdhury Ltd,Thanjavur,78,10,70,38,8,7,2024-01-01
+659,Placeat Max,LG,Beauty,"Sampath, Solanki and Bhasin",Arrah,239,7,49,30,3,29,2024-01-01
+660,Dolor Plus,Amul,Beauty,"Hayre, Shere and Edwin",Hajipur,304,12,84,22,2,23,2024-01-01
+661,Illum Plus,LG,Apparel,Dewan-Chada,Bettiah,45,16,112,21,6,2,2024-01-01
+662,Dolorem Plus,Godrej,Electronics,"Padmanabhan, Sundaram and Dua",Rampur,88,9,63,90,3,8,2024-01-01
+663,Id Max,Puma,Beauty,"Mani, Jayaraman and Venkataraman",Shahjahanpur,490,10,70,22,10,44,2024-01-01
+664,Explicabo Plus,Himalaya,Grocery,"Chand, Sankar and Kapoor",Bhiwandi,82,14,98,71,8,5,2024-01-01
+665,Culpa Pro,Himalaya,Home,Khosla Group,Coimbatore,363,9,63,99,8,36,2024-01-01
+666,Culpa Max,Philips,Grocery,"Butala, Mallick and Madan",Kulti,116,12,84,88,5,8,2024-01-01
+667,Cum Plus,Himalaya,Beauty,Buch Ltd,Kavali,412,0,0,29,5,412,2024-01-01
+668,Qui Plus,Sony,Electronics,"Samra, Bassi and Peri",Panvel,190,18,126,44,5,10,2024-01-01
+669,Nesciunt Max,Philips,Home,"Choudhry, Rai and Dara",Siwan,72,4,28,66,3,14,2024-01-01
+670,Provident Max,Nike,Electronics,Edwin Inc,Karnal,182,5,35,25,1,30,2024-01-01
+671,Iste Elite,Himalaya,Grocery,"Swamy, Natt and Loke",Kota,261,7,49,35,1,32,2024-01-01
+672,Doloremque Elite,Sony,Beauty,"Deo, Banerjee and Bose",Mehsana,317,0,0,88,10,317,2024-01-01
+673,Eos Plus,LG,Electronics,Behl and Sons,Bellary,473,10,70,37,8,43,2024-01-01
+674,Ipsa Elite,Godrej,Apparel,"Narain, Parsa and Vyas",Gopalpur,75,5,35,48,4,12,2024-01-01
+675,Porro Pro,Himalaya,Beauty,Goel LLC,Tumkur,141,8,56,30,2,15,2024-01-01
+676,Necessitatibus Pro,Godrej,Apparel,Dyal Ltd,Mango,253,19,133,31,4,12,2024-01-01
+677,Est Max,Philips,Beauty,"Raman, Narang and Sane",Rampur,44,18,126,83,6,2,2024-01-01
+678,Accusantium Max,Amul,Grocery,"Kala, Gaba and Kamdar",New Delhi,84,6,42,34,7,12,2024-01-01
+679,Explicabo Max,Philips,Electronics,"Das, Dubey and Golla",Asansol,321,12,84,57,3,24,2024-01-01
+680,Labore X,Nike,Beauty,"Mane, Mangat and Jhaveri",Amravati,337,3,21,85,3,84,2024-01-01
+681,Neque X,Philips,Apparel,Kapur Inc,Saharsa,147,8,56,28,4,16,2024-01-01
+682,Consequatur Elite,Philips,Electronics,Gulati-Pal,Hazaribagh,434,1,7,81,5,217,2024-01-01
+683,Placeat X,Philips,Home,Lanka Ltd,Ramagundam,246,1,7,37,7,123,2024-01-01
+684,Veniam Plus,Sony,Home,"Raj, Gaba and Gill",Gandhidham,161,7,49,55,6,20,2024-01-01
+685,Incidunt Elite,Philips,Home,Jain-Wagle,Warangal,422,3,21,44,3,105,2024-01-01
+686,Recusandae Pro,Philips,Grocery,Sarraf PLC,Kottayam,311,4,28,50,10,62,2024-01-01
+687,Facilis Max,Tata,Electronics,Narasimhan-Kala,Bhilai,120,12,84,86,4,9,2024-01-01
+688,Quas X,Himalaya,Grocery,Dayal and Sons,Dibrugarh,372,14,98,58,3,24,2024-01-01
+689,Quisquam Plus,Samsung,Beauty,Ahluwalia-Khosla,Panihati,97,12,84,35,4,7,2024-01-01
+690,Incidunt Max,Amul,Apparel,"Andra, Krishna and Choudhary",Raebareli,264,2,14,75,6,88,2024-01-01
+691,Iure Max,LG,Electronics,Bhakta Inc,Anand,151,2,14,90,3,50,2024-01-01
+692,Maxime Elite,Himalaya,Home,Tiwari Inc,Ozhukarai,273,17,119,61,2,15,2024-01-01
+693,Adipisci Max,Samsung,Beauty,"Sarma, Virk and Gaba",Sultan Pur Majra,455,15,105,100,2,28,2024-01-01
+694,Fugiat Pro,Puma,Apparel,Trivedi-Menon,Kollam,483,9,63,52,3,48,2024-01-01
+695,Harum Pro,LG,Electronics,Bal-Vala,Eluru,412,13,91,51,1,29,2024-01-01
+696,Iure Max,LG,Home,"Keer, Sama and Sandal",Shimla,87,3,21,47,8,21,2024-01-01
+697,Ratione Plus,Nike,Beauty,"Bera, Kamdar and Nagi",Srikakulam,308,7,49,53,1,38,2024-01-01
+698,Doloribus X,Philips,Electronics,Rout-Prakash,Suryapet,279,8,56,97,7,31,2024-01-01
+699,Est Plus,Amul,Electronics,Chaudhari PLC,Bilaspur,69,11,77,71,5,5,2024-01-01
+700,Corrupti Plus,Amul,Apparel,"Ben, Chadha and Shanker",Saharsa,179,14,98,48,6,11,2024-01-01
+701,Molestiae X,Godrej,Electronics,Dugal Ltd,Buxar,498,6,42,53,8,71,2024-01-01
+702,Suscipit Pro,Puma,Home,Bhatti PLC,Unnao,225,6,42,52,1,32,2024-01-01
+703,Iusto Pro,Godrej,Apparel,Peri PLC,Pali,368,4,28,35,3,73,2024-01-01
+704,Nostrum X,Samsung,Electronics,Lad-Vala,Tinsukia,485,13,91,64,2,34,2024-01-01
+705,Aperiam Pro,Himalaya,Grocery,Sengupta-Gara,Aurangabad,243,26,182,91,7,9,2024-01-01
+706,Veritatis Max,Samsung,Beauty,Bal-Sahni,Nagpur,93,20,140,27,2,4,2024-01-01
+707,Consectetur Pro,LG,Beauty,"Vala, Trivedi and Ravi",Vijayawada,200,3,21,23,2,50,2024-01-01
+708,Maxime Plus,Tata,Grocery,Mallick Inc,Kozhikode,95,2,14,69,5,31,2024-01-01
+709,Cupiditate Plus,Himalaya,Electronics,Mukhopadhyay Group,Unnao,459,19,133,86,1,22,2024-01-01
+710,Adipisci X,Puma,Grocery,"Dash, Kapadia and Grover",Bhatpara,411,3,21,87,5,102,2024-01-01
+711,Quia X,Sony,Grocery,"Sen, Reddy and Mangat",Adoni,481,6,42,100,1,68,2024-01-01
+712,Excepturi Pro,Sony,Home,Char Ltd,Machilipatnam,75,1,7,80,6,37,2024-01-01
+713,Reprehenderit Max,Philips,Electronics,"Batta, Krishnamurthy and Ghosh",Baranagar,337,17,119,33,7,18,2024-01-01
+714,Sequi Pro,Sony,Beauty,Issac-Swamy,Kollam,464,6,42,73,8,66,2024-01-01
+715,Culpa Pro,Amul,Grocery,Ray-Gour,Srinagar,125,6,42,62,5,17,2024-01-01
+716,Perspiciatis Pro,Samsung,Grocery,"Dugal, Bhagat and Panchal",Amravati,408,1,7,73,1,204,2024-01-01
+717,Dolorem Max,Sony,Beauty,Tata Inc,Shahjahanpur,487,8,56,27,1,54,2024-01-01
+718,Ut Plus,Nike,Home,Deep-Halder,Bhilai,436,8,56,40,5,48,2024-01-01
+719,Voluptate X,Philips,Electronics,Badal PLC,Panipat,285,5,35,22,5,47,2024-01-01
+720,Aliquam X,Philips,Beauty,"Mitter, Gola and Chopra",Munger,102,4,28,92,7,20,2024-01-01
+721,Facere Elite,Amul,Beauty,"Pradhan, Chaudhari and Kapadia",Kalyan-Dombivli,388,5,35,73,9,64,2024-01-01
+722,Hic X,Amul,Home,Ganesan PLC,Anantapur,417,17,119,98,6,23,2024-01-01
+723,Esse Plus,Nike,Beauty,Narayanan-Palla,Agra,275,13,91,56,4,19,2024-01-01
+724,Minus Plus,Puma,Home,Boase-Chauhan,Suryapet,237,0,0,76,5,237,2024-01-01
+725,Magni Elite,Samsung,Electronics,"Boase, Peri and Manne",Chittoor,294,11,77,92,9,24,2024-01-01
+726,Soluta Pro,Himalaya,Grocery,Wali-Krishnamurthy,Bhilwara,323,3,21,35,1,80,2024-01-01
+727,Error X,Himalaya,Electronics,"Rastogi, Loyal and Garg",Jammu,386,8,56,47,3,42,2024-01-01
+728,Facilis Pro,Samsung,Electronics,"Sami, More and Master",Rampur,347,7,49,60,1,43,2024-01-01
+729,Sint Elite,Samsung,Apparel,Uppal Group,Bidar,229,4,28,73,10,45,2024-01-01
+730,Enim Plus,Puma,Home,Pal-Venkataraman,Junagadh,49,17,119,24,3,2,2024-01-01
+731,Cumque Plus,Samsung,Home,"Tella, Dyal and Swaminathan",Hapur,52,0,0,75,6,52,2024-01-01
+732,Porro Max,Godrej,Grocery,"Sethi, Sinha and Chauhan",Hazaribagh,442,16,112,52,4,26,2024-01-01
+733,Eos Plus,LG,Grocery,Vala and Sons,Madurai,373,12,84,29,5,28,2024-01-01
+734,Reiciendis Pro,Puma,Beauty,"Rana, Sankar and Sarin",Saharsa,170,19,133,58,7,8,2024-01-01
+735,Pariatur Max,Tata,Electronics,Buch Inc,Chinsurah,144,4,28,49,7,28,2024-01-01
+736,Nostrum Plus,Himalaya,Electronics,"Doshi, Bhatt and Sachar",Sonipat,408,3,21,25,8,102,2024-01-01
+737,Dolore Elite,Godrej,Electronics,"Varty, Bala and Bali",Jaunpur,72,10,70,92,8,6,2024-01-01
+738,Numquam X,Sony,Home,"Hayer, Prabhu and Lala",Sambhal,136,18,126,75,9,7,2024-01-01
+739,Repudiandae Elite,Puma,Home,"Lanka, Contractor and Mittal",Imphal,421,20,140,58,9,20,2024-01-01
+740,Nesciunt Pro,Nike,Beauty,"Kothari, Kulkarni and Bawa",Karawal Nagar,232,15,105,87,3,14,2024-01-01
+741,Maiores Elite,Himalaya,Grocery,Bala-Chokshi,Bokaro,255,12,84,69,9,19,2024-01-01
+742,Earum Max,Puma,Home,Dalal PLC,Navi Mumbai,304,2,14,95,5,101,2024-01-01
+743,Animi Max,Tata,Apparel,Anne-Mand,Kalyan-Dombivli,112,13,91,21,10,8,2024-01-01
+744,Odit Plus,Tata,Electronics,Hegde-Choudhury,Guwahati,119,10,70,93,1,10,2024-01-01
+745,Id X,Philips,Grocery,Doctor LLC,Ghaziabad,343,11,77,37,2,28,2024-01-01
+746,Perferendis X,Nike,Electronics,Borra PLC,Bihar Sharif,239,3,21,39,8,59,2024-01-01
+747,Ab Elite,Sony,Apparel,"Khurana, Agate and Raman",Arrah,162,21,147,82,4,7,2024-01-01
+748,Atque Plus,Sony,Home,"Sawhney, Memon and More",Panchkula,396,4,28,36,7,79,2024-01-01
+749,Error Pro,Godrej,Electronics,Brar Ltd,Patiala,229,27,189,55,3,8,2024-01-01
+750,Molestiae Pro,Amul,Electronics,"Sarin, Gola and Baral",Saharsa,40,11,77,60,6,3,2024-01-01
+751,Asperiores Plus,Tata,Home,Halder Ltd,Madhyamgram,194,4,28,76,1,38,2024-01-01
+752,Temporibus Max,Amul,Grocery,Chowdhury LLC,Rampur,158,4,28,44,9,31,2024-01-01
+753,Laboriosam Plus,Amul,Beauty,"Sama, Bhatnagar and Krish",Sambalpur,267,3,21,27,2,66,2024-01-01
+754,Iste Plus,Puma,Grocery,Hayre-Bhattacharyya,Bhatpara,453,8,56,42,3,50,2024-01-01
+755,Officia Elite,Philips,Apparel,"Deo, Sachdeva and Samra",Surendranagar Dudhrej,383,1,7,52,1,191,2024-01-01
+756,Culpa X,Godrej,Home,Seth and Sons,Mangalore,477,18,126,60,4,25,2024-01-01
+757,Architecto Max,Amul,Grocery,Sood-Narayanan,Mahbubnagar,194,0,0,22,8,194,2024-01-01
+758,Deserunt Plus,LG,Grocery,Sabharwal Group,Indore,240,2,14,35,3,80,2024-01-01
+759,Sed Elite,LG,Apparel,Kale PLC,Gaya,336,11,77,97,4,28,2024-01-01
+760,Sequi Elite,Amul,Home,Pau Inc,Dindigul,308,3,21,37,4,77,2024-01-01
+761,Commodi Plus,Tata,Beauty,Reddy Ltd,Singrauli,182,2,14,78,6,60,2024-01-01
+762,Tenetur Plus,LG,Apparel,"Hans, Garg and Jayaraman",Danapur,385,21,147,55,7,17,2024-01-01
+763,Ipsa Pro,Samsung,Beauty,Dewan-Sandal,Bhind,338,8,56,51,9,37,2024-01-01
+764,Laboriosam Max,Himalaya,Grocery,"Bains, Gaba and Bava",Madurai,68,4,28,85,6,13,2024-01-01
+765,Labore Max,LG,Apparel,Kashyap-Comar,Bhatpara,77,10,70,66,10,7,2024-01-01
+766,Vel Max,Amul,Home,"Chad, Balakrishnan and Mittal",Panchkula,225,23,161,88,9,9,2024-01-01
+767,Nulla Elite,Amul,Electronics,Narasimhan-Rajagopalan,Ichalkaranji,456,20,140,100,1,21,2024-01-01
+768,Assumenda Plus,Samsung,Apparel,Wason-Sampath,Yamunanagar,431,4,28,27,5,86,2024-01-01
+769,Aspernatur X,Samsung,Apparel,"Patla, Pingle and Shan",Berhampur,296,1,7,97,5,148,2024-01-01
+770,Officiis Plus,Himalaya,Beauty,Nair PLC,Bikaner,275,12,84,32,5,21,2024-01-01
+771,Fuga Plus,Philips,Grocery,Sen Inc,Vijayanagaram,52,12,84,33,10,4,2024-01-01
+772,Nobis Pro,Nike,Home,Majumdar and Sons,Tumkur,221,3,21,37,1,55,2024-01-01
+773,Placeat X,Himalaya,Home,Batta-Dixit,Bhilwara,287,28,196,85,1,9,2024-01-01
+774,Debitis Max,Godrej,Electronics,Dube Inc,Ongole,370,22,154,81,6,16,2024-01-01
+775,Explicabo Plus,Sony,Grocery,Chakraborty Ltd,Nagaon,211,10,70,24,4,19,2024-01-01
+776,Quasi Pro,Nike,Home,Jhaveri-Panchal,Silchar,348,4,28,63,5,69,2024-01-01
+777,Dolorum Plus,Samsung,Home,Sekhon-Pradhan,Dibrugarh,322,1,7,51,1,161,2024-01-01
+778,Cupiditate Elite,Sony,Beauty,Tara Group,Vasai-Virar,294,3,21,28,5,73,2024-01-01
+779,Dicta X,Samsung,Apparel,Doctor-Singhal,Varanasi,297,18,126,90,5,15,2024-01-01
+780,Facere Max,Godrej,Apparel,"Swamy, Sheth and Murty",Jalgaon,384,21,147,37,10,17,2024-01-01
+781,Aliquam Max,Puma,Beauty,Brahmbhatt-Bhatt,Sagar,162,15,105,75,5,10,2024-01-01
+782,Delectus Elite,Amul,Grocery,"De, Dugal and Shenoy",Tezpur,392,8,56,25,1,43,2024-01-01
+783,Quaerat Elite,Nike,Home,Mani-Babu,Mangalore,488,5,35,99,4,81,2024-01-01
+784,Repellat Pro,Amul,Apparel,Hari and Sons,Bhimavaram,392,10,70,21,9,35,2024-01-01
+785,Fuga X,Tata,Electronics,Ganesh Ltd,Ambattur,250,8,56,58,6,27,2024-01-01
+786,Quae Plus,Sony,Electronics,"Prashad, Chauhan and Mittal",Amaravati,234,6,42,34,8,33,2024-01-01
+787,Amet Max,Philips,Apparel,Peri Ltd,Avadi,257,2,14,97,7,85,2024-01-01
+788,Aperiam Max,Himalaya,Home,Chopra-Majumdar,Siwan,52,11,77,64,2,4,2024-01-01
+789,Quasi Elite,Tata,Beauty,"Soni, Seshadri and Cherian",Sambalpur,165,19,133,59,4,8,2024-01-01
+790,Velit X,Puma,Beauty,Dhingra-Tandon,Mango,120,23,161,60,5,5,2024-01-01
+791,Error Max,Tata,Electronics,Nayar PLC,Gangtok,188,6,42,44,7,26,2024-01-01
+792,Minima Elite,Philips,Apparel,Bir Inc,Bhimavaram,174,9,63,81,2,17,2024-01-01
+793,Esse Elite,Tata,Beauty,"Shenoy, Karnik and Kota",Hosur,261,5,35,48,6,43,2024-01-01
+794,Totam Elite,Amul,Beauty,"Modi, Bahl and Dubey",Sirsa,468,24,168,54,3,18,2024-01-01
+795,Consequuntur Max,Samsung,Grocery,Salvi Ltd,Mira-Bhayandar,100,15,105,49,5,6,2024-01-01
+796,Totam Pro,Himalaya,Grocery,Gole LLC,Dhanbad,254,8,56,93,2,28,2024-01-01
+797,Nisi X,Godrej,Grocery,"Dar, Taneja and Narain",Imphal,388,5,35,45,5,64,2024-01-01
+798,Non Pro,Himalaya,Home,Manne LLC,Bijapur,224,23,161,80,2,9,2024-01-01
+799,Nisi Pro,Amul,Electronics,Dash-Dugar,Bhopal,330,0,0,25,4,330,2024-01-01
+800,Unde Elite,Tata,Apparel,Loyal-Iyengar,Thane,342,1,7,34,2,171,2024-01-01
+801,Iure Pro,Puma,Apparel,Oak LLC,Nellore,40,13,91,98,1,2,2024-01-01
+802,Tenetur X,Tata,Home,Rai-Keer,Haldia,168,18,126,79,3,8,2024-01-01
+803,Veritatis Plus,LG,Grocery,Sibal Group,Tadepalligudem,135,11,77,58,6,11,2024-01-01
+804,At Max,Samsung,Electronics,Rajagopalan-Warrior,Sultan Pur Majra,203,7,49,85,9,25,2024-01-01
+805,Odit Elite,Sony,Electronics,"Babu, Swaminathan and Gill",Sasaram,447,1,7,37,4,223,2024-01-01
+806,Dolore Max,Nike,Grocery,Nazareth LLC,Bally,381,19,133,40,9,19,2024-01-01
+807,Sunt Elite,Sony,Home,"Bhattacharyya, Kapoor and Tank",Vijayawada,371,11,77,44,9,30,2024-01-01
+808,Distinctio Pro,Samsung,Home,"Bera, Saxena and Chopra",Kumbakonam,165,7,49,85,9,20,2024-01-01
+809,Eaque Pro,Tata,Apparel,Kaul-Ramaswamy,Vadodara,72,10,70,89,9,6,2024-01-01
+810,Cumque Max,Nike,Electronics,Chahal Ltd,Bijapur,305,2,14,57,7,101,2024-01-01
+811,Aliquam Pro,Himalaya,Beauty,"Gupta, Kadakia and Jha",Cuttack,185,19,133,83,1,9,2024-01-01
+812,Odio Elite,Puma,Apparel,Soni-Soman,Tiruvottiyur,183,8,56,22,9,20,2024-01-01
+813,Quos X,Samsung,Electronics,Karpe PLC,Nizamabad,309,21,147,93,5,14,2024-01-01
+814,Veritatis X,Philips,Electronics,Loke-Nayak,Jammu,97,3,21,53,7,24,2024-01-01
+815,Maiores Pro,Tata,Beauty,"Madan, Murthy and Vohra",Narasaraopet,411,4,28,89,8,82,2024-01-01
+816,Laudantium Elite,Amul,Grocery,"Shan, Chanda and Chaudhuri",Haridwar,338,5,35,67,8,56,2024-01-01
+817,Corrupti Plus,Philips,Electronics,Buch-Contractor,Gandhidham,316,8,56,100,5,35,2024-01-01
+818,Ullam Plus,Amul,Apparel,Kapadia LLC,Rohtak,163,5,35,27,9,27,2024-01-01
+819,Illo X,Tata,Electronics,Borra-Jain,Nanded,49,18,126,86,2,2,2024-01-01
+820,Asperiores Max,Nike,Grocery,Guha-Dasgupta,Parbhani,51,13,91,40,1,3,2024-01-01
+821,Expedita Elite,Samsung,Electronics,"Pandya, Sharaf and Chowdhury",Berhampore,116,9,63,53,7,11,2024-01-01
+822,Minima X,Himalaya,Grocery,Datta PLC,Kirari Suleman Nagar,361,1,7,64,8,180,2024-01-01
+823,Inventore Pro,Samsung,Electronics,"Bhattacharyya, Muni and Bhasin",Dhule,244,1,7,74,4,122,2024-01-01
+824,Illum X,Sony,Electronics,"Chahal, D’Alia and Contractor",Munger,333,5,35,89,8,55,2024-01-01
+825,Consequuntur Max,Nike,Grocery,"Pai, Date and Bahri",Ahmedabad,141,3,21,81,3,35,2024-01-01
+826,Repellendus Pro,Puma,Electronics,Bava-Chauhan,Tadepalligudem,47,15,105,52,7,2,2024-01-01
+827,Ducimus Elite,Amul,Beauty,Sani-Sankar,Deoghar,250,8,56,49,1,27,2024-01-01
+828,Repellendus Elite,Sony,Apparel,"Johal, Kohli and Iyengar",Nellore,181,14,98,97,8,12,2024-01-01
+829,Accusamus Plus,Puma,Apparel,"Kaur, Chaudhary and Dash",Loni,382,12,84,78,6,29,2024-01-01
+830,Natus X,LG,Apparel,"Chadha, Dass and Walla",Bongaigaon,287,27,189,81,8,10,2024-01-01
+831,Explicabo Pro,Philips,Grocery,Seshadri-Mannan,Anantapuram,182,3,21,54,1,45,2024-01-01
+832,Velit Pro,Nike,Apparel,Madan-Kannan,Fatehpur,85,10,70,64,3,7,2024-01-01
+833,Sit Pro,Tata,Grocery,"Chacko, Batra and Krish",Udaipur,159,12,84,23,3,12,2024-01-01
+834,Asperiores Max,Nike,Grocery,Lalla LLC,Davanagere,400,18,126,88,4,21,2024-01-01
+835,Explicabo X,Samsung,Electronics,Borra LLC,Shimla,153,21,147,95,4,6,2024-01-01
+836,Architecto Plus,Tata,Beauty,Mander PLC,Haldia,140,1,7,90,9,70,2024-01-01
+837,Suscipit X,Samsung,Grocery,Chatterjee Ltd,Bharatpur,409,11,77,25,10,34,2024-01-01
+838,Laudantium X,Tata,Apparel,Parikh-Naik,Anand,72,15,105,53,10,4,2024-01-01
+839,Quibusdam Max,Puma,Home,Brar LLC,Alwar,117,3,21,56,8,29,2024-01-01
+840,Illo Max,Philips,Electronics,Upadhyay-Rege,Ramgarh,224,13,91,20,8,16,2024-01-01
+841,Sit Plus,LG,Apparel,Kannan Ltd,Bhusawal,145,4,28,71,7,29,2024-01-01
+842,Sint Elite,Nike,Apparel,Deol Inc,Panchkula,108,4,28,75,8,21,2024-01-01
+843,Doloremque Plus,LG,Beauty,Swamy-Dani,Maheshtala,463,1,7,70,6,231,2024-01-01
+844,Saepe Pro,Nike,Apparel,Mody-Vala,Sambhal,177,2,14,56,5,59,2024-01-01
+845,Excepturi Pro,LG,Grocery,Brahmbhatt-Wali,Mysore,98,24,168,61,4,3,2024-01-01
+846,Eveniet Max,Nike,Electronics,"Chandran, Dayal and Korpal",Alappuzha,289,8,56,83,6,32,2024-01-01
+847,Suscipit Plus,Himalaya,Home,Bandi-Chaudhary,Jabalpur,244,13,91,38,8,17,2024-01-01
+848,Totam X,Puma,Apparel,Sawhney Group,Hajipur,320,12,84,45,2,24,2024-01-01
+849,Consequuntur Pro,Nike,Apparel,Lata LLC,Kadapa,369,11,77,70,2,30,2024-01-01
+850,Nihil Pro,Nike,Apparel,Kibe and Sons,Bhavnagar,379,3,21,92,8,94,2024-01-01
+851,Veritatis Max,Tata,Home,Bhatti Group,Ahmedabad,457,5,35,45,6,76,2024-01-01
+852,Atque Max,LG,Home,Barman-Nagarajan,Sagar,479,3,21,74,10,119,2024-01-01
+853,Exercitationem Elite,Philips,Home,Naik-Deshpande,Satara,120,12,84,58,8,9,2024-01-01
+854,Veritatis Max,Puma,Grocery,"Brahmbhatt, Shetty and Agate",Tirunelveli,200,2,14,56,4,66,2024-01-01
+855,Cumque Plus,Tata,Electronics,"Sharma, Korpal and Nazareth",Imphal,287,19,133,48,1,14,2024-01-01
+856,Eveniet Max,Amul,Electronics,Kumer-Sampath,Coimbatore,78,10,70,87,9,7,2024-01-01
+857,Ducimus Max,Philips,Grocery,"Krishnamurthy, Bawa and Shanker",Kanpur,197,16,112,40,6,11,2024-01-01
+858,Assumenda X,Himalaya,Electronics,Sule Ltd,Hubli–Dharwad,408,12,84,47,5,31,2024-01-01
+859,Magni Plus,Amul,Grocery,Seshadri Ltd,Bokaro,449,4,28,87,8,89,2024-01-01
+860,Similique Pro,Philips,Electronics,"Gola, Babu and Oza",Satara,147,18,126,73,6,7,2024-01-01
+861,Quo Plus,LG,Apparel,Agate-Ganguly,Farrukhabad,336,12,84,53,8,25,2024-01-01
+862,Repudiandae Elite,Philips,Home,"Nadkarni, Chana and Amble",Jamshedpur,153,12,84,24,7,11,2024-01-01
+863,Harum Pro,Tata,Home,"Pandit, Sachar and Nayak",Sambalpur,213,8,56,47,3,23,2024-01-01
+864,Corporis Elite,LG,Apparel,"Venkataraman, Mohan and Sehgal",Dehradun,26,20,140,94,9,1,2024-01-01
+865,Similique Max,LG,Grocery,Char and Sons,Nagercoil,469,14,98,51,8,31,2024-01-01
+866,Distinctio Max,Puma,Electronics,"Chanda, Sehgal and Lala",Farrukhabad,362,14,98,30,8,24,2024-01-01
+867,Voluptates Plus,Amul,Grocery,Amble-Sabharwal,Raipur,291,14,98,27,4,19,2024-01-01
+868,Unde Max,LG,Apparel,Chad-Rege,Shimla,139,24,168,38,7,5,2024-01-01
+869,Quo X,Nike,Grocery,Gola-Atwal,Mathura,160,10,70,94,9,14,2024-01-01
+870,Hic Plus,Puma,Grocery,"Vohra, Singhal and Tata",Jaunpur,205,5,35,48,8,34,2024-01-01
+871,Accusamus Pro,Himalaya,Electronics,"Khosla, Kurian and Chakraborty",Karawal Nagar,60,7,49,47,8,7,2024-01-01
+872,Vel X,Tata,Electronics,"Sarma, Chaudhari and Jhaveri",Chandrapur,402,9,63,29,6,40,2024-01-01
+873,Officia Elite,Puma,Apparel,"Kaul, Krishnan and Dasgupta",Dhule,123,4,28,25,7,24,2024-01-01
+874,Vel Pro,Amul,Home,"Kunda, Devi and Choudhary",Karaikudi,170,9,63,96,7,17,2024-01-01
+875,Voluptatum Elite,Philips,Grocery,"Brahmbhatt, Mohan and Sidhu",Khora ,145,11,77,95,4,12,2024-01-01
+876,Corporis Max,Nike,Electronics,Sem Inc,Guwahati,467,8,56,71,10,51,2024-01-01
+877,Error Plus,Godrej,Home,"Zachariah, Mohan and Goel",Kozhikode,408,6,42,47,4,58,2024-01-01
+878,A Elite,Nike,Grocery,Dhar and Sons,Malda,335,23,161,20,10,13,2024-01-01
+879,Perspiciatis Elite,Sony,Beauty,"Tiwari, Gola and Dutt",Alwar,164,7,49,47,8,20,2024-01-01
+880,Aspernatur Pro,LG,Beauty,Samra Ltd,Singrauli,236,6,42,39,2,33,2024-01-01
+881,Voluptates Plus,Puma,Electronics,Grewal-Sinha,Buxar,126,6,42,68,4,18,2024-01-01
+882,Quia X,Philips,Grocery,Walla-Dar,Sri Ganganagar,258,5,35,55,10,43,2024-01-01
+883,Neque Max,Godrej,Electronics,Chandran-Sharma,Maheshtala,205,14,98,52,10,13,2024-01-01
+884,Ipsam Plus,LG,Home,"Sandal, Nair and Natarajan",Jalna,86,6,42,86,4,12,2024-01-01
+885,Iure X,Puma,Home,Magar-Shukla,Nizamabad,214,12,84,45,2,16,2024-01-01
+886,Facere Pro,Sony,Beauty,"Kanda, Shanker and Garg",Ghaziabad,179,14,98,55,6,11,2024-01-01
+887,Beatae Pro,Sony,Electronics,Dass-Arya,Malegaon,173,7,49,20,8,21,2024-01-01
+888,Accusamus X,Tata,Grocery,"Sastry, Sunder and Dalal",Arrah,399,9,63,44,5,39,2024-01-01
+889,Architecto X,Sony,Grocery,Gill-Rana,Phusro,336,7,49,80,5,42,2024-01-01
+890,Sapiente Plus,Godrej,Electronics,"Virk, Krishnan and Samra",Aligarh,159,19,133,88,2,7,2024-01-01
+891,Saepe Pro,Puma,Home,"Som, Pillai and Karan",Ramagundam,377,13,91,50,6,26,2024-01-01
+892,Cumque Max,Nike,Beauty,Biswas Group,Muzaffarnagar,58,7,49,43,2,7,2024-01-01
+893,Ut Elite,Nike,Home,"Dar, Bhakta and Brahmbhatt",Madanapalle,123,9,63,62,6,12,2024-01-01
+894,Fugiat Plus,LG,Apparel,Vala Inc,Bangalore,173,10,70,30,6,15,2024-01-01
+895,Assumenda Elite,Sony,Apparel,"Borde, Oza and Viswanathan",Jorhat,262,20,140,45,7,12,2024-01-01
+896,Amet Pro,Tata,Home,"Deep, Hayer and Shetty",Sambalpur,157,17,119,85,4,8,2024-01-01
+897,Perspiciatis Plus,LG,Beauty,"Dara, Sengupta and Sankar",Kishanganj,442,14,98,83,8,29,2024-01-01
+898,Praesentium Pro,LG,Apparel,Bhandari PLC,Suryapet,445,3,21,87,8,111,2024-01-01
+899,Vel Max,Himalaya,Apparel,Basak Inc,Siwan,155,1,7,97,3,77,2024-01-01
+900,Odit Pro,Nike,Home,Manda-Bora,Secunderabad,374,15,105,63,1,23,2024-01-01
+901,Doloribus Pro,Godrej,Home,Raman-Deol,Belgaum,261,14,98,81,5,17,2024-01-01
+902,Rerum Elite,Himalaya,Electronics,Menon Ltd,Varanasi,269,13,91,37,6,19,2024-01-01
+903,Repellendus Max,Amul,Grocery,Rana-Viswanathan,Mathura,338,8,56,74,2,37,2024-01-01
+904,Cupiditate Elite,Himalaya,Apparel,Sethi LLC,Tirunelveli,365,9,63,47,5,36,2024-01-01
+905,Iusto X,LG,Electronics,Borra-Rama,Gandhidham,244,7,49,85,3,30,2024-01-01
+906,Vel X,Sony,Grocery,Sehgal-Soman,Mehsana,97,6,42,56,2,13,2024-01-01
+907,Quia Max,Sony,Beauty,Mallick-Shukla,Alappuzha,214,21,147,61,4,9,2024-01-01
+908,Exercitationem Pro,Sony,Electronics,"Mistry, Sarraf and Chakrabarti",Rajkot,197,12,84,96,6,15,2024-01-01
+909,Est X,Himalaya,Apparel,"Bakshi, Cheema and Seth",Vasai-Virar,431,6,42,96,6,61,2024-01-01
+910,Consectetur X,Philips,Apparel,Nazareth Inc,Agartala,456,11,77,92,3,38,2024-01-01
+911,Neque Max,LG,Grocery,Maharaj-Nayak,Bidhannagar,454,16,112,30,7,26,2024-01-01
+912,Cupiditate X,Philips,Apparel,Pant-Sami,Vijayawada,123,2,14,84,9,41,2024-01-01
+913,Blanditiis X,Nike,Apparel,Saraf LLC,Katni,232,21,147,33,4,10,2024-01-01
+914,Deleniti Pro,Tata,Electronics,Wali Inc,Kirari Suleman Nagar,159,26,182,55,8,5,2024-01-01
+915,Dolore Plus,Himalaya,Electronics,Ramaswamy-Bhagat,Agartala,377,13,91,75,1,26,2024-01-01
+916,Saepe Elite,Sony,Apparel,Ramakrishnan PLC,Nagpur,187,2,14,98,8,62,2024-01-01
+917,Exercitationem Elite,LG,Electronics,Nigam-Kata,Bahraich,102,9,63,45,4,10,2024-01-01
+918,Voluptatibus Elite,Samsung,Electronics,Narayan-Bedi,Machilipatnam,360,24,168,95,4,14,2024-01-01
+919,Iusto X,Samsung,Electronics,Sarin PLC,Hindupur,325,20,140,52,10,15,2024-01-01
+920,Magnam Elite,Nike,Apparel,Raghavan Inc,Gaya,398,7,49,86,7,49,2024-01-01
+921,Assumenda Pro,LG,Grocery,Kaur-Seshadri,Bidar,491,2,14,73,6,163,2024-01-01
+922,Inventore X,Sony,Home,Kala PLC,Alwar,440,11,77,38,7,36,2024-01-01
+923,Velit Plus,Philips,Apparel,Parsa LLC,Dehri,250,17,119,60,2,13,2024-01-01
+924,Assumenda Plus,Philips,Home,"Lal, Taneja and Issac",Chandrapur,198,5,35,67,5,33,2024-01-01
+925,Id X,Sony,Home,"Hans, Sawhney and Venkatesh",Chapra,455,15,105,74,7,28,2024-01-01
+926,Voluptatem Plus,Amul,Home,Rama-Bhandari,Jabalpur,315,19,133,33,5,15,2024-01-01
+927,Maxime Plus,Samsung,Home,"Rattan, Sama and Gokhale",Kollam,177,9,63,71,5,17,2024-01-01
+928,Natus Pro,Godrej,Apparel,Chahal-Bhakta,Khora ,319,9,63,27,3,31,2024-01-01
+929,Dolore Pro,Samsung,Apparel,Dutt-Mishra,Jabalpur,220,8,56,42,5,24,2024-01-01
+930,Culpa X,Puma,Apparel,"Lad, Ramaswamy and Bose",Sambhal,189,15,105,26,4,11,2024-01-01
+931,Veniam Max,Philips,Apparel,Brahmbhatt-Choudhury,Bellary,441,8,56,52,6,49,2024-01-01
+932,Mollitia Max,Godrej,Electronics,"Nori, Bhardwaj and Raman",Shimla,276,1,7,38,8,138,2024-01-01
+933,Tenetur Plus,Philips,Electronics,"Krishnamurthy, Maharaj and Saran",Tinsukia,136,5,35,42,3,22,2024-01-01
+934,Consequuntur Max,Samsung,Apparel,"Vohra, Gour and Deo",Bidar,288,18,126,63,2,15,2024-01-01
+935,Libero X,Himalaya,Home,Roy Group,Shimoga,117,7,49,33,3,14,2024-01-01
+936,Necessitatibus Pro,Samsung,Electronics,Mahajan-Sarma,Thrissur,439,12,84,64,2,33,2024-01-01
+937,Error X,Amul,Electronics,"Chaudhari, Lad and Mody",Ramgarh,218,26,182,22,4,8,2024-01-01
+938,Fugit Pro,LG,Grocery,Brahmbhatt-Toor,Chapra,181,0,0,88,9,181,2024-01-01
+939,Reprehenderit Elite,Sony,Home,Mani and Sons,Jaipur,362,13,91,74,5,25,2024-01-01
+940,Vero Elite,Nike,Grocery,Salvi-Verma,Anand,347,1,7,84,5,173,2024-01-01
+941,Inventore Elite,Sony,Electronics,Minhas Ltd,Khammam,385,15,105,65,4,24,2024-01-01
+942,Iusto Max,Himalaya,Electronics,Mital Inc,Miryalaguda,107,3,21,20,3,26,2024-01-01
+943,Nemo Max,Tata,Home,Buch-Chokshi,Farrukhabad,397,2,14,41,7,132,2024-01-01
+944,Hic Elite,Samsung,Electronics,Chowdhury-Gokhale,Khammam,393,12,84,67,2,30,2024-01-01
+945,Porro Pro,Amul,Home,Radhakrishnan-Gandhi,Katni,317,14,98,40,3,21,2024-01-01
+946,Mollitia Pro,Tata,Home,Dar-Bassi,Bhusawal,326,2,14,71,1,108,2024-01-01
+947,Occaecati Pro,Tata,Beauty,Kuruvilla Group,Guna,481,11,77,59,5,40,2024-01-01
+948,Eos X,Philips,Beauty,Dhar-Chandran,Sonipat,475,1,7,47,2,237,2024-01-01
+949,Porro Elite,Samsung,Grocery,Natt-Om,Mathura,297,20,140,37,8,14,2024-01-01
+950,Sunt Max,Philips,Apparel,Tella-Varma,Aurangabad,327,11,77,42,9,27,2024-01-01
+951,Veniam Elite,Godrej,Electronics,"Bajwa, Dhawan and Kothari",Bangalore,416,5,35,81,8,69,2024-01-01
+952,Dolores Plus,Sony,Beauty,"Dalal, Chana and Gulati",Bettiah,378,5,35,73,3,63,2024-01-01
+953,Reprehenderit Elite,Puma,Home,Mallick Group,Avadi,262,21,147,43,9,11,2024-01-01
+954,Minima X,Godrej,Home,Chandran-Mall,Etawah,390,13,91,41,9,27,2024-01-01
+955,Porro Plus,LG,Grocery,Grover and Sons,Rampur,185,12,84,65,1,14,2024-01-01
+956,Cumque Plus,Samsung,Home,Krishnamurthy-Apte,Siwan,205,0,0,51,7,205,2024-01-01
+957,Consectetur Pro,Amul,Grocery,Konda Ltd,Kota,97,22,154,78,6,4,2024-01-01
+958,Laborum Elite,Philips,Apparel,"Sha, Bhatti and Lanka",Kozhikode,175,8,56,45,4,19,2024-01-01
+959,Aliquam Elite,Godrej,Beauty,"Soni, Raghavan and Tella",Pali,218,5,35,40,6,36,2024-01-01
+960,Nam X,Puma,Grocery,"Sur, Chaudhari and Kuruvilla",Aligarh,110,16,112,85,3,6,2024-01-01
+961,Ad Elite,Sony,Beauty,"Butala, Malhotra and Sheth",Jalna,218,9,63,32,5,21,2024-01-01
+962,Reiciendis Max,Philips,Apparel,Dubey-Choudhary,Bijapur,320,3,21,36,10,80,2024-01-01
+963,Necessitatibus X,Philips,Apparel,"Suresh, Puri and Buch",Ramagundam,166,26,182,31,5,6,2024-01-01
+964,A Pro,Philips,Grocery,"Deep, Chanda and Din",Sonipat,444,6,42,40,6,63,2024-01-01
+965,Tenetur Max,LG,Grocery,Ahuja PLC,Ludhiana,311,7,49,52,7,38,2024-01-01
+966,Fugiat X,Philips,Electronics,"Bath, Yadav and Dora",Bihar Sharif,306,7,49,30,7,38,2024-01-01
+967,Velit Max,Himalaya,Electronics,Gera-Parmer,Bathinda,276,6,42,97,10,39,2024-01-01
+968,Amet Plus,LG,Grocery,"Luthra, Mann and Wagle",Bahraich,386,3,21,99,4,96,2024-01-01
+969,Unde X,Puma,Beauty,Tailor PLC,Karawal Nagar,238,1,7,82,3,119,2024-01-01
+970,Dignissimos Elite,LG,Electronics,Gola-Sabharwal,Sonipat,478,1,7,53,8,239,2024-01-01
+971,Ex Plus,Amul,Home,"Mann, Ahluwalia and Chander",Kota,388,23,161,54,10,16,2024-01-01
+972,Sequi Elite,Tata,Home,Khatri-Bora,Tadipatri,218,2,14,90,4,72,2024-01-01
+973,Repellat Plus,Amul,Grocery,"Gandhi, Dhingra and Srinivas",Suryapet,470,7,49,69,9,58,2024-01-01
+974,Ipsa Max,Himalaya,Grocery,Bains LLC,Anantapuram,341,8,56,43,6,37,2024-01-01
+975,Error Pro,Himalaya,Beauty,Dugar Ltd,Bally,220,6,42,28,7,31,2024-01-01
+976,Aspernatur X,Amul,Grocery,Reddy-Krishna,Bhatpara,168,4,28,84,6,33,2024-01-01
+977,Possimus Elite,Amul,Electronics,Dave Ltd,Noida,159,20,140,41,1,7,2024-01-01
+978,Aliquid Max,Himalaya,Apparel,Maharaj Inc,Sultan Pur Majra,246,3,21,29,3,61,2024-01-01
+979,Amet Plus,Nike,Beauty,Kade Group,Pallavaram,326,7,49,26,6,40,2024-01-01
+980,Laboriosam Elite,Godrej,Beauty,Bala PLC,Sangli-Miraj & Kupwad,351,15,105,90,2,21,2024-01-01
+981,Sit X,Amul,Electronics,Wali-Thakur,Kanpur,185,8,56,45,4,20,2024-01-01
+982,Placeat Plus,Puma,Apparel,"Bawa, Yadav and Kapadia",Naihati,267,2,14,30,9,89,2024-01-01
+983,Ullam Max,Samsung,Grocery,Sarma Group,Bellary,336,17,119,100,3,18,2024-01-01
+984,Doloribus Elite,Nike,Home,"Suri, Gera and Palan",Shahjahanpur,78,1,7,84,5,39,2024-01-01
+985,Asperiores Plus,Himalaya,Apparel,Seshadri-Datta,Vijayanagaram,75,1,7,44,8,37,2024-01-01
+986,Laudantium Pro,Godrej,Home,Mannan and Sons,Belgaum,368,19,133,87,8,18,2024-01-01
+987,Beatae Plus,LG,Electronics,Bora-Bose,Mau,486,3,21,79,5,121,2024-01-01
+988,Aut Max,Amul,Beauty,Raval-Manda,Rampur,396,16,112,22,3,23,2024-01-01
+989,Deserunt Elite,Himalaya,Beauty,Pandit Ltd,Bhilai,257,1,7,81,1,128,2024-01-01
+990,Dolorem Elite,Nike,Home,Deol LLC,Meerut,394,9,63,67,5,39,2024-01-01
+991,Iure Elite,LG,Grocery,Atwal-Anand,Fatehpur,69,24,168,76,2,2,2024-01-01
+992,Architecto Max,LG,Beauty,Agrawal Ltd,Kamarhati,322,4,28,54,9,64,2024-01-01
+993,Voluptatem Pro,Tata,Beauty,Shanker-Kuruvilla,Danapur,183,1,7,25,6,91,2024-01-01
+994,Consectetur Elite,Puma,Beauty,Doctor-Koshy,Karnal,51,7,49,74,3,6,2024-01-01
+995,Mollitia Plus,Sony,Home,Vohra-Bhatti,Mangalore,207,7,49,31,5,25,2024-01-01
+996,Dolorem Elite,Amul,Electronics,Bedi PLC,Gandhinagar,173,4,28,45,10,34,2024-01-01
+997,Iste X,Philips,Beauty,Bera-Sengupta,Chennai,176,7,49,57,2,22,2024-01-01
+998,Quibusdam Pro,Sony,Apparel,Bhakta Inc,Bhubaneswar,140,6,42,26,5,20,2024-01-01
+999,Assumenda Max,Samsung,Apparel,"Wason, Tank and Bhavsar",Siliguri,406,12,84,80,5,31,2024-01-01
+1000,Impedit Pro,Godrej,Electronics,Suresh-Sundaram,Bhopal,357,12,84,62,6,27,2024-01-01
+1001,Quasi Elite,Samsung,Apparel,"Chawla, Kannan and Master",Meerut,367,6,42,98,5,52,2024-01-01
+1002,Neque Plus,Samsung,Grocery,Venkataraman-Wali,Satara,66,12,84,85,4,5,2024-01-01
+1003,Eos Plus,Sony,Electronics,Jayaraman-Bumb,Tezpur,258,8,56,71,8,28,2024-01-01
+1004,Saepe Elite,Samsung,Electronics,"Mann, Pillay and Zachariah",Bhopal,40,18,126,49,2,2,2024-01-01
+1005,Labore Elite,Himalaya,Grocery,"Bhattacharyya, Rama and Salvi",Bhubaneswar,55,19,133,36,10,2,2024-01-01
+1006,Suscipit Pro,Amul,Grocery,"Nigam, Shan and Samra",Ozhukarai,340,4,28,57,9,68,2024-01-01
+1007,Dicta Max,Sony,Grocery,Chada Inc,Ambattur,190,17,119,84,1,10,2024-01-01
+1008,Et X,Tata,Grocery,"Hegde, Muni and Ganguly",Kulti,206,6,42,83,10,29,2024-01-01
+1009,Iusto Elite,LG,Grocery,Venkataraman PLC,Malegaon,132,3,21,20,3,33,2024-01-01
+1010,Aut Plus,Puma,Electronics,Dhaliwal-Bobal,Allahabad,249,19,133,66,4,12,2024-01-01
+1011,Atque Plus,LG,Apparel,"Bala, Master and Ramesh",Tirunelveli,452,12,84,42,6,34,2024-01-01
+1012,Reiciendis Max,Nike,Apparel,Yogi Ltd,Kakinada,146,2,14,65,6,48,2024-01-01
+1013,Occaecati Elite,Puma,Electronics,"Nath, Bakshi and Venkatesh",Alwar,452,10,70,90,7,41,2024-01-01
+1014,Asperiores Plus,Samsung,Apparel,"Gandhi, Mukherjee and Wable",Begusarai,482,2,14,40,8,160,2024-01-01
+1015,Quaerat Plus,Philips,Home,"Sheth, Chacko and Wali",Deoghar,181,1,7,77,5,90,2024-01-01
+1016,Velit Elite,Godrej,Beauty,"Mital, Suri and Anand",Rampur,492,4,28,87,9,98,2024-01-01
+1017,Rerum Max,Nike,Electronics,Yogi-Sharaf,Chennai,207,2,14,46,3,69,2024-01-01
+1018,Ipsum Elite,Amul,Apparel,Hans LLC,Bhind,262,6,42,41,3,37,2024-01-01
+1019,Earum Plus,LG,Beauty,Srivastava-Banerjee,Panchkula,61,8,56,61,6,6,2024-01-01
+1020,Corrupti Plus,Tata,Apparel,"Kadakia, Palla and Das",Rewa,93,8,56,51,1,10,2024-01-01
+1021,Corporis Pro,Godrej,Electronics,Bhatnagar PLC,Nandyal,403,2,14,62,10,134,2024-01-01
+1022,Animi Elite,Tata,Grocery,"Bhatti, Sawhney and Vyas",Siwan,209,10,70,62,6,19,2024-01-01
+1023,Optio Max,Godrej,Home,Contractor and Sons,Mahbubnagar,105,23,161,42,3,4,2024-01-01
+1024,Soluta Plus,Puma,Apparel,Sangha-Vala,Dewas,212,17,119,38,4,11,2024-01-01
+1025,Libero Max,Philips,Electronics,"Thaman, Chatterjee and Sheth",Nangloi Jat,205,6,42,75,5,29,2024-01-01
+1026,Iusto Max,Godrej,Apparel,Saraf and Sons,Kozhikode,140,1,7,86,6,70,2024-01-01
+1027,Voluptate Plus,Sony,Apparel,Jani-Bath,Berhampore,55,5,35,56,1,9,2024-01-01
+1028,Quod Elite,Amul,Electronics,Kapadia-Bobal,Thane,448,11,77,50,5,37,2024-01-01
+1029,Odit Pro,Himalaya,Apparel,"Sharma, Uppal and Walla",Thiruvananthapuram,325,14,98,96,4,21,2024-01-01
+1030,Laborum Plus,LG,Electronics,Bahri Group,Pali,129,5,35,64,1,21,2024-01-01
+1031,Error Elite,Samsung,Electronics,Gandhi-Roy,Kottayam,160,4,28,56,8,32,2024-01-01
+1032,Explicabo Elite,Tata,Electronics,"Keer, Sarkar and Kar",Jalgaon,306,17,119,44,8,17,2024-01-01
+1033,Quae Max,Samsung,Home,Saini and Sons,Panipat,305,20,140,69,10,14,2024-01-01
+1034,Ipsam X,Tata,Grocery,"Anne, Chaudhry and Tiwari",Kollam,194,6,42,47,9,27,2024-01-01
+1035,Voluptas Elite,Amul,Grocery,Dada PLC,Bhavnagar,136,24,168,94,7,5,2024-01-01
+1036,Enim Pro,Amul,Electronics,Nigam-Gaba,Rampur,482,14,98,58,7,32,2024-01-01
+1037,Placeat Pro,Puma,Apparel,"Kalla, Peri and Narang",Ratlam,130,10,70,76,5,11,2024-01-01
+1038,Eligendi Max,Himalaya,Home,"Pandey, Sarkar and Dubey",Firozabad,208,8,56,83,9,23,2024-01-01
+1039,Dolores Elite,Nike,Grocery,Sastry-Kunda,Jamnagar,165,10,70,32,6,15,2024-01-01
+1040,Accusamus Plus,Amul,Electronics,"Nayar, Kulkarni and Karan",Pimpri-Chinchwad,399,12,84,23,2,30,2024-01-01
+1041,Earum Max,Himalaya,Electronics,"Mammen, Nagi and Vohra",Darbhanga,102,2,14,41,4,34,2024-01-01
+1042,Quisquam Plus,Himalaya,Home,Sachdev Group,Berhampore,336,1,7,33,8,168,2024-01-01
+1043,Nobis Pro,Amul,Home,"Vora, Parekh and Mody",Morbi,463,9,63,35,7,46,2024-01-01
+1044,Nisi Pro,LG,Apparel,Rao-Andra,Ambala,72,16,112,92,3,4,2024-01-01
+1045,Delectus Plus,Himalaya,Grocery,Nagar-Ravel,Bellary,422,1,7,74,6,211,2024-01-01
+1046,Earum Pro,Sony,Electronics,"Mahajan, Malhotra and More",Bhilwara,64,10,70,31,6,5,2024-01-01
+1047,Iusto X,Godrej,Grocery,"Zacharia, Sahni and Balasubramanian",South Dumdum,435,6,42,33,5,62,2024-01-01
+1048,Asperiores Elite,Samsung,Apparel,"Narain, Chand and Dua",Latur,335,11,77,26,5,27,2024-01-01
+1049,Similique X,Philips,Apparel,"Chakrabarti, Vohra and Mangal",Jammu,249,7,49,76,9,31,2024-01-01
+1050,Iusto Plus,Godrej,Home,Bhatnagar and Sons,Moradabad,355,3,21,26,9,88,2024-01-01
+1051,Aut X,Amul,Electronics,"Narula, Bhatti and Rastogi",Thanjavur,454,3,21,87,4,113,2024-01-01
+1052,Nesciunt Pro,Tata,Home,Ben Group,Bhusawal,110,9,63,27,8,11,2024-01-01
+1053,Possimus X,Himalaya,Apparel,Biswas-Kibe,Nanded,444,16,112,61,8,26,2024-01-01
+1054,Iure Max,Amul,Apparel,Varughese-D’Alia,Siliguri,94,6,42,25,1,13,2024-01-01
+1055,Ea Elite,Tata,Home,Rajagopal LLC,Aizawl,332,14,98,78,1,22,2024-01-01
+1056,Incidunt X,Sony,Grocery,Gill and Sons,Tiruchirappalli,382,16,112,73,10,22,2024-01-01
+1057,Iure Max,Himalaya,Home,Sastry-Yogi,Ratlam,111,7,49,23,5,13,2024-01-01
+1058,Doloribus Plus,Puma,Electronics,"Rana, Pandey and Kara",Bikaner,126,6,42,75,10,18,2024-01-01
+1059,Voluptatibus Elite,Nike,Home,Deep and Sons,Karawal Nagar,60,3,21,48,3,15,2024-01-01
+1060,Aut Pro,Samsung,Apparel,Roy LLC,Motihari,455,4,28,91,4,91,2024-01-01
+1061,Vitae X,Himalaya,Home,Dubey-Naik,Sonipat,109,13,91,71,4,7,2024-01-01
+1062,Illum Elite,Sony,Beauty,Rau-Toor,Pimpri-Chinchwad,115,2,14,49,1,38,2024-01-01
+1063,Quae Max,Philips,Home,"Bail, Thaman and Savant",Madhyamgram,61,7,49,59,5,7,2024-01-01
+1064,Vero X,Nike,Grocery,Wali Group,Raichur,251,23,161,67,3,10,2024-01-01
+1065,Voluptas X,Puma,Electronics,Viswanathan Ltd,Erode,449,1,7,31,5,224,2024-01-01
+1066,Cumque Pro,Samsung,Grocery,"Bhatti, Garde and Nanda",Jalna,257,1,7,39,3,128,2024-01-01
+1067,A Pro,Puma,Electronics,Dasgupta-Pall,Durgapur,426,18,126,55,2,22,2024-01-01
+1068,Pariatur X,Puma,Electronics,"Gole, Prabhu and Ramesh",Aurangabad,175,8,56,98,1,19,2024-01-01
+1069,Facere Pro,Philips,Electronics,Magar-Prashad,Haridwar,122,9,63,80,8,12,2024-01-01
+1070,Repellat Pro,Samsung,Beauty,"Bandi, Merchant and Morar",Kulti,322,7,49,36,8,40,2024-01-01
+1071,Doloribus X,LG,Electronics,Padmanabhan PLC,Mumbai,282,12,84,99,1,21,2024-01-01
+1072,Voluptatum Elite,Nike,Grocery,"Sridhar, Badami and Pingle",Thane,32,16,112,45,4,1,2024-01-01
+1073,Itaque X,Amul,Electronics,"Karpe, Khosla and Chaudhary",Vellore,172,16,112,30,3,10,2024-01-01
+1074,Explicabo Pro,Amul,Grocery,Buch and Sons,Jabalpur,293,15,105,89,5,18,2024-01-01
+1075,Perferendis Plus,Nike,Electronics,"Kumer, Chad and Sachar",Salem,182,14,98,88,3,12,2024-01-01
+1076,Hic Pro,Samsung,Apparel,Roy Group,Khora ,45,9,63,31,6,4,2024-01-01
+1077,Necessitatibus Max,Godrej,Grocery,Joshi-Acharya,Raebareli,151,20,140,37,10,7,2024-01-01
+1078,Nesciunt Plus,Puma,Apparel,Gulati-Gokhale,Arrah,107,9,63,75,7,10,2024-01-01
+1079,Voluptatibus Max,Tata,Electronics,Sant-Mody,Ratlam,445,15,105,58,5,27,2024-01-01
+1080,Maxime Plus,Puma,Electronics,"Kar, Aurora and Majumdar",Warangal,259,32,224,58,4,7,2024-01-01
+1081,Ratione Elite,Sony,Electronics,Shenoy PLC,Sambalpur,242,10,70,89,1,22,2024-01-01
+1082,Debitis Plus,Samsung,Grocery,"Sabharwal, Aurora and Contractor",Vijayanagaram,369,20,140,82,5,17,2024-01-01
+1083,Quidem Elite,Philips,Home,"Gulati, Sankaran and Chad",Kirari Suleman Nagar,456,11,77,29,1,38,2024-01-01
+1084,Totam Plus,Sony,Home,"Aurora, Mukhopadhyay and Mukherjee",Howrah,331,1,7,54,9,165,2024-01-01
+1085,Quis Pro,LG,Apparel,Acharya-Dalal,Ahmednagar,284,3,21,27,5,71,2024-01-01
+1086,Animi Max,Samsung,Apparel,Bhakta and Sons,Kalyan-Dombivli,49,12,84,79,9,3,2024-01-01
+1087,Aliquam Plus,Godrej,Beauty,Khalsa-Devi,Gudivada,258,12,84,73,2,19,2024-01-01
+1088,Harum X,Tata,Grocery,Prashad Ltd,Moradabad,470,12,84,86,10,36,2024-01-01
+1089,Voluptatibus Pro,Tata,Apparel,Madan-Peri,Guntakal,63,12,84,41,2,4,2024-01-01
+1090,Ad X,Samsung,Electronics,Varkey-Aggarwal,Ajmer,180,6,42,100,7,25,2024-01-01
+1091,Cumque Elite,Tata,Electronics,Barman-Aurora,Jalgaon,207,10,70,38,5,18,2024-01-01
+1092,A Elite,Godrej,Apparel,Rana Ltd,Bihar Sharif,357,12,84,79,5,27,2024-01-01
+1093,Dignissimos Elite,Godrej,Beauty,"Khalsa, Chokshi and Chandra",Udupi,266,12,84,98,5,20,2024-01-01
+1094,Deserunt Max,Nike,Beauty,"Khare, Bhagat and Chand",Orai,464,14,98,39,10,30,2024-01-01
+1095,Velit Elite,Tata,Electronics,Ganesh Group,Kolhapur,56,36,252,33,5,1,2024-01-01
+1096,Numquam Pro,Himalaya,Beauty,Saha-Sandhu,Anantapuram,338,19,133,84,9,16,2024-01-01
+1097,Voluptatem Pro,LG,Electronics,"Kalla, Sarin and Mohanty",Gopalpur,86,21,147,73,4,3,2024-01-01
+1098,Dolor Plus,Tata,Electronics,Bhakta-Samra,Ichalkaranji,170,6,42,40,7,24,2024-01-01
+1099,Voluptates Max,LG,Grocery,Shere LLC,Kurnool,62,11,77,98,1,5,2024-01-01
+1100,Delectus X,Amul,Grocery,Baral Group,Pimpri-Chinchwad,413,9,63,63,7,41,2024-01-01
+1101,Nisi Pro,Sony,Apparel,Sarna-Patla,Jamalpur,54,14,98,77,4,3,2024-01-01
+1102,Veritatis Elite,LG,Home,"Majumdar, Batta and Sur",Amravati,218,19,133,50,1,10,2024-01-01
+1103,At Max,Godrej,Apparel,"Hegde, Munshi and Raghavan",Kollam,369,1,7,93,3,184,2024-01-01
+1104,Fuga Elite,Nike,Beauty,Mangal and Sons,Ratlam,430,8,56,61,8,47,2024-01-01
+1105,Ea Elite,Godrej,Beauty,"Buch, Ramaswamy and Ray",Madhyamgram,467,0,0,71,4,467,2024-01-01
+1106,Fugiat Pro,Godrej,Electronics,"Rao, Konda and Parmer",Haridwar,317,5,35,100,5,52,2024-01-01
+1107,Iste X,Puma,Grocery,"Radhakrishnan, Sheth and Kunda",Raiganj,242,5,35,38,6,40,2024-01-01
+1108,Blanditiis X,LG,Beauty,Verma-Lad,Bharatpur,53,4,28,24,4,10,2024-01-01
+1109,Fuga Plus,Godrej,Home,"Soni, Kunda and Sanghvi",Avadi,129,8,56,99,3,14,2024-01-01
+1110,Reprehenderit Pro,Himalaya,Apparel,Rattan-Dara,Jaunpur,124,8,56,59,5,13,2024-01-01
+1111,Cupiditate Plus,Samsung,Apparel,Soni-Nadkarni,Bharatpur,65,9,63,51,9,6,2024-01-01
+1112,Qui Elite,Puma,Home,Chada Ltd,Agartala,70,12,84,97,6,5,2024-01-01
+1113,Ex Pro,Himalaya,Electronics,Kaul-Vyas,Eluru,432,15,105,54,6,27,2024-01-01
+1114,Reprehenderit Max,Samsung,Home,"Parsa, Saran and Sen",Vasai-Virar,404,4,28,72,4,80,2024-01-01
+1115,Dolore Pro,Puma,Beauty,Prabhakar-Sarin,Bhiwandi,489,1,7,90,10,244,2024-01-01
+1116,Repellat Elite,Philips,Apparel,Apte-Kala,Mumbai,151,9,63,100,9,15,2024-01-01
+1117,Beatae Plus,Samsung,Apparel,Chopra Ltd,Shahjahanpur,101,10,70,84,5,9,2024-01-01
+1118,Hic Pro,Tata,Beauty,"Comar, Dubey and Varghese",Tadepalligudem,402,16,112,45,6,23,2024-01-01
+1119,Illo Max,Sony,Home,"Gola, Halder and Lanka",Rewa,294,10,70,62,9,26,2024-01-01
+1120,Voluptatem Max,Philips,Beauty,Bobal-Bassi,Ongole,429,2,14,74,10,143,2024-01-01
+1121,Quas Max,Himalaya,Apparel,"Gara, Dey and Kashyap",Dehradun,378,0,0,68,1,378,2024-01-01
+1122,Dolores X,Amul,Apparel,Golla-Viswanathan,Kumbakonam,422,11,77,27,1,35,2024-01-01
+1123,Et Max,Tata,Apparel,Agrawal-Kohli,Bhilai,123,16,112,58,5,7,2024-01-01
+1124,Esse X,Himalaya,Grocery,"Murty, Wali and Bath",Bhiwani,79,1,7,28,7,39,2024-01-01
+1125,Fugiat Elite,Nike,Home,"Bala, Kapur and Dhingra",Katni,406,0,0,88,1,406,2024-01-01
+1126,Odio Pro,Sony,Apparel,Madan Group,Ambattur,149,16,112,38,10,8,2024-01-01
+1127,Soluta Pro,Amul,Apparel,Konda-Ramanathan,Solapur,245,5,35,83,7,40,2024-01-01
+1128,Voluptatibus Plus,Himalaya,Apparel,"Kibe, Goda and Dixit",Hyderabad,457,6,42,83,2,65,2024-01-01
+1129,Accusantium Elite,Himalaya,Grocery,"Master, Choudhury and Loyal",Jalgaon,94,9,63,23,9,9,2024-01-01
+1130,Aperiam X,Philips,Grocery,"Agate, Kota and Dave",Sasaram,482,14,98,66,4,32,2024-01-01
+1131,Recusandae Elite,LG,Beauty,Prakash Group,Yamunanagar,376,12,84,42,6,28,2024-01-01
+1132,Sunt X,Samsung,Beauty,"Sarin, Mohan and Bhardwaj",Mumbai,344,15,105,29,8,21,2024-01-01
+1133,Earum Max,Amul,Electronics,Banerjee-Basu,Guna,69,13,91,27,7,4,2024-01-01
+1134,Delectus Pro,Philips,Electronics,Palla LLC,Hyderabad,221,7,49,62,3,27,2024-01-01
+1135,Alias Plus,Puma,Electronics,Kadakia-Varkey,Hyderabad,160,8,56,38,5,17,2024-01-01
+1136,Velit X,Philips,Home,Tank-Bhargava,Bally,200,2,14,45,2,66,2024-01-01
+1137,Illo Max,Amul,Electronics,"Krishnan, Prashad and Master",Chittoor,366,12,84,83,3,28,2024-01-01
+1138,Ea Max,Puma,Home,Pillai-D’Alia,Suryapet,294,7,49,48,7,36,2024-01-01
+1139,Quibusdam Pro,Puma,Electronics,Dhar-Narula,Suryapet,120,2,14,72,5,40,2024-01-01
+1140,Esse Elite,Tata,Beauty,Mutti-Vyas,Haldia,443,10,70,53,2,40,2024-01-01
+1141,Hic Pro,Godrej,Electronics,Sekhon and Sons,Morena,288,12,84,82,4,22,2024-01-01
+1142,Doloremque Elite,Godrej,Grocery,"Ganesh, Magar and Lad",Bahraich,156,16,112,83,8,9,2024-01-01
+1143,Consequatur Max,Sony,Grocery,Shanker and Sons,Silchar,81,16,112,35,1,4,2024-01-01
+1144,Tempore Plus,Amul,Grocery,Sidhu Inc,Hyderabad,190,17,119,53,9,10,2024-01-01
+1145,Saepe Elite,Sony,Apparel,Bath-Suresh,Phusro,201,3,21,63,7,50,2024-01-01
+1146,Consequuntur X,Nike,Home,Bahl and Sons,Solapur,276,2,14,42,10,92,2024-01-01
+1147,Inventore Max,Himalaya,Beauty,Madan PLC,Mathura,432,8,56,71,7,48,2024-01-01
+1148,Modi Max,Himalaya,Home,Swamy PLC,Sirsa,61,6,42,56,2,8,2024-01-01
+1149,Inventore Pro,Puma,Beauty,Sridhar LLC,Mirzapur,251,7,49,72,6,31,2024-01-01
+1150,Velit X,LG,Electronics,"Bir, Seshadri and Raval",Jorhat,233,9,63,100,8,23,2024-01-01
+1151,Non Max,Nike,Home,Tandon PLC,Avadi,261,15,105,89,5,16,2024-01-01
+1152,Accusantium X,Samsung,Apparel,Krishnan and Sons,Kavali,426,14,98,53,5,28,2024-01-01
+1153,At Pro,Himalaya,Home,"Date, Mohanty and Dara",Vadodara,259,13,91,91,1,18,2024-01-01
+1154,Velit X,LG,Apparel,Divan Ltd,Asansol,191,18,126,73,9,10,2024-01-01
+1155,Ipsa Plus,Himalaya,Home,"Sheth, Barman and Thakur",Proddatur,218,21,147,99,3,9,2024-01-01
+1156,Iure Pro,Puma,Beauty,Khurana Group,Jalandhar,337,3,21,97,5,84,2024-01-01
+1157,Asperiores Pro,Amul,Electronics,Sibal-Nagy,Bhusawal,145,18,126,58,10,7,2024-01-01
+1158,Fugiat X,Samsung,Home,Chad-Borah,Pimpri-Chinchwad,459,8,56,50,4,51,2024-01-01
+1159,Dolorem Max,Puma,Beauty,"Walia, Talwar and Deep",Kolhapur,403,11,77,27,9,33,2024-01-01
+1160,Odit Elite,Nike,Grocery,Chand Inc,Berhampore,402,16,112,52,7,23,2024-01-01
+1161,In X,Philips,Home,Deol Group,Bongaigaon,127,10,70,51,10,11,2024-01-01
+1162,Eos Max,Nike,Apparel,Sastry-Dar,Belgaum,479,10,70,66,8,43,2024-01-01
+1163,Voluptates Max,Sony,Home,Verma-Thakkar,Bharatpur,327,5,35,40,1,54,2024-01-01
+1164,Repellat X,Samsung,Grocery,Banerjee Inc,Machilipatnam,76,1,7,51,6,38,2024-01-01
+1165,Nisi Pro,LG,Beauty,"Raju, Krishnan and Loyal",Imphal,264,16,112,91,5,15,2024-01-01
+1166,Labore Plus,Nike,Home,Khurana-Bhalla,Chittoor,360,8,56,24,8,40,2024-01-01
+1167,Sapiente X,Sony,Apparel,"Deep, Bhatnagar and Yogi",Rohtak,98,11,77,44,1,8,2024-01-01
+1168,Sunt Pro,Tata,Beauty,Narain-Din,Panipat,62,11,77,67,5,5,2024-01-01
+1169,Non Elite,Puma,Electronics,Walla Ltd,Hazaribagh,405,18,126,44,6,21,2024-01-01
+1170,In X,Godrej,Grocery,Brar-Tak,Mehsana,346,16,112,50,7,20,2024-01-01
+1171,Enim Plus,Himalaya,Electronics,Khare-Sur,Darbhanga,393,7,49,25,1,49,2024-01-01
+1172,Dolore Max,Nike,Electronics,Sidhu PLC,Ambarnath,352,11,77,61,5,29,2024-01-01
+1173,Ab Plus,Sony,Apparel,"Shere, Munshi and Sane",Begusarai,370,22,154,50,7,16,2024-01-01
+1174,Voluptate Max,LG,Beauty,Nair-Sur,Avadi,165,9,63,75,9,16,2024-01-01
+1175,Molestiae Pro,Philips,Apparel,"Sane, Basak and Handa",Giridih,327,10,70,65,5,29,2024-01-01
+1176,Officia X,Amul,Grocery,"Tank, Choudhry and Bobal",Berhampore,473,2,14,46,7,157,2024-01-01
+1177,Tempora X,Samsung,Home,"Bansal, Issac and Tara",Gopalpur,109,18,126,29,8,5,2024-01-01
+1178,Voluptatem Elite,Tata,Beauty,Mani-Saran,Gurgaon,190,13,91,30,3,13,2024-01-01
+1179,Quisquam Max,Godrej,Electronics,Rajagopalan PLC,Belgaum,439,17,119,72,7,24,2024-01-01
+1180,Nemo Pro,Puma,Electronics,"Sastry, Bhavsar and Sarraf",Jodhpur,485,12,84,40,5,37,2024-01-01
+1181,Libero Max,Amul,Beauty,Bala and Sons,Katihar,53,4,28,88,5,10,2024-01-01
+1182,Impedit Elite,Tata,Grocery,"Mahajan, Hegde and Gara",Mehsana,398,8,56,53,3,44,2024-01-01
+1183,Provident Plus,Puma,Grocery,Ranganathan-Badal,Ranchi,413,3,21,96,7,103,2024-01-01
+1184,Officia Pro,Samsung,Beauty,Nagi-Morar,Nadiad,349,16,112,43,3,20,2024-01-01
+1185,Occaecati Elite,LG,Home,Bajwa PLC,Saharsa,210,15,105,88,5,13,2024-01-01
+1186,Quo Elite,Himalaya,Beauty,"Muni, Dugal and Sridhar",Chinsurah,84,12,84,85,10,6,2024-01-01
+1187,Molestiae Elite,LG,Grocery,"Bhat, Dani and Ganesan",Khora ,424,8,56,26,3,47,2024-01-01
+1188,Officia X,Puma,Electronics,Chaudhari-Golla,Bhagalpur,215,21,147,67,4,9,2024-01-01
+1189,Dolorum X,Philips,Grocery,Rajan-Sarin,Guntakal,393,4,28,85,10,78,2024-01-01
+1190,Distinctio Elite,Samsung,Home,Deep Group,Dhule,395,13,91,55,6,28,2024-01-01
+1191,Similique Elite,Amul,Grocery,Wali-Jani,Nashik,231,22,154,26,5,10,2024-01-01
+1192,Nemo Pro,Godrej,Electronics,Ram Inc,Sultan Pur Majra,451,16,112,32,7,26,2024-01-01
+1193,A Plus,Philips,Home,"Narayan, Varma and Arora",Moradabad,102,2,14,100,3,34,2024-01-01
+1194,Est Pro,Tata,Electronics,"Pau, Dani and Dada",Varanasi,432,12,84,60,7,33,2024-01-01
+1195,In X,Nike,Beauty,"Sheth, Bal and Sharma",Miryalaguda,385,12,84,95,10,29,2024-01-01
+1196,Explicabo Plus,Puma,Grocery,Vig Group,Anantapuram,480,7,49,44,3,60,2024-01-01
+1197,Eos Elite,Tata,Home,Sarna-Loke,Bardhaman,87,0,0,91,5,87,2024-01-01
+1198,Nisi Elite,Himalaya,Electronics,Kalita Group,Erode,215,6,42,91,10,30,2024-01-01
+1199,Molestiae X,Nike,Apparel,Shetty-Murthy,Bijapur,65,20,140,54,3,3,2024-01-01
+1200,Sit Pro,Sony,Apparel,Raghavan-Agarwal,Phusro,206,1,7,77,1,103,2024-01-01
+1201,Autem Plus,Amul,Apparel,"Bhatia, Dube and Krishnan",Berhampur,329,7,49,100,8,41,2024-01-01
+1202,Sapiente Max,Philips,Apparel,"Natt, Singh and Sura",Darbhanga,206,11,77,76,7,17,2024-01-01
+1203,Tenetur Pro,Philips,Beauty,Bhat-Agarwal,Ambala,80,3,21,82,1,20,2024-01-01
+1204,Veritatis Elite,Tata,Grocery,Deshpande Inc,Katihar,116,14,98,34,1,7,2024-01-01
+1205,Cupiditate X,Amul,Apparel,"Kata, Kashyap and Om",Tenali,422,4,28,80,7,84,2024-01-01
+1206,Voluptas X,Godrej,Apparel,"Walia, D’Alia and Swamy",Nandyal,117,17,119,58,3,6,2024-01-01
+1207,Deleniti Elite,Sony,Home,Chowdhury-Sawhney,Mangalore,146,17,119,25,1,8,2024-01-01
+1208,Natus Plus,Samsung,Grocery,"Sagar, Magar and Kaur",Dhule,387,14,98,95,4,25,2024-01-01
+1209,Magnam X,Himalaya,Home,Pingle Ltd,Tadipatri,148,33,231,40,10,4,2024-01-01
+1210,Maxime Plus,Samsung,Beauty,Jhaveri LLC,Mathura,157,3,21,84,8,39,2024-01-01
+1211,Consectetur X,Himalaya,Home,"Mitra, Natarajan and Sangha",Nangloi Jat,421,20,140,81,7,20,2024-01-01
+1212,Ex Pro,Puma,Grocery,Wable-Seth,Ulhasnagar,380,17,119,30,4,21,2024-01-01
+1213,Hic Elite,Sony,Apparel,Bumb and Sons,Erode,167,8,56,22,9,18,2024-01-01
+1214,Facilis Max,Nike,Beauty,"Korpal, Hari and Kara",Sirsa,370,11,77,31,6,30,2024-01-01
+1215,Quo Plus,Samsung,Home,"Barman, Nadkarni and Shanker",Tirupati,66,1,7,79,8,33,2024-01-01
+1216,Beatae X,Amul,Home,Nayar-Gera,Kurnool,49,10,70,67,4,4,2024-01-01
+1217,Dignissimos Plus,Sony,Home,"Thakur, Kunda and Varma",Tiruchirappalli,222,10,70,71,1,20,2024-01-01
+1218,Necessitatibus Elite,Puma,Home,"Venkatesh, Mohan and Sood",Tiruppur,57,7,49,81,5,7,2024-01-01
+1219,Earum Max,Samsung,Apparel,Kant-Bassi,Tiruchirappalli,66,16,112,84,4,3,2024-01-01
+1220,Excepturi Elite,LG,Beauty,"Char, Vohra and Golla",Proddatur,443,23,161,39,9,18,2024-01-01
+1221,Deserunt Plus,Godrej,Home,Manne Inc,New Delhi,273,4,28,34,7,54,2024-01-01
+1222,Asperiores Max,Amul,Beauty,"Salvi, Bhasin and Golla",Dehradun,388,2,14,20,10,129,2024-01-01
+1223,Assumenda Plus,Philips,Grocery,Nath-Oza,Mumbai,132,17,119,91,6,7,2024-01-01
+1224,Minus Max,Puma,Electronics,Kara-Dugal,Sonipat,117,19,133,31,3,5,2024-01-01
+1225,Repudiandae Max,Samsung,Home,Madan-Jaggi,Saharanpur,216,8,56,39,10,24,2024-01-01
+1226,Doloremque Max,Tata,Apparel,Chacko Ltd,Barasat,213,8,56,85,5,23,2024-01-01
+1227,Molestiae Elite,Tata,Beauty,Goswami Inc,Amaravati,445,17,119,37,4,24,2024-01-01
+1228,Maxime Plus,Puma,Apparel,Dada and Sons,Dehri,331,15,105,29,1,20,2024-01-01
+1229,Consequatur Pro,Puma,Apparel,"Deep, Tella and Nagi",Mangalore,367,19,133,44,4,18,2024-01-01
+1230,Eligendi Elite,Nike,Beauty,"Talwar, Sengupta and Rama",Ahmednagar,342,5,35,58,2,57,2024-01-01
+1231,Sit Plus,Nike,Home,"Vasa, Sarin and Khalsa",Thrissur,383,9,63,27,1,38,2024-01-01
+1232,Dignissimos Pro,Himalaya,Apparel,Narang PLC,Tiruvottiyur,357,4,28,29,8,71,2024-01-01
+1233,Tempore Plus,Philips,Electronics,Bora-Guha,South Dumdum,172,7,49,41,4,21,2024-01-01
+1234,Officiis Plus,Puma,Home,Nath LLC,Ghaziabad,488,8,56,41,1,54,2024-01-01
+1235,Consequuntur Plus,Samsung,Electronics,"Hora, Apte and Dave",Aurangabad,308,27,189,67,10,11,2024-01-01
+1236,Sapiente X,Puma,Beauty,Vasa Inc,Yamunanagar,155,0,0,83,3,155,2024-01-01
+1237,Quod Max,Sony,Beauty,Hegde-Bose,Karaikudi,232,20,140,50,4,11,2024-01-01
+1238,Vitae Plus,Puma,Beauty,Puri-Sarma,Chittoor,52,7,49,26,8,6,2024-01-01
+1239,Rerum X,Samsung,Grocery,"Sethi, Salvi and Memon",Gandhidham,154,16,112,56,3,9,2024-01-01
+1240,Doloribus Pro,Himalaya,Beauty,Vig-Madan,Thiruvananthapuram,83,10,70,28,5,7,2024-01-01
+1241,Facilis Elite,Himalaya,Beauty,Madan-Krishnamurthy,Hindupur,123,4,28,36,2,24,2024-01-01
+1242,Quisquam Elite,LG,Apparel,"Sankaran, Bala and Kala",Serampore,202,23,161,87,3,8,2024-01-01
+1243,Reiciendis X,Tata,Beauty,Bhatt-Desai,Tumkur,271,4,28,57,8,54,2024-01-01
+1244,Ullam Max,Samsung,Apparel,Raj-Parmar,Bhilwara,141,14,98,77,6,9,2024-01-01
+1245,Quisquam Pro,Nike,Beauty,Purohit-Choudhury,Dibrugarh,272,10,70,82,3,24,2024-01-01
+1246,Doloremque Pro,Samsung,Home,Batta Inc,Lucknow,217,2,14,79,10,72,2024-01-01
+1247,Hic Max,Himalaya,Apparel,Joshi-Buch,Bally,460,4,28,37,8,92,2024-01-01
+1248,Optio Plus,Nike,Beauty,"Kade, Ramakrishnan and Garde",Chittoor,226,15,105,53,1,14,2024-01-01
+1249,Aspernatur Max,Nike,Beauty,Mammen Ltd,Alappuzha,273,17,119,66,4,15,2024-01-01
+1250,Velit Pro,Himalaya,Grocery,Mukhopadhyay Ltd,Jamalpur,349,2,14,67,6,116,2024-01-01
+1251,Quibusdam Elite,Nike,Home,Khare-Mutti,Salem,453,1,7,35,3,226,2024-01-01
+1252,Architecto X,Himalaya,Apparel,"Rattan, Bhargava and Goswami",Mangalore,226,7,49,69,9,28,2024-01-01
+1253,Debitis Plus,Amul,Grocery,Rajagopalan-Thakur,Srikakulam,340,8,56,57,1,37,2024-01-01
+1254,Atque Plus,Puma,Home,Gandhi Inc,Varanasi,409,0,0,43,3,409,2024-01-01
+1255,Officia Plus,Nike,Grocery,"Sengupta, Raghavan and Naidu",Jalgaon,418,22,154,36,4,18,2024-01-01
+1256,Corporis Pro,Sony,Apparel,"Johal, Sanghvi and Date",Karaikudi,384,16,112,99,5,22,2024-01-01
+1257,Ipsum Pro,Sony,Grocery,"Goel, Bhagat and Sagar",Thiruvananthapuram,180,14,98,82,7,12,2024-01-01
+1258,Dolores Pro,Himalaya,Grocery,"Prabhakar, Mane and Dube",Khora ,442,7,49,35,2,55,2024-01-01
+1259,Minima Elite,Godrej,Grocery,"Kamdar, Prasad and Memon",Srinagar,376,15,105,40,1,23,2024-01-01
+1260,Reprehenderit Max,LG,Electronics,"Baria, Srinivasan and Varughese",Bally,329,15,105,56,9,20,2024-01-01
+1261,Nostrum Max,Himalaya,Grocery,Sarma-Aggarwal,Ballia,348,12,84,70,8,26,2024-01-01
+1262,Placeat Pro,Himalaya,Electronics,"Sami, Krish and Edwin",Pimpri-Chinchwad,270,0,0,61,10,270,2024-01-01
+1263,Ut X,Himalaya,Electronics,Naidu Group,Kirari Suleman Nagar,319,8,56,49,6,35,2024-01-01
+1264,Velit Pro,Samsung,Apparel,Ramakrishnan-Jhaveri,Bhiwani,421,3,21,57,9,105,2024-01-01
+1265,Ex X,Nike,Apparel,Raman-Ganesan,Phusro,382,1,7,88,8,191,2024-01-01
+1266,Praesentium Elite,Tata,Beauty,Lal-Suresh,Nellore,91,3,21,46,6,22,2024-01-01
+1267,Ratione X,Puma,Electronics,Sandhu Group,Salem,215,16,112,81,2,12,2024-01-01
+1268,Repudiandae X,Sony,Beauty,Gour LLC,Udaipur,347,6,42,98,4,49,2024-01-01
+1269,Minus Pro,Himalaya,Beauty,Mutti-Barad,Patiala,385,25,175,77,3,14,2024-01-01
+1270,Doloribus Max,Tata,Grocery,"Aggarwal, Aurora and Dayal",Navi Mumbai,383,3,21,75,3,95,2024-01-01
+1271,Facilis Elite,Nike,Home,Bhargava-Purohit,Ambala,99,3,21,59,5,24,2024-01-01
+1272,Dolor Elite,Nike,Apparel,Dutt-Goyal,Berhampore,284,13,91,43,3,20,2024-01-01
+1273,Maiores Max,LG,Beauty,"Balan, Lalla and Dave",Baranagar,180,10,70,92,4,16,2024-01-01
+1274,Itaque Elite,Godrej,Electronics,Karnik and Sons,Tezpur,337,17,119,28,3,18,2024-01-01
+1275,Porro Max,Sony,Grocery,Vala-Dhar,Bidhannagar,387,6,42,63,3,55,2024-01-01
+1276,Ut Pro,Amul,Home,"Zacharia, Agate and Bajwa",Uluberia,422,1,7,61,7,211,2024-01-01
+1277,Repellat X,Puma,Apparel,D’Alia LLC,Rampur,260,8,56,33,5,28,2024-01-01
+1278,Recusandae Pro,Godrej,Grocery,"Agate, Tiwari and Dass",Thiruvananthapuram,172,14,98,71,1,11,2024-01-01
+1279,Dolores Plus,Sony,Apparel,Thaman PLC,Dhanbad,345,7,49,76,3,43,2024-01-01
+1280,Totam X,Philips,Grocery,Chatterjee Group,Miryalaguda,147,15,105,27,1,9,2024-01-01
+1281,Assumenda X,Tata,Home,"Hayre, Magar and Mittal",Shimla,184,3,21,20,3,46,2024-01-01
+1282,Quas X,Philips,Beauty,Bora and Sons,Tadepalligudem,310,11,77,77,3,25,2024-01-01
+1283,Fugit Plus,Samsung,Electronics,Shah PLC,North Dumdum,113,1,7,65,9,56,2024-01-01
+1284,Consequuntur Plus,Himalaya,Apparel,"Mohanty, Sandal and Dani",Anand,232,10,70,26,2,21,2024-01-01
+1285,Nihil Elite,Himalaya,Grocery,"Kari, Anand and Modi",Chennai,372,2,14,52,2,124,2024-01-01
+1286,Accusamus Plus,Samsung,Apparel,Zachariah-Anne,Bardhaman,412,3,21,63,6,103,2024-01-01
+1287,Unde Max,Godrej,Apparel,Ben-Singhal,Ambarnath,138,3,21,60,2,34,2024-01-01
+1288,Ipsum Max,Sony,Apparel,Badami-Baral,Yamunanagar,372,2,14,22,4,124,2024-01-01
+1289,Magni X,Godrej,Electronics,"Prasad, Devan and Dey",Bhind,136,2,14,98,3,45,2024-01-01
+1290,Sequi Plus,Nike,Grocery,"Warrior, Kamdar and Deol",Pimpri-Chinchwad,78,5,35,69,7,13,2024-01-01
+1291,Aspernatur X,Nike,Beauty,Varty PLC,Ambattur,90,21,147,29,3,4,2024-01-01
+1292,Perferendis Elite,Amul,Grocery,"Narang, Walia and Saini",Uluberia,366,5,35,99,6,61,2024-01-01
+1293,Delectus X,Himalaya,Grocery,Bumb-Venkatesh,Medininagar,380,11,77,30,10,31,2024-01-01
+1294,Est Pro,Amul,Electronics,"Bora, Mannan and Dora",Bhiwandi,173,15,105,94,2,10,2024-01-01
+1295,Quia Plus,Godrej,Apparel,Kant-Majumdar,Yamunanagar,63,3,21,88,8,15,2024-01-01
+1296,Possimus Plus,Godrej,Beauty,Madan-Iyengar,Purnia,99,17,119,21,10,5,2024-01-01
+1297,Reiciendis Plus,Tata,Grocery,"Parmer, Atwal and Chhabra",Durg,371,12,84,41,7,28,2024-01-01
+1298,Maxime Max,Amul,Apparel,Chokshi Inc,Buxar,319,19,133,97,1,15,2024-01-01
+1299,Esse Plus,Nike,Grocery,"Mangat, Dara and Lad",Danapur,61,15,105,73,5,3,2024-01-01
+1300,Consequuntur Elite,LG,Beauty,Narayanan Group,Bellary,344,0,0,41,6,344,2024-01-01
+1301,Ratione X,LG,Home,Rout-Dhar,Aurangabad,148,8,56,54,2,16,2024-01-01
+1302,Cum Pro,Puma,Electronics,"Ramaswamy, Shankar and Srivastava",Bhilwara,154,9,63,98,2,15,2024-01-01
+1303,Quidem Pro,Samsung,Electronics,Agrawal-Kulkarni,Nanded,212,27,189,22,4,7,2024-01-01
+1304,Cumque Max,Samsung,Apparel,"Dhaliwal, Saran and Sarraf",Korba,359,20,140,86,10,17,2024-01-01
+1305,Quidem Pro,Tata,Electronics,"Guha, Ravel and Sandhu",Serampore,290,5,35,26,3,48,2024-01-01
+1306,Ducimus X,Puma,Home,Bhasin and Sons,Shahjahanpur,467,12,84,50,7,35,2024-01-01
+1307,Earum Elite,Amul,Home,Prabhu-Prakash,Raipur,226,17,119,68,3,12,2024-01-01
+1308,Aspernatur Elite,Sony,Grocery,"Raman, Kaur and Dhaliwal",Ahmednagar,194,8,56,56,9,21,2024-01-01
+1309,Doloribus Plus,LG,Apparel,Sani-Ahuja,Firozabad,41,8,56,41,9,4,2024-01-01
+1310,Saepe Pro,Sony,Beauty,"Dash, Puri and Tak",Kochi,35,21,147,79,5,1,2024-01-01
+1311,Minima X,Godrej,Electronics,Varty PLC,Malda,301,4,28,40,9,60,2024-01-01
+1312,Officiis Pro,Tata,Home,Acharya-Kaur,Aligarh,55,19,133,68,7,2,2024-01-01
+1313,Quidem Pro,Tata,Electronics,"Nagy, Shroff and Nair",Sonipat,229,9,63,53,2,22,2024-01-01
+1314,Vero Max,Samsung,Grocery,Rege-Pai,Chandrapur,136,2,14,73,3,45,2024-01-01
+1315,Sunt X,Himalaya,Apparel,"Bawa, Garde and Mangal",Karnal,220,11,77,29,6,18,2024-01-01
+1316,Dolorem Max,Sony,Grocery,"Sur, Mani and Handa",Rourkela,177,1,7,60,1,88,2024-01-01
+1317,Tempore Plus,Philips,Beauty,"Karnik, Patel and Bains",Vijayanagaram,230,10,70,32,4,20,2024-01-01
+1318,Facere Max,Nike,Electronics,"Prabhakar, Balay and Pandey",Rohtak,111,22,154,61,10,4,2024-01-01
+1319,Perspiciatis Plus,Godrej,Electronics,Rai LLC,Vadodara,276,18,126,23,4,14,2024-01-01
+1320,Quis Elite,Himalaya,Home,Setty-Deo,Bilaspur,166,7,49,53,2,20,2024-01-01
+1321,Aliquid Pro,Nike,Apparel,"Chaudhuri, Hora and Pillai",Faridabad,453,4,28,98,9,90,2024-01-01
+1322,Cupiditate X,Nike,Home,"Tandon, Mody and Choudhury",Kamarhati,270,14,98,38,1,18,2024-01-01
+1323,Reprehenderit Elite,Nike,Beauty,Parsa-Dani,Jaunpur,263,0,0,46,8,263,2024-01-01
+1324,Id Elite,LG,Electronics,Gopal Ltd,Loni,441,8,56,31,10,49,2024-01-01
+1325,Autem Pro,Philips,Grocery,Agrawal PLC,Motihari,184,10,70,65,5,16,2024-01-01
+1326,Commodi Plus,LG,Grocery,"Kalla, Swaminathan and Varma",Madhyamgram,233,0,0,89,1,233,2024-01-01
+1327,Facilis Pro,Godrej,Beauty,"Padmanabhan, Malhotra and Narayan",Mehsana,380,9,63,90,9,38,2024-01-01
+1328,Hic X,Sony,Apparel,"Raghavan, Chandra and Dhar",Kharagpur,227,7,49,80,4,28,2024-01-01
+1329,Eius X,Nike,Apparel,"Mall, Tandon and Sabharwal",Bikaner,210,26,182,77,6,7,2024-01-01
+1330,Et Max,LG,Beauty,Chada-D’Alia,Kolkata,491,1,7,89,5,245,2024-01-01
+1331,Corrupti Elite,Samsung,Apparel,"Pradhan, Comar and Loke",Kurnool,289,4,28,23,1,57,2024-01-01
+1332,Blanditiis Pro,Samsung,Grocery,Upadhyay and Sons,Vellore,455,29,203,93,1,15,2024-01-01
+1333,Earum X,Sony,Home,"Narayan, Chauhan and Chatterjee",Suryapet,208,13,91,71,4,14,2024-01-01
+1334,Ea Plus,Samsung,Beauty,Tata Ltd,Purnia,106,11,77,95,5,8,2024-01-01
+1335,Vel Pro,Amul,Home,"Chanda, Chanda and Chandra",Bhavnagar,215,8,56,80,9,23,2024-01-01
+1336,Laboriosam Max,Samsung,Home,Lal-Borra,Purnia,390,21,147,54,9,17,2024-01-01
+1337,Aliquam Elite,Himalaya,Electronics,Wagle LLC,Avadi,176,11,77,100,8,14,2024-01-01
+1338,Adipisci Plus,Godrej,Beauty,Narang and Sons,Gudivada,158,14,98,93,1,10,2024-01-01
+1339,Alias Plus,Puma,Home,Chhabra LLC,Agartala,180,19,133,45,5,9,2024-01-01
+1340,Eius Elite,Godrej,Apparel,Mistry-Ahluwalia,South Dumdum,225,9,63,82,1,22,2024-01-01
+1341,Laborum Plus,Puma,Home,Babu-Kalita,Panchkula,380,1,7,72,2,190,2024-01-01
+1342,Dignissimos Pro,Sony,Beauty,Zachariah LLC,Thiruvananthapuram,220,11,77,68,5,18,2024-01-01
+1343,Maiores Plus,Godrej,Home,"Gupta, Contractor and Memon",Narasaraopet,158,8,56,38,4,17,2024-01-01
+1344,Illo X,Tata,Beauty,"Shenoy, Mohan and Chad",Khammam,202,10,70,92,7,18,2024-01-01
+1345,Officiis Plus,Philips,Beauty,Rattan Inc,Panihati,300,4,28,80,6,60,2024-01-01
+1346,Ducimus X,Godrej,Electronics,Deshmukh LLC,Ramgarh,439,0,0,70,6,439,2024-01-01
+1347,Praesentium X,Philips,Home,Maharaj Ltd,Thane,387,8,56,67,5,43,2024-01-01
+1348,Maiores Max,Puma,Grocery,Reddy and Sons,Davanagere,225,11,77,80,6,18,2024-01-01
+1349,Iste Plus,Himalaya,Grocery,"Parikh, Aggarwal and Bhasin",Katni,249,4,28,74,10,49,2024-01-01
+1350,Nam Max,Sony,Grocery,Sundaram Ltd,Aligarh,155,14,98,86,9,10,2024-01-01
+1351,Quasi Pro,Nike,Electronics,Bahri-Bahri,Durg,342,12,84,24,2,26,2024-01-01
+1352,Saepe Pro,Samsung,Apparel,Dugar-Hayre,Bathinda,461,12,84,48,6,35,2024-01-01
+1353,Iusto X,Godrej,Grocery,Ramaswamy LLC,Mehsana,381,15,105,98,7,23,2024-01-01
+1354,Vero Plus,Himalaya,Beauty,Kata and Sons,Panchkula,317,28,196,97,4,10,2024-01-01
+1355,Nam Elite,Philips,Home,Vala-Contractor,Khandwa,349,1,7,68,2,174,2024-01-01
+1356,Placeat X,Samsung,Apparel,"Pant, Singh and Nayak",Ranchi,368,22,154,85,8,16,2024-01-01
+1357,Aperiam Elite,Puma,Home,Singhal Group,Motihari,280,10,70,81,1,25,2024-01-01
+1358,Dicta Plus,Puma,Grocery,"Sidhu, Bobal and Radhakrishnan",Gorakhpur,236,9,63,90,3,23,2024-01-01
+1359,Minus X,Tata,Home,Ravel-Konda,Tiruvottiyur,216,14,98,41,5,14,2024-01-01
+1360,Deleniti Plus,Godrej,Electronics,Kant-Chandran,Jodhpur,456,17,119,98,10,25,2024-01-01
+1361,A Max,Samsung,Apparel,Sankaran-Thaker,Tadipatri,352,15,105,27,7,22,2024-01-01
+1362,At Plus,Nike,Home,"Bir, Bhasin and Chander",Tumkur,255,2,14,99,6,85,2024-01-01
+1363,Alias Elite,Tata,Beauty,"Balan, Mangat and Som",Howrah,442,16,112,26,9,26,2024-01-01
+1364,Ab Pro,LG,Beauty,Arya PLC,Tadepalligudem,108,10,70,25,8,9,2024-01-01
+1365,Officiis X,LG,Home,Naidu Group,Bettiah,243,6,42,82,10,34,2024-01-01
+1366,Deleniti Plus,Nike,Beauty,Ganguly-Mannan,Jalgaon,450,16,112,91,8,26,2024-01-01
+1367,Optio Elite,Godrej,Apparel,"Luthra, Varma and Dube",Bareilly,276,8,56,21,10,30,2024-01-01
+1368,Suscipit X,Nike,Electronics,"Saran, Sengupta and Pall",Ramgarh,407,1,7,27,6,203,2024-01-01
+1369,Rem Max,Nike,Apparel,"Wali, Chahal and Lall",Bhatpara,388,6,42,39,2,55,2024-01-01
+1370,Sit Elite,Philips,Grocery,Sachar-Chawla,Kishanganj,288,11,77,58,1,24,2024-01-01
+1371,Quaerat Plus,Nike,Grocery,"Bose, Dugar and Toor",Madhyamgram,95,5,35,38,7,15,2024-01-01
+1372,Consequuntur Elite,Himalaya,Electronics,Brahmbhatt-Manne,Naihati,218,5,35,69,1,36,2024-01-01
+1373,Ut Plus,Samsung,Electronics,"Kurian, Dhar and Basak",Kulti,48,15,105,78,5,3,2024-01-01
+1374,Dicta Max,Nike,Electronics,"Prakash, Gupta and Nadkarni",Khandwa,406,18,126,25,5,21,2024-01-01
+1375,Temporibus Elite,Sony,Beauty,"Saran, Seth and Gill",Bhiwandi,64,6,42,99,4,9,2024-01-01
+1376,Saepe Plus,Amul,Grocery,"Kothari, Kapoor and Dua",Amroha,354,1,7,25,1,177,2024-01-01
+1377,Ipsam X,Puma,Electronics,"Boase, Korpal and Zachariah",Srikakulam,47,6,42,28,2,6,2024-01-01
+1378,Quod Pro,LG,Home,Nayar LLC,Kirari Suleman Nagar,329,1,7,47,1,164,2024-01-01
+1379,Ducimus Pro,Godrej,Grocery,"Venkataraman, Khalsa and Vaidya",Miryalaguda,492,5,35,36,3,82,2024-01-01
+1380,Error Max,Amul,Apparel,Rastogi-Bail,Sonipat,417,7,49,43,8,52,2024-01-01
+1381,Consequatur Max,Godrej,Home,Dhillon-Barman,Mangalore,311,1,7,70,10,155,2024-01-01
+1382,Asperiores Pro,Amul,Electronics,Iyengar-Hora,Sambalpur,123,19,133,61,4,6,2024-01-01
+1383,Corrupti Max,Nike,Home,"Sachdeva, Roy and Jayaraman",Jhansi,120,17,119,100,7,6,2024-01-01
+1384,Quod Pro,LG,Grocery,Dada-Lall,Durg,359,3,21,76,2,89,2024-01-01
+1385,Tempore Plus,Godrej,Electronics,Dua LLC,Gulbarga,272,8,56,72,4,30,2024-01-01
+1386,Ad Max,Samsung,Home,Lala-Mohan,Darbhanga,483,18,126,57,2,25,2024-01-01
+1387,Dolorum Plus,Philips,Grocery,Nadkarni PLC,Eluru,326,3,21,90,10,81,2024-01-01
+1388,Dolor Max,Amul,Grocery,Raval Inc,Danapur,81,3,21,39,10,20,2024-01-01
+1389,Molestiae X,Philips,Grocery,Kibe Ltd,Jorhat,456,22,154,60,7,19,2024-01-01
+1390,Accusamus Plus,Philips,Grocery,Dar-Narula,Miryalaguda,432,15,105,66,4,27,2024-01-01
+1391,Aliquam Max,Tata,Grocery,"Tak, Khalsa and Lad",Kalyan-Dombivli,178,11,77,97,2,14,2024-01-01
+1392,Explicabo Elite,Tata,Grocery,"Dey, Barad and Sami",Ambattur,35,21,147,58,1,1,2024-01-01
+1393,Odit X,Tata,Grocery,"Sampath, Saxena and Nath",Madurai,198,13,91,55,4,14,2024-01-01
+1394,Voluptates X,Samsung,Home,"Mannan, Sandhu and Trivedi",Ghaziabad,197,5,35,30,4,32,2024-01-01
+1395,Autem X,Samsung,Beauty,Nagy Group,Rourkela,95,9,63,71,1,9,2024-01-01
+1396,Maxime Elite,Sony,Apparel,"Nayak, Kata and Kakar",Surat,219,17,119,31,2,12,2024-01-01
+1397,Unde Plus,Nike,Electronics,"Ravi, Kata and Baria",Khammam,463,17,119,28,8,25,2024-01-01
+1398,Sint Max,Tata,Electronics,Upadhyay PLC,Nagpur,153,15,105,50,7,9,2024-01-01
+1399,Accusamus Pro,Samsung,Home,Cherian-Mital,Khammam,73,19,133,80,4,3,2024-01-01
+1400,Accusamus Max,Tata,Apparel,Chahal-Upadhyay,Hyderabad,372,1,7,24,7,186,2024-01-01
+1401,Blanditiis X,Sony,Beauty,"Krish, Mittal and Natarajan",Secunderabad,180,1,7,82,9,90,2024-01-01
+1402,Non Elite,Puma,Apparel,Lad-Kalita,Kolhapur,74,12,84,84,10,5,2024-01-01
+1403,Molestias Max,Nike,Grocery,"Dass, Gara and Handa",Bareilly,419,8,56,93,2,46,2024-01-01
+1404,Fugiat X,Philips,Grocery,"Pathak, Rout and Jani",Gangtok,318,17,119,27,3,17,2024-01-01
+1405,Deserunt Plus,Tata,Grocery,Andra-Varughese,Miryalaguda,225,3,21,59,7,56,2024-01-01
+1406,Rerum Elite,Philips,Electronics,Kant Group,Anantapuram,118,5,35,22,1,19,2024-01-01
+1407,Officia Max,Sony,Apparel,"Palla, Wason and Rao",Gudivada,120,17,119,77,8,6,2024-01-01
+1408,Dicta Plus,Tata,Apparel,Boase-Rege,Ozhukarai,278,9,63,36,3,27,2024-01-01
+1409,Dolorum Elite,Sony,Apparel,Kannan and Sons,Dharmavaram,286,10,70,54,3,26,2024-01-01
+1410,Illo Elite,Nike,Home,Sani-Mallick,Hospet,73,29,203,51,9,2,2024-01-01
+1411,Corrupti Elite,LG,Apparel,Wali PLC,Bhiwandi,139,5,35,45,8,23,2024-01-01
+1412,Voluptatibus Max,Godrej,Apparel,Sundaram LLC,Yamunanagar,189,3,21,90,1,47,2024-01-01
+1413,Laborum X,Amul,Home,Arya Inc,Lucknow,467,11,77,95,6,38,2024-01-01
+1414,Praesentium X,Philips,Grocery,Mishra-Sane,Haldia,59,13,91,83,1,4,2024-01-01
+1415,Similique Pro,Godrej,Home,"Thaker, Nagy and Deep",Bhiwani,455,12,84,68,2,35,2024-01-01
+1416,Libero Max,Philips,Apparel,"Halder, Padmanabhan and Mohanty",Bharatpur,435,23,161,50,6,18,2024-01-01
+1417,Dolorem Plus,Puma,Home,Chawla-Arora,Guna,220,1,7,23,9,110,2024-01-01
+1418,Tempore Plus,Godrej,Beauty,"Mann, Bahri and Sandal",Gaya,434,13,91,80,5,31,2024-01-01
+1419,Eos Elite,Philips,Electronics,Babu-Palla,Ballia,237,16,112,25,6,13,2024-01-01
+1420,Commodi X,Sony,Home,Varughese Group,Kakinada,369,13,91,93,4,26,2024-01-01
+1421,Saepe Max,Samsung,Electronics,Chandra-Sood,Bidhannagar,74,14,98,65,4,4,2024-01-01
+1422,Temporibus Plus,Amul,Home,"Lal, Borde and Kumer",Bhalswa Jahangir Pur,447,10,70,56,7,40,2024-01-01
+1423,Ducimus Elite,Puma,Home,Ganesh Inc,Tadipatri,159,14,98,81,2,10,2024-01-01
+1424,Officia X,Samsung,Home,Sathe-Pal,Nagercoil,127,7,49,68,7,15,2024-01-01
+1425,Rerum Plus,Puma,Electronics,Sabharwal Ltd,Tirupati,43,15,105,33,2,2,2024-01-01
+1426,Iure X,Amul,Home,Grover Inc,Pali,113,6,42,20,4,16,2024-01-01
+1427,Cumque X,Himalaya,Grocery,"Mittal, Tandon and Kumer",Agra,350,13,91,92,6,25,2024-01-01
+1428,Nemo X,Nike,Electronics,"Kadakia, Raja and Roy",Begusarai,265,12,84,71,8,20,2024-01-01
+1429,Et Elite,Amul,Electronics,Pandit-Lal,Nanded,130,17,119,78,7,7,2024-01-01
+1430,Culpa X,Godrej,Apparel,"Dube, Minhas and Butala",Mahbubnagar,468,17,119,81,2,26,2024-01-01
+1431,At Pro,Sony,Beauty,"Sodhi, Cherian and Manne",Panvel,389,1,7,28,9,194,2024-01-01
+1432,Molestiae Max,LG,Home,Choudhry LLC,Tirupati,480,1,7,39,1,240,2024-01-01
+1433,Accusantium Elite,Samsung,Home,Nagar Ltd,Kulti,270,6,42,69,5,38,2024-01-01
+1434,Occaecati Max,Puma,Home,Sachar-Vora,Faridabad,146,7,49,37,8,18,2024-01-01
+1435,Animi Elite,Nike,Apparel,"Soni, Issac and Kohli",Srinagar,138,18,126,81,4,7,2024-01-01
+1436,Neque X,LG,Electronics,Manda-Mahal,Patna,181,13,91,69,1,12,2024-01-01
+1437,Ad Elite,Amul,Electronics,Lalla Inc,Dhule,54,23,161,28,1,2,2024-01-01
+1438,Corporis Pro,Himalaya,Beauty,"Chandra, Keer and Varkey",Ajmer,197,4,28,42,8,39,2024-01-01
+1439,Nam Pro,Philips,Apparel,"Ramakrishnan, Chacko and Dhingra",Firozabad,456,7,49,86,8,57,2024-01-01
+1440,Ab Plus,Samsung,Home,Keer LLC,Guwahati,340,9,63,51,5,34,2024-01-01
+1441,Distinctio Plus,Philips,Home,Swaminathan-Samra,Bhind,466,21,147,27,10,21,2024-01-01
+1442,Dolorum X,Nike,Beauty,Bera Inc,Sambalpur,120,6,42,20,7,17,2024-01-01
+1443,Explicabo Elite,Tata,Grocery,Om-Acharya,Bhavnagar,301,4,28,22,7,60,2024-01-01
+1444,Eum X,Nike,Home,Ranganathan PLC,Medininagar,129,8,56,72,4,14,2024-01-01
+1445,Velit Elite,Godrej,Apparel,Nayak Inc,Bathinda,382,17,119,56,6,21,2024-01-01
+1446,Nobis Elite,LG,Apparel,Gokhale LLC,Korba,130,4,28,91,7,26,2024-01-01
+1447,Officia X,Nike,Grocery,"Vala, Bhatti and Mangal",Gangtok,304,16,112,61,9,17,2024-01-01
+1448,Corporis Elite,Philips,Beauty,Tata-Dara,Gurgaon,453,0,0,98,9,453,2024-01-01
+1449,Ipsa X,Godrej,Apparel,"Pathak, Trivedi and Kanda",Chittoor,399,3,21,53,4,99,2024-01-01
+1450,Dicta Pro,Samsung,Apparel,Murthy Ltd,Srinagar,387,14,98,80,2,25,2024-01-01
+1451,Sequi Plus,Samsung,Beauty,Bal Group,Chinsurah,262,2,14,40,7,87,2024-01-01
+1452,Quo Max,Tata,Grocery,Chandran and Sons,Phusro,156,25,175,23,5,6,2024-01-01
+1453,Tenetur Max,Sony,Home,Varma Inc,Bhalswa Jahangir Pur,406,13,91,78,2,29,2024-01-01
+1454,Nesciunt Max,Amul,Home,Raval-Konda,Bikaner,132,0,0,90,6,132,2024-01-01
+1455,Totam Pro,LG,Beauty,"Raju, Murty and Narayanan",Srinagar,409,10,70,22,5,37,2024-01-01
+1456,Aut Elite,Himalaya,Beauty,"Trivedi, Garg and Patel",Korba,355,8,56,64,10,39,2024-01-01
+1457,Voluptatem Plus,Tata,Grocery,Om LLC,Motihari,90,16,112,21,3,5,2024-01-01
+1458,Architecto Plus,Nike,Apparel,"Walla, Saxena and Jaggi",Surendranagar Dudhrej,295,7,49,21,6,36,2024-01-01
+1459,Laudantium Max,Sony,Grocery,"Bal, Balay and Chandra",Rajahmundry,225,3,21,27,2,56,2024-01-01
+1460,Aliquid X,Nike,Apparel,Chada Ltd,Mau,325,7,49,58,3,40,2024-01-01
+1461,Hic Plus,Sony,Home,Bajwa Inc,Hubli–Dharwad,183,7,49,81,8,22,2024-01-01
+1462,Ex X,Nike,Grocery,Srinivasan-Sen,Latur,239,2,14,38,2,79,2024-01-01
+1463,Repellat X,Philips,Home,Bala Inc,Jammu,431,1,7,99,8,215,2024-01-01
+1464,Porro Pro,Sony,Beauty,Sarna-Ganesan,Erode,139,8,56,99,5,15,2024-01-01
+1465,Error Max,Nike,Home,Bajwa Inc,Tenali,123,12,84,48,9,9,2024-01-01
+1466,Voluptate Pro,Puma,Grocery,Dhawan Inc,Alwar,201,7,49,58,3,25,2024-01-01
+1467,Maiores X,Himalaya,Electronics,Chatterjee Inc,Bidhannagar,136,16,112,31,8,8,2024-01-01
+1468,Quae Max,LG,Home,Gulati-Krish,Dharmavaram,427,2,14,39,9,142,2024-01-01
+1469,Magnam Plus,Himalaya,Electronics,"Purohit, Kade and Peri",Siliguri,191,10,70,96,2,17,2024-01-01
+1470,Ipsa X,LG,Apparel,Majumdar-Mani,Dhanbad,245,15,105,40,3,15,2024-01-01
+1471,Delectus Plus,Philips,Electronics,"Mangal, Shan and Oommen",Kozhikode,395,4,28,76,10,79,2024-01-01
+1472,Vitae X,LG,Grocery,Singhal-Warrior,Katni,276,19,133,29,3,13,2024-01-01
+1473,Enim Plus,Tata,Apparel,Sachdev-Chatterjee,Bhiwandi,271,1,7,90,6,135,2024-01-01
+1474,Dolorem Elite,Nike,Electronics,Misra-Singhal,Jalna,321,8,56,73,8,35,2024-01-01
+1475,Molestiae Elite,Amul,Electronics,"Loke, Khatri and Chad",Jhansi,108,19,133,25,1,5,2024-01-01
+1476,Quo Plus,Samsung,Beauty,Garg Group,Bareilly,283,6,42,45,10,40,2024-01-01
+1477,Reiciendis Pro,Puma,Beauty,Bhatt-Khatri,Bhubaneswar,343,20,140,34,2,16,2024-01-01
+1478,Consectetur Plus,LG,Grocery,Samra LLC,Kulti,193,1,7,28,2,96,2024-01-01
+1479,Quas X,Tata,Home,Badami-Choudhry,Bilaspur,83,10,70,79,4,7,2024-01-01
+1480,Aut Max,Samsung,Beauty,Singh-Chaudhry,Ahmednagar,64,12,84,48,10,4,2024-01-01
+1481,Corrupti Pro,Sony,Electronics,"Jayaraman, Keer and Tak",Mira-Bhayandar,216,5,35,27,5,36,2024-01-01
+1482,Aut Max,Philips,Electronics,Parekh-Mangat,Panvel,155,7,49,88,2,19,2024-01-01
+1483,Recusandae Pro,LG,Grocery,"Dugar, Bakshi and Seth",Kakinada,410,1,7,91,7,205,2024-01-01
+1484,Dignissimos Plus,Puma,Apparel,"Patla, D’Alia and Raja",Cuttack,389,1,7,92,4,194,2024-01-01
+1485,Beatae Pro,Samsung,Beauty,Rao-Kala,Rourkela,173,13,91,99,8,12,2024-01-01
+1486,Occaecati Max,Sony,Beauty,Bhatia Group,Kurnool,241,11,77,79,9,20,2024-01-01
+1487,Excepturi X,Samsung,Home,Badami-Loke,Fatehpur,134,1,7,72,10,67,2024-01-01
+1488,A Max,Amul,Electronics,Mukhopadhyay Inc,Bidar,175,10,70,92,4,15,2024-01-01
+1489,Et Pro,Godrej,Grocery,Prabhakar Ltd,Sonipat,77,9,63,56,8,7,2024-01-01
+1490,Hic Plus,Tata,Electronics,Kibe and Sons,Gaya,110,11,77,100,6,9,2024-01-01
+1491,At X,Godrej,Beauty,Khurana-Rao,Karimnagar,307,7,49,85,5,38,2024-01-01
+1492,Qui Elite,Godrej,Beauty,"Yogi, Rana and Khare",Tadepalligudem,324,9,63,67,6,32,2024-01-01
+1493,Pariatur X,Nike,Home,Palan Ltd,Ichalkaranji,307,18,126,45,7,16,2024-01-01
+1494,Incidunt Max,Himalaya,Beauty,Murty PLC,Aligarh,476,8,56,34,3,52,2024-01-01
+1495,Magni X,Tata,Apparel,Bansal-Venkatesh,Alwar,396,11,77,27,8,33,2024-01-01
+1496,Similique Plus,Samsung,Electronics,"Prabhakar, Mistry and Sankaran",Ghaziabad,121,7,49,38,10,15,2024-01-01
+1497,Vitae Elite,Nike,Home,Sekhon Inc,Dehri,302,18,126,47,9,15,2024-01-01
+1498,Incidunt Max,Puma,Electronics,Comar and Sons,Kavali,62,7,49,70,10,7,2024-01-01
+1499,Quos Plus,Tata,Grocery,Bera-Natt,Jamnagar,423,2,14,41,2,141,2024-01-01
+1500,Illum Pro,Puma,Beauty,Balan-Khalsa,Jorhat,460,12,84,36,8,35,2024-01-01
+1501,Consequuntur Max,Puma,Apparel,Savant-Bala,Ludhiana,69,12,84,97,8,5,2024-01-01
+1502,Quis Plus,Puma,Grocery,Soni-Das,Berhampur,248,0,0,26,8,248,2024-01-01
+1503,Dolores Pro,Godrej,Apparel,Sethi-Ahluwalia,Hospet,39,17,119,99,3,2,2024-01-01
+1504,Quasi Plus,Nike,Grocery,Wali-Mand,Sambhal,69,4,28,93,10,13,2024-01-01
+1505,Ea Plus,Godrej,Apparel,Kumer-Yadav,Visakhapatnam,94,2,14,57,4,31,2024-01-01
+1506,Quas Max,Sony,Home,"Lanka, Sabharwal and Viswanathan",Rajahmundry,398,5,35,43,9,66,2024-01-01
+1507,Neque X,Godrej,Home,Kashyap Group,Giridih,170,13,91,30,8,12,2024-01-01
+1508,Expedita Max,Philips,Apparel,Vasa Group,Mangalore,437,17,119,50,2,24,2024-01-01
+1509,Temporibus Elite,Sony,Electronics,Kulkarni Group,Baranagar,179,9,63,33,2,17,2024-01-01
+1510,Nam Pro,Samsung,Home,"Toor, Ranganathan and Nazareth",Sasaram,174,19,133,22,4,8,2024-01-01
+1511,Facere Elite,LG,Home,Muni LLC,Chinsurah,257,4,28,32,8,51,2024-01-01
+1512,Explicabo Pro,Samsung,Grocery,Hayer-Patla,Jabalpur,327,10,70,25,8,29,2024-01-01
+1513,Adipisci Plus,Godrej,Electronics,"Singh, Bhatnagar and Tiwari",Ajmer,176,21,147,63,3,8,2024-01-01
+1514,Quam Pro,Sony,Apparel,Sibal-Prabhakar,Dehri,173,10,70,82,3,15,2024-01-01
+1515,Commodi Pro,LG,Beauty,Sen-Tak,Pondicherry,397,9,63,77,6,39,2024-01-01
+1516,Sequi Plus,Himalaya,Grocery,Acharya-Dayal,Muzaffarpur,220,29,203,100,10,7,2024-01-01
+1517,Perspiciatis Max,Godrej,Electronics,"Date, Shankar and Ghose",Vijayanagaram,127,12,84,58,7,9,2024-01-01
+1518,Ipsum X,Nike,Home,"Aggarwal, Gulati and Dugar",Yamunanagar,292,2,14,75,3,97,2024-01-01
+1519,Delectus Elite,Samsung,Electronics,"Goyal, Divan and Mital",Bulandshahr,218,25,175,76,10,8,2024-01-01
+1520,Repudiandae Max,Godrej,Apparel,Sodhi-Chad,Visakhapatnam,287,5,35,75,3,47,2024-01-01
+1521,Officiis Elite,LG,Apparel,"Loke, Ramanathan and Kurian",Madurai,391,4,28,94,3,78,2024-01-01
+1522,Inventore Max,Nike,Beauty,"Bhardwaj, Dhillon and Shenoy",Hospet,165,15,105,54,6,10,2024-01-01
+1523,Explicabo Plus,Tata,Grocery,Dasgupta Ltd,Kharagpur,307,0,0,74,7,307,2024-01-01
+1524,Animi Elite,Nike,Beauty,"Master, Sridhar and Kamdar",Kota,453,12,84,55,6,34,2024-01-01
+1525,Commodi Pro,Sony,Apparel,Halder Group,Gulbarga,487,5,35,29,2,81,2024-01-01
+1526,Hic X,Puma,Grocery,Wason PLC,Latur,110,16,112,20,4,6,2024-01-01
+1527,Culpa X,LG,Apparel,"Walia, Kannan and Panchal",Shimla,430,10,70,73,4,39,2024-01-01
+1528,Occaecati Plus,Samsung,Home,"Choudhury, Nori and Bhalla",Gudivada,86,12,84,63,5,6,2024-01-01
+1529,Voluptas Pro,Godrej,Home,"Mistry, Mital and Mannan",Yamunanagar,176,3,21,91,6,44,2024-01-01
+1530,Delectus Elite,Himalaya,Grocery,Lata-Sandal,Dharmavaram,63,14,98,26,8,4,2024-01-01
+1531,Deleniti Pro,Sony,Grocery,"Modi, Bala and Talwar",Sultan Pur Majra,306,16,112,36,7,18,2024-01-01
+1532,Sit Plus,Godrej,Beauty,"Muni, Dugar and Gill",Mango,213,23,161,98,3,8,2024-01-01
+1533,Nulla X,Amul,Home,Kala Inc,Kishanganj,195,3,21,94,9,48,2024-01-01
+1534,Architecto X,Nike,Apparel,Nayar and Sons,Kolkata,79,1,7,54,6,39,2024-01-01
+1535,Ab Elite,LG,Home,Nayak-Boase,Kirari Suleman Nagar,185,2,14,22,4,61,2024-01-01
+1536,Minima Elite,LG,Beauty,"Raghavan, Mahajan and Sibal",Hosur,419,11,77,74,3,34,2024-01-01
+1537,Iure Max,Nike,Electronics,Deshmukh-Nath,Cuttack,297,8,56,42,2,33,2024-01-01
+1538,Modi X,Sony,Home,Sodhi Group,Hazaribagh,400,8,56,99,2,44,2024-01-01
+1539,Accusamus Plus,Philips,Grocery,Narula and Sons,Udaipur,285,8,56,48,8,31,2024-01-01
+1540,Sint Plus,Amul,Grocery,Kant-Rajan,Bhopal,68,5,35,39,5,11,2024-01-01
+1541,Corrupti Elite,Puma,Apparel,Gill-Viswanathan,Madanapalle,475,15,105,36,10,29,2024-01-01
+1542,Exercitationem Max,Sony,Apparel,Kant Ltd,Tirunelveli,426,16,112,25,8,25,2024-01-01
+1543,Blanditiis Elite,Nike,Electronics,Parekh-Naidu,Jammu,162,24,168,40,1,6,2024-01-01
+1544,Nihil Elite,Puma,Home,Sant-Lad,Haridwar,469,23,161,84,8,19,2024-01-01
+1545,Tempora Pro,Samsung,Grocery,Parekh Inc,Hospet,379,1,7,92,7,189,2024-01-01
+1546,Optio Plus,Nike,Electronics,Om Inc,Sangli-Miraj & Kupwad,222,0,0,63,6,222,2024-01-01
+1547,Ipsam Plus,Nike,Grocery,"Rai, Khare and Wagle",Mathura,125,6,42,100,5,17,2024-01-01
+1548,Ut Elite,Samsung,Beauty,Palla LLC,Bikaner,48,10,70,74,3,4,2024-01-01
+1549,Doloremque X,Tata,Electronics,Goda Ltd,Anantapur,440,7,49,60,8,55,2024-01-01
+1550,Necessitatibus Max,Philips,Home,Dasgupta-Kanda,Ahmedabad,237,7,49,72,7,29,2024-01-01
+1551,Consequatur Max,Nike,Apparel,"Deshpande, Mann and Vora",North Dumdum,72,1,7,66,5,36,2024-01-01
+1552,Tempore X,Puma,Apparel,Sankar Group,Ambarnath,267,2,14,81,4,89,2024-01-01
+1553,Officiis Elite,Himalaya,Home,"Sandal, Badami and Bains",Chittoor,148,10,70,90,2,13,2024-01-01
+1554,Perferendis Elite,Puma,Grocery,"Sarna, Venkataraman and Sastry",Nangloi Jat,183,9,63,72,3,18,2024-01-01
+1555,Consequuntur Plus,Tata,Electronics,"Agarwal, Modi and Bala",Mysore,263,13,91,61,10,18,2024-01-01
+1556,Quas Max,Puma,Home,Batra Ltd,Guwahati,377,16,112,80,8,22,2024-01-01
+1557,Illo Max,Tata,Beauty,"Bal, Guha and Mani",Thanjavur,351,10,70,24,9,31,2024-01-01
+1558,Unde X,Nike,Electronics,"Viswanathan, Issac and Vig",Bhilwara,58,2,14,84,3,19,2024-01-01
+1559,At Max,Godrej,Grocery,"Raghavan, Dhar and Reddy",Patiala,302,0,0,21,2,302,2024-01-01
+1560,Voluptatum Plus,Himalaya,Home,Babu-Chadha,Pune,195,26,182,26,9,7,2024-01-01
+1561,Voluptatem Elite,Puma,Home,Chad-Rai,Pudukkottai,317,23,161,80,8,13,2024-01-01
+1562,Sint Pro,Tata,Electronics,Sekhon-Sastry,Ozhukarai,67,2,14,50,2,22,2024-01-01
+1563,Voluptatem Max,Godrej,Electronics,Sachdev Inc,Kollam,340,31,217,29,4,10,2024-01-01
+1564,Autem X,Himalaya,Beauty,"Ghose, Mangal and Dhar",Udupi,297,0,0,100,3,297,2024-01-01
+1565,Laboriosam Elite,LG,Apparel,Dhawan LLC,Delhi,42,14,98,86,9,2,2024-01-01
+1566,Odit Elite,Puma,Beauty,"Baral, Rajagopal and Bali",Dhule,405,6,42,90,9,57,2024-01-01
+1567,A Pro,Tata,Grocery,Bhalla PLC,Srikakulam,442,4,28,62,1,88,2024-01-01
+1568,Soluta Max,LG,Grocery,Dar and Sons,Eluru,468,17,119,89,6,26,2024-01-01
+1569,Perspiciatis X,Godrej,Beauty,Atwal LLC,Eluru,403,1,7,80,5,201,2024-01-01
+1570,Similique Max,Himalaya,Beauty,Goda PLC,Jamnagar,278,18,126,23,9,14,2024-01-01
+1571,Perferendis Pro,Nike,Electronics,Dhillon LLC,Dhanbad,465,1,7,20,7,232,2024-01-01
+1572,Ratione Pro,LG,Home,"Choudhary, Dhillon and Jain",Visakhapatnam,477,1,7,82,9,238,2024-01-01
+1573,Optio Plus,Amul,Electronics,Ahluwalia-Lad,Bihar Sharif,164,20,140,77,2,7,2024-01-01
+1574,Cumque Elite,Amul,Beauty,"More, Ram and Chadha",Sikar,259,15,105,64,8,16,2024-01-01
+1575,Beatae Pro,Nike,Grocery,Din-Choudhary,Yamunanagar,148,25,175,37,5,5,2024-01-01
+1576,Tempora Plus,Philips,Beauty,Reddy Inc,Akola,431,24,168,41,6,17,2024-01-01
+1577,Hic Pro,Nike,Beauty,Edwin LLC,Bokaro,192,15,105,50,9,12,2024-01-01
+1578,Aut Max,Amul,Electronics,"Madan, Nayak and Pandya",Gudivada,372,0,0,57,8,372,2024-01-01
+1579,Quasi X,Himalaya,Grocery,Ram-Choudhary,Surat,257,2,14,42,9,85,2024-01-01
+1580,In X,Tata,Home,Khosla and Sons,Jalna,393,11,77,65,3,32,2024-01-01
+1581,Nemo Pro,Tata,Electronics,Doctor-Nayar,Guntakal,143,13,91,60,3,10,2024-01-01
+1582,Debitis Pro,Himalaya,Beauty,"Acharya, Chandra and Sama",Alwar,180,15,105,61,3,11,2024-01-01
+1583,Veniam Pro,Nike,Electronics,"Thakkar, Wali and Gulati",Hapur,467,23,161,20,7,19,2024-01-01
+1584,Officiis Pro,Himalaya,Home,"Puri, Kuruvilla and Pandit",Srinagar,150,0,0,48,10,150,2024-01-01
+1585,Quasi Plus,Amul,Beauty,Natt-Sachdev,Coimbatore,487,3,21,95,8,121,2024-01-01
+1586,Illo Plus,Nike,Electronics,"Srinivasan, Thaker and Acharya",Proddatur,466,3,21,68,6,116,2024-01-01
+1587,Ipsum X,Nike,Apparel,"Chaudhry, Bhagat and D’Alia",Bijapur,345,7,49,23,1,43,2024-01-01
+1588,Id X,LG,Apparel,Sachar-Gokhale,Bhilai,158,1,7,71,1,79,2024-01-01
+1589,Molestias Elite,Philips,Home,Kumer and Sons,Moradabad,321,13,91,92,9,22,2024-01-01
+1590,Neque Pro,Nike,Apparel,"Sheth, Bhandari and Bala",Rajpur Sonarpur,193,18,126,61,7,10,2024-01-01
+1591,At Elite,Godrej,Electronics,"Ratti, Gara and Dyal",Aligarh,475,9,63,55,6,47,2024-01-01
+1592,Dolorum Elite,Philips,Electronics,"Kuruvilla, Krish and Rege",Tezpur,397,5,35,56,1,66,2024-01-01
+1593,Repellendus Plus,Samsung,Apparel,Chaudhary and Sons,Bhusawal,205,13,91,26,9,14,2024-01-01
+1594,Doloribus Pro,Himalaya,Grocery,Lad-Patel,Sikar,359,6,42,31,2,51,2024-01-01
+1595,Beatae X,Tata,Electronics,Bandi-Ranganathan,Kolkata,55,15,105,61,5,3,2024-01-01
+1596,Temporibus Max,Puma,Home,"Karan, Kapur and Edwin",Tadipatri,28,24,168,84,6,1,2024-01-01
+1597,Error Plus,Puma,Beauty,Choudhary and Sons,Jhansi,115,15,105,60,5,7,2024-01-01
+1598,Provident Pro,Tata,Home,"Sinha, Anand and Peri",Sultan Pur Majra,278,17,119,41,6,15,2024-01-01
+1599,Explicabo X,Tata,Home,"Patla, Bains and Badal",Bilaspur,206,24,168,95,7,8,2024-01-01
+1600,Deserunt Pro,Himalaya,Apparel,Mallick-Kalita,Farrukhabad,421,9,63,51,2,42,2024-01-01
+1601,Deleniti Pro,Himalaya,Apparel,"Narain, Rana and Sarin",Hubli–Dharwad,286,9,63,82,9,28,2024-01-01
+1602,Cumque Pro,Samsung,Grocery,Palla and Sons,South Dumdum,211,17,119,53,1,11,2024-01-01
+1603,Placeat Pro,Godrej,Electronics,"Barad, Balay and Mohan",Ratlam,439,5,35,53,7,73,2024-01-01
+1604,Nisi Pro,Tata,Electronics,Kumar LLC,Bhatpara,231,2,14,22,3,77,2024-01-01
+1605,Nostrum X,Nike,Apparel,Nanda LLC,Patiala,350,4,28,76,8,70,2024-01-01
+1606,Culpa X,Himalaya,Electronics,Comar Ltd,Kakinada,80,18,126,86,4,4,2024-01-01
+1607,Est Plus,Sony,Grocery,Narang-Banerjee,Alwar,461,19,133,29,8,23,2024-01-01
+1608,Aliquid Pro,Puma,Home,Sawhney PLC,Karnal,359,7,49,70,6,44,2024-01-01
+1609,Incidunt Max,Himalaya,Home,"Dash, Madan and Ahluwalia",Amravati,177,12,84,36,2,13,2024-01-01
+1610,Non Plus,LG,Electronics,"Upadhyay, Naik and Setty",Deoghar,406,25,175,80,10,15,2024-01-01
+1611,Aliquam Plus,LG,Electronics,"Konda, Narang and Kara",Shivpuri,461,19,133,74,10,23,2024-01-01
+1612,Neque Pro,Puma,Grocery,Ray-Dewan,Secunderabad,199,5,35,33,5,33,2024-01-01
+1613,Maxime Pro,Nike,Grocery,Goyal Group,Visakhapatnam,251,15,105,61,10,15,2024-01-01
+1614,Rerum Elite,Philips,Electronics,"Swamy, Bhandari and Brar",Munger,198,1,7,29,4,99,2024-01-01
+1615,Culpa Pro,Sony,Grocery,Doshi-Khosla,Mahbubnagar,389,7,49,36,8,48,2024-01-01
+1616,Nisi X,Puma,Apparel,Soman-Chand,Gorakhpur,83,13,91,78,8,5,2024-01-01
+1617,Ab Elite,Tata,Beauty,Pandit-Banik,Jaunpur,362,10,70,41,6,32,2024-01-01
+1618,Nihil Plus,Tata,Grocery,Basu Inc,Pali,414,3,21,69,10,103,2024-01-01
+1619,Corporis Plus,Himalaya,Electronics,Sandal LLC,Kanpur,441,9,63,65,2,44,2024-01-01
+1620,Soluta X,Nike,Grocery,"Mital, Aggarwal and Bansal",Bidhannagar,419,6,42,63,1,59,2024-01-01
+1621,Fuga X,Philips,Grocery,Johal-Kapoor,Nanded,83,1,7,34,2,41,2024-01-01
+1622,Reiciendis X,Samsung,Electronics,Karan PLC,Ongole,339,12,84,48,7,26,2024-01-01
+1623,Similique Max,LG,Electronics,Kanda Ltd,Mangalore,110,11,77,21,6,9,2024-01-01
+1624,Ea Max,Himalaya,Electronics,Chand and Sons,Muzaffarnagar,192,2,14,86,10,64,2024-01-01
+1625,Nam X,Tata,Apparel,"Bora, Kannan and Dhar",Bareilly,258,8,56,47,8,28,2024-01-01
+1626,Rerum Plus,Tata,Grocery,Mohanty LLC,Gangtok,422,13,91,82,6,30,2024-01-01
+1627,Eius Elite,Tata,Beauty,"Ganesh, Shere and Som",Chapra,476,1,7,98,1,238,2024-01-01
+1628,Occaecati X,Godrej,Apparel,"Sankar, Sundaram and Sangha",Mirzapur,172,6,42,90,3,24,2024-01-01
+1629,Laboriosam Elite,LG,Grocery,Bhavsar-Modi,Rajkot,452,2,14,96,7,150,2024-01-01
+1630,Quas Plus,Himalaya,Apparel,Khanna-Srinivas,Meerut,438,6,42,55,10,62,2024-01-01
+1631,Reprehenderit Max,Nike,Electronics,"Datta, Seshadri and Chadha",Bongaigaon,286,4,28,79,4,57,2024-01-01
+1632,Neque Elite,LG,Apparel,Sem Inc,Vadodara,451,2,14,42,5,150,2024-01-01
+1633,Mollitia Elite,Puma,Home,Rau and Sons,Raebareli,190,1,7,88,2,95,2024-01-01
+1634,Necessitatibus Elite,Philips,Electronics,Ramanathan-Pingle,Coimbatore,117,18,126,70,3,6,2024-01-01
+1635,Dolores Plus,Philips,Grocery,Batta and Sons,Dehri,383,6,42,72,5,54,2024-01-01
+1636,A X,Amul,Home,"Mannan, Lal and Bhargava",Gurgaon,357,10,70,77,7,32,2024-01-01
+1637,Aliquid X,Philips,Electronics,Gola and Sons,Anand,168,5,35,81,3,28,2024-01-01
+1638,Quibusdam X,Samsung,Apparel,Khurana and Sons,North Dumdum,338,0,0,28,6,338,2024-01-01
+1639,Quibusdam Elite,Sony,Home,"Gulati, Muni and Nanda",Rajahmundry,342,1,7,98,8,171,2024-01-01
+1640,Minima Plus,Himalaya,Beauty,"Mutti, Biswas and Upadhyay",Raiganj,292,1,7,95,10,146,2024-01-01
+1641,Recusandae X,Philips,Grocery,"Vig, Divan and Issac",Tadipatri,489,1,7,51,2,244,2024-01-01
+1642,Omnis X,Samsung,Home,"Kara, Ramachandran and Toor",Silchar,187,16,112,63,2,11,2024-01-01
+1643,Possimus Pro,Himalaya,Electronics,Sami Ltd,Bilaspur,121,11,77,25,1,10,2024-01-01
+1644,Amet Elite,Amul,Electronics,Bobal-Amble,Nagercoil,116,4,28,54,1,23,2024-01-01
+1645,Numquam Pro,Tata,Home,"Singh, Jayaraman and Andra",Adoni,450,2,14,62,7,150,2024-01-01
+1646,Quaerat Elite,Puma,Apparel,"Mangal, Raju and Parekh",Phusro,179,2,14,45,5,59,2024-01-01
+1647,Distinctio Plus,Philips,Beauty,Nanda-Pal,Sasaram,470,15,105,83,8,29,2024-01-01
+1648,Dolores Max,Godrej,Beauty,Sani Inc,Parbhani,53,11,77,86,9,4,2024-01-01
+1649,Quasi Max,Philips,Apparel,Bobal-Bedi,Ranchi,239,13,91,46,9,17,2024-01-01
+1650,Inventore Plus,Godrej,Apparel,Pillai LLC,Karnal,381,9,63,46,2,38,2024-01-01
+1651,Quisquam Pro,Tata,Grocery,"Sarna, Jani and Chawla",Jalgaon,494,2,14,55,4,164,2024-01-01
+1652,Nemo Pro,Samsung,Home,"Minhas, Dey and Pillay",Bally,53,9,63,76,9,5,2024-01-01
+1653,Ab Plus,Puma,Grocery,Walla-Chander,Hapur,238,6,42,34,5,34,2024-01-01
+1654,Consequuntur X,LG,Apparel,Basu and Sons,Moradabad,54,11,77,96,4,4,2024-01-01
+1655,Nemo X,Samsung,Electronics,Dugar Ltd,Motihari,93,14,98,36,8,6,2024-01-01
+1656,Magnam Pro,Tata,Electronics,"Kala, Bava and Singh",Gurgaon,53,9,63,68,9,5,2024-01-01
+1657,Tempore Elite,Godrej,Grocery,"Garg, Bajwa and Parmar",Ranchi,478,14,98,66,1,31,2024-01-01
+1658,Modi X,LG,Home,Nazareth-Mittal,Sangli-Miraj & Kupwad,84,5,35,83,4,14,2024-01-01
+1659,Ut Max,Philips,Beauty,Arora LLC,North Dumdum,72,3,21,60,6,18,2024-01-01
+1660,Voluptatibus Plus,Godrej,Electronics,Sunder Inc,Faridabad,247,13,91,20,8,17,2024-01-01
+1661,Quo Pro,Samsung,Beauty,Trivedi-Ramakrishnan,Arrah,418,0,0,84,2,418,2024-01-01
+1662,Earum X,Sony,Beauty,"Sharaf, Nanda and Mane",Bathinda,282,6,42,65,5,40,2024-01-01
+1663,Amet Plus,Sony,Beauty,Keer-Rajan,Siwan,469,20,140,39,1,22,2024-01-01
+1664,Molestias Max,Godrej,Home,Balan-Pai,Coimbatore,137,9,63,46,2,13,2024-01-01
+1665,Quisquam X,Puma,Beauty,"Mallick, Bajaj and Pillai",Siliguri,178,12,84,85,3,13,2024-01-01
+1666,Tempore X,LG,Beauty,Nadig-Nagar,Shivpuri,449,7,49,41,4,56,2024-01-01
+1667,Quisquam Elite,Nike,Home,"Munshi, Bhatnagar and Kari",Khandwa,463,15,105,30,7,28,2024-01-01
+1668,Perferendis Plus,Philips,Beauty,"Rao, Sampath and Sundaram",Shivpuri,215,6,42,92,1,30,2024-01-01
+1669,Accusamus Plus,Philips,Apparel,Aurora-More,Bhind,450,14,98,92,7,30,2024-01-01
+1670,Ullam Elite,LG,Beauty,Pandey Group,Hajipur,117,5,35,42,7,19,2024-01-01
+1671,At Plus,Amul,Grocery,Iyengar-Ramesh,Rajahmundry,387,5,35,43,3,64,2024-01-01
+1672,Eum Max,Nike,Electronics,Chana LLC,Pallavaram,263,12,84,82,8,20,2024-01-01
+1673,Provident Pro,LG,Beauty,Dalal and Sons,Imphal,261,19,133,91,8,13,2024-01-01
+1674,Iure X,Puma,Home,Nazareth-Wali,Karaikudi,209,3,21,76,1,52,2024-01-01
+1675,Dicta X,Puma,Electronics,"Ahluwalia, Arya and Pingle",Muzaffarnagar,481,20,140,35,2,22,2024-01-01
+1676,Voluptates X,Puma,Grocery,"Dada, Murty and Gole",Bareilly,479,8,56,59,8,53,2024-01-01
+1677,Labore X,Nike,Apparel,Talwar-Mohan,Ambala,191,14,98,86,9,12,2024-01-01
+1678,Quas Max,Himalaya,Electronics,"Amble, Datta and Sidhu",Miryalaguda,224,22,154,39,3,9,2024-01-01
+1679,Tempora Max,LG,Beauty,Amble Group,Chennai,294,13,91,41,4,21,2024-01-01
+1680,Mollitia Plus,LG,Apparel,Ghose-Bakshi,Durg,469,16,112,38,9,27,2024-01-01
+1681,Veritatis Pro,LG,Grocery,Hari-Guha,Varanasi,74,10,70,92,9,6,2024-01-01
+1682,Sint X,Samsung,Grocery,Anand Group,Shimoga,432,1,7,30,10,216,2024-01-01
+1683,Quos Max,Amul,Grocery,Dara-Sen,Tadipatri,330,0,0,46,10,330,2024-01-01
+1684,Porro Plus,Himalaya,Electronics,Narang Inc,Jehanabad,147,4,28,30,5,29,2024-01-01
+1685,Iusto Plus,Godrej,Home,"Borde, Sarraf and Doshi",Guntakal,168,10,70,54,2,15,2024-01-01
+1686,Occaecati Plus,Tata,Grocery,Kannan Inc,Imphal,133,8,56,77,9,14,2024-01-01
+1687,Eos X,Philips,Apparel,Parmer PLC,Pali,141,2,14,63,8,47,2024-01-01
+1688,Quibusdam X,Philips,Electronics,"Guha, Sawhney and Kala",Bareilly,134,11,77,36,7,11,2024-01-01
+1689,Rerum Pro,Amul,Electronics,"Zachariah, Sastry and Lala",Kalyan-Dombivli,64,16,112,82,3,3,2024-01-01
+1690,Quidem X,Nike,Apparel,De LLC,Barasat,300,13,91,71,3,21,2024-01-01
+1691,Quibusdam X,Himalaya,Electronics,Sabharwal-Karnik,Shimoga,218,22,154,85,10,9,2024-01-01
+1692,Voluptate Plus,Godrej,Electronics,Mahajan-Vaidya,Bhatpara,278,1,7,86,1,139,2024-01-01
+1693,Dignissimos Elite,Amul,Home,Koshy PLC,Dharmavaram,443,8,56,59,7,49,2024-01-01
+1694,Pariatur X,Amul,Apparel,Grewal-Bawa,Bhiwandi,489,4,28,29,7,97,2024-01-01
+1695,Numquam Pro,Tata,Grocery,"Chada, Mahajan and Bhavsar",Ulhasnagar,48,17,119,47,9,2,2024-01-01
+1696,Magni Pro,Samsung,Home,Dar PLC,Amravati,391,0,0,87,3,391,2024-01-01
+1697,Facilis Plus,Sony,Home,Sethi Group,Begusarai,208,8,56,38,8,23,2024-01-01
+1698,Quo Plus,Puma,Beauty,Deshmukh Group,Sambhal,106,12,84,67,5,8,2024-01-01
+1699,Dolorem Plus,Godrej,Beauty,"Banik, Uppal and Chatterjee",Ratlam,229,6,42,85,5,32,2024-01-01
+1700,Quisquam Plus,Amul,Apparel,"Oommen, Arya and Kamdar",Ghaziabad,280,14,98,33,3,18,2024-01-01
+1701,Placeat X,Puma,Home,"Walla, Luthra and Nagarajan",Bettiah,97,18,126,43,8,5,2024-01-01
+1702,Mollitia Pro,Nike,Electronics,Srinivasan LLC,Jalgaon,277,2,14,46,9,92,2024-01-01
+1703,Provident Pro,Nike,Grocery,Ahuja-Uppal,Jaunpur,93,10,70,25,8,8,2024-01-01
+1704,Laboriosam Max,LG,Apparel,Balasubramanian Ltd,Avadi,479,5,35,57,7,79,2024-01-01
+1705,Voluptatibus X,Godrej,Apparel,Rege PLC,Vellore,485,15,105,61,7,30,2024-01-01
+1706,Enim X,Amul,Home,Loyal Ltd,Ambarnath,254,22,154,89,4,11,2024-01-01
+1707,Beatae Pro,Philips,Home,Goyal Group,Medininagar,476,14,98,61,2,31,2024-01-01
+1708,Odit Max,Puma,Beauty,"Soni, Cherian and Sagar",Dehri,123,6,42,58,1,17,2024-01-01
+1709,Rerum Elite,Godrej,Home,"Lad, Purohit and Saha",Kadapa,28,23,161,68,7,1,2024-01-01
+1710,At Elite,Samsung,Grocery,Chandra Ltd,Rohtak,226,20,140,22,5,10,2024-01-01
+1711,Dolorem Pro,Godrej,Apparel,Mani Inc,Kishanganj,423,14,98,59,9,28,2024-01-01
+1712,Aut Max,Amul,Beauty,Patel PLC,Bettiah,262,25,175,97,6,10,2024-01-01
+1713,Ipsum Plus,Puma,Apparel,Thakkar-Chowdhury,Kakinada,291,13,91,82,8,20,2024-01-01
+1714,Alias Plus,LG,Grocery,"Kumar, Basu and Sule",Muzaffarnagar,159,16,112,69,7,9,2024-01-01
+1715,Quaerat Plus,Sony,Electronics,Raman and Sons,Imphal,122,14,98,90,2,8,2024-01-01
+1716,Laborum Plus,Tata,Beauty,"Kara, Kara and Taneja",Baranagar,152,14,98,68,6,10,2024-01-01
+1717,Placeat Pro,Amul,Electronics,Bath Group,Bhalswa Jahangir Pur,162,3,21,38,3,40,2024-01-01
+1718,Provident X,Nike,Beauty,"Kibe, Mallick and Chaudhry",Rajkot,57,6,42,22,5,8,2024-01-01
+1719,Voluptates Plus,Nike,Apparel,Sangha Ltd,Gangtok,421,8,56,58,2,46,2024-01-01
+1720,Debitis X,LG,Grocery,Bava-Ramesh,Bijapur,106,17,119,83,10,5,2024-01-01
+1721,Alias Max,Himalaya,Apparel,"Luthra, Prashad and Parsa",Patiala,349,4,28,98,5,69,2024-01-01
+1722,Vero Elite,Amul,Electronics,Jani-Tailor,Parbhani,250,2,14,61,10,83,2024-01-01
+1723,Suscipit Pro,Tata,Electronics,"Prakash, Chada and Mahajan",Davanagere,376,15,105,46,8,23,2024-01-01
+1724,Tempora Pro,Himalaya,Beauty,"Sarma, Dave and Rastogi",Dehradun,174,1,7,35,3,87,2024-01-01
+1725,Rem Plus,Nike,Beauty,"Varkey, Chada and Das",Anantapur,407,11,77,43,9,33,2024-01-01
+1726,Ullam X,Himalaya,Grocery,Arya PLC,Kollam,76,4,28,93,5,15,2024-01-01
+1727,Explicabo Plus,Nike,Grocery,"Pandey, Khatri and Goyal",Amritsar,411,5,35,65,1,68,2024-01-01
+1728,Adipisci Elite,Amul,Apparel,"Shenoy, Raghavan and Sane",Bihar Sharif,140,14,98,87,1,9,2024-01-01
+1729,Mollitia X,Nike,Grocery,Karpe and Sons,Bongaigaon,203,24,168,59,1,8,2024-01-01
+1730,At X,Puma,Apparel,Bava-Rau,Mumbai,372,19,133,35,9,18,2024-01-01
+1731,Doloremque Pro,Godrej,Beauty,Jayaraman-Tara,Hajipur,303,12,84,50,7,23,2024-01-01
+1732,Ea Max,Samsung,Beauty,Seth LLC,Gopalpur,421,19,133,53,1,21,2024-01-01
+1733,Temporibus Elite,Himalaya,Electronics,Arya-Prakash,Bhubaneswar,473,1,7,83,2,236,2024-01-01
+1734,Hic X,Tata,Home,Chatterjee Ltd,Yamunanagar,319,8,56,63,3,35,2024-01-01
+1735,Quia X,Puma,Home,Kant-Mani,Bilaspur,368,15,105,37,8,23,2024-01-01
+1736,Animi Elite,Samsung,Grocery,Luthra Inc,Guntur,171,2,14,97,6,57,2024-01-01
+1737,In Elite,Sony,Beauty,Nagy Inc,Rajpur Sonarpur,98,12,84,70,1,7,2024-01-01
+1738,Ipsam Plus,Tata,Beauty,Bhakta-Naidu,Karimnagar,85,18,126,93,5,4,2024-01-01
+1739,Reiciendis X,Himalaya,Beauty,"Kurian, Bumb and Balay",Salem,318,15,105,84,1,19,2024-01-01
+1740,Eligendi Elite,Himalaya,Beauty,Chaudhuri LLC,Nadiad,410,4,28,84,5,82,2024-01-01
+1741,Fugiat Max,Philips,Electronics,"Sahni, Kumar and Hayre",Aurangabad,429,9,63,62,3,42,2024-01-01
+1742,Excepturi Elite,Amul,Electronics,"Hans, Amble and Bains",Panipat,260,16,112,51,4,15,2024-01-01
+1743,Asperiores X,Puma,Grocery,"Mitra, Mutti and Peri",Ballia,255,4,28,24,8,51,2024-01-01
+1744,Quaerat Elite,Puma,Grocery,"Dutt, Manda and Shroff",Jaunpur,146,14,98,65,1,9,2024-01-01
+1745,Voluptatum Elite,LG,Beauty,Dutta-Ranganathan,Guntur,46,22,154,98,10,2,2024-01-01
+1746,Debitis Pro,Samsung,Beauty,Lad-Kala,Kakinada,310,2,14,90,10,103,2024-01-01
+1747,Aperiam Plus,Puma,Apparel,"Bera, Chand and Sura",Lucknow,107,7,49,39,7,13,2024-01-01
+1748,Ratione X,Samsung,Electronics,"Bali, Varty and Chahal",Jalandhar,42,22,154,82,10,1,2024-01-01
+1749,Ut Max,Puma,Grocery,Dash-Muni,Phusro,289,10,70,73,7,26,2024-01-01
+1750,Perspiciatis Elite,Samsung,Electronics,Bumb LLC,Jorhat,471,5,35,21,7,78,2024-01-01
+1751,Veritatis Elite,Philips,Electronics,"Issac, Agate and Chahal",Kurnool,228,2,14,39,1,76,2024-01-01
+1752,Sed X,Sony,Electronics,Mutti Ltd,Vellore,328,2,14,82,7,109,2024-01-01
+1753,Quo X,Nike,Electronics,Bhatia-Bains,Aizawl,275,17,119,59,7,15,2024-01-01
+1754,Exercitationem Max,Nike,Home,Grewal-Malhotra,Pune,477,2,14,96,3,159,2024-01-01
+1755,Odit Elite,Amul,Apparel,Prakash-Jayaraman,Madanapalle,112,9,63,99,2,11,2024-01-01
+1756,Consequatur Max,Puma,Electronics,"Kumer, Mohanty and Gour",Bahraich,469,7,49,75,8,58,2024-01-01
+1757,Magnam Plus,Himalaya,Home,"Sharaf, Bora and Contractor",Coimbatore,101,8,56,55,5,11,2024-01-01
+1758,Deserunt Elite,Godrej,Electronics,Chand-Kari,Ujjain,288,19,133,45,10,14,2024-01-01
+1759,Voluptatem Pro,Sony,Beauty,Nagi-Aurora,Sri Ganganagar,111,0,0,40,10,111,2024-01-01
+1760,Exercitationem Max,Himalaya,Home,Bora and Sons,Srikakulam,177,2,14,74,5,59,2024-01-01
+1761,Delectus Max,Puma,Beauty,Prakash and Sons,Alwar,224,9,63,89,10,22,2024-01-01
+1762,Voluptas Plus,Puma,Electronics,Shetty LLC,Bhalswa Jahangir Pur,282,7,49,20,7,35,2024-01-01
+1763,Reprehenderit Max,Nike,Grocery,"Chahal, Hayre and Ghose",Sasaram,319,12,84,61,1,24,2024-01-01
+1764,Maxime X,Samsung,Beauty,"Chaudhuri, Kale and Rana",Bangalore,207,14,98,60,10,13,2024-01-01
+1765,Praesentium Plus,Samsung,Grocery,Sharma Ltd,Fatehpur,481,0,0,35,10,481,2024-01-01
+1766,Quisquam Pro,Himalaya,Apparel,"Kata, Oommen and Babu",Patiala,264,13,91,50,7,18,2024-01-01
+1767,Sint Elite,Nike,Grocery,Chopra Inc,Coimbatore,303,26,182,29,8,11,2024-01-01
+1768,Porro Elite,Nike,Grocery,Ravi PLC,Chandrapur,221,10,70,86,8,20,2024-01-01
+1769,Maxime Plus,Godrej,Apparel,Bajwa-Nayak,Alappuzha,265,2,14,83,8,88,2024-01-01
+1770,Sed X,Puma,Beauty,"Chakrabarti, Baral and Tandon",Bareilly,431,11,77,67,1,35,2024-01-01
+1771,Voluptatum Plus,Samsung,Apparel,Bala-Bumb,Gaya,102,14,98,25,5,6,2024-01-01
+1772,Enim Pro,Himalaya,Grocery,"Pai, Khurana and Seshadri",Thane,415,5,35,60,7,69,2024-01-01
+1773,Quibusdam Elite,Godrej,Home,Nagy-Bala,Srikakulam,220,0,0,100,1,220,2024-01-01
+1774,Molestiae Max,Himalaya,Home,"Ahluwalia, Krishnan and Borah",Pallavaram,314,9,63,83,8,31,2024-01-01
+1775,Rem Pro,Tata,Grocery,"Wason, Jhaveri and Deo",Bidhannagar,160,7,49,29,10,20,2024-01-01
+1776,Rem Pro,Tata,Home,Sharaf Group,Hyderabad,130,15,105,57,1,8,2024-01-01
+1777,Nobis Plus,Amul,Electronics,Sachdeva-Mani,Rajkot,418,8,56,22,6,46,2024-01-01
+1778,Illum Max,LG,Apparel,Shan LLC,Raipur,245,20,140,21,5,11,2024-01-01
+1779,Eaque X,Sony,Grocery,Gokhale-Shah,Anantapur,400,15,105,40,3,25,2024-01-01
+1780,Hic Plus,Sony,Grocery,"Nazareth, Iyer and Bali",Ajmer,164,7,49,61,1,20,2024-01-01
+1781,Officiis Plus,Himalaya,Grocery,Kibe-Behl,Arrah,62,12,84,21,8,4,2024-01-01
+1782,Excepturi Plus,Himalaya,Electronics,"Ramaswamy, Bajaj and Goda",Korba,464,15,105,93,9,29,2024-01-01
+1783,Deserunt Plus,Tata,Home,"Dar, Thakkar and Mody",Hazaribagh,303,19,133,51,2,15,2024-01-01
+1784,Dolore Elite,Samsung,Apparel,Merchant Ltd,Raichur,480,9,63,87,6,48,2024-01-01
+1785,Odio Max,Amul,Apparel,Deshpande PLC,Shimla,250,13,91,28,8,17,2024-01-01
+1786,Perspiciatis Elite,Sony,Home,Nath-Khosla,Srinagar,108,4,28,44,7,21,2024-01-01
+1787,Error Max,LG,Apparel,"Sengupta, Gade and Majumdar",Hindupur,434,1,7,82,8,217,2024-01-01
+1788,Sapiente Elite,Tata,Electronics,Date-Kulkarni,Rajahmundry,282,10,70,42,7,25,2024-01-01
+1789,Placeat X,Philips,Beauty,"Dass, Sharaf and Rao",Kadapa,395,3,21,88,4,98,2024-01-01
+1790,Dolorum Max,Sony,Home,"Deshpande, De and Trivedi",Bhiwandi,491,1,7,64,9,245,2024-01-01
+1791,Error Pro,Puma,Electronics,Sandal-Pant,Berhampore,94,31,217,79,6,2,2024-01-01
+1792,Quis Pro,Sony,Grocery,Singh-Bail,Medininagar,216,12,84,29,3,16,2024-01-01
+1793,At X,Puma,Electronics,Iyer-Narayanan,Gandhidham,272,3,21,38,1,68,2024-01-01
+1794,Eum X,Godrej,Grocery,Varkey-Rastogi,Junagadh,173,6,42,51,1,24,2024-01-01
+1795,Eveniet Elite,Sony,Grocery,"Thaker, Anne and Panchal",Nagercoil,376,7,49,78,9,47,2024-01-01
+1796,Sequi Pro,Philips,Apparel,"Shan, Memon and Sehgal",Etawah,86,13,91,93,2,6,2024-01-01
+1797,Animi Pro,Nike,Apparel,Dutta Group,Bhusawal,263,14,98,58,9,17,2024-01-01
+1798,Voluptate Plus,Samsung,Apparel,Viswanathan-Goyal,Tiruchirappalli,477,17,119,92,8,26,2024-01-01
+1799,Maxime Max,Himalaya,Electronics,Bava-Barad,Sambalpur,82,9,63,46,9,8,2024-01-01
+1800,Explicabo Max,Amul,Electronics,Sura-Lanka,Begusarai,380,16,112,83,6,22,2024-01-01
+1801,Inventore Max,LG,Grocery,Roy and Sons,Jamalpur,65,17,119,68,2,3,2024-01-01
+1802,Deleniti Elite,Philips,Grocery,Ahluwalia-Bath,Junagadh,161,4,28,40,1,32,2024-01-01
+1803,Voluptates Plus,Amul,Apparel,Ghose PLC,Secunderabad,88,4,28,64,7,17,2024-01-01
+1804,Harum Elite,Nike,Grocery,Chakrabarti-Khalsa,Tadepalligudem,413,14,98,34,10,27,2024-01-01
+1805,Officia Elite,Amul,Apparel,Yohannan LLC,Jamnagar,486,3,21,80,9,121,2024-01-01
+1806,Quibusdam Elite,LG,Home,Kulkarni-Choudhry,Orai,341,16,112,52,2,20,2024-01-01
+1807,Excepturi Pro,Philips,Electronics,"Karpe, Kannan and Choudhury",Karimnagar,345,12,84,79,5,26,2024-01-01
+1808,Quidem Pro,Nike,Grocery,Dhar Inc,Kishanganj,202,20,140,96,8,9,2024-01-01
+1809,Enim Plus,Godrej,Beauty,"Kaul, Sastry and Rastogi",Alwar,341,13,91,23,6,24,2024-01-01
+1810,Exercitationem Pro,Himalaya,Electronics,"Ramesh, Lall and Bhatnagar",Adoni,179,5,35,57,3,29,2024-01-01
+1811,Veniam X,Amul,Apparel,Rattan and Sons,Katihar,442,11,77,63,7,36,2024-01-01
+1812,Quidem Pro,LG,Electronics,"Ganguly, Patel and Pandit",Gulbarga,219,0,0,51,2,219,2024-01-01
+1813,Itaque Max,Sony,Beauty,Mann-Wali,Sangli-Miraj & Kupwad,248,7,49,76,3,31,2024-01-01
+1814,Cupiditate Pro,LG,Home,Ratti-Ahuja,Thiruvananthapuram,179,10,70,22,8,16,2024-01-01
+1815,Quasi X,Philips,Home,"Buch, Naidu and Shanker",Surat,76,3,21,82,9,19,2024-01-01
+1816,Laudantium Pro,Puma,Home,Yadav and Sons,Gurgaon,79,2,14,60,3,26,2024-01-01
+1817,Accusamus Max,LG,Grocery,Viswanathan-Viswanathan,Amaravati,159,0,0,71,5,159,2024-01-01
+1818,Placeat Max,Himalaya,Beauty,Dara LLC,Dhule,457,23,161,74,7,19,2024-01-01
+1819,Laudantium Elite,Nike,Apparel,Ganesh-Murthy,Amroha,61,4,28,33,10,12,2024-01-01
+1820,Sint Max,Tata,Beauty,Manda-Dara,Sasaram,187,1,7,52,7,93,2024-01-01
+1821,Explicabo Elite,Himalaya,Grocery,Vala-Minhas,Jamnagar,188,19,133,75,7,9,2024-01-01
+1822,Et Pro,Tata,Electronics,Dhar and Sons,Gwalior,241,11,77,45,8,20,2024-01-01
+1823,Rem Max,Nike,Beauty,Nayar-Thaker,Amravati,263,4,28,91,1,52,2024-01-01
+1824,Minus Pro,Godrej,Grocery,"Bhatnagar, Bera and Bhakta",Parbhani,399,2,14,70,10,133,2024-01-01
+1825,Inventore Plus,Amul,Grocery,Kapur LLC,Kottayam,491,6,42,68,1,70,2024-01-01
+1826,Earum Max,Tata,Grocery,Prashad-Dugal,Ichalkaranji,493,1,7,59,2,246,2024-01-01
+1827,Itaque Pro,Samsung,Apparel,Upadhyay Ltd,Bijapur,357,11,77,81,10,29,2024-01-01
+1828,Alias Plus,Tata,Electronics,Balakrishnan Ltd,Bhopal,212,1,7,29,6,106,2024-01-01
+1829,Assumenda Max,Sony,Electronics,"Pillai, Pandit and Doctor",Chennai,319,10,70,78,1,29,2024-01-01
+1830,Pariatur X,Samsung,Electronics,"Iyengar, Majumdar and Sahota",Anantapuram,218,13,91,44,9,15,2024-01-01
+1831,Recusandae Elite,Himalaya,Apparel,"Kothari, Acharya and Halder",Raiganj,343,16,112,60,6,20,2024-01-01
+1832,Facilis Max,Nike,Home,"Yogi, Johal and Tata",Dewas,124,27,189,75,3,4,2024-01-01
+1833,Autem Plus,Amul,Electronics,"Kunda, Ahluwalia and Mishra",Bikaner,126,13,91,42,8,9,2024-01-01
+1834,Labore X,Amul,Home,"Tella, Barman and Buch",Pali,124,17,119,25,7,6,2024-01-01
+1835,Nulla Plus,Puma,Apparel,"Vasa, Memon and Warrior",Kalyan-Dombivli,251,1,7,66,6,125,2024-01-01
+1836,Sint Plus,Sony,Beauty,Chaudhry Group,Kharagpur,350,32,224,87,7,10,2024-01-01
+1837,Provident X,Philips,Apparel,"Mallick, Tara and Pandey",Hosur,92,9,63,93,7,9,2024-01-01
+1838,Pariatur Max,Himalaya,Beauty,Shukla Inc,Giridih,234,0,0,64,2,234,2024-01-01
+1839,At Pro,Amul,Apparel,"Talwar, Divan and Nagi",Dhanbad,62,12,84,58,7,4,2024-01-01
+1840,At Max,Tata,Grocery,"Sha, Pant and Cheema",Tenali,415,3,21,59,9,103,2024-01-01
+1841,Consequatur Pro,Nike,Apparel,"Panchal, Toor and Ramachandran",Deoghar,287,21,147,25,1,13,2024-01-01
+1842,Dolore Plus,LG,Apparel,"Goel, Parmer and Nagar",Karimnagar,255,22,154,62,8,11,2024-01-01
+1843,Ipsam Pro,Nike,Home,Purohit-Bora,Raebareli,90,1,7,32,8,45,2024-01-01
+1844,Libero Elite,Nike,Grocery,Gera-Doctor,Srinagar,33,26,182,80,1,1,2024-01-01
+1845,Voluptatibus X,Philips,Apparel,Anand-Sawhney,Jodhpur,230,5,35,96,4,38,2024-01-01
+1846,Sed Elite,Godrej,Grocery,Verma-Sarkar,Tinsukia,486,3,21,33,9,121,2024-01-01
+1847,Laudantium Max,Amul,Grocery,Atwal-Shan,Tezpur,375,3,21,45,7,93,2024-01-01
+1848,Veritatis Plus,Puma,Electronics,"Tandon, Thaker and Dash",Purnia,477,3,21,94,1,119,2024-01-01
+1849,In Elite,Tata,Grocery,Iyengar-Bhandari,Tumkur,272,8,56,23,7,30,2024-01-01
+1850,Possimus Elite,Puma,Home,Rajagopal-Mitter,Shimla,322,10,70,80,4,29,2024-01-01
+1851,Distinctio Pro,Amul,Grocery,"Goel, Chhabra and Parekh",Aizawl,376,1,7,81,5,188,2024-01-01
+1852,Neque X,Samsung,Home,"Dyal, Pandit and Narain",Bhatpara,151,7,49,36,8,18,2024-01-01
+1853,Commodi X,Philips,Grocery,"Dixit, Kadakia and Parmar",Udupi,250,16,112,79,2,14,2024-01-01
+1854,Hic Plus,Philips,Apparel,"Mahal, Deol and Bera",Buxar,78,7,49,58,4,9,2024-01-01
+1855,Dolores Elite,Himalaya,Beauty,"Kant, Sood and Ratti",Deoghar,475,14,98,45,8,31,2024-01-01
+1856,Exercitationem Max,Sony,Grocery,Das-Prabhakar,Guntakal,201,2,14,97,7,67,2024-01-01
+1857,Commodi Pro,Tata,Beauty,Anand-Malhotra,Jehanabad,194,18,126,27,1,10,2024-01-01
+1858,Error Pro,Amul,Beauty,"Keer, Dash and Halder",Korba,59,2,14,62,3,19,2024-01-01
+1859,Quos Max,Himalaya,Beauty,Bhat and Sons,Arrah,451,2,14,54,7,150,2024-01-01
+1860,Saepe Plus,Godrej,Beauty,Rama PLC,Chennai,315,16,112,25,7,18,2024-01-01
+1861,Omnis Max,Godrej,Electronics,Raju-Vora,Deoghar,91,4,28,72,1,18,2024-01-01
+1862,Consectetur Max,Puma,Electronics,Srinivas-Dada,Yamunanagar,148,10,70,60,8,13,2024-01-01
+1863,Vero Elite,LG,Home,Talwar and Sons,Serampore,378,10,70,66,10,34,2024-01-01
+1864,Inventore Plus,Godrej,Home,Kale-Viswanathan,Moradabad,117,1,7,20,8,58,2024-01-01
+1865,Odit Pro,Samsung,Apparel,Oommen-Mitter,Jaunpur,162,4,28,87,2,32,2024-01-01
+1866,Optio X,Himalaya,Grocery,Barad PLC,Bathinda,477,1,7,46,8,238,2024-01-01
+1867,Repudiandae Max,Himalaya,Grocery,Choudhary-Dalal,Nagpur,305,5,35,86,10,50,2024-01-01
+1868,Molestiae Pro,Puma,Home,Anne LLC,Dindigul,56,18,126,37,5,2,2024-01-01
+1869,Quod Pro,Philips,Home,Halder Group,Chennai,428,7,49,66,2,53,2024-01-01
+1870,Aliquid Max,Sony,Apparel,Swaminathan Ltd,Kirari Suleman Nagar,278,12,84,38,4,21,2024-01-01
+1871,Aspernatur X,Puma,Home,Bhasin Inc,Chittoor,130,9,63,100,3,13,2024-01-01
+1872,Fugiat Pro,Godrej,Apparel,"Ratti, Salvi and Bobal",Kolhapur,181,5,35,70,6,30,2024-01-01
+1873,Itaque Plus,Tata,Home,Ahluwalia and Sons,Pondicherry,338,1,7,30,2,169,2024-01-01
+1874,Beatae Max,Amul,Beauty,Badami-Menon,Avadi,183,2,14,30,7,61,2024-01-01
+1875,Eum Pro,Puma,Grocery,Devi-Lall,Dhule,200,10,70,66,9,18,2024-01-01
+1876,Dignissimos Pro,Himalaya,Grocery,"Kothari, Bansal and Kapoor",Bhusawal,147,6,42,25,10,21,2024-01-01
+1877,Quia Pro,Nike,Grocery,Koshy-Doctor,Bellary,416,7,49,96,8,52,2024-01-01
+1878,Iste Pro,LG,Beauty,"Jani, Manne and Maharaj",Rohtak,136,21,147,83,5,6,2024-01-01
+1879,Eligendi Max,Samsung,Beauty,Dada Inc,Thoothukudi,382,18,126,87,4,20,2024-01-01
+1880,Rem X,Samsung,Apparel,"Jaggi, Loke and Amble",Kanpur,469,10,70,92,5,42,2024-01-01
+1881,Quo X,Himalaya,Electronics,Soman Ltd,Morena,416,19,133,45,10,20,2024-01-01
+1882,Eum Elite,Puma,Beauty,Butala-Ben,Rajpur Sonarpur,104,10,70,63,3,9,2024-01-01
+1883,Repellendus X,Amul,Grocery,"Shankar, Deshmukh and Baral",Kalyan-Dombivli,392,8,56,62,6,43,2024-01-01
+1884,Nihil X,Philips,Electronics,"Chanda, Bassi and Gill",Mirzapur,116,21,147,86,9,5,2024-01-01
+1885,Vero Pro,Amul,Grocery,Puri-Thakkar,Etawah,204,5,35,48,5,34,2024-01-01
+1886,Voluptatem Pro,LG,Electronics,Bhasin Ltd,Nizamabad,67,2,14,81,2,22,2024-01-01
+1887,Atque X,LG,Electronics,"Savant, Som and Setty",Mangalore,80,7,49,70,1,10,2024-01-01
+1888,Quisquam Max,Sony,Beauty,"Agrawal, Apte and Maharaj",Malda,380,11,77,68,5,31,2024-01-01
+1889,Quidem X,Philips,Electronics,Mutti Ltd,Nadiad,56,14,98,40,7,3,2024-01-01
+1890,Sint Max,Sony,Beauty,Badami-Gade,Thoothukudi,229,9,63,94,6,22,2024-01-01
+1891,Corporis X,Godrej,Beauty,Biswas-Taneja,Solapur,462,14,98,37,7,30,2024-01-01
+1892,Suscipit Plus,Amul,Beauty,Bali-Handa,Malegaon,181,17,119,45,10,10,2024-01-01
+1893,Beatae Plus,Tata,Apparel,Krishnan-Luthra,Varanasi,270,3,21,68,7,67,2024-01-01
+1894,Quos Plus,Godrej,Apparel,Chandra-Thakkar,Aizawl,372,12,84,44,7,28,2024-01-01
+1895,Quod Elite,Amul,Electronics,"Contractor, Kamdar and Pathak",Bharatpur,59,9,63,76,8,5,2024-01-01
+1896,Harum Max,Philips,Home,Vala LLC,Surat,390,13,91,52,4,27,2024-01-01
+1897,Voluptate Pro,Sony,Electronics,Bali LLC,Panchkula,108,3,21,64,3,27,2024-01-01
+1898,Debitis Max,Himalaya,Beauty,Parmer-Kala,Bhalswa Jahangir Pur,338,7,49,92,4,42,2024-01-01
+1899,Vitae X,Godrej,Home,Brar-Edwin,Danapur,69,2,14,78,5,23,2024-01-01
+1900,Explicabo X,Samsung,Beauty,Raghavan-Korpal,Anantapur,333,10,70,55,9,30,2024-01-01
+1901,Occaecati Max,Amul,Home,"Bail, Barad and Sankaran",Erode,370,2,14,66,7,123,2024-01-01
+1902,Tempora Pro,Samsung,Beauty,Das-Ahluwalia,Anand,177,9,63,64,6,17,2024-01-01
+1903,Repudiandae Plus,Amul,Grocery,Kumer and Sons,Raiganj,238,10,70,36,2,21,2024-01-01
+1904,Sequi Plus,Sony,Beauty,Agate-Baral,Mira-Bhayandar,373,20,140,49,10,17,2024-01-01
+1905,Officiis X,Himalaya,Electronics,Basak and Sons,Madhyamgram,229,25,175,77,4,8,2024-01-01
+1906,Distinctio Plus,Amul,Apparel,Issac-Bhardwaj,Anantapur,272,1,7,75,2,136,2024-01-01
+1907,Asperiores Plus,Philips,Apparel,Gaba-Chandran,Bangalore,136,3,21,26,7,34,2024-01-01
+1908,Fugiat X,Godrej,Home,Chopra-Choudhry,Sangli-Miraj & Kupwad,273,11,77,55,3,22,2024-01-01
+1909,Earum X,Himalaya,Beauty,"Purohit, Parekh and Boase",Bhavnagar,250,24,168,48,1,10,2024-01-01
+1910,Pariatur Elite,Philips,Apparel,Rajagopal-Lad,Uluberia,397,5,35,49,2,66,2024-01-01
+1911,Esse X,Nike,Home,Pillai-Barad,Srikakulam,235,1,7,95,3,117,2024-01-01
+1912,Optio X,Sony,Electronics,Magar-Majumdar,Sambalpur,236,6,42,99,4,33,2024-01-01
+1913,Asperiores Elite,Himalaya,Apparel,Mahajan PLC,Bidar,297,5,35,77,7,49,2024-01-01
+1914,Voluptatem Max,Amul,Grocery,Sarma-Ranganathan,Kolkata,309,12,84,69,4,23,2024-01-01
+1915,Sit Elite,Sony,Home,Kari-Balakrishnan,Berhampore,171,5,35,47,9,28,2024-01-01
+1916,Accusamus X,Nike,Grocery,"Varghese, Dugar and Seth",Mathura,382,7,49,71,8,47,2024-01-01
+1917,Placeat Plus,Samsung,Beauty,Sampath-Sibal,Bhavnagar,282,18,126,30,3,14,2024-01-01
+1918,Id Plus,Amul,Apparel,Pathak and Sons,Raiganj,427,12,84,71,7,32,2024-01-01
+1919,Nostrum Max,Himalaya,Home,"Anne, Ghose and Ram",Berhampore,303,9,63,42,6,30,2024-01-01
+1920,Aut Plus,Nike,Electronics,Sarkar-Kakar,Khandwa,108,2,14,60,4,36,2024-01-01
+1921,Explicabo Elite,Philips,Beauty,Halder Group,Loni,276,6,42,31,1,39,2024-01-01
+1922,Optio Pro,Tata,Apparel,Mallick-Dash,Kolhapur,430,6,42,78,1,61,2024-01-01
+1923,Consequatur X,Godrej,Beauty,"Batta, Kade and Dixit",Erode,414,2,14,49,6,138,2024-01-01
+1924,Facilis Elite,Tata,Grocery,"Varma, Mangat and Mangal",Nandyal,340,20,140,74,9,16,2024-01-01
+1925,Minus Plus,Samsung,Home,"Shukla, Rajagopal and Bandi",Srikakulam,493,3,21,64,2,123,2024-01-01
+1926,Vel Max,Tata,Home,"Konda, Datta and Kalla",Davanagere,275,12,84,71,2,21,2024-01-01
+1927,Explicabo Elite,Amul,Apparel,Sagar-Natarajan,Bijapur,125,19,133,52,6,6,2024-01-01
+1928,Et Pro,Nike,Electronics,Butala Group,Sikar,367,4,28,44,5,73,2024-01-01
+1929,Voluptas X,Samsung,Apparel,Sodhi-Bhattacharyya,Belgaum,354,3,21,48,9,88,2024-01-01
+1930,Earum Elite,Godrej,Beauty,"Sampath, Mahajan and Randhawa",Mangalore,345,9,63,78,3,34,2024-01-01
+1931,Odio X,LG,Beauty,Sengupta Group,Pali,211,13,91,47,10,15,2024-01-01
+1932,Rerum X,Nike,Grocery,"De, Agate and Borra",Tezpur,173,8,56,31,3,19,2024-01-01
+1933,Ad X,Samsung,Home,"Ramaswamy, Seth and Amble",Thoothukudi,69,15,105,34,4,4,2024-01-01
+1934,Expedita Plus,Samsung,Apparel,"Raja, Deep and Pandya",Saharanpur,269,15,105,71,10,16,2024-01-01
+1935,Vitae Elite,Puma,Grocery,Bhattacharyya Ltd,Rampur,365,10,70,23,1,33,2024-01-01
+1936,Iste Elite,Puma,Grocery,Gala PLC,Hubli–Dharwad,121,4,28,66,4,24,2024-01-01
+1937,Doloremque Pro,Sony,Grocery,Bhatia-Dube,Deoghar,418,1,7,85,1,209,2024-01-01
+1938,Sint Elite,Puma,Electronics,"Saraf, Rout and Deshmukh",Amravati,418,10,70,79,1,38,2024-01-01
+1939,Voluptate Pro,Himalaya,Apparel,Mittal-Choudhry,Kakinada,256,5,35,25,2,42,2024-01-01
+1940,Magni Elite,Puma,Apparel,Bahri-Mahal,Bilaspur,390,17,119,71,5,21,2024-01-01
+1941,Repellendus Elite,Tata,Beauty,Raval LLC,Meerut,363,5,35,60,7,60,2024-01-01
+1942,Consequatur X,Puma,Home,Mangat-Bhagat,Imphal,300,14,98,90,5,20,2024-01-01
+1943,Maiores X,Tata,Electronics,Warrior Ltd,Silchar,404,8,56,57,5,44,2024-01-01
+1944,Iste Plus,Himalaya,Home,Yohannan-Bajwa,Yamunanagar,154,22,154,99,7,6,2024-01-01
+1945,Magnam X,Sony,Home,Sarraf-Chhabra,Ludhiana,157,6,42,25,6,22,2024-01-01
+1946,Corporis Elite,LG,Grocery,"Sheth, Kannan and Gopal",Srinagar,189,1,7,85,3,94,2024-01-01
+1947,Eligendi X,Nike,Electronics,Shankar-Kurian,Karimnagar,385,6,42,49,2,55,2024-01-01
+1948,Necessitatibus Plus,Himalaya,Home,"Sarin, Sood and Balasubramanian",Agartala,124,9,63,50,7,12,2024-01-01
+1949,Quam Elite,Puma,Grocery,"Patla, Pandit and Patla",Madanapalle,418,12,84,53,8,32,2024-01-01
+1950,Explicabo Elite,Tata,Home,Dugal PLC,Bahraich,138,13,91,26,9,9,2024-01-01
+1951,Sit Elite,Amul,Home,Krishnan PLC,Arrah,180,5,35,43,8,30,2024-01-01
+1952,Consequuntur Plus,Godrej,Home,Wason PLC,Suryapet,185,2,14,27,7,61,2024-01-01
+1953,Quia X,LG,Electronics,Chawla and Sons,Buxar,233,20,140,40,7,11,2024-01-01
+1954,Quibusdam Pro,Sony,Grocery,Basak Ltd,Karimnagar,322,10,70,56,9,29,2024-01-01
+1955,Explicabo X,LG,Beauty,Kaur Ltd,Faridabad,477,5,35,98,4,79,2024-01-01
+1956,Architecto Plus,Godrej,Home,"Ganesh, Shetty and Bajwa",Hazaribagh,336,17,119,77,4,18,2024-01-01
+1957,Ipsam X,Tata,Apparel,Halder PLC,Morbi,225,0,0,59,1,225,2024-01-01
+1958,Numquam Elite,Sony,Beauty,"Issac, Chadha and Hora",Muzaffarpur,103,9,63,72,10,10,2024-01-01
+1959,Cum X,Godrej,Beauty,Chandra Inc,Visakhapatnam,189,13,91,54,4,13,2024-01-01
+1960,Excepturi Elite,Godrej,Grocery,Gopal LLC,Kanpur,309,12,84,65,4,23,2024-01-01
+1961,A Plus,Philips,Beauty,Bala-Bains,Chandigarh,231,17,119,90,2,12,2024-01-01
+1962,Deserunt Elite,Tata,Apparel,Palan LLC,Tadepalligudem,323,20,140,90,2,15,2024-01-01
+1963,Iste Plus,Philips,Home,Prasad LLC,Motihari,143,7,49,67,9,17,2024-01-01
+1964,Doloribus Elite,Godrej,Grocery,Varkey-Kale,Burhanpur,265,30,210,75,8,8,2024-01-01
+1965,Odio Plus,Sony,Grocery,Ahuja Ltd,Meerut,87,17,119,47,9,4,2024-01-01
+1966,Ut Plus,Tata,Apparel,Bhagat PLC,Gulbarga,206,13,91,46,5,14,2024-01-01
+1967,Tempore Elite,Philips,Grocery,"Sabharwal, Tripathi and Sidhu",Gwalior,427,15,105,42,7,26,2024-01-01
+1968,Officia Elite,Sony,Beauty,Shukla Ltd,Thoothukudi,138,19,133,62,5,6,2024-01-01
+1969,Vitae Max,Sony,Home,Mammen-Nazareth,Darbhanga,369,4,28,86,3,73,2024-01-01
+1970,Fugiat Elite,Godrej,Apparel,"Trivedi, Rege and Kala",Naihati,246,1,7,89,10,123,2024-01-01
+1971,Explicabo Plus,LG,Apparel,Singhal-Chandra,Tadipatri,148,2,14,63,1,49,2024-01-01
+1972,Nesciunt Max,Tata,Electronics,Doshi Inc,Mangalore,381,8,56,26,10,42,2024-01-01
+1973,Dolores Plus,Philips,Grocery,Dada-D’Alia,Pudukkottai,360,0,0,33,5,360,2024-01-01
+1974,Fugit X,Philips,Beauty,Malhotra-Shetty,Tirunelveli,428,1,7,75,6,214,2024-01-01
+1975,Commodi Pro,Nike,Electronics,Seth-Jhaveri,Belgaum,176,18,126,23,1,9,2024-01-01
+1976,Adipisci X,Samsung,Home,"Bedi, Golla and Ram",Junagadh,293,20,140,20,4,13,2024-01-01
+1977,Eos X,Puma,Beauty,Tripathi and Sons,Chittoor,238,13,91,53,7,17,2024-01-01
+1978,Eligendi Pro,Nike,Home,"Ray, Baral and Raj",Bettiah,461,3,21,96,3,115,2024-01-01
+1979,Numquam X,Himalaya,Apparel,Radhakrishnan Group,Kamarhati,244,12,84,74,8,18,2024-01-01
+1980,Dolores Pro,Puma,Electronics,Chacko-Venkatesh,Davanagere,287,14,98,59,9,19,2024-01-01
+1981,Maiores X,Godrej,Apparel,Wadhwa Group,Dhanbad,361,8,56,99,6,40,2024-01-01
+1982,Aliquam Plus,Tata,Home,"Dixit, Tak and Mitra",Morena,98,15,105,45,2,6,2024-01-01
+1983,Quibusdam Plus,Samsung,Electronics,"Barman, Tata and Bhatia",Srinagar,124,1,7,53,9,62,2024-01-01
+1984,Beatae Max,Tata,Apparel,"Swaminathan, Walla and Prashad",Tezpur,112,23,161,97,8,4,2024-01-01
+1985,Maxime Elite,LG,Apparel,"Upadhyay, Raman and Parikh",Siliguri,211,22,154,89,6,9,2024-01-01
+1986,Sit Plus,Puma,Beauty,Agrawal-Contractor,Nangloi Jat,168,7,49,67,10,21,2024-01-01
+1987,Atque Max,Philips,Apparel,"Dayal, Kothari and Garde",Thane,278,6,42,91,7,39,2024-01-01
+1988,Corporis X,Tata,Home,Mand Group,Bhimavaram,426,17,119,23,5,23,2024-01-01
+1989,Id Plus,Samsung,Home,"Lalla, Kurian and Balasubramanian",Srikakulam,111,10,70,91,9,10,2024-01-01
+1990,Quae Pro,Puma,Home,"Wadhwa, Bassi and Balasubramanian",Adoni,268,7,49,68,6,33,2024-01-01
+1991,Suscipit Elite,Godrej,Home,"Parmer, Bose and Joshi",Davanagere,81,4,28,80,7,16,2024-01-01
+1992,Rerum Pro,Amul,Electronics,"Oza, Kaul and Manda",Bhimavaram,289,1,7,93,7,144,2024-01-01
+1993,Accusamus Elite,Samsung,Grocery,Krishnan-Palla,Kamarhati,118,4,28,78,9,23,2024-01-01
+1994,Praesentium Pro,Himalaya,Electronics,Venkataraman-Nagar,Haridwar,331,17,119,67,3,18,2024-01-01
+1995,Culpa Elite,LG,Electronics,Chadha-Kunda,Medininagar,202,14,98,58,4,13,2024-01-01
+1996,Odio Elite,Sony,Grocery,Chopra-Khatri,Varanasi,376,21,147,28,4,17,2024-01-01
+1997,Harum X,Godrej,Electronics,Prakash-Wadhwa,Asansol,43,16,112,72,3,2,2024-01-01
+1998,Consequuntur Pro,Godrej,Home,Subramaniam-Bhat,Rampur,175,7,49,72,5,21,2024-01-01
+1999,Amet Pro,Amul,Electronics,"Tak, Madan and Patla",Bihar Sharif,161,3,21,73,7,40,2024-01-01
+2000,Porro Max,Samsung,Grocery,Wable-Memon,Giridih,457,20,140,57,6,21,2024-01-01

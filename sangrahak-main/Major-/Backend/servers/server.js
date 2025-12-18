@@ -2,7 +2,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-require('dotenv').config();
+const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -12,7 +13,13 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection - FIXED SSL/TLS Configuration
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://luckyak619_db_user:luckyak619@cluster0.lcmjwhw.mongodb.net/inventroops?retryWrites=true&w=majority';
+// MongoDB Connection - FIXED SSL/TLS Configuration
+const MONGODB_URI = process.env.MONGODB_URI;
+
+if (!MONGODB_URI) {
+  console.error("❌ Fatal Error: MONGODB_URI is not defined in .env file");
+  process.exit(1);
+}
 
 console.log('🔄 Attempting to connect to MongoDB...');
 
@@ -21,17 +28,17 @@ mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
-.then(() => {
-  console.log('✅ Connected to MongoDB Atlas successfully');
-})
-.catch((err) => {
-  console.error('❌ MongoDB connection error:', err.message);
-  console.log('\n💡 Troubleshooting steps:');
-  console.log('1. Check if your IP is whitelisted in MongoDB Atlas');
-  console.log('2. Verify your username and password');
-  console.log('3. Check your internet connection');
-  console.log('4. Try running: npm install mongodb@5.9.0');
-});
+  .then(() => {
+    console.log('✅ Connected to MongoDB Atlas successfully');
+  })
+  .catch((err) => {
+    console.error('❌ MongoDB connection error:', err.message);
+    console.log('\n💡 Troubleshooting steps:');
+    console.log('1. Check if your IP is whitelisted in MongoDB Atlas');
+    console.log('2. Verify your username and password');
+    console.log('3. Check your internet connection');
+    console.log('4. Try running: npm install mongodb@5.9.0');
+  });
 
 // Connection event listeners
 mongoose.connection.on('connected', () => {
@@ -104,15 +111,30 @@ const productSchema = new mongoose.Schema({
   stock: { type: Number, required: true, default: 0 },
   reorderPoint: { type: Number, required: true, default: 10 },
   supplier: { type: String, required: true },
+  location: { type: String },
   price: { type: Number, required: true },
-  status: { 
-    type: String, 
-    enum: ['in-stock', 'low-stock', 'out-of-stock', 'overstock'], 
-    default: 'in-stock' 
+  status: {
+    type: String,
+    enum: ['in-stock', 'low-stock', 'out-of-stock', 'overstock'],
+    default: 'in-stock'
   },
   lastSoldDate: { type: Date, default: Date.now },
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now }
+});
+
+// Pre-save hook to update status based on stock levels
+productSchema.pre('save', function (next) {
+  if (this.stock === 0) {
+    this.status = 'out-of-stock';
+  } else if (this.stock <= this.reorderPoint) {
+    this.status = 'low-stock';
+  } else if (this.stock > this.reorderPoint * 3) {
+    this.status = 'overstock';
+  } else {
+    this.status = 'in-stock';
+  }
+  next();
 });
 
 // Depot Schema
@@ -122,10 +144,10 @@ const depotSchema = new mongoose.Schema({
   capacity: { type: Number, required: true },
   currentUtilization: { type: Number, default: 0 },
   itemsStored: { type: Number, default: 0 },
-  status: { 
-    type: String, 
-    enum: ['normal', 'warning', 'critical'], 
-    default: 'normal' 
+  status: {
+    type: String,
+    enum: ['normal', 'warning', 'critical'],
+    default: 'normal'
   },
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now }
@@ -133,10 +155,10 @@ const depotSchema = new mongoose.Schema({
 
 // Alert Schema
 const alertSchema = new mongoose.Schema({
-  type: { 
-    type: String, 
-    enum: ['low-stock', 'out-of-stock', 'demand-spike', 'capacity-warning', 'anomaly'], 
-    required: true 
+  type: {
+    type: String,
+    enum: ['low-stock', 'out-of-stock', 'demand-spike', 'capacity-warning', 'anomaly'],
+    required: true
   },
   title: { type: String, required: true },
   description: { type: String, required: true },
@@ -206,7 +228,7 @@ app.get('/api/forecasts', async (req, res) => {
 
     const forecasts = await Forecast.find(query)
       .sort({ [sortBy]: -1 })
-      .limit(parseInt(limit));
+      .limit(Math.min(parseInt(limit), 100));
 
     res.json({
       forecasts: forecasts.map(forecast => ({
@@ -234,12 +256,12 @@ app.get('/api/forecasts', async (req, res) => {
 app.get('/api/forecasts/:identifier', async (req, res) => {
   try {
     const { identifier } = req.params;
-    
+
     let forecast = await Forecast.findOne({ sku: identifier });
     if (!forecast) {
       forecast = await Forecast.findOne({ itemId: identifier });
     }
-    
+
     if (!forecast) {
       return res.status(404).json({ message: 'Forecast not found' });
     }
@@ -267,9 +289,9 @@ app.get('/api/forecasts/:identifier', async (req, res) => {
 app.post('/api/forecasts', async (req, res) => {
   try {
     const { itemId, sku } = req.body;
-    
+
     let forecast = await Forecast.findOne({ $or: [{ itemId }, { sku }] });
-    
+
     if (forecast) {
       Object.assign(forecast, req.body);
       forecast.updatedAt = new Date();
@@ -304,15 +326,15 @@ app.post('/api/forecasts', async (req, res) => {
 app.get('/api/forecasts/analytics/insights', async (req, res) => {
   try {
     const forecasts = await Forecast.find();
-    
-    const highPriorityCount = forecasts.filter(f => 
+
+    const highPriorityCount = forecasts.filter(f =>
       f.priorityPred === 'High' || f.priorityPred === 'Very High'
     ).length;
-    
-    const understockCount = forecasts.filter(f => 
+
+    const understockCount = forecasts.filter(f =>
       f.stockStatusPred === 'Understock'
     ).length;
-    
+
     const avgStockLevel = forecasts.length > 0
       ? forecasts.reduce((sum, f) => sum + f.currentStock, 0) / forecasts.length
       : 0;
@@ -329,7 +351,7 @@ app.get('/api/forecasts/analytics/insights', async (req, res) => {
         name: f.productName,
         currentStock: f.currentStock,
         priority: f.priorityPred,
-        predictedDemand: f.forecastData.length > 0 
+        predictedDemand: f.forecastData.length > 0
           ? Math.round(f.forecastData.reduce((sum, d) => sum + d.predicted, 0))
           : 0
       }));
@@ -379,7 +401,7 @@ app.get('/api/products', async (req, res) => {
     }
 
     const products = await Product.find(query)
-      .limit(limit * 1)
+      .limit(Math.min(limit * 1, 100))
       .skip((page - 1) * limit)
       .sort({ updatedAt: -1 });
 
@@ -410,9 +432,14 @@ app.get('/api/products', async (req, res) => {
 
 app.post('/api/products', async (req, res) => {
   try {
-    const productData = req.body;
-    let product = new Product(productData);
-    product = updateProductStatus(product);
+    // Prevent Mass Assignment - Explicitly select allowed fields
+    const { sku, name, category, stock, reorderPoint, supplier, price } = req.body;
+
+    let product = new Product({
+      sku, name, category, stock, reorderPoint, supplier, price
+    });
+
+    // Status is now handled by pre-save hook
     await product.save();
     await createStockAlert(product);
 
@@ -441,6 +468,75 @@ app.post('/api/products', async (req, res) => {
   }
 });
 
+// Bulk Create Products
+app.post('/api/products/bulk', async (req, res) => {
+  try {
+    const productsData = req.body;
+
+    if (!Array.isArray(productsData)) {
+      return res.status(400).json({ message: 'Input must be an array of products' });
+    }
+
+    const results = {
+      success: 0,
+      failed: 0,
+      errors: []
+    };
+
+    for (const item of productsData) {
+      try {
+        // Basic validation
+        if (!item.sku || !item.name) {
+          throw new Error(`Missing SKU or Name for item: ${JSON.stringify(item)}`);
+        }
+
+        // Check if exists
+        let product = await Product.findOne({ sku: item.sku });
+
+        if (product) {
+          // Update existing
+          product.name = item.name || product.name;
+          product.category = item.category || product.category;
+          product.stock = item.stock !== undefined ? Number(item.stock) : product.stock;
+          product.reorderPoint = item.reorderPoint !== undefined ? Number(item.reorderPoint) : product.reorderPoint;
+          product.supplier = item.supplier || product.supplier;
+          product.location = item.location || product.location;
+          product.price = item.price !== undefined ? Number(item.price) : product.price;
+          product.updatedAt = new Date();
+        } else {
+          // Create new
+          product = new Product({
+            sku: item.sku,
+            name: item.name,
+            category: item.category || 'Uncategorized',
+            stock: Number(item.stock) || 0,
+            reorderPoint: Number(item.reorderPoint) || 10,
+            supplier: item.supplier || 'Unknown',
+            location: item.location || 'Unknown',
+            price: Number(item.price) || 0
+          });
+        }
+
+        await product.save();
+        await createStockAlert(product);
+        results.success++;
+      } catch (err) {
+        results.failed++;
+        results.errors.push({ sku: item.sku, error: err.message });
+      }
+    }
+
+    res.json({
+      message: `Processed ${productsData.length} items`,
+      results
+    });
+
+  } catch (error) {
+    console.error('Error in bulk upload:', error);
+    res.status(500).json({ message: 'Server error during bulk upload', error: error.message });
+  }
+});
+
 app.put('/api/products/:id', async (req, res) => {
   try {
     const product = await Product.findById(req.params.id);
@@ -448,9 +544,19 @@ app.put('/api/products/:id', async (req, res) => {
       return res.status(404).json({ message: 'Product not found' });
     }
 
-    Object.assign(product, req.body);
+    // Prevent Mass Assignment - Explicitly update allowed fields
+    const { sku, name, category, stock, reorderPoint, supplier, price } = req.body;
+
+    if (sku) product.sku = sku;
+    if (name) product.name = name;
+    if (category) product.category = category;
+    if (stock !== undefined) product.stock = stock;
+    if (reorderPoint !== undefined) product.reorderPoint = reorderPoint;
+    if (supplier) product.supplier = supplier;
+    if (price !== undefined) product.price = price;
+
     product.updatedAt = new Date();
-    updateProductStatus(product);
+    // Status is automatically updated by pre-save hook on save
     await product.save();
     await createStockAlert(product);
 
@@ -556,7 +662,7 @@ app.get('/api/depots/:id', async (req, res) => {
 app.post('/api/depots', async (req, res) => {
   try {
     const depot = new Depot(req.body);
-    
+
     // Calculate status based on utilization
     const utilizationPercentage = (depot.currentUtilization / depot.capacity) * 100;
     if (utilizationPercentage >= 95) {
@@ -566,7 +672,7 @@ app.post('/api/depots', async (req, res) => {
     } else {
       depot.status = 'normal';
     }
-    
+
     await depot.save();
 
     // Create alert if capacity is critical
@@ -674,10 +780,10 @@ app.delete('/api/depots/:id', async (req, res) => {
     if (!depot) {
       return res.status(404).json({ message: 'Depot not found' });
     }
-    
+
     // Delete associated alerts
     await Alert.deleteMany({ depotId: req.params.id });
-    
+
     res.json({ message: 'Depot deleted successfully' });
   } catch (error) {
     console.error('Error deleting depot:', error);
@@ -689,16 +795,16 @@ app.delete('/api/depots/:id', async (req, res) => {
 app.get('/api/depots/stats/overview', async (req, res) => {
   try {
     const depots = await Depot.find();
-    
+
     const totalDepots = depots.length;
     const totalCapacity = depots.reduce((sum, depot) => sum + depot.capacity, 0);
     const totalUtilization = depots.reduce((sum, depot) => sum + depot.currentUtilization, 0);
     const totalItems = depots.reduce((sum, depot) => sum + depot.itemsStored, 0);
-    
-    const avgUtilization = totalDepots > 0 
-      ? (totalUtilization / totalCapacity) * 100 
+
+    const avgUtilization = totalDepots > 0
+      ? (totalUtilization / totalCapacity) * 100
       : 0;
-    
+
     const criticalCount = depots.filter(d => d.status === 'critical').length;
     const warningCount = depots.filter(d => d.status === 'warning').length;
     const normalCount = depots.filter(d => d.status === 'normal').length;
@@ -726,11 +832,11 @@ app.get('/api/alerts', async (req, res) => {
   try {
     const { unreadOnly = false, page = 1, limit = 20 } = req.query;
     const query = {};
-    
+
     if (unreadOnly === 'true') {
       query.isRead = false;
     }
-    
+
     const alerts = await Alert.find(query)
       .populate('productId', 'name sku')
       .populate('depotId', 'name')
@@ -770,7 +876,7 @@ app.put('/api/alerts/:id/read', async (req, res) => {
       { isRead: true },
       { new: true }
     );
-    
+
     if (!alert) {
       return res.status(404).json({ message: 'Alert not found' });
     }
@@ -790,13 +896,13 @@ app.get('/api/dashboard/stats', async (req, res) => {
     const outOfStockCount = await Product.countDocuments({ status: 'out-of-stock' });
     const totalDepots = await Depot.countDocuments();
     const unreadAlerts = await Alert.countDocuments({ isRead: false });
-    
+
     const products = await Product.find();
     const totalValue = products.reduce((sum, product) => sum + (product.price * product.stock), 0);
-    
+
     const depots = await Depot.find();
-    const avgUtilization = depots.length > 0 
-      ? depots.reduce((sum, depot) => sum + ((depot.currentUtilization / depot.capacity) * 100), 0) / depots.length 
+    const avgUtilization = depots.length > 0
+      ? depots.reduce((sum, depot) => sum + ((depot.currentUtilization / depot.capacity) * 100), 0) / depots.length
       : 0;
 
     const kpis = [
@@ -809,10 +915,10 @@ app.get('/api/dashboard/stats', async (req, res) => {
       },
       {
         title: 'Inventory Value',
-        value: `$${(totalValue / 1000000).toFixed(1)}M`,
+        value: `₹${(totalValue / 1000000).toFixed(1)}M`,
         change: -2.1,
         changeType: 'negative',
-        icon: 'DollarSign'
+        icon: 'IndianRupee'
       },
       {
         title: 'Depot Utilization',
@@ -871,8 +977,8 @@ app.get('/api/dashboard/top-skus', async (req, res) => {
 
 // Health check
 app.get('/api/health', (req, res) => {
-  res.json({ 
-    status: 'OK', 
+  res.json({
+    status: 'OK',
     timestamp: new Date().toISOString(),
     database: mongoose.connection.readyState === 1 ? 'Connected' : 'Disconnected'
   });

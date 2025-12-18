@@ -1,0 +1,101 @@
+sku,name,category,stock,reorderPoint,supplier,price
+SKU001,Gaming Laptop,Electronics,0,5,TechSource,1200.00
+SKU002,Mechanical Keyboard RGB,Electronics,0,10,TechSource,89.99
+SKU003,Graphics Card 3060,Electronics,0,3,TechSource,350.00
+SKU004,Processor i9,Electronics,0,2,TechSource,450.00
+SKU005,Monitor 4K,Electronics,0,5,DisplayPros,299.99
+SKU006,Webcam 1080p,Electronics,0,10,Visionary,59.99
+SKU007,Microphone USB,Electronics,0,8,AudioTech,79.99
+SKU008,Headset Wireless,Electronics,0,12,AudioTech,99.99
+SKU009,Mouse Bungee,Accessories,0,15,GamingGear,15.00
+SKU010,Desk Mat XL,Accessories,0,20,OfficeDepot,12.00
+SKU011,Gaming Chair Red,Furniture,0,5,ComfortSeat,199.99
+SKU012,VR Headset,Electronics,0,3,TechSource,399.99
+SKU013,Drone 4K,Electronics,0,2,SkyHigh,599.99
+SKU014,Action Camera,Electronics,0,5,Visionary,249.99
+SKU015,Smart Watch Pro,Electronics,0,8,TechSource,199.99
+SKU016,Fitness Tracker,Electronics,0,10,TechSource,99.99
+SKU017,Bluetooth Speaker,Electronics,0,15,AudioTech,49.99
+SKU018,Soundbar,Electronics,0,5,AudioTech,129.99
+SKU019,Projector 1080p,Electronics,0,3,DisplayPros,499.99
+SKU020,Streaming Light,Electronics,0,10,BrightLite,89.99
+SKU021,Capture Card,Electronics,0,5,TechSource,149.99
+SKU022,Green Screen,Accessories,0,5,StudioGear,49.99
+SKU023,Cable Management Kit,Accessories,0,20,OrganizeIt,19.99
+SKU024,USB Hub Powered,Electronics,0,12,ConnectCo,29.99
+SKU025,Laptop Stand Metal,Accessories,0,10,OfficeDepot,39.99
+SKU026,Office Chair Mesh,Furniture,2,5,ComfortSeat,129.99
+SKU027,Standing Desk Motorized,Furniture,1,3,OfficePro,399.99
+SKU028,Filing Cabinet Metal,Furniture,3,5,OfficePro,149.99
+SKU029,Bookshelf 3-Tier,Furniture,2,4,OfficePro,89.99
+SKU030,Whiteboard Magnetic,Furniture,2,5,OfficeDepot,59.99
+SKU031,Cork Board,Furniture,5,10,OfficeDepot,29.99
+SKU032,Desk Lamp LED,Furniture,3,8,BrightLite,24.99
+SKU033,Floor Lamp,Furniture,2,5,BrightLite,49.99
+SKU034,Wall Clock Analog,Decor,4,10,TimeCo,19.99
+SKU035,Picture Frame A4,Decor,5,12,DecorPlus,9.99
+SKU036,Waste Bin Metal,Furniture,3,8,CleanCo,15.99
+SKU037,Recycle Bin Blue,Furniture,2,6,CleanCo,12.99
+SKU038,Coat Rack,Furniture,1,3,DecorPlus,39.99
+SKU039,Umbrella Stand,Furniture,2,4,DecorPlus,29.99
+SKU040,Door Mat,Decor,5,10,DecorPlus,14.99
+SKU041,Office Plant Large,Decor,1,3,GreenLife,59.99
+SKU042,Office Plant Small,Decor,4,10,GreenLife,19.99
+SKU043,Watering Can,Accessories,2,5,GreenLife,9.99
+SKU044,Air Purifier HEPA,Appliances,1,3,HealthyAir,149.99
+SKU045,Humidifier,Appliances,2,5,HealthyAir,39.99
+SKU046,Space Heater,Appliances,1,4,WarmCo,49.99
+SKU047,Desk Fan USB,Appliances,3,8,CoolAir,14.99
+SKU048,Pedestal Fan,Appliances,2,5,CoolAir,29.99
+SKU049,Extension Lead 4-Way,Electronics,5,15,PowerPlus,12.99
+SKU050,Power Adapter Universal,Electronics,4,10,PowerPlus,19.99
+SKU051,Ballpoint Pens Blue Box,Stationery,50,20,WriteWell,12.99
+SKU052,Ballpoint Pens Black Box,Stationery,60,20,WriteWell,12.99
+SKU053,Gel Pens Red Box,Stationery,45,15,WriteWell,14.99
+SKU054,Highlighters Assorted,Stationery,40,15,BrightMark,8.99
+SKU055,Permanent Markers Black,Stationery,35,10,BrightMark,9.99
+SKU056,Whiteboard Markers Color,Stationery,30,10,BrightMark,10.99
+SKU057,Pencils HB Box,Stationery,100,40,WriteWell,5.99
+SKU058,Erasers White Box,Stationery,80,30,WriteWell,4.99
+SKU059,Sharpeners Metal Each,Stationery,50,20,WriteWell,0.99
+SKU060,Ruler 30cm Plastic,Stationery,60,25,OfficeDepot,1.50
+SKU061,Scissors Office,Stationery,25,10,CutRite,4.99
+SKU062,Cutter Knife,Stationery,30,15,CutRite,2.99
+SKU063,Glue Stick Large,Stationery,40,15,StickIt,1.99
+SKU064,Tape Clear Roll,Stationery,100,40,StickIt,0.99
+SKU065,Tape Dispenser Desktop,Stationery,20,8,StickIt,5.99
+SKU066,Stapler Standard,Stationery,15,5,OfficeDepot,7.99
+SKU067,Staples Box 24/6,Stationery,200,100,OfficeDepot,2.99
+SKU068,Paper Clips Box,Stationery,150,50,OfficeDepot,3.99
+SKU069,Binder Clips Medium,Stationery,120,40,OfficeDepot,4.99
+SKU070,Punch 2-Hole,Stationery,12,5,OfficeDepot,9.99
+SKU071,Notebook A4 Lined,Stationery,80,30,PaperPro,3.50
+SKU072,Notebook A5 Grid,Stationery,60,25,PaperPro,2.50
+SKU073,Sticky Notes Yellow,Stationery,100,40,PaperPro,1.99
+SKU074,Sticky Notes Neon,Stationery,90,35,PaperPro,2.50
+SKU075,Index Cards Pack,Stationery,70,25,PaperPro,1.50
+SKU076,Printer Paper A4 Ream,Stationery,500,50,PaperPro,6.99
+SKU077,Coffee Beans 1kg,Pantry,80,10,BrewMaster,24.99
+SKU078,Tea Bags 100pk,Pantry,150,20,TeaTime,5.99
+SKU079,Sugar Sticks 1000pk,Pantry,300,50,SweetLife,8.99
+SKU080,Milk UHT 1L,Pantry,200,20,DairyBest,1.29
+SKU081,Water Bottle 500ml,Pantry,1000,100,AquaPure,0.50
+SKU082,Paper Cups 50pk,Pantry,600,50,EcoWare,3.99
+SKU083,Stirrers Wood 1000pk,Pantry,800,100,EcoWare,5.99
+SKU084,Napkins Paper Pack,Pantry,400,50,EcoWare,2.99
+SKU085,Toilet Paper 24pk,Pantry,100,10,CleanCo,15.99
+SKU086,Hand Soap 500ml,Pantry,200,20,CleanCo,2.99
+SKU087,Hand Sanitizer 500ml,Pantry,300,30,CleanCo,4.99
+SKU088,Dish Soap 1L,Pantry,150,15,CleanCo,3.99
+SKU089,Sponges Pack,Pantry,250,25,CleanCo,1.99
+SKU090,Bin Liners Large,Pantry,400,40,CleanCo,6.99
+SKU091,AA Batteries 4pk,Electronics,1000,100,PowerPlus,3.99
+SKU092,AAA Batteries 4pk,Electronics,800,80,PowerPlus,3.99
+SKU093,USB Flash Drive 16GB,Electronics,500,50,ConnectCo,6.99
+SKU094,Mouse Pad Basic,Accessories,600,50,OfficeDepot,1.99
+SKU095,Screen Wipes Box,Accessories,200,20,CleanCo,4.99
+SKU096,Envelope DL 100pk,Stationery,400,40,PaperPro,5.99
+SKU097,Envelope C4 50pk,Stationery,300,30,PaperPro,7.99
+SKU098,Labels Address Box,Stationery,250,25,PaperPro,8.99
+SKU099,Rubber Bands Box,Stationery,300,30,OfficeDepot,1.50
+SKU100,Thumbtacks Box,Stationery,500,50,OfficeDepot,1.29

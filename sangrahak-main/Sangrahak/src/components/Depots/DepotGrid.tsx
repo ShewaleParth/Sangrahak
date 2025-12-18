@@ -5,6 +5,7 @@ import { depotsAPI } from '../../services/api';
 import { Depot } from '../../types';
 import AddDepotModal from './AddDepotModel';
 import EditDepotModal from './EditDepotModel';
+import { useNavigate } from 'react-router-dom';
 
 interface DepotStats {
   totalDepots: number;
@@ -19,6 +20,7 @@ interface DepotStats {
 }
 
 const DepotGrid: React.FC = () => {
+  const navigate = useNavigate();
   const [depots, setDepots] = useState<Depot[]>([]);
   const [stats, setStats] = useState<DepotStats | null>(null);
   const [loading, setLoading] = useState(true);
@@ -223,25 +225,35 @@ const DepotGrid: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="flex items-center space-x-2 pt-2 border-t border-gray-200 dark:border-gray-700">
+                  <div className="mt-4 pt-4 border-t border-gray-100 dark:border-gray-800">
                     <button
-                      onClick={() => setEditingDepot(depot)}
-                      className="flex-1 flex items-center justify-center space-x-2 py-2 px-3 text-sm bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 rounded-lg hover:bg-blue-100 dark:hover:bg-blue-900/30 transition-colors"
+                      onClick={() => navigate('/forecasts', { state: { selectedDepot: depot.name } })}
+                      className="w-full flex items-center justify-center space-x-2 py-2 px-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-colors mb-3"
                     >
-                      <Icons.Edit className="w-4 h-4" />
-                      <span>Edit</span>
+                      <Icons.TrendingUp className="w-4 h-4" />
+                      <span>Forecast Items</span>
                     </button>
-                    <button
-                      onClick={() => handleDelete(depot.id)}
-                      disabled={deletingId === depot.id}
-                      className="flex items-center justify-center p-2 text-red-500 hover:text-red-700 dark:hover:text-red-300 hover:bg-red-100 dark:hover:bg-red-900/20 rounded-lg transition-colors disabled:opacity-50"
-                    >
-                      {deletingId === depot.id ? (
-                        <Icons.Loader className="w-4 h-4 animate-spin" />
-                      ) : (
-                        <Icons.Trash2 className="w-4 h-4" />
-                      )}
-                    </button>
+
+                    <div className="flex items-center space-x-2">
+                      <button
+                        onClick={() => setEditingDepot(depot)}
+                        className="flex-1 flex items-center justify-center space-x-2 py-2 px-3 text-sm bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 rounded-lg hover:bg-blue-100 dark:hover:bg-blue-900/30 transition-colors"
+                      >
+                        <Icons.Edit className="w-4 h-4" />
+                        <span>Edit</span>
+                      </button>
+                      <button
+                        onClick={() => handleDelete(depot.id)}
+                        disabled={deletingId === depot.id}
+                        className="flex items-center justify-center p-2 text-red-500 hover:text-red-700 dark:hover:text-red-300 hover:bg-red-100 dark:hover:bg-red-900/20 rounded-lg transition-colors disabled:opacity-50"
+                      >
+                        {deletingId === depot.id ? (
+                          <Icons.Loader className="w-4 h-4 animate-spin" />
+                        ) : (
+                          <Icons.Trash2 className="w-4 h-4" />
+                        )}
+                      </button>
+                    </div>
                   </div>
                 </div>
               </motion.div>
@@ -292,7 +304,7 @@ const DepotGrid: React.FC = () => {
       {showAddModal && (
         <AddDepotModal onClose={() => setShowAddModal(false)} onSuccess={handleAddSuccess} />
       )}
-      
+
       {editingDepot && (
         <EditDepotModal
           depot={editingDepot}

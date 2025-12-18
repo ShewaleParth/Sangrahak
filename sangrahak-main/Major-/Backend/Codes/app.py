@@ -16,17 +16,19 @@ import traceback
 warnings.filterwarnings('ignore', category=ConvergenceWarning)
 warnings.filterwarnings('ignore', category=FutureWarning)
 
+# Load environment variables
+from dotenv import load_dotenv
+load_dotenv(os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env'))
+
 app = Flask(__name__)
-CORS(app, resources={
-    r"/api/*": {
-        "origins": ["http://localhost:5173", "http://localhost:5174"],
-        "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-        "allow_headers": ["Content-Type"]
-    }
-})
+# Allow CORS for all domains in development, or restrict based on env
+CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 # MongoDB Configuration
-MONGODB_URI = "mongodb+srv://luckyak619_db_user:luckyak619@cluster0.lcmjwhw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGODB_URI = os.getenv("MONGODB_URI")
+if not MONGODB_URI:
+    raise ValueError("MONGODB_URI not found in environment variables")
+
 client = MongoClient(MONGODB_URI)
 db = client['inventroops']
 forecasts_collection = db['forecasts']
@@ -38,8 +40,9 @@ use_xgb_native = False
 target_encoders = None
 arima_models = None
 
-# Model paths
-BASE_PATH = r"D:\Inventory Project old\sangrahak-main\sangrahak-main\Major-\Backend"
+# Model paths - Relative configuration
+# BASE_PATH is the parent directory of this file (Major-/Backend)
+BASE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 JSON_MODEL_PATH = os.path.join(BASE_PATH, "models", "ml_stock_priority_model.json")
 PKL_MODEL_PATH = os.path.join(BASE_PATH, "models", "ml_stock_priority_model.pkl")
@@ -57,26 +60,26 @@ def load_models():
                 ml_model = xgb.Booster()
                 ml_model.load_model(JSON_MODEL_PATH)
                 use_xgb_native = True
-                print("✅ Loaded ML model from JSON")
+                print(" Loaded ML model from JSON")
             except Exception as e:
-                print(f"⚠️ Failed to load JSON model: {e}")
+                print(f" Failed to load JSON model: {e}")
         
         if ml_model is None and os.path.exists(PKL_MODEL_PATH):
             ml_model = joblib.load(PKL_MODEL_PATH)
             use_xgb_native = False
-            print("✅ Loaded ML model from Pickle")
+            print(" Loaded ML model from Pickle")
         
         if os.path.exists(ENCODERS_PATH):
             target_encoders = joblib.load(ENCODERS_PATH)
-            print("✅ Loaded label encoders")
+            print(" Loaded label encoders")
         
         if os.path.exists(ARIMA_PATH):
             arima_models = joblib.load(ARIMA_PATH)
-            print("✅ Loaded ARIMA models")
+            print(" Loaded ARIMA models")
         
         return True
     except Exception as e:
-        print(f"❌ Error loading models: {e}")
+        print(f" Error loading models: {e}")
         traceback.print_exc()
         return False
 
@@ -97,7 +100,7 @@ def preprocess_data(df):
     categorical = ["brand", "category", "location", "supplier_name"]
 
     if target_encoders is None:
-        print("⚠️ Warning: target_encoders not loaded, using fresh LabelEncoders.")
+        print(" Warning: target_encoders not loaded, using fresh LabelEncoders.")
         target_encoders = {}
 
     for col in categorical:
@@ -153,7 +156,7 @@ def predict_stock_status(X_test):
             try:
                 y_pred[col] = encoder.inverse_transform(y_pred[col].astype(int))
             except (ValueError, KeyError) as e:
-                print(f"⚠️ Could not decode {col}: {e}")
+                print(f" Could not decode {col}: {e}")
                 y_pred[col] = "Unknown"
     
     return y_pred
@@ -209,11 +212,11 @@ def fit_arima_model(historical_sales, order=(1, 1, 1)):
         Tuple of (fitted_model, model_info) or (None, None) if fitting fails
     """
     try:
-        print(f"🔧 Fitting ARIMA{order} model on {len(historical_sales)} data points...")
+        print(f" Fitting ARIMA{order} model on {len(historical_sales)} data points...")
         
         # Ensure data is suitable for ARIMA
         if len(historical_sales) < 10:
-            print("⚠️ Not enough data points for ARIMA, need at least 10")
+            print(" Not enough data points for ARIMA, need at least 10")
             return None, None
         
         # Fit ARIMA model
@@ -228,11 +231,11 @@ def fit_arima_model(historical_sales, order=(1, 1, 1)):
             "params": fitted_model.params.tolist() if hasattr(fitted_model, 'params') else []
         }
         
-        print(f"✅ ARIMA model fitted successfully (AIC: {fitted_model.aic:.2f})")
+        print(f" ARIMA model fitted successfully (AIC: {fitted_model.aic:.2f})")
         return fitted_model, model_info
         
     except Exception as e:
-        print(f"⚠️ ARIMA fitting failed: {e}")
+        print(f" ARIMA fitting failed: {e}")
         return None, None
 
 
@@ -256,12 +259,12 @@ def forecast_with_arima(daily_sales, weekly_sales, steps=30):
     
     try:
         # Generate historical sales data from user inputs
-        print("📊 Generating historical sales pattern from user inputs...")
+        print(" Generating historical sales pattern from user inputs...")
         historical_sales = generate_historical_sales_from_inputs(
             daily_sales, weekly_sales, num_days=60
         )
         
-        print(f"📈 Historical sales stats: mean={historical_sales.mean():.2f}, std={historical_sales.std():.2f}")
+        print(f"Historical sales stats: mean={historical_sales.mean():.2f}, std={historical_sales.std():.2f}")
         
         # Try different ARIMA orders to find the best fit
         orders_to_try = [
@@ -287,14 +290,14 @@ def forecast_with_arima(daily_sales, weekly_sales, steps=30):
                     best_order = order
         
         if best_model is None:
-            print("❌ All ARIMA models failed, using fallback method")
+            print(" All ARIMA models failed, using fallback method")
             forecast = generate_fallback_forecast(daily_sales, weekly_sales, steps)
             return forecast, forecast_metadata
         
-        print(f"🎯 Best ARIMA model selected: {best_order} (AIC: {best_aic:.2f}, BIC: {best_model_info['bic']:.2f})")
+        print(f" Best ARIMA model selected: {best_order} (AIC: {best_aic:.2f}, BIC: {best_model_info['bic']:.2f})")
         
         # Generate forecast
-        print(f"📈 Forecasting next {steps} days using ARIMA{best_order}...")
+        print(f" Forecasting next {steps} days using ARIMA{best_order}...")
         forecast = best_model.forecast(steps=steps)
         
         # Ensure non-negative values
@@ -303,8 +306,8 @@ def forecast_with_arima(daily_sales, weekly_sales, steps=30):
         # Add small random variation to make it more realistic
         forecast = forecast * np.random.uniform(0.95, 1.05, size=len(forecast))
         
-        print(f"✅ ARIMA forecast completed successfully!")
-        print(f"   📊 Forecast stats: mean={forecast.mean():.2f}, min={forecast.min():.2f}, max={forecast.max():.2f}")
+        print(f" ARIMA forecast completed successfully!")
+        print(f" Forecast stats: mean={forecast.mean():.2f}, min={forecast.min():.2f}, max={forecast.max():.2f}")
         
         # Update metadata
         forecast_metadata = {
@@ -323,7 +326,7 @@ def forecast_with_arima(daily_sales, weekly_sales, steps=30):
         return forecast, forecast_metadata
         
     except Exception as e:
-        print(f"❌ Error in ARIMA forecasting: {e}")
+        print(f" Error in ARIMA forecasting: {e}")
         traceback.print_exc()
         forecast = generate_fallback_forecast(daily_sales, weekly_sales, steps)
         return forecast, forecast_metadata
@@ -334,8 +337,8 @@ def generate_fallback_forecast(daily_sales, weekly_sales, steps=30):
     Fallback forecasting method if ARIMA fails.
     Uses exponential smoothing with trend and seasonality.
     """
-    print("⚠️ Using fallback forecasting method (Exponential Smoothing)")
-    print("   This happens when ARIMA model fails to converge or fit properly")
+    print(" Using fallback forecasting method (Exponential Smoothing)")
+    print(" This happens when ARIMA model fails to converge or fit properly")
     
     avg_from_daily = daily_sales
     avg_from_weekly = weekly_sales / 7
@@ -391,7 +394,19 @@ def generate_alerts(row, forecast_sales_data=None):
 def generate_forecast_data(future_sales, current_date):
     """Generate forecast data points with confidence intervals"""
     forecast_data = []
-    base_date = datetime.strptime(current_date, '%Y-%m-%d') if isinstance(current_date, str) else current_date
+    try:
+        if isinstance(current_date, str):
+            # Try YYYY-MM-DD
+            try:
+                base_date = datetime.strptime(current_date, '%Y-%m-%d')
+            except ValueError:
+                # Try ISO format
+                base_date = datetime.fromisoformat(current_date.replace('Z', '+00:00'))
+        else:
+            base_date = current_date
+    except Exception:
+        print(f" Date parsing failed for {current_date}, using today")
+        base_date = datetime.now()
     
     for i, predicted_val in enumerate(future_sales):
         forecast_date = base_date + timedelta(days=i+1)
@@ -431,7 +446,8 @@ def get_available_products():
             'name': 1,
             'category': 1,
             'stock': 1,
-            'supplier': 1
+            'supplier': 1,
+            'location': 1
         }))
         
         return jsonify({
@@ -440,7 +456,7 @@ def get_available_products():
             "count": len(products)
         })
     except Exception as e:
-        print(f"❌ Error fetching products: {e}")
+        print(f"Error fetching products: {e}")
         return jsonify({
             "success": False,
             "error": str(e)
@@ -455,7 +471,7 @@ def predict_custom():
     
     try:
         data = request.json
-        print(f"🔄 Received prediction request: {data}")
+        print(f" Received prediction request: {data}")
         
         # Extract user inputs
         sku = data.get('sku')
@@ -502,18 +518,18 @@ def predict_custom():
         }])
         
         # Preprocess and predict
-        print("🔧 Preprocessing data...")
+        print(" Preprocessing data...")
         processed_data, features = preprocess_data(input_data)
         X_test = processed_data[features]
         
-        print("🤖 Running ML prediction for stock status...")
+        print(" Running ML prediction for stock status...")
         y_pred = predict_stock_status(X_test)
         
         stock_status_pred = y_pred["stock_status_pred"].iloc[0]
         priority_pred = y_pred["priority_pred"].iloc[0]
         
         # Generate forecast using ARIMA trained on user inputs
-        print(f"📊 Training ARIMA model and generating {forecast_days}-day forecast...")
+        print(f" Training ARIMA model and generating {forecast_days}-day forecast...")
         future_sales, forecast_metadata = forecast_with_arima(
             daily_sales=daily_sales,
             weekly_sales=weekly_sales,
@@ -521,13 +537,13 @@ def predict_custom():
         )
         
         # Log which method was used
-        print(f"🔍 Forecast method used: {forecast_metadata['method']}")
+        print(f" Forecast method used: {forecast_metadata['method']}")
         if forecast_metadata['arima_used']:
-            print(f"   ✅ ARIMA model successfully trained and used")
-            print(f"   📊 Model: ARIMA{forecast_metadata['model_details']['order']}")
-            print(f"   📈 AIC: {forecast_metadata['model_details']['aic']:.2f}")
+            print(f" ARIMA model successfully trained and used")
+            print(f" Model: ARIMA{forecast_metadata['model_details']['order']}")
+            print(f" AIC: {forecast_metadata['model_details']['aic']:.2f}")
         else:
-            print(f"   ⚠️ Fallback method used instead of ARIMA")
+            print(f" Fallback method used instead of ARIMA")
         
         # Generate alerts
         row_data = {
@@ -569,14 +585,14 @@ def predict_custom():
         }
         
         # Save to MongoDB
-        print("💾 Saving forecast to MongoDB...")
+        print("Saving forecast to MongoDB...")
         forecasts_collection.update_one(
             {"sku": sku},
             {"$set": forecast_doc},
             upsert=True
         )
         
-        print(f"✅ Prediction complete for {sku}")
+        print(f" Prediction complete for {sku}")
         
         return jsonify({
             "success": True,
@@ -590,7 +606,7 @@ def predict_custom():
         })
     
     except Exception as e:
-        print(f"❌ Error in custom prediction: {e}")
+        print(f"Error in custom prediction: {e}")
         traceback.print_exc()
         return jsonify({
             "success": False,
@@ -611,12 +627,12 @@ def model_status():
 
 
 if __name__ == '__main__':
-    print("🚀 Starting ML Prediction API...")
+    print("Starting ML Prediction API...")
     
     if load_models():
-        print("✅ All models loaded successfully")
-        print("🌐 API running on http://localhost:5001")
-        print("🔗 CORS enabled for http://localhost:5173")
+        print(" All models loaded successfully")
+        print(" API running on http://localhost:5001")
+        print(" CORS enabled for http://localhost:5173")
         app.run(debug=True, port=5001, host='0.0.0.0')
     else:
-        print("❌ Failed to load models. Please check model paths.")
+        print(" Failed to load models. Please check model paths.")

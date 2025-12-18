@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import * as Icons from 'lucide-react';
 import { navItems } from '../../data/mockData';
@@ -6,11 +7,11 @@ import { navItems } from '../../data/mockData';
 interface SidebarProps {
   isCollapsed: boolean;
   onToggle: () => void;
-  activeItem: string;
-  onItemClick: (itemId: string) => void;
+  activeItem?: string; // Optional now, as we mainly use router
+  onItemClick?: (itemId: string) => void; // Optional now
 }
 
-const Sidebar: React.FC<SidebarProps> = ({ isCollapsed, onToggle, activeItem, onItemClick }) => {
+const Sidebar: React.FC<SidebarProps> = ({ isCollapsed, onToggle }) => {
   return (
     <motion.aside
       initial={false}
@@ -47,32 +48,36 @@ const Sidebar: React.FC<SidebarProps> = ({ isCollapsed, onToggle, activeItem, on
       <nav className="flex-1 p-4 space-y-2">
         {navItems.map((item) => {
           const Icon = Icons[item.icon as keyof typeof Icons] as React.ComponentType<{ className?: string }>;
-          const isActive = activeItem === item.id;
-          
+
           return (
-            <motion.button
+            <NavLink
+              to={`/${item.id}`}
               key={item.id}
-              onClick={() => onItemClick(item.id)}
-              className={`w-full flex items-center space-x-3 px-4 py-3 rounded-xl text-left transition-all duration-200 ${
-                isActive
-                  ? 'bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800'
-                  : 'text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800'
-              }`}
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
+              className={({ isActive }) => `w-full flex items-center space-x-3 px-4 py-3 rounded-xl text-left transition-all duration-200 ${isActive
+                ? 'bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800'
+                : 'text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800'
+                }`}
             >
-              <Icon className={`w-5 h-5 ${isActive ? 'text-blue-700 dark:text-blue-300' : ''}`} />
-              {!isCollapsed && (
-                <motion.span
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 0.1 }}
-                  className="font-medium"
+              {({ isActive }) => (
+                <motion.div
+                  className="flex items-center space-x-3 w-full"
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
                 >
-                  {item.label}
-                </motion.span>
+                  <Icon className={`w-5 h-5 ${isActive ? 'text-blue-700 dark:text-blue-300' : ''}`} />
+                  {!isCollapsed && (
+                    <motion.span
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ delay: 0.1 }}
+                      className="font-medium"
+                    >
+                      {item.label}
+                    </motion.span>
+                  )}
+                </motion.div>
               )}
-            </motion.button>
+            </NavLink>
           );
         })}
       </nav>
