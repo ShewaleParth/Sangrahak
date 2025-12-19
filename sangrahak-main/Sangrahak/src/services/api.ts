@@ -150,6 +150,13 @@ export const forecastsAPI = {
     return response.data;
   },
 
+  precomputeAll: async () => {
+    // This calls the ML API directly or through Node.
+    // Since ML API is 5001, we'll try to fetch it.
+    const response = await fetch('http://localhost:5001/api/ml/precompute_all', { method: 'POST' });
+    return response.json();
+  },
+
   getAnalytics: async () => {
     const response = await api.get('/forecasts/analytics/insights');
     return response.data;

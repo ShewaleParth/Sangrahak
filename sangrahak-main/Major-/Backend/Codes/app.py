@@ -628,6 +628,88 @@ def predict_custom():
             "error": str(e)
         }), 500
 
+@app.route('/api/ml/precompute_all', methods=['POST'])
+def precompute_all_forecasts():
+    """Iterate through all products and precompute forecasts if missing or old"""
+    try:
+        # Get all products from products_collection
+        products = list(products_collection.find())
+        print(f"🔄 Starting background precomputation for {len(products)} products...")
+        
+        results = []
+        for p in products:
+            sku = p.get('sku')
+            name = p.get('name')
+            
+            # Check if recent forecast exists (less than 24h old)
+            existing = forecasts_collection.find_one({"sku": sku})
+            if existing and existing.get('updatedAt') and (datetime.now() - existing.get('updatedAt')).total_seconds() < 86400:
+                results.append({"sku": sku, "status": "cached"})
+                continue
+                
+            # Basic defaults for products without history
+            daily_sales = max(1.0, float(p.get('daily_sales', 5.0)))
+            weekly_sales = daily_sales * 7.0
+            
+            # Run prediction logic
+            days_to_empty = float(p.get('stock', 0)) / daily_sales if daily_sales > 0 else 999
+            
+            input_df = pd.DataFrame([{
+                'current_stock': float(p.get('stock', 0)),
+                'daily_sales': daily_sales,
+                'weekly_sales': weekly_sales,
+                'reorder_level': float(p.get('reorder_point', 10.0)),
+                'lead_time': float(p.get('lead_time', 7.0)),
+                'days_to_empty': days_to_empty,
+                'brand': p.get('brand', 'Unknown'),
+                'category': p.get('category', 'Unknown'),
+                'location': p.get('location', 'Unknown'),
+                'supplier_name': p.get('supplier', 'Unknown')
+            }])
+            
+            processed_data, features = preprocess_data(input_df)
+            y_pred = predict_stock_status(processed_data[features])
+            
+            future_sales, forecast_metadata = forecast_with_arima(daily_sales, weekly_sales, steps=30)
+            insights = generate_alerts({
+                'current_stock': float(p.get('stock', 0)),
+                'stock_status_pred': y_pred["stock_status_pred"].iloc[0],
+                'priority_pred': y_pred["priority_pred"].iloc[0]
+            }, forecast_sales_data=future_sales)
+            
+            forecast_data = generate_forecast_data(future_sales, datetime.now().strftime('%Y-%m-%d'))
+            
+            doc = {
+                "itemId": sku,
+                "productName": name,
+                "sku": sku,
+                "currentStock": int(p.get('stock', 0)),
+                "stockStatusPred": y_pred["stock_status_pred"].iloc[0],
+                "priorityPred": y_pred["priority_pred"].iloc[0],
+                "alert": insights["message"],
+                "aiInsights": insights,
+                "forecastData": forecast_data,
+                "inputParams": {
+                    "dailySales": daily_sales,
+                    "weeklySales": weekly_sales,
+                    "reorderLevel": float(p.get('reorder_point', 10.0)),
+                    "leadTime": float(p.get('lead_time', 7.0)),
+                },
+                "updatedAt": datetime.now()
+            }
+            
+            forecasts_collection.update_one({"sku": sku}, {"$set": doc}, upsert=True)
+            results.append({"sku": sku, "status": "computed"})
+            
+        return jsonify({
+            "success": True,
+            "processed": len(results),
+            "summary": results
+        })
+        
+    except Exception as e:
+        print(f"Error in precomputation: {e}")
+        return jsonify({"success": False, "error": str(e)}), 500
 
 @app.route('/api/ml/status', methods=['GET'])
 def model_status():
