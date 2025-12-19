@@ -5,7 +5,7 @@ import { depotsAPI } from '../../services/api';
 import { Depot } from '../../types';
 import AddDepotModal from './AddDepotModel';
 import EditDepotModal from './EditDepotModel';
-import { useNavigate } from 'react-router-dom';
+import DepotInventory from './DepotInventory';
 
 interface DepotStats {
   totalDepots: number;
@@ -20,7 +20,6 @@ interface DepotStats {
 }
 
 const DepotGrid: React.FC = () => {
-  const navigate = useNavigate();
   const [depots, setDepots] = useState<Depot[]>([]);
   const [stats, setStats] = useState<DepotStats | null>(null);
   const [loading, setLoading] = useState(true);
@@ -28,6 +27,7 @@ const DepotGrid: React.FC = () => {
   const [showAddModal, setShowAddModal] = useState(false);
   const [editingDepot, setEditingDepot] = useState<Depot | null>(null);
   const [deletingId, setDeletingId] = useState<string | null>(null);
+  const [selectedDepot, setSelectedDepot] = useState<Depot | null>(null);
 
   useEffect(() => {
     fetchDepots();
@@ -129,6 +129,15 @@ const DepotGrid: React.FC = () => {
     );
   }
 
+  if (selectedDepot) {
+    return (
+      <DepotInventory
+        depotName={selectedDepot.name}
+        onBack={() => setSelectedDepot(null)}
+      />
+    );
+  }
+
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
@@ -227,11 +236,11 @@ const DepotGrid: React.FC = () => {
 
                   <div className="mt-4 pt-4 border-t border-gray-100 dark:border-gray-800">
                     <button
-                      onClick={() => navigate('/forecasts', { state: { selectedDepot: depot.name } })}
-                      className="w-full flex items-center justify-center space-x-2 py-2 px-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-colors mb-3"
+                      onClick={() => setSelectedDepot(depot)}
+                      className="w-full flex items-center justify-center space-x-2 py-2 px-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-colors mb-3 shadow-md shadow-indigo-100 dark:shadow-none"
                     >
-                      <Icons.TrendingUp className="w-4 h-4" />
-                      <span>Forecast Items</span>
+                      <Icons.Eye className="w-4 h-4" />
+                      <span>View & Forecast Items</span>
                     </button>
 
                     <div className="flex items-center space-x-2">

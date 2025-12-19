@@ -44,10 +44,10 @@ arima_models = None
 # BASE_PATH is the parent directory of this file (Major-/Backend)
 BASE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-JSON_MODEL_PATH = os.path.join(BASE_PATH, "models", "ml_stock_priority_model.json")
-PKL_MODEL_PATH = os.path.join(BASE_PATH, "models", "ml_stock_priority_model.pkl")
-ENCODERS_PATH = os.path.join(BASE_PATH, "models", "target_label_encoders.pkl")
-ARIMA_PATH = os.path.join(BASE_PATH, "models", "arima_models_dict.pkl")
+JSON_MODEL_PATH = os.path.join(BASE_PATH, "Models", "ml_stock_priority_model.json")
+PKL_MODEL_PATH = os.path.join(BASE_PATH, "Models", "ml_stock_priority_model.pkl")
+ENCODERS_PATH = os.path.join(BASE_PATH, "Models", "target_label_encoders.pkl")
+# ARIMA_PATH = os.path.join(BASE_PATH, "Models", "arima_models_dict.pkl") # 2GB file - skip loading to avoid hang
 
 
 def load_models():
@@ -73,9 +73,9 @@ def load_models():
             target_encoders = joblib.load(ENCODERS_PATH)
             print(" Loaded label encoders")
         
-        if os.path.exists(ARIMA_PATH):
-            arima_models = joblib.load(ARIMA_PATH)
-            print(" Loaded ARIMA models")
+        # if os.path.exists(ARIMA_PATH):
+        #     arima_models = joblib.load(ARIMA_PATH)
+        #     print(" Loaded ARIMA models")
         
         return True
     except Exception as e:
@@ -363,32 +363,45 @@ def generate_fallback_forecast(daily_sales, weekly_sales, steps=30):
 
 
 def generate_alerts(row, forecast_sales_data=None):
-    """Generate alerts based on predictions"""
-    alerts = []
+    """Generate professional, decision-oriented alerts based on predictions"""
+    insights = {
+        "status": "Healthy",
+        "eta_days": None,
+        "recommended_reorder": 0,
+        "risk_level": "Low",
+        "message": "Stock levels are optimal."
+    }
     
-    if row["stock_status_pred"] == "Understock" or row["priority_pred"] in ["High", "Very High"]:
-        alerts.append(f"Immediate Restock Needed: {row['priority_pred']}")
+    current_stock = row.get("current_stock", 0)
     
-    if forecast_sales_data is not None:
+    if forecast_sales_data is not None and len(forecast_sales_data) > 0:
         total_forecasted = sum(forecast_sales_data)
-        if total_forecasted > row["current_stock"]:
-            # Calculate when stock will run out
-            shortage_days = 0
-            cumulative_sales = 0
-            for day_sales in forecast_sales_data:
-                cumulative_sales += day_sales
-                shortage_days += 1
-                if cumulative_sales > row["current_stock"]:
-                    break
+        avg_daily_forecast = total_forecasted / len(forecast_sales_data)
+        
+        # Calculate ETA
+        if avg_daily_forecast > 0:
+            eta = current_stock / avg_daily_forecast
+            insights["eta_days"] = round(eta, 1)
+        else:
+            insights["eta_days"] = 999
             
-            alerts.append(
-                f"Stock Out Warning: Current stock will run out in ~{shortage_days} days (Forecasted demand: {int(total_forecasted)} units)"
-            )
-    
-    if not alerts:
-        alerts.append("Stock OK")
-    
-    return "; ".join(alerts)
+        # Decision Logic
+        if current_stock <= 0:
+            insights["status"] = "OUT OF STOCK"
+            insights["risk_level"] = "Critical"
+            insights["recommended_reorder"] = round(total_forecasted * 1.2) # Reorder for full month + 20% buffer
+            insights["message"] = f"Immediate restock required. Recommended: {insights['recommended_reorder']} units."
+        elif insights["eta_days"] < row.get("lead_time", 7):
+            insights["status"] = "At Risk"
+            insights["risk_level"] = "High"
+            insights["recommended_reorder"] = round((total_forecasted - current_stock) * 1.1)
+            insights["message"] = f"Stock-out predicted in {insights['eta_days']} days. Reorder {insights['recommended_reorder']} units now."
+        elif insights["eta_days"] < 15:
+            insights["status"] = "Warning"
+            insights["risk_level"] = "Medium"
+            insights["message"] = f"Inventory sufficient for {insights['eta_days']} days. Plan reorder soon."
+            
+    return insights
 
 
 def generate_forecast_data(future_sales, current_date):
@@ -551,7 +564,8 @@ def predict_custom():
             'stock_status_pred': stock_status_pred,
             'priority_pred': priority_pred
         }
-        alert_text = generate_alerts(row_data, forecast_sales_data=future_sales)
+        # Generate professional insights
+        insights = generate_alerts(row_data, forecast_sales_data=future_sales)
         
         # Generate forecast data points
         current_date = datetime.now().strftime('%Y-%m-%d')
@@ -565,7 +579,8 @@ def predict_custom():
             "currentStock": int(current_stock),
             "stockStatusPred": stock_status_pred,
             "priorityPred": priority_pred,
-            "alert": alert_text,
+            "alert": insights["message"],
+            "aiInsights": insights, # New structured insights
             "forecastData": forecast_data,
             "inputParams": {
                 "dailySales": daily_sales,

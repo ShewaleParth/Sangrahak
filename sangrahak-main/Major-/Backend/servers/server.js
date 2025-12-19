@@ -6,6 +6,14 @@ const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, '../.env') });
 
 const app = express();
+const http = require('http').Server(app);
+const io = require('socket.io')(http, {
+  cors: {
+    origin: "*",
+    methods: ["GET", "POST"]
+  }
+});
+const axios = require('axios');
 const PORT = process.env.PORT || 5000;
 
 // Middleware
@@ -113,6 +121,11 @@ const productSchema = new mongoose.Schema({
   supplier: { type: String, required: true },
   location: { type: String },
   price: { type: Number, required: true },
+  // ML Fields
+  dailySales: { type: Number, default: 5 },
+  weeklySales: { type: Number, default: 35 },
+  brand: { type: String, default: 'Generic' },
+  leadTime: { type: Number, default: 7 },
   status: {
     type: String,
     enum: ['in-stock', 'low-stock', 'out-of-stock', 'overstock'],
@@ -382,8 +395,12 @@ app.get('/api/forecasts/analytics/insights', async (req, res) => {
 // PRODUCT ROUTES
 app.get('/api/products', async (req, res) => {
   try {
-    const { search, category, status, page = 1, limit = 50 } = req.query;
+    const { search, category, status, location, page = 1, limit = 50 } = req.query;
     const query = {};
+
+    if (location) {
+      query.location = location;
+    }
 
     if (search) {
       query.$or = [
@@ -984,8 +1001,97 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+// BULK FORECAST ROUTE WITH WEB SOCKETS
+app.post('/api/forecasts/bulk-generate', async (req, res) => {
+  const { depotName, productIds } = req.body;
+  const socketId = req.headers['x-socket-id'];
+
+  try {
+    let products = [];
+    if (depotName) {
+      products = await Product.find({ location: depotName });
+    } else if (productIds && productIds.length > 0) {
+      products = await Product.find({ _id: { $in: productIds } });
+    }
+
+    if (products.length === 0) {
+      return res.status(404).json({ message: 'No products found for forecasting' });
+    }
+
+    // Start background process
+    res.json({
+      message: `Started forecasting for ${products.length} products`,
+      jobId: Date.now().toString()
+    });
+
+    // Process products and emit progress
+    (async () => {
+      const total = products.length;
+      let completed = 0;
+      let failed = 0;
+
+      for (const product of products) {
+        try {
+          // Call ML API
+          await axios.post('http://localhost:5001/api/ml/predict/custom', {
+            sku: product.sku,
+            productName: product.name,
+            currentStock: product.stock,
+            dailySales: product.dailySales || 5,
+            weeklySales: product.weeklySales || 35,
+            reorderLevel: product.reorderPoint,
+            leadTime: product.leadTime || 7,
+            brand: product.brand || 'Generic',
+            category: product.category,
+            location: product.location,
+            supplierName: product.supplier,
+            forecastDays: 30
+          });
+
+          completed++;
+
+          if (socketId && io.sockets.sockets.get(socketId)) {
+            io.sockets.sockets.get(socketId).emit('forecast_progress', {
+              current: completed,
+              total: total,
+              failed: failed,
+              lastProduct: product.name,
+              status: 'processing'
+            });
+          }
+        } catch (err) {
+          console.error(`Error forecasting for ${product.sku}:`, err.message);
+          failed++;
+        }
+      }
+
+      if (socketId && io.sockets.sockets.get(socketId)) {
+        io.sockets.sockets.get(socketId).emit('forecast_progress', {
+          current: completed,
+          total: total,
+          failed: failed,
+          status: 'completed'
+        });
+      }
+    })();
+
+  } catch (error) {
+    console.error('Error in bulk forecasting:', error);
+    res.status(500).json({ message: 'Server error', error: error.message });
+  }
+});
+
+// Socket.io Connection Handle
+io.on('connection', (socket) => {
+  console.log('🔌 New client connected:', socket.id);
+
+  socket.on('disconnect', () => {
+    console.log('🔌 Client disconnected:', socket.id);
+  });
+});
+
 // Start server
-app.listen(PORT, () => {
+http.listen(PORT, () => {
   console.log(`\n🚀 Server running on port ${PORT}`);
   console.log(`📍 Health check: http://localhost:${PORT}/api/health`);
   console.log(`📡 API Base URL: http://localhost:${PORT}/api`);

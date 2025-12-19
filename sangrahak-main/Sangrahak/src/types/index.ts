@@ -6,9 +6,14 @@ export interface Product {
   stock: number;
   reorderPoint: number;
   supplier: string;
+  location: string;
   lastSoldDate: string;
   price: number;
   status: 'in-stock' | 'low-stock' | 'out-of-stock' | 'overstock';
+  dailySales?: number;
+  weeklySales?: number;
+  brand?: string;
+  leadTime?: number;
 }
 
 export interface Depot {
@@ -66,6 +71,36 @@ export interface User {
   email: string;
   role: 'admin' | 'manager' | 'staff';
   avatar?: string;
+}
+
+export interface Forecast {
+  id: string;
+  itemId: string;
+  productName: string;
+  sku: string;
+  currentStock: number;
+  stockStatusPred: string;
+  priorityPred: string;
+  alert: string;
+  aiInsights?: {
+    status: string;
+    eta_days: number | null;
+    recommended_reorder: number;
+    risk_level: string;
+    message: string;
+  };
+  forecastData: ForecastData[];
+  inputParams?: {
+    dailySales: number;
+    weeklySales: number;
+    reorderLevel: number;
+    leadTime: number;
+    brand: string;
+    category: string;
+    location: string;
+    supplierName: string;
+  };
+  updatedAt: string;
 }
 
 export type Theme = 'light' | 'dark';

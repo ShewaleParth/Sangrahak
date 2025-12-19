@@ -13,11 +13,35 @@ client = MongoClient(MONGODB_URI)
 db = client['inventroops']
 forecasts_collection = db['forecasts']
 # ----------------------------
+# 0️⃣ Setup Paths
+# ----------------------------
+BASE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODELS_DIR = os.path.join(BASE_PATH, "Models")
+DATA_DIR = os.path.join(BASE_PATH, "Combined csv alert") # Updated to match common folder naming
+
+# ----------------------------
 # 1️⃣ Load new input-only test dataset
 # ----------------------------
-df_test = pd.read_csv(
-    r"D:\sangrahak\Major-\Backend\Combinedcsvalert\new_test_inventory_input_only.csv"
-)
+csv_path = os.path.join(DATA_DIR, "new_test_inventory_input_only.csv")
+if os.path.exists(csv_path):
+    df_test = pd.read_csv(csv_path)
+else:
+    print(f"⚠️ Warning: Dataset not found at {csv_path}. Creating a dummy entry for testing.")
+    df_test = pd.DataFrame([{
+        'item_id': 'PRD001',
+        'product_name': 'Sample Product',
+        'current_stock': 100,
+        'daily_sales': 10,
+        'weekly_sales': 70,
+        'reorder_level': 20,
+        'lead_time': 5,
+        'days_to_empty': 10,
+        'brand': 'Generic',
+        'category': 'General',
+        'location': 'Warehouse A',
+        'supplier_name': 'Supplier X',
+        'date': datetime.now().strftime('%Y-%m-%d')
+    }])
 
 # ----------------------------
 # 2️⃣ Load saved models (JSON preferred, fallback to PKL)
@@ -25,8 +49,10 @@ df_test = pd.read_csv(
 ml_model = None
 use_xgb_native = False
 
-json_model_path = r"D:\sangrahak\Major-\Backend\Models\ml_stock_priority_model.json"
-pkl_model_path = r"D:\sangrahak\Major-\Backend\Models\ml_stock_priority_model.pkl"
+json_model_path = os.path.join(MODELS_DIR, "ml_stock_priority_model.json")
+pkl_model_path = os.path.join(MODELS_DIR, "ml_stock_priority_model.pkl")
+encoders_path = os.path.join(MODELS_DIR, "target_label_encoders.pkl")
+arima_path = os.path.join(MODELS_DIR, "arima_models_dict.pkl")
 
 if os.path.exists(json_model_path):
     try:
@@ -43,12 +69,9 @@ if ml_model is None and os.path.exists(pkl_model_path):
     print("✅ Loaded ML model from Pickle (.pkl)")
 
 # Load encoders & ARIMA models
-target_encoders = joblib.load(
-    r"D:\sangrahak\Major-\Backend\Models\target_label_encoders.pkl"
-)
-arima_models = joblib.load(
-    r"D:\sangrahak\Major-\Backend\Models\arima_models_dict.pkl"
-)
+target_encoders = joblib.load(encoders_path) if os.path.exists(encoders_path) else {}
+# Skip loading massive ARIMA model directly in this script to avoid memory issues
+arima_models = {} # joblib.load(arima_path) if os.path.exists(arima_path) else {}
 
 # ----------------------------
 # 3️⃣ Preprocess categorical features safely
@@ -197,7 +220,7 @@ for item_id in df_test["item_id"].unique():
 alerts_df = pd.DataFrame(alert_list)
 
 # Create output directory if it doesn't exist
-output_path = r"D:\sangrahak\Major-\Backend\Combined csv alert\test_inventory_alerts.csv"
+output_path = os.path.join(DATA_DIR, "test_inventory_alerts.csv")
 os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
 # Save the alerts

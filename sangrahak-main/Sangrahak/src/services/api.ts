@@ -53,6 +53,7 @@ export const productsAPI = {
     search?: string;
     category?: string;
     status?: string;
+    location?: string;
     page?: number;
     limit?: number;
   }) => {
@@ -137,6 +138,24 @@ export const depotsAPI = {
   },
 };
 
+// Forecasts API
+export const forecastsAPI = {
+  getAll: async (params?: { sku?: string; limit?: number; sortBy?: string }) => {
+    const response = await api.get('/forecasts', { params });
+    return response.data;
+  },
+
+  getById: async (id: string) => {
+    const response = await api.get(`/forecasts/${id}`);
+    return response.data;
+  },
+
+  getAnalytics: async () => {
+    const response = await api.get('/forecasts/analytics/insights');
+    return response.data;
+  },
+};
+
 
 
 // Alerts API
@@ -207,9 +226,9 @@ export const healthAPI = {
 // Utility functions for data manipulation (no auth needed)
 export const dataUtils = {
   formatCurrency: (amount: number) => {
-    return new Intl.NumberFormat('en-US', {
+    return new Intl.NumberFormat('en-IN', {
       style: 'currency',
-      currency: 'USD',
+      currency: 'INR',
     }).format(amount);
   },
 
